@@ -25,6 +25,13 @@ jobs:
           node-version: '20'
       - name: Install wrangler v3
         run: npm install -g wrangler@3
+      - name: Symlink /root/fish-finder to the workspace
+        # build-inlined.py and its helpers use hardcoded /root/fish-finder paths.
+        # Symlink so they resolve at the runner's checkout dir without editing dozens of scripts.
+        run: |
+          sudo mkdir -p /root
+          sudo ln -sfn "$GITHUB_WORKSPACE" /root/fish-finder
+          ls -la /root/fish-finder | head -3
       - name: Show environment
         run: |
           python3 --version
