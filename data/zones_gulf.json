@@ -3,7 +3,7 @@
   "region_id": "gulf",
   "region_label": "Gulf \u2014 Emerald Coast",
   "region_short": "Gulf",
-  "generated": "2026-09-19",
+  "generated": "2026-09-22",
   "season": 2026,
   "home_port": {
     "name": "Southwind Marina (Perdido Key)",
@@ -1311,6 +1311,53 @@
       "lat": 30.3213,
       "lon": -89.0668,
       "dist_nm": 7.2
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "captain_report",
+      "location": "Blue Water Charter 30A",
+      "species_feeding": null,
+      "source": "Blue Water Charter 30A",
+      "source_type": "charter_auto",
+      "quote": "A colorful mixed catch after a great day of offshore fishing on the Emerald Coast. September Offshore Fishing Keeps the Coolers Full September continues to produce some excellent fishing along the Emerald Coast, with plenty of snapper coming back to the dock this week. As the bus",
+      "link": "https://www.bluewatercharter30a.com/fishing-reports/7w9wxyr4a63shb53mwgax39ywwem29",
+      "zones": [
+        "east_pass_destin",
+        "destin_edge",
+        "destin_steps",
+        "panama_city_pass",
+        "st_andrews_bay",
+        "pcb_reefs",
+        "pensacola_pass"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "captain_report",
+      "location": "Louisiana Sportsman",
+      "species_feeding": null,
+      "source": "Louisiana Sportsman",
+      "source_type": "charter_auto",
+      "quote": "Have these items onboard in case of an accident It started like a typical afternoon of fishing. I was with three teenagers down at the Atchafalaya Delta WMA. Sixteen-year-old Brody Martin of Schriever caught a 20-pound alligator gar. He securely gaffed the fish and posed for a pi",
+      "link": "https://www.louisianasportsman.com/fishing/inshore-fishing/emergency-on-the-water/",
+      "zones": [
+        "midnight_lump"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "captain_report",
+      "location": "Louisiana Sportsman",
+      "species_feeding": null,
+      "source": "Louisiana Sportsman",
+      "source_type": "charter_auto",
+      "quote": "Fish released into Calcasieu Lake, the Rigolets and Grand Isle with funding support from Cameron LNG and Sempra Infrastructure More than 150,000 hatchery-raised red drum have been released into Louisiana waters in the first redfish restocking effort in state history. The releases",
+      "link": "https://www.louisianasportsman.com/fishing/inshore-fishing/redfish/cca-louisiana-rfri-and-ldwf-release-150000-redfish-in-louisianas-first-redfish-restocking/",
+      "zones": [
+        "bay_marchand_3",
+        "pensacola_pass",
+        "perdido_pass"
+      ]
     }
   ],
   "zones": [

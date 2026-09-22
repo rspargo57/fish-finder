@@ -1,52 +1,84 @@
 {
-  "generated_at": "2026-09-19T19:59:08.981999Z",
+  "generated_at": "2026-09-22T01:23:40.239533Z",
   "candidates": [
     {
-      "lat": 29.17511,
-      "lon": -88.08892,
+      "lat": 29.83643,
+      "lon": -87.32864,
       "confidence": "high",
-      "size_px": 132,
+      "size_px": 120,
+      "spread_px": 9.6,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 527,
+        "y": 846
+      }
+    },
+    {
+      "lat": 25.51479,
+      "lon": -79.94984,
+      "confidence": "high",
+      "size_px": 136,
+      "spread_px": 12.6,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.56982,
+      "lon": -79.7284,
+      "confidence": "high",
+      "size_px": 124,
       "spread_px": 16.0,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 522,
-        "y": 850
+        "x": 570,
+        "y": 873
       }
     },
     {
-      "lat": 29.08896,
-      "lon": -88.102,
+      "lat": 26.13,
+      "lon": -79.57572,
       "confidence": "high",
-      "size_px": 123,
-      "spread_px": 14.9,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "size_px": 155,
+      "spread_px": 15.8,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 522,
-        "y": 850
+        "x": 571,
+        "y": 869
       }
     },
     {
-      "lat": 29.24384,
-      "lon": -87.93384,
+      "lat": 26.10838,
+      "lon": -79.47765,
       "confidence": "high",
-      "size_px": 122,
-      "spread_px": 8.5,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "size_px": 137,
+      "spread_px": 12.9,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 523,
-        "y": 849
+        "x": 571,
+        "y": 870
       }
     }
   ],
@@ -54,21 +86,21 @@
     {
       "zone_id": "coimbra_wreck",
       "zone_name": "The Coimbra Wreck",
-      "tiles_scanned": 2,
+      "tiles_scanned": 5,
       "cloudy_tiles": 0,
-      "candidates_found": 6
+      "candidates_found": 1
     },
     {
       "zone_id": "butterfish_hole",
       "zone_name": "The Butterfish Hole",
       "tiles_scanned": 3,
       "cloudy_tiles": 0,
-      "candidates_found": 10
+      "candidates_found": 0
     },
     {
       "zone_id": "hudson_canyon",
       "zone_name": "Hudson Canyon",
-      "tiles_scanned": 0,
+      "tiles_scanned": 4,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
@@ -91,21 +123,21 @@
       "zone_name": "Tuna Ridge (30-Fathom S of Block)",
       "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 123
+      "candidates_found": 1
     },
     {
       "zone_id": "s_block_nearshore",
       "zone_name": "Nearshore South of Block Island",
       "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 37
+      "candidates_found": 0
     },
     {
       "zone_id": "habs_ledge",
       "zone_name": "Habs Ledge",
-      "tiles_scanned": 7,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 3
+      "candidates_found": 2
     },
     {
       "zone_id": "the_fishtails",
@@ -117,14 +149,14 @@
     {
       "zone_id": "coxes_ledge_se",
       "zone_name": "Southeast Coxes Ledge",
-      "tiles_scanned": 9,
+      "tiles_scanned": 4,
       "cloudy_tiles": 0,
-      "candidates_found": 34
+      "candidates_found": 0
     },
     {
       "zone_id": "hudson_canyon_midatl",
       "zone_name": "Hudson Canyon",
-      "tiles_scanned": 0,
+      "tiles_scanned": 6,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
@@ -145,23 +177,23 @@
     {
       "zone_id": "manasquan_ridge",
       "zone_name": "Manasquan Ridge",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 3,
+      "candidates_found": 3
     },
     {
       "zone_id": "sea_girt_reef",
       "zone_name": "Sea Girt Reef",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 3,
+      "candidates_found": 3
     },
     {
       "zone_id": "barnegat_ridge",
       "zone_name": "Barnegat Ridge",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 1,
+      "candidates_found": 20
     },
     {
       "zone_id": "the_big_rock",
@@ -173,9 +205,9 @@
     {
       "zone_id": "the_same_ol",
       "zone_name": "The Same Ol' (100/400 Rock)",
-      "tiles_scanned": 0,
+      "tiles_scanned": 3,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 1
     },
     {
       "zone_id": "nc_steeples",
@@ -187,14 +219,14 @@
     {
       "zone_id": "nc_manning_line",
       "zone_name": "The Manning Line",
-      "tiles_scanned": 0,
+      "tiles_scanned": 2,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
     {
       "zone_id": "sc_georgetown_hole",
       "zone_name": "Georgetown Hole",
-      "tiles_scanned": 0,
+      "tiles_scanned": 5,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
@@ -229,30 +261,30 @@
     {
       "zone_id": "frying_pan_shoals",
       "zone_name": "Frying Pan Shoals / Tower",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
     {
       "zone_id": "petronius_platform",
       "zone_name": "Petronius Platform",
-      "tiles_scanned": 5,
+      "tiles_scanned": 6,
       "cloudy_tiles": 0,
-      "candidates_found": 53
+      "candidates_found": 16
     },
     {
       "zone_id": "ram_powell_tlp",
       "zone_name": "Ram Powell TLP",
-      "tiles_scanned": 6,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 65
+      "candidates_found": 5
     },
     {
       "zone_id": "marlin_tlp",
       "zone_name": "Marlin TLP",
-      "tiles_scanned": 5,
+      "tiles_scanned": 6,
       "cloudy_tiles": 0,
-      "candidates_found": 53
+      "candidates_found": 16
     },
     {
       "zone_id": "devils_tower_spar",
@@ -280,98 +312,98 @@
       "zone_name": "The Spur",
       "tiles_scanned": 6,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 36
     },
     {
       "zone_id": "callon_jacket",
       "zone_name": "Callon Jacket",
-      "tiles_scanned": 3,
+      "tiles_scanned": 6,
       "cloudy_tiles": 0,
-      "candidates_found": 8
+      "candidates_found": 72
     },
     {
       "zone_id": "trysler_grounds",
       "zone_name": "Trysler Grounds",
       "tiles_scanned": 6,
       "cloudy_tiles": 0,
-      "candidates_found": 2
+      "candidates_found": 60
     },
     {
       "zone_id": "midnight_lump",
       "zone_name": "Midnight Lump (Sackett Bank)",
-      "tiles_scanned": 0,
+      "tiles_scanned": 3,
       "cloudy_tiles": 0,
       "candidates_found": 0
     },
     {
       "zone_id": "islamorada_hump",
       "zone_name": "Islamorada Hump",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 16
     },
     {
       "zone_id": "mk_east_hump",
       "zone_name": "Marathon East Hump",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 16
     },
     {
       "zone_id": "marathon_west_hump",
       "zone_name": "Marathon West Hump",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 23
     },
     {
       "zone_id": "wood_wall",
       "zone_name": "The Wood Wall (Islamorada Offshore)",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 48
     },
     {
       "zone_id": "islamorada_409_hole",
       "zone_name": "Islamorada 409 Hole",
-      "tiles_scanned": 0,
+      "tiles_scanned": 9,
       "cloudy_tiles": 0,
-      "candidates_found": 0
+      "candidates_found": 35
     },
     {
       "zone_id": "mia_stream_edge",
       "zone_name": "Miami Gulf Stream Edge",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 6,
+      "candidates_found": 110
     },
     {
       "zone_id": "pb_west_end_bank",
       "zone_name": "West End Bank (Bahamas Edge)",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 1,
+      "candidates_found": 15
     },
     {
       "zone_id": "ftl_bahamas_edge",
       "zone_name": "Bahamas Edge (Ft Lauderdale)",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 2,
+      "candidates_found": 41
     },
     {
       "zone_id": "gs_sword_grounds_sfl",
       "zone_name": "Swordfish Grounds (S. Florida)",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 9,
+      "cloudy_tiles": 5,
+      "candidates_found": 14
     },
     {
       "zone_id": "gs_bimini_edge",
       "zone_name": "Bimini Edge Wall",
-      "tiles_scanned": 0,
-      "cloudy_tiles": 0,
-      "candidates_found": 0
+      "tiles_scanned": 6,
+      "cloudy_tiles": 4,
+      "candidates_found": 4
     },
     {
       "zone_id": "lk_riley_hump",
@@ -389,228 +421,116 @@
     }
   ],
   "notes": [
-    "Showing HIGH-confidence candidates only (3 of 50). Medium/low tiers preserved in `all_candidates` for future tuning; suppressed on the map to keep noise down. A real boat fleet cluster on a canyon lip is ~120+ Sentinel-30m pixels tightly grouped; smaller/looser signals are usually clouds or sun glint."
+    "Showing HIGH-confidence candidates only (5 of 118). Medium/low tiers preserved in `all_candidates` for future tuning; suppressed on the map to keep noise down. A real boat fleet cluster on a canyon lip is ~120+ Sentinel-30m pixels tightly grouped; smaller/looser signals are usually clouds or sun glint."
   ],
-  "hls_source_date": "2026-09-15",
+  "hls_source_date": "2026-09-18",
   "all_candidates": [
     {
-      "lat": 29.17511,
-      "lon": -88.08892,
+      "lat": 29.83643,
+      "lon": -87.32864,
       "confidence": "high",
-      "size_px": 132,
+      "size_px": 120,
+      "spread_px": 9.6,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 527,
+        "y": 846
+      }
+    },
+    {
+      "lat": 25.51479,
+      "lon": -79.94984,
+      "confidence": "high",
+      "size_px": 136,
+      "spread_px": 12.6,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.56982,
+      "lon": -79.7284,
+      "confidence": "high",
+      "size_px": 124,
       "spread_px": 16.0,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 522,
-        "y": 850
+        "x": 570,
+        "y": 873
       }
     },
     {
-      "lat": 29.08896,
-      "lon": -88.102,
+      "lat": 26.13,
+      "lon": -79.57572,
       "confidence": "high",
-      "size_px": 123,
-      "spread_px": 14.9,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "size_px": 155,
+      "spread_px": 15.8,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 522,
-        "y": 850
+        "x": 571,
+        "y": 869
       }
     },
     {
-      "lat": 29.24384,
-      "lon": -87.93384,
+      "lat": 26.10838,
+      "lon": -79.47765,
       "confidence": "high",
-      "size_px": 122,
-      "spread_px": 8.5,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
+      "size_px": 137,
+      "spread_px": 12.9,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 523,
-        "y": 849
+        "x": 571,
+        "y": 870
       }
     },
     {
-      "lat": 40.82517,
-      "lon": -71.59226,
+      "lat": 39.64676,
+      "lon": -74.06706,
       "confidence": "medium",
-      "size_px": 79,
-      "spread_px": 10.9,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
+      "size_px": 99,
+      "spread_px": 9.6,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 616,
-        "y": 769
+        "x": 602,
+        "y": 777
       }
     },
     {
-      "lat": 40.88199,
-      "lon": -71.4199,
-      "confidence": "medium",
-      "size_px": 62,
-      "spread_px": 6.4,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 768
-      }
-    },
-    {
-      "lat": 40.69011,
-      "lon": -71.4609,
-      "confidence": "medium",
-      "size_px": 63,
-      "spread_px": 6.2,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.61591,
-      "lon": -71.48119,
-      "confidence": "medium",
-      "size_px": 63,
-      "spread_px": 8.2,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.90571,
-      "lon": -71.21781,
-      "confidence": "medium",
-      "size_px": 109,
-      "spread_px": 10.6,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 768
-      }
-    },
-    {
-      "lat": 40.69281,
-      "lon": -71.23879,
+      "lat": 29.27228,
+      "lon": -87.96605,
       "confidence": "medium",
       "size_px": 74,
-      "spread_px": 8.7,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.74652,
-      "lon": -71.91432,
-      "confidence": "medium",
-      "size_px": 61,
-      "spread_px": 7.9,
-      "nearest_zone_id": "habs_ledge",
-      "nearest_zone_name": "Habs Ledge",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 614,
-        "y": 769
-      }
-    },
-    {
-      "lat": 40.88637,
-      "lon": -71.1392,
-      "confidence": "medium",
-      "size_px": 80,
-      "spread_px": 9.2,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 619,
-        "y": 768
-      }
-    },
-    {
-      "lat": 29.01569,
-      "lon": -88.0767,
-      "confidence": "medium",
-      "size_px": 70,
-      "spread_px": 8.2,
+      "spread_px": 9.6,
       "nearest_zone_id": "petronius_platform",
       "nearest_zone_name": "Petronius Platform",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 522,
-        "y": 851
-      }
-    },
-    {
-      "lat": 28.96878,
-      "lon": -88.14203,
-      "confidence": "medium",
-      "size_px": 66,
-      "spread_px": 9.4,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 522,
-        "y": 851
-      }
-    },
-    {
-      "lat": 29.30072,
-      "lon": -88.05816,
-      "confidence": "medium",
-      "size_px": 110,
-      "spread_px": 8.6,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 523,
@@ -618,63 +538,159 @@
       }
     },
     {
-      "lat": 29.01344,
-      "lon": -87.98189,
-      "confidence": "medium",
-      "size_px": 61,
-      "spread_px": 5.2,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 523,
-        "y": 851
-      }
-    },
-    {
-      "lat": 28.93301,
-      "lon": -87.95507,
-      "confidence": "medium",
-      "size_px": 65,
-      "spread_px": 6.9,
-      "nearest_zone_id": "petronius_platform",
-      "nearest_zone_name": "Petronius Platform",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 523,
-        "y": 851
-      }
-    },
-    {
-      "lat": 28.87024,
-      "lon": -88.12031,
+      "lat": 29.93848,
+      "lon": -87.55936,
       "confidence": "medium",
       "size_px": 66,
-      "spread_px": 10.5,
-      "nearest_zone_id": "ram_powell_tlp",
-      "nearest_zone_name": "Ram Powell TLP",
+      "spread_px": 8.9,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 525,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.98893,
+      "lon": -87.28435,
+      "confidence": "medium",
+      "size_px": 108,
+      "spread_px": 8.7,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 527,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.91287,
+      "lon": -87.30625,
+      "confidence": "medium",
+      "size_px": 110,
+      "spread_px": 8.9,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 527,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.68632,
+      "lon": -88.10048,
+      "confidence": "medium",
+      "size_px": 78,
+      "spread_px": 9.1,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 522,
-        "y": 852
+        "y": 847
       }
     },
     {
-      "lat": 29.77687,
-      "lon": -87.81932,
+      "lat": 29.58768,
+      "lon": -88.15492,
+      "confidence": "medium",
+      "size_px": 74,
+      "spread_px": 8.1,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.61426,
+      "lon": -87.9821,
+      "confidence": "medium",
+      "size_px": 68,
+      "spread_px": 10.2,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 523,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.47448,
+      "lon": -87.95732,
+      "confidence": "medium",
+      "size_px": 62,
+      "spread_px": 6.9,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 523,
+        "y": 848
+      }
+    },
+    {
+      "lat": 29.46997,
+      "lon": -88.04684,
+      "confidence": "medium",
+      "size_px": 68,
+      "spread_px": 9.1,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 523,
+        "y": 848
+      }
+    },
+    {
+      "lat": 29.90552,
+      "lon": -87.79958,
       "confidence": "medium",
       "size_px": 66,
-      "spread_px": 8.8,
+      "spread_px": 8.0,
       "nearest_zone_id": "trysler_grounds",
       "nearest_zone_name": "Trysler Grounds",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 524,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.74623,
+      "lon": -87.71929,
+      "confidence": "medium",
+      "size_px": 61,
+      "spread_px": 7.7,
+      "nearest_zone_id": "trysler_grounds",
+      "nearest_zone_name": "Trysler Grounds",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 524,
@@ -682,447 +698,687 @@
       }
     },
     {
-      "lat": 40.53653,
-      "lon": -72.27548,
-      "confidence": "low",
-      "size_px": 40,
-      "spread_px": 5.2,
-      "nearest_zone_id": "coimbra_wreck",
-      "nearest_zone_name": "The Coimbra Wreck",
+      "lat": 24.88694,
+      "lon": -80.4205,
+      "confidence": "medium",
+      "size_px": 71,
+      "spread_px": 9.2,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 612,
-        "y": 771
+        "x": 566,
+        "y": 877
       }
     },
     {
-      "lat": 40.55408,
-      "lon": -72.12662,
-      "confidence": "low",
-      "size_px": 27,
-      "spread_px": 4.1,
-      "nearest_zone_id": "coimbra_wreck",
-      "nearest_zone_name": "The Coimbra Wreck",
+      "lat": 24.79742,
+      "lon": -80.35845,
+      "confidence": "medium",
+      "size_px": 67,
+      "spread_px": 10.9,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 613,
-        "y": 771
+        "x": 566,
+        "y": 878
       }
     },
     {
-      "lat": 40.52615,
-      "lon": -72.1956,
-      "confidence": "low",
-      "size_px": 26,
-      "spread_px": 3.5,
-      "nearest_zone_id": "coimbra_wreck",
-      "nearest_zone_name": "The Coimbra Wreck",
+      "lat": 24.77611,
+      "lon": -80.47172,
+      "confidence": "medium",
+      "size_px": 65,
+      "spread_px": 9.5,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 613,
-        "y": 771
+        "x": 566,
+        "y": 878
       }
     },
     {
-      "lat": 40.57266,
-      "lon": -71.95523,
-      "confidence": "low",
-      "size_px": 28,
-      "spread_px": 5.0,
-      "nearest_zone_id": "butterfish_hole",
-      "nearest_zone_name": "The Butterfish Hole",
+      "lat": 24.67581,
+      "lon": -80.9616,
+      "confidence": "medium",
+      "size_px": 63,
+      "spread_px": 7.0,
+      "nearest_zone_id": "mk_east_hump",
+      "nearest_zone_name": "Marathon East Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 614,
-        "y": 771
+        "x": 563,
+        "y": 879
       }
     },
     {
-      "lat": 40.52778,
-      "lon": -72.0507,
-      "confidence": "low",
-      "size_px": 25,
-      "spread_px": 5.8,
-      "nearest_zone_id": "butterfish_hole",
-      "nearest_zone_name": "The Butterfish Hole",
+      "lat": 24.48925,
+      "lon": -80.79544,
+      "confidence": "medium",
+      "size_px": 86,
+      "spread_px": 9.4,
+      "nearest_zone_id": "mk_east_hump",
+      "nearest_zone_name": "Marathon East Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 614,
-        "y": 771
+        "x": 564,
+        "y": 880
       }
     },
     {
-      "lat": 40.9533,
-      "lon": -71.59152,
-      "confidence": "low",
-      "size_px": 35,
-      "spread_px": 5.9,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
+      "lat": 24.4087,
+      "lon": -80.51587,
+      "confidence": "medium",
+      "size_px": 60,
+      "spread_px": 7.5,
+      "nearest_zone_id": "mk_east_hump",
+      "nearest_zone_name": "Marathon East Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 616,
-        "y": 768
+        "x": 565,
+        "y": 880
       }
     },
     {
-      "lat": 40.88665,
-      "lon": -71.57069,
-      "confidence": "low",
-      "size_px": 30,
+      "lat": 24.60006,
+      "lon": -81.29713,
+      "confidence": "medium",
+      "size_px": 62,
       "spread_px": 6.2,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 616,
-        "y": 768
+        "x": 561,
+        "y": 879
       }
     },
     {
-      "lat": 40.78159,
-      "lon": -71.67311,
+      "lat": 24.62451,
+      "lon": -81.03882,
+      "confidence": "medium",
+      "size_px": 77,
+      "spread_px": 8.7,
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 562,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.56522,
+      "lon": -80.34404,
+      "confidence": "medium",
+      "size_px": 63,
+      "spread_px": 7.2,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.92982,
+      "lon": -80.25009,
+      "confidence": "medium",
+      "size_px": 74,
+      "spread_px": 7.8,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 567,
+        "y": 877
+      }
+    },
+    {
+      "lat": 24.80962,
+      "lon": -80.00508,
+      "confidence": "medium",
+      "size_px": 63,
+      "spread_px": 8.3,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 878
+      }
+    },
+    {
+      "lat": 25.62645,
+      "lon": -80.09177,
+      "confidence": "medium",
+      "size_px": 72,
+      "spread_px": 8.7,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.57483,
+      "lon": -80.06051,
+      "confidence": "medium",
+      "size_px": 61,
+      "spread_px": 7.2,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.52635,
+      "lon": -80.01764,
+      "confidence": "medium",
+      "size_px": 77,
+      "spread_px": 7.0,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.60891,
+      "lon": -79.81309,
+      "confidence": "medium",
+      "size_px": 83,
+      "spread_px": 10.1,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.5997,
+      "lon": -79.89767,
+      "confidence": "medium",
+      "size_px": 87,
+      "spread_px": 11.2,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.54155,
+      "lon": -79.84317,
+      "confidence": "medium",
+      "size_px": 60,
+      "spread_px": 10.3,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 873
+      }
+    },
+    {
+      "lat": 26.69368,
+      "lon": -79.13738,
+      "confidence": "medium",
+      "size_px": 94,
+      "spread_px": 11.7,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 573,
+        "y": 866
+      }
+    },
+    {
+      "lat": 26.85161,
+      "lon": -79.07154,
+      "confidence": "medium",
+      "size_px": 64,
+      "spread_px": 8.3,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 574,
+        "y": 865
+      }
+    },
+    {
+      "lat": 26.75427,
+      "lon": -79.0796,
+      "confidence": "medium",
+      "size_px": 61,
+      "spread_px": 8.1,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 574,
+        "y": 865
+      }
+    },
+    {
+      "lat": 26.26632,
+      "lon": -79.47838,
+      "confidence": "medium",
+      "size_px": 62,
+      "spread_px": 5.6,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 571,
+        "y": 869
+      }
+    },
+    {
+      "lat": 26.22148,
+      "lon": -79.60358,
+      "confidence": "medium",
+      "size_px": 63,
+      "spread_px": 6.8,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 571,
+        "y": 869
+      }
+    },
+    {
+      "lat": 26.18456,
+      "lon": -79.53137,
+      "confidence": "medium",
+      "size_px": 61,
+      "spread_px": 10.3,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 571,
+        "y": 869
+      }
+    },
+    {
+      "lat": 26.06936,
+      "lon": -79.55288,
+      "confidence": "medium",
+      "size_px": 63,
+      "spread_px": 7.4,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 571,
+        "y": 870
+      }
+    },
+    {
+      "lat": 40.48265,
+      "lon": -72.57328,
       "confidence": "low",
-      "size_px": 36,
-      "spread_px": 7.3,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
+      "size_px": 44,
+      "spread_px": 7.5,
+      "nearest_zone_id": "coimbra_wreck",
+      "nearest_zone_name": "The Coimbra Wreck",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 616,
-        "y": 769
+        "x": 611,
+        "y": 771
       }
     },
     {
-      "lat": 40.68368,
-      "lon": -71.59948,
-      "confidence": "low",
-      "size_px": 54,
-      "spread_px": 5.3,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 616,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.6224,
-      "lon": -71.68575,
+      "lat": 40.6342,
+      "lon": -71.27554,
       "confidence": "low",
       "size_px": 51,
-      "spread_px": 5.5,
+      "spread_px": 7.9,
       "nearest_zone_id": "tuna_ridge",
       "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 616,
+        "x": 618,
         "y": 770
       }
     },
     {
-      "lat": 40.97283,
-      "lon": -71.51851,
+      "lat": 40.80936,
+      "lon": -72.11872,
       "confidence": "low",
       "size_px": 26,
-      "spread_px": 3.1,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
+      "spread_px": 4.7,
+      "nearest_zone_id": "habs_ledge",
+      "nearest_zone_name": "Habs Ledge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 617,
-        "y": 768
-      }
-    },
-    {
-      "lat": 40.84471,
-      "lon": -71.4844,
-      "confidence": "low",
-      "size_px": 31,
-      "spread_px": 5.3,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
+        "x": 613,
         "y": 769
       }
     },
     {
-      "lat": 40.74681,
-      "lon": -71.3948,
-      "confidence": "low",
-      "size_px": 41,
-      "spread_px": 5.8,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 769
-      }
-    },
-    {
-      "lat": 40.6587,
-      "lon": -71.37427,
-      "confidence": "low",
-      "size_px": 32,
-      "spread_px": 6.7,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.60003,
-      "lon": -71.38294,
-      "confidence": "low",
-      "size_px": 34,
-      "spread_px": 6.0,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.94308,
-      "lon": -71.33247,
-      "confidence": "low",
-      "size_px": 25,
-      "spread_px": 3.1,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 768
-      }
-    },
-    {
-      "lat": 40.85097,
-      "lon": -71.30789,
-      "confidence": "low",
-      "size_px": 37,
-      "spread_px": 4.3,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 768
-      }
-    },
-    {
-      "lat": 40.83453,
-      "lon": -71.22632,
-      "confidence": "low",
-      "size_px": 47,
-      "spread_px": 7.3,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 769
-      }
-    },
-    {
-      "lat": 40.77042,
-      "lon": -71.19291,
-      "confidence": "low",
-      "size_px": 32,
-      "spread_px": 6.5,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 769
-      }
-    },
-    {
-      "lat": 40.64464,
-      "lon": -71.19325,
-      "confidence": "low",
-      "size_px": 48,
-      "spread_px": 7.2,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 770
-      }
-    },
-    {
-      "lat": 40.63246,
-      "lon": -71.28644,
-      "confidence": "low",
-      "size_px": 30,
-      "spread_px": 4.4,
-      "nearest_zone_id": "tuna_ridge",
-      "nearest_zone_name": "Tuna Ridge (30-Fathom S of Block)",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 770
-      }
-    },
-    {
-      "lat": 41.0429,
-      "lon": -71.44166,
-      "confidence": "low",
-      "size_px": 48,
-      "spread_px": 5.9,
-      "nearest_zone_id": "s_block_nearshore",
-      "nearest_zone_name": "Nearshore South of Block Island",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 617,
-        "y": 767
-      }
-    },
-    {
-      "lat": 41.00068,
-      "lon": -71.23699,
-      "confidence": "low",
-      "size_px": 29,
-      "spread_px": 5.1,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 618,
-        "y": 767
-      }
-    },
-    {
-      "lat": 41.02578,
-      "lon": -71.12216,
-      "confidence": "low",
-      "size_px": 32,
-      "spread_px": 5.6,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 619,
-        "y": 767
-      }
-    },
-    {
-      "lat": 41.00948,
-      "lon": -71.02318,
-      "confidence": "low",
-      "size_px": 26,
-      "spread_px": 4.2,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
-      "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
-      "source_tile": {
-        "z": 11,
-        "x": 619,
-        "y": 767
-      }
-    },
-    {
-      "lat": 40.95073,
-      "lon": -71.14094,
+      "lat": 40.30013,
+      "lon": -73.77219,
       "confidence": "low",
       "size_px": 28,
-      "spread_px": 4.7,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
+      "spread_px": 5.8,
+      "nearest_zone_id": "manasquan_ridge",
+      "nearest_zone_name": "Manasquan Ridge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 619,
-        "y": 768
+        "x": 604,
+        "y": 773
       }
     },
     {
-      "lat": 40.88963,
-      "lon": -71.05401,
+      "lat": 40.21613,
+      "lon": -73.81244,
+      "confidence": "low",
+      "size_px": 32,
+      "spread_px": 5.8,
+      "nearest_zone_id": "manasquan_ridge",
+      "nearest_zone_name": "Manasquan Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 604,
+        "y": 773
+      }
+    },
+    {
+      "lat": 40.05069,
+      "lon": -73.68017,
+      "confidence": "low",
+      "size_px": 32,
+      "spread_px": 6.2,
+      "nearest_zone_id": "manasquan_ridge",
+      "nearest_zone_name": "Manasquan Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 604,
+        "y": 774
+      }
+    },
+    {
+      "lat": 39.59135,
+      "lon": -74.11801,
+      "confidence": "low",
+      "size_px": 56,
+      "spread_px": 8.8,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 602,
+        "y": 778
+      }
+    },
+    {
+      "lat": 39.54791,
+      "lon": -74.05517,
       "confidence": "low",
       "size_px": 53,
-      "spread_px": 6.4,
-      "nearest_zone_id": "coxes_ledge_se",
-      "nearest_zone_name": "Southeast Coxes Ledge",
+      "spread_px": 7.4,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 619,
-        "y": 768
+        "x": 602,
+        "y": 778
       }
     },
     {
-      "lat": 29.25771,
-      "lon": -88.00676,
+      "lat": 39.78089,
+      "lon": -73.88187,
       "confidence": "low",
-      "size_px": 231,
-      "spread_px": 18.8,
+      "size_px": 30,
+      "spread_px": 5.4,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 603,
+        "y": 776
+      }
+    },
+    {
+      "lat": 39.72857,
+      "lon": -73.9798,
+      "confidence": "low",
+      "size_px": 44,
+      "spread_px": 5.5,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 603,
+        "y": 777
+      }
+    },
+    {
+      "lat": 39.61593,
+      "lon": -73.98505,
+      "confidence": "low",
+      "size_px": 35,
+      "spread_px": 6.0,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 603,
+        "y": 778
+      }
+    },
+    {
+      "lat": 39.83947,
+      "lon": -73.72452,
+      "confidence": "low",
+      "size_px": 42,
+      "spread_px": 7.0,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 604,
+        "y": 776
+      }
+    },
+    {
+      "lat": 39.75595,
+      "lon": -73.81035,
+      "confidence": "low",
+      "size_px": 37,
+      "spread_px": 5.3,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 604,
+        "y": 777
+      }
+    },
+    {
+      "lat": 39.68703,
+      "lon": -73.6872,
+      "confidence": "low",
+      "size_px": 29,
+      "spread_px": 6.5,
+      "nearest_zone_id": "barnegat_ridge",
+      "nearest_zone_name": "Barnegat Ridge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 604,
+        "y": 777
+      }
+    },
+    {
+      "lat": 33.66008,
+      "lon": -77.1133,
+      "confidence": "low",
+      "size_px": 54,
+      "spread_px": 9.4,
+      "nearest_zone_id": "the_same_ol",
+      "nearest_zone_name": "The Same Ol' (100/400 Rock)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 585,
+        "y": 820
+      }
+    },
+    {
+      "lat": 29.3696,
+      "lon": -88.10537,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 6.3,
       "nearest_zone_id": "petronius_platform",
       "nearest_zone_name": "Petronius Platform",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 849
+      }
+    },
+    {
+      "lat": 29.29869,
+      "lon": -88.09223,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 4.6,
+      "nearest_zone_id": "petronius_platform",
+      "nearest_zone_name": "Petronius Platform",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 849
+      }
+    },
+    {
+      "lat": 29.12289,
+      "lon": -88.14402,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 5.0,
+      "nearest_zone_id": "petronius_platform",
+      "nearest_zone_name": "Petronius Platform",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 850
+      }
+    },
+    {
+      "lat": 29.35703,
+      "lon": -87.97874,
+      "confidence": "low",
+      "size_px": 31,
+      "spread_px": 4.2,
+      "nearest_zone_id": "petronius_platform",
+      "nearest_zone_name": "Petronius Platform",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 523,
@@ -1130,67 +1386,931 @@
       }
     },
     {
-      "lat": 28.95341,
-      "lon": -88.06357,
+      "lat": 29.1987,
+      "lon": -87.98579,
       "confidence": "low",
-      "size_px": 48,
-      "spread_px": 5.0,
+      "size_px": 34,
+      "spread_px": 5.6,
       "nearest_zone_id": "petronius_platform",
       "nearest_zone_name": "Petronius Platform",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 523,
+        "y": 850
+      }
+    },
+    {
+      "lat": 29.22409,
+      "lon": -88.33665,
+      "confidence": "low",
+      "size_px": 33,
+      "spread_px": 5.3,
+      "nearest_zone_id": "ram_powell_tlp",
+      "nearest_zone_name": "Ram Powell TLP",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 521,
+        "y": 850
+      }
+    },
+    {
+      "lat": 28.96549,
+      "lon": -88.41596,
+      "confidence": "low",
+      "size_px": 29,
+      "spread_px": 5.0,
+      "nearest_zone_id": "ram_powell_tlp",
+      "nearest_zone_name": "Ram Powell TLP",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 521,
         "y": 851
       }
     },
     {
-      "lat": 28.90719,
-      "lon": -88.0206,
+      "lat": 29.95095,
+      "lon": -87.64875,
       "confidence": "low",
-      "size_px": 55,
-      "spread_px": 7.8,
-      "nearest_zone_id": "ram_powell_tlp",
-      "nearest_zone_name": "Ram Powell TLP",
+      "size_px": 42,
+      "spread_px": 10.5,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 523,
-        "y": 852
+        "x": 525,
+        "y": 845
       }
     },
     {
-      "lat": 28.87027,
-      "lon": -87.96549,
+      "lat": 29.91713,
+      "lon": -87.71015,
       "confidence": "low",
-      "size_px": 36,
-      "spread_px": 5.0,
-      "nearest_zone_id": "ram_powell_tlp",
-      "nearest_zone_name": "Ram Powell TLP",
+      "size_px": 35,
+      "spread_px": 7.5,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
-        "x": 523,
-        "y": 852
+        "x": 525,
+        "y": 845
       }
     },
     {
-      "lat": 29.68582,
-      "lon": -87.93454,
+      "lat": 29.85066,
+      "lon": -87.67893,
       "confidence": "low",
-      "size_px": 39,
-      "spread_px": 9.5,
+      "size_px": 42,
+      "spread_px": 7.9,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 525,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.80097,
+      "lon": -87.55481,
+      "confidence": "low",
+      "size_px": 32,
+      "spread_px": 5.6,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 525,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.77613,
+      "lon": -87.66156,
+      "confidence": "low",
+      "size_px": 30,
+      "spread_px": 4.5,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 525,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.9073,
+      "lon": -87.39871,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 4.7,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 526,
+        "y": 845
+      }
+    },
+    {
+      "lat": 29.83188,
+      "lon": -87.42213,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 6.3,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 526,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.75954,
+      "lon": -87.48458,
+      "confidence": "low",
+      "size_px": 29,
+      "spread_px": 6.7,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 526,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.77172,
+      "lon": -87.34644,
+      "confidence": "low",
+      "size_px": 283,
+      "spread_px": 34.2,
+      "nearest_zone_id": "the_spur",
+      "nearest_zone_name": "The Spur",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 527,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.67607,
+      "lon": -88.17029,
+      "confidence": "low",
+      "size_px": 28,
+      "spread_px": 5.2,
       "nearest_zone_id": "callon_jacket",
       "nearest_zone_name": "Callon Jacket",
       "source": "HLS_Sentinel_30m",
-      "source_date": "2026-09-15",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.6248,
+      "lon": -88.09481,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 5.4,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.56737,
+      "lon": -88.08174,
+      "confidence": "low",
+      "size_px": 54,
+      "spread_px": 10.3,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.51736,
+      "lon": -88.15695,
+      "confidence": "low",
+      "size_px": 28,
+      "spread_px": 6.0,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 522,
+        "y": 848
+      }
+    },
+    {
+      "lat": 29.66916,
+      "lon": -88.02447,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 4.4,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
       "source_tile": {
         "z": 11,
         "x": 523,
         "y": 847
+      }
+    },
+    {
+      "lat": 29.56165,
+      "lon": -87.93719,
+      "confidence": "low",
+      "size_px": 54,
+      "spread_px": 6.5,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 523,
+        "y": 847
+      }
+    },
+    {
+      "lat": 29.41516,
+      "lon": -88.004,
+      "confidence": "low",
+      "size_px": 28,
+      "spread_px": 5.1,
+      "nearest_zone_id": "callon_jacket",
+      "nearest_zone_name": "Callon Jacket",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 523,
+        "y": 848
+      }
+    },
+    {
+      "lat": 29.82939,
+      "lon": -87.78865,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 5.5,
+      "nearest_zone_id": "trysler_grounds",
+      "nearest_zone_name": "Trysler Grounds",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 524,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.78636,
+      "lon": -87.87856,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 5.3,
+      "nearest_zone_id": "trysler_grounds",
+      "nearest_zone_name": "Trysler Grounds",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 524,
+        "y": 846
+      }
+    },
+    {
+      "lat": 29.76894,
+      "lon": -87.81321,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 3.8,
+      "nearest_zone_id": "trysler_grounds",
+      "nearest_zone_name": "Trysler Grounds",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 524,
+        "y": 846
+      }
+    },
+    {
+      "lat": 24.91375,
+      "lon": -80.51503,
+      "confidence": "low",
+      "size_px": 39,
+      "spread_px": 6.7,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 565,
+        "y": 877
+      }
+    },
+    {
+      "lat": 24.78792,
+      "lon": -80.65473,
+      "confidence": "low",
+      "size_px": 32,
+      "spread_px": 8.1,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 565,
+        "y": 878
+      }
+    },
+    {
+      "lat": 25.0477,
+      "lon": -80.34084,
+      "confidence": "low",
+      "size_px": 59,
+      "spread_px": 7.4,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 876
+      }
+    },
+    {
+      "lat": 24.97907,
+      "lon": -80.35496,
+      "confidence": "low",
+      "size_px": 33,
+      "spread_px": 6.7,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 877
+      }
+    },
+    {
+      "lat": 24.73518,
+      "lon": -80.34954,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 4.2,
+      "nearest_zone_id": "islamorada_hump",
+      "nearest_zone_name": "Islamorada Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 878
+      }
+    },
+    {
+      "lat": 24.48575,
+      "lon": -80.70898,
+      "confidence": "low",
+      "size_px": 29,
+      "spread_px": 4.5,
+      "nearest_zone_id": "mk_east_hump",
+      "nearest_zone_name": "Marathon East Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 564,
+        "y": 880
+      }
+    },
+    {
+      "lat": 24.45589,
+      "lon": -80.59521,
+      "confidence": "low",
+      "size_px": 58,
+      "spread_px": 10.5,
+      "nearest_zone_id": "mk_east_hump",
+      "nearest_zone_name": "Marathon East Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 565,
+        "y": 880
+      }
+    },
+    {
+      "lat": 24.72573,
+      "lon": -81.10871,
+      "confidence": "low",
+      "size_px": 35,
+      "spread_px": 6.4,
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 562,
+        "y": 878
+      }
+    },
+    {
+      "lat": 24.66605,
+      "lon": -81.09819,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 5.4,
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 562,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.61372,
+      "lon": -81.15498,
+      "confidence": "low",
+      "size_px": 30,
+      "spread_px": 5.5,
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 562,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.58548,
+      "lon": -81.09386,
+      "confidence": "low",
+      "size_px": 46,
+      "spread_px": 7.0,
+      "nearest_zone_id": "marathon_west_hump",
+      "nearest_zone_name": "Marathon West Hump",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 562,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.65989,
+      "lon": -80.373,
+      "confidence": "low",
+      "size_px": 54,
+      "spread_px": 6.8,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.58921,
+      "lon": -80.41863,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 4.0,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.53126,
+      "lon": -80.45085,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 6.5,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 566,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.97387,
+      "lon": -80.1831,
+      "confidence": "low",
+      "size_px": 38,
+      "spread_px": 4.8,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 567,
+        "y": 877
+      }
+    },
+    {
+      "lat": 24.76856,
+      "lon": -80.16461,
+      "confidence": "low",
+      "size_px": 34,
+      "spread_px": 5.3,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 567,
+        "y": 878
+      }
+    },
+    {
+      "lat": 24.65856,
+      "lon": -80.21322,
+      "confidence": "low",
+      "size_px": 37,
+      "spread_px": 6.0,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 567,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.59692,
+      "lon": -80.19857,
+      "confidence": "low",
+      "size_px": 41,
+      "spread_px": 5.3,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 567,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.9503,
+      "lon": -79.99967,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 4.6,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 877
+      }
+    },
+    {
+      "lat": 24.74112,
+      "lon": -80.0276,
+      "confidence": "low",
+      "size_px": 25,
+      "spread_px": 4.3,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 878
+      }
+    },
+    {
+      "lat": 24.66635,
+      "lon": -80.03118,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 6.2,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.61011,
+      "lon": -80.0599,
+      "confidence": "low",
+      "size_px": 37,
+      "spread_px": 6.5,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 879
+      }
+    },
+    {
+      "lat": 24.57557,
+      "lon": -79.98385,
+      "confidence": "low",
+      "size_px": 41,
+      "spread_px": 5.1,
+      "nearest_zone_id": "wood_wall",
+      "nearest_zone_name": "The Wood Wall (Islamorada Offshore)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 879
+      }
+    },
+    {
+      "lat": 25.49255,
+      "lon": -80.07151,
+      "confidence": "low",
+      "size_px": 49,
+      "spread_px": 6.3,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 568,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.51998,
+      "lon": -79.77486,
+      "confidence": "low",
+      "size_px": 97,
+      "spread_px": 19.9,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 570,
+        "y": 873
+      }
+    },
+    {
+      "lat": 25.50432,
+      "lon": -79.6972,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 5.7,
+      "nearest_zone_id": "mia_stream_edge",
+      "nearest_zone_name": "Miami Gulf Stream Edge",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 570,
+        "y": 873
+      }
+    },
+    {
+      "lat": 26.73868,
+      "lon": -79.20836,
+      "confidence": "low",
+      "size_px": 37,
+      "spread_px": 6.0,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 573,
+        "y": 866
+      }
+    },
+    {
+      "lat": 26.72722,
+      "lon": -79.27429,
+      "confidence": "low",
+      "size_px": 27,
+      "spread_px": 4.7,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 573,
+        "y": 866
+      }
+    },
+    {
+      "lat": 26.44985,
+      "lon": -79.25546,
+      "confidence": "low",
+      "size_px": 59,
+      "spread_px": 8.9,
+      "nearest_zone_id": "pb_west_end_bank",
+      "nearest_zone_name": "West End Bank (Bahamas Edge)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 573,
+        "y": 867
+      }
+    },
+    {
+      "lat": 26.26158,
+      "lon": -79.74086,
+      "confidence": "low",
+      "size_px": 40,
+      "spread_px": 9.5,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 570,
+        "y": 869
+      }
+    },
+    {
+      "lat": 26.04585,
+      "lon": -79.7371,
+      "confidence": "low",
+      "size_px": 28,
+      "spread_px": 4.9,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 570,
+        "y": 870
+      }
+    },
+    {
+      "lat": 26.16779,
+      "lon": -79.3742,
+      "confidence": "low",
+      "size_px": 55,
+      "spread_px": 6.8,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 572,
+        "y": 869
+      }
+    },
+    {
+      "lat": 26.11233,
+      "lon": -79.28497,
+      "confidence": "low",
+      "size_px": 37,
+      "spread_px": 5.3,
+      "nearest_zone_id": "ftl_bahamas_edge",
+      "nearest_zone_name": "Bahamas Edge (Ft Lauderdale)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 572,
+        "y": 870
+      }
+    },
+    {
+      "lat": 26.05877,
+      "lon": -79.97069,
+      "confidence": "low",
+      "size_px": 59,
+      "spread_px": 7.6,
+      "nearest_zone_id": "gs_sword_grounds_sfl",
+      "nearest_zone_name": "Swordfish Grounds (S. Florida)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 870
+      }
+    },
+    {
+      "lat": 25.97942,
+      "lon": -79.94986,
+      "confidence": "low",
+      "size_px": 26,
+      "spread_px": 3.9,
+      "nearest_zone_id": "gs_sword_grounds_sfl",
+      "nearest_zone_name": "Swordfish Grounds (S. Florida)",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 569,
+        "y": 870
+      }
+    },
+    {
+      "lat": 25.94691,
+      "lon": -79.14267,
+      "confidence": "low",
+      "size_px": 39,
+      "spread_px": 6.2,
+      "nearest_zone_id": "gs_bimini_edge",
+      "nearest_zone_name": "Bimini Edge Wall",
+      "source": "HLS_Sentinel_30m",
+      "source_date": "2026-09-18",
+      "source_tile": {
+        "z": 11,
+        "x": 573,
+        "y": 871
       }
     }
   ],

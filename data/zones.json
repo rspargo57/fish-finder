@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-22",
   "season": "2026",
   "primary_species": [
     "bluefin_recreational",
@@ -5992,6 +5992,336 @@
         "south_shore_li",
         "montauk_nearshore",
         "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "The Fisherman East End (Montauk/Shinnecock)",
+      "quote": "Shinnecock Star-East End \u2014 Captain John of the Shinnecock Star reported a great September 18 trip with the Huntington anglers. There was plenty of action throughout the day, with a few keeper fluke mixed into the catch along with a couple of bonit",
+      "source": "The Fisherman East End (Montauk/Shinnecock) \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/shinnecock-star-east-end-245/",
+      "title": "Shinnecock Star-East End",
+      "excerpt": "Captain John of the Shinnecock Star reported a great September 18 trip with the Huntington anglers. There was plenty of action throughout the day, with a few keeper fluke mixed into the catch along with a couple of bonito and a false albacore that grabbed the jigs. Cousin John once again took the pool. The fish were caught on a variety of tackle, but Captain John noted that simple hook-and-sinker ",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "south_shore_li"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "shinnecock bay, shinnecock_inlet",
+      "quote": "White Water Outfitters-East End \u2014 Bryce from White Water Outfitters in Hampton Bays reported good numbers of albies around Shinnecock Inlet, providing fast-paced opportunities for anglers throwing small metals, epoxy jigs and other compact offerings. The",
+      "source": "The Fisherman East End (Montauk/Shinnecock) \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/white-water-outfitters-east-end-201/",
+      "title": "White Water Outfitters-East End",
+      "excerpt": "Bryce from White Water Outfitters in Hampton Bays reported good numbers of albies around Shinnecock Inlet, providing fast-paced opportunities for anglers throwing small metals, epoxy jigs and other compact offerings. The tuna bite has slowed, although a few fish are still being encountered. Fluke fishing remains solid inside Shinnecock Bay, with a mix of shorts and keepers, while some striped bass",
+      "zones": [
+        "south_shore_li"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk, long_island, shinnecock_inlet",
+      "quote": "Tight Lines Tackle-East End \u2014 Kenny from Tight Lines Tackle in Southampton reported that porgies and blowfish are still being caught throughout the Peconics. Albies remain plentiful around Montauk and Shinnecock, while Spanish mackerel and bluefish c",
+      "source": "The Fisherman East End (Montauk/Shinnecock) \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/tight-lines-tackle-east-end-297/",
+      "title": "Tight Lines Tackle-East End",
+      "excerpt": "Kenny from Tight Lines Tackle in Southampton reported that porgies and blowfish are still being caught throughout the Peconics. Albies remain plentiful around Montauk and Shinnecock, while Spanish mackerel and bluefish continue to move through Shinnecock Inlet. Sharks are also still present along many of the East End ocean beaches. Kenny has also been hearing about more striped bass being caught f",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "south_shore_li",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "block_island",
+      "quote": "Ebb Tide-East End \u2014 From the Ebb Tide, the September 19 fluke trip produced another solid harvest from the migration chute despite a stiff easterly and less-than-ideal conditions. Tippy Toe Chris took the pool with a 6.5-pound fluke, and se",
+      "source": "The Fisherman East End (Montauk/Shinnecock) \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/ebb-tide-east-end-251/",
+      "title": "Ebb Tide-East End",
+      "excerpt": "From the Ebb Tide, the September 19 fluke trip produced another solid harvest from the migration chute despite a stiff easterly and less-than-ideal conditions. Tippy Toe Chris took the pool with a 6.5-pound fluke, and several anglers managed limits while steady action kept fish coming over the rail throughout the morning. The September 18 Block Island fluke and sea bass trip was another productive",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk",
+      "quote": "Double D Charters-East End \u2014 Over at Double D Charters in Montauk, Captain Dan reported that Chris Weiss landed a double-digit fluke on Friday, highlighting what has remained a productive late-season bottom-fishing bite. Dan expects the fall fishing",
+      "source": "The Fisherman East End (Montauk/Shinnecock) \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/double-d-charters-east-end-40/",
+      "title": "Double D Charters-East End",
+      "excerpt": "Over at Double D Charters in Montauk, Captain Dan reported that Chris Weiss landed a double-digit fluke on Friday, highlighting what has remained a productive late-season bottom-fishing bite. Dan expects the fall fishing to break wide open once the stretch of northeast wind settles down, with striped bass action likely to improve quickly as conditions turn more favorable. Early October bass dates ",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "block_island",
+      "quote": "The Saltwater Edge-Rhode Island \u2014 Chris at The Saltwater Edge reported that there were a lot of anglers focused on chasing false albacore and green bonito this past week with generally good results. There are still good number of green bonito around the",
+      "source": "The Fisherman Rhode Island \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/the-saltwater-edge-rhode-island-27/",
+      "title": "The Saltwater Edge-Rhode Island",
+      "excerpt": "Chris at The Saltwater Edge reported that there were a lot of anglers focused on chasing false albacore and green bonito this past week with generally good results. There are still good number of green bonito around the islands, especially in Newport Harbor. False albacore have been a little more difficult to track down but those that are putting in the time are typically doing pretty well around ",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "The Fisherman Rhode Island",
+      "quote": "Frances Fleet-Rhode Island \u2014 The Frances Fleet continues to find fish on their full day fluke trips where some customers have been limiting out on nice sized fluke along with catching some nice sized black sea bass. They plan on running full day flu",
+      "source": "The Fisherman Rhode Island \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/frances-fleet-rhode-island-326/",
+      "title": "Frances Fleet-Rhode Island",
+      "excerpt": "The Frances Fleet continues to find fish on their full day fluke trips where some customers have been limiting out on nice sized fluke along with catching some nice sized black sea bass. They plan on running full day fluke trips through most of September and will then be switching over to targeting tautog in October but keep an eye on their website as dates can change based on the fishing. You can",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "narragansett_bay",
+        "watch_hill_reef"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk, block_island, snug_harbor",
+      "quote": "Snug Harbor Marina-Rhode Island \u2014 Elisa at Snug Harbor Marina reported that Jim Kaczynski Jr weighed in a 12.2-pound fluke at the shop on Saturday that was caught locally along with a few other nice sized fish. The fluke fishing has slowed a bit in terms",
+      "source": "The Fisherman Rhode Island \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/snug-harbor-marina-rhode-island-319/",
+      "title": "Snug Harbor Marina-Rhode Island",
+      "excerpt": "Elisa at Snug Harbor Marina reported that Jim Kaczynski Jr weighed in a 12.2-pound fluke at the shop on Saturday that was caught locally along with a few other nice sized fish. The fluke fishing has slowed a bit in terms of numbers of fish but there are absolutely some big fish still around as they are often the last ones to leave. Fishing for striped bass has been picking up with bass feeding on ",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon",
+        "narragansett_bay"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk",
+      "quote": "Quonnie Bait and Tackle-Rhode Island \u2014 Abbie at Quonnie Bait and Tackle said that local surfcasters have been finding some nice-sized bass fishing the local beaches and breachways after dark. Live eels are always tough to beat but fish are also being caught o",
+      "source": "The Fisherman Rhode Island \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/quonnie-bait-and-tackle-rhode-island-310/",
+      "title": "Quonnie Bait and Tackle-Rhode Island",
+      "excerpt": "Abbie at Quonnie Bait and Tackle said that local surfcasters have been finding some nice-sized bass fishing the local beaches and breachways after dark. Live eels are always tough to beat but fish are also being caught on swimming plugs and soft plastics. During the day, there has been visible surface feeding along the beaches from a mix of striped bass, bluefish, false albacore and green bonito. ",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "watch_hill, watch hill",
+      "quote": "Watch Hill Outfitters-Rhode Island \u2014 Mike Wade at Watch Hill Outfitters has been hearing reports of good numbers of false albacore being caught locally along with some small green bonito. The albies have been coming in close to the beaches, at times, provid",
+      "source": "The Fisherman Rhode Island \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/watch-hill-outfitters-rhode-island-313/",
+      "title": "Watch Hill Outfitters-Rhode Island",
+      "excerpt": "Mike Wade at Watch Hill Outfitters has been hearing reports of good numbers of false albacore being caught locally along with some small green bonito. The albies have been coming in close to the beaches, at times, providing opportunities to catch them from the beach, which is always a lot of fun. There are still some good-sized fluke around and the anglers still targeting them have been doing pret",
+      "zones": [
+        "watch_hill_reef"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "The Fisherman Connecticut",
+      "quote": "AW Marina-Connecticut \u2014 Karen at AW Marina said she was looking ahead to the coming tog season and she was going through her inventory of rigs and jigs as we talked. She said as it always is, the shop will be ready for full service for the enti",
+      "source": "The Fisherman Connecticut \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/aw-marina-connecticut-311/",
+      "title": "AW Marina-Connecticut",
+      "excerpt": "Karen at AW Marina said she was looking ahead to the coming tog season and she was going through her inventory of rigs and jigs as we talked. She said as it always is, the shop will be ready for full service for the entire season until the bitter end. She plans to have plenty of crabs for the opener and they plan to have them for all six weeks. For the time being though, it\u2019s been all about albies",
+      "zones": [
+        "western_li_sound",
+        "central_li_sound",
+        "the_race",
+        "plum_gut",
+        "the_triangle"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk, the_race, fishers_island, watch_hill, niantic bay, black point, fishers island, watch hill",
+      "quote": "J&B Tackle-Connecticut \u2014 Tim at J&#038;B Tackle emailed over their report to say, \u201cFall fishing has officially kicked off. Albies are everywhere from Black Point to Fishers Island. Striped bass are feeding on the large amount of bait but have no",
+      "source": "The Fisherman Connecticut \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/jb-tackle-connecticut-286/",
+      "title": "J&B Tackle-Connecticut",
+      "excerpt": "Tim at J&#038;B Tackle emailed over their report to say, \u201cFall fishing has officially kicked off. Albies are everywhere from Black Point to Fishers Island. Striped bass are feeding on the large amount of bait but have not begun blitzing. Bluefish ranging from snappers to gators are very active. For albies, prime locations include Avery Point, Sarah's Ledge, Ocean Beach, Harkness, Seaside, Niantic ",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "the_race",
+        "watch_hill_reef",
+        "niantic_bay",
+        "fishers_island_south"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk, block_island, the_race, watch_hill, black point, watch hill",
+      "quote": "Hillyer\u2019s Tackle-Connecticut \u2014 Ed at Hillyer\u2019s Bait and Tackle said fall run action has picked up in the region with arrival of big schools of false albacore. Many customers in to load up on tins and epoxy jigs reported seeing albies feeding from Blac",
+      "source": "The Fisherman Connecticut \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/hillyers-tackle-connecticut-235/",
+      "title": "Hillyer\u2019s Tackle-Connecticut",
+      "excerpt": "Ed at Hillyer\u2019s Bait and Tackle said fall run action has picked up in the region with arrival of big schools of false albacore. Many customers in to load up on tins and epoxy jigs reported seeing albies feeding from Black Point all the way east to Watch Hill. The blitz fishing and birds have local anglers fired up and Ed said he\u2019s hoping some bass and blues move in locally like they usually do. He",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon",
+        "the_race",
+        "watch_hill_reef",
+        "niantic_bay"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "bait": "regional-report",
+      "location": "montauk, connecticut_river, watch_hill, watch hill",
+      "quote": "Fishin\u2019 Factory 3-Connecticut \u2014 Andrew at Fishin\u2019 Factory 3 said it up until the most recent big blow, the buzz at the shop has been about false albacore. Customers reported one of the better early season albie bites in recent memory with fish spread o",
+      "source": "The Fisherman Connecticut \u00b7 The Fisherman",
+      "source_type": "fisherman_regional_auto",
+      "link": "https://www.thefisherman.com/fishing-report/fishin-factory-3-connecticut-326/",
+      "title": "Fishin\u2019 Factory 3-Connecticut",
+      "excerpt": "Andrew at Fishin\u2019 Factory 3 said it up until the most recent big blow, the buzz at the shop has been about false albacore. Customers reported one of the better early season albie bites in recent memory with fish spread out from just about the mouth of the Connecticut River all the way east to Watch Hill. He said that what happens following this blow is anybody\u2019s best guess but both he and his clie",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "central_li_sound",
+        "watch_hill_reef"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "bait": "captain_report",
+      "location": "Viking Fleet fishing reports (Montauk)",
+      "species_feeding": null,
+      "source": "Viking Fleet fishing reports (Montauk)",
+      "source_type": "charter_auto",
+      "quote": "Capt Dave Reports a VERY good day on the Viking Starship. Tons of Porgies, mostly large and jumbo, with some nice Seabass mixed in. All in all, a very good day of fishing! Todays pool winner is Errol Burke of the Bronx, NY with a 2.9lb Porgy. Todays Edible pool winner is Amicor R",
+      "link": "https://fishingreports.vikingfleet.com/category/fishing-reports/",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "bait": "captain_report",
+      "location": "Viking Fleet fishing reports (Montauk)",
+      "species_feeding": null,
+      "source": "Viking Fleet fishing reports (Montauk)",
+      "source_type": "charter_auto",
+      "quote": "Captain JR reports a nice morning of catching onboard the Viking Star. We found lots of action all trip with primarily Sea Bass, a few Porgies, and Fluke keeping us busy. Everyone ended up with a mixed bag of delicious fish for dinner. Todays Pool winner is Jesse Gretsen of Sea C",
+      "link": "https://fishingreports.vikingfleet.com/category/fishing-reports/",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "bait": "captain_report",
+      "location": "Viking Fleet fishing reports (Montauk)",
+      "species_feeding": null,
+      "source": "Viking Fleet fishing reports (Montauk)",
+      "source_type": "charter_auto",
+      "quote": "Captain JR reports a very nice afternoon onboard the Viking Starlite. We found lots of action with Sea Bass, Porgies, and Fluke everywhere we went. Most of the Fluke were smaller, but we found a couple keepers to top off the catch. Everyone ended up with nice fish dinners. Todays",
+      "link": "https://fishingreports.vikingfleet.com/category/fishing-reports/",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "bait": "captain_report",
+      "location": "Viking Fleet fishing reports (Montauk)",
+      "species_feeding": null,
+      "source": "Viking Fleet fishing reports (Montauk)",
+      "source_type": "charter_auto",
+      "quote": "Capt. Dave reports that today\u2019s trip on the Viking Starship got off to a fantastic start with perfect conditions and plenty of action! We enjoyed a 1\u00bd-hour drift loaded with hard-fighting, big porgies. As the tide started ripping, we switched things up and anchored offshore, wher",
+      "link": "https://fishingreports.vikingfleet.com/category/fishing-reports/",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "bait": "captain_report",
+      "location": "J&J Sports Fishing (Patchogue LI)",
+      "species_feeding": null,
+      "source": "J&J Sports Fishing (Patchogue LI)",
+      "source_type": "charter_auto",
+      "quote": "Are you ready to reel in some weakfish this fall? The Peconic Bays and Great South Bay are showing activity during the fall run, making it the perfect time to head out for some exciting fishing adventures. To make the most of this season, it's important to know which lures are mo",
+      "link": "https://www.jjsportsfishing.com/blogs/fishing-reports/september-update-great-time-for-fluke-weakfish-return-in-force-offshore-is-hot-easy-snapper-recipe",
+      "zones": [
+        "south_shore_li",
+        "montauk_nearshore",
+        "block_island_sound"
       ]
     }
   ],

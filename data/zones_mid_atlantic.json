@@ -3,7 +3,7 @@
   "region_id": "midatl",
   "region_label": "Mid-Atlantic",
   "region_short": "Mid-Atl",
-  "generated": "2026-09-19",
+  "generated": "2026-09-22",
   "season": 2026,
   "home_port": {
     "name": "Utsch's Marina",
@@ -1839,7 +1839,7 @@
       "region": "NC",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-19",
+      "heat_updated": "2026-09-22",
       "species": [
         "red_drum",
         "striped_bass",
@@ -1927,7 +1927,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-19",
+          "last_report_date": "2026-09-22",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1938,7 +1938,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-19",
+      "heat_updated": "2026-09-22",
       "species": [
         "yellowfin_tuna",
         "bluefin_giant",
@@ -2026,7 +2026,7 @@
       "current_sst_f": 82.3,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-19",
+          "last_report_date": "2026-09-22",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2037,7 +2037,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-19",
+      "heat_updated": "2026-09-22",
       "species": [
         "yellowfin_tuna",
         "bluefin_recreational",
@@ -2140,7 +2140,7 @@
       "current_sst_f": 81.5,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-19",
+          "last_report_date": "2026-09-22",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -3031,7 +3031,7 @@
       ],
       "notes": "Deep-water ledge 30nm E of Indian River Inlet.",
       "heat": 5,
-      "heat_updated": "2026-09-19",
+      "heat_updated": "2026-09-22",
       "seasonal_presence": {
         "amberjack": [
           7,
@@ -3092,7 +3092,7 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-19",
+          "last_report_date": "2026-09-22",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
@@ -5971,6 +5971,41 @@
       "lat": 39.5398,
       "lon": -74.3883,
       "dist_nm": 20.1
+    },
+    {
+      "date": "2026-09-22",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "cape_may_rips"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401723269",
+      "lat": 39.0999,
+      "lon": -74.7231,
+      "dist_nm": 14.3
+    },
+    {
+      "date": "2026-09-19",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/402037381",
+      "lat": 40.4407,
+      "lon": -74.0933,
+      "dist_nm": 21.5
     }
   ],
   "sources_used": [

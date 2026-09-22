@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-19T20:03:35.886012Z",
-  "snapshots_examined": 30,
+  "generated_at": "2026-09-22T01:28:28.513673Z",
+  "snapshots_examined": 31,
   "date_range": [
     "2026-07-25",
-    "2026-09-19"
+    "2026-09-22"
   ],
   "summary": {
     "accuracy_1_offshore": {
@@ -20,15 +20,15 @@
     },
     "accuracy_3_offshore": {
       "mean": 1.0,
-      "n": 12
+      "n": 13
     },
     "accuracy_3_inshore": {
       "mean": 1.0,
-      "n": 12
+      "n": 13
     },
     "accuracy_3_overall": {
       "mean": 1.0,
-      "n": 24
+      "n": 26
     }
   },
   "warnings": [],
@@ -375,6 +375,19 @@
         "score": 1.0
       },
       "h1_inshore": {
+        "pred": "block_island_striper",
+        "actual": "block_island_striper",
+        "score": 1.0
+      }
+    },
+    {
+      "date": "2026-09-19",
+      "h3_offshore": {
+        "pred": "s_block_nearshore",
+        "actual": "s_block_nearshore",
+        "score": 1.0
+      },
+      "h3_inshore": {
         "pred": "block_island_striper",
         "actual": "block_island_striper",
         "score": 1.0
