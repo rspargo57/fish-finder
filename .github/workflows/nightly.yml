@@ -28,10 +28,13 @@ jobs:
       - name: Symlink /root/fish-finder to the workspace
         # build-inlined.py and its helpers use hardcoded /root/fish-finder paths.
         # Symlink so they resolve at the runner's checkout dir without editing dozens of scripts.
+        # /root is mode 700 by default — chmod so the non-root runner can traverse the symlink.
         run: |
           sudo mkdir -p /root
+          sudo chmod 755 /root
           sudo ln -sfn "$GITHUB_WORKSPACE" /root/fish-finder
           ls -la /root/fish-finder | head -3
+          ls /root/fish-finder/map/ | head -3
       - name: Show environment
         run: |
           python3 --version
