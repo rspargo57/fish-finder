@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install Python dependencies
-        run: pip install --upgrade pip && pip install requests pillow lxml python-dateutil
+        run: pip install --upgrade pip && pip install requests pillow lxml python-dateutil numpy matplotlib websockets youtube-transcript-api feedparser beautifulsoup4
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
