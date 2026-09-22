@@ -1,0 +1,256 @@
+{
+  "researched_at": "2026-09-16T00:00:00Z",
+  "captains_researched": 26,
+  "mmsi_found": 6,
+  "_notes": "MMSI research pass for aisstream.io subscription. Sources: vesselfinder.com and marinetraffic.com listings surfaced via Google search snippets (direct site fetches were blocked by robots.txt/provenance). Most charter boats under 65' are not required to carry AIS Class A and legitimately have no MMSI. Party boats (Big Jamaica 125', Paramount 100', Miss Barnegat Light, The Gambler 125') and the 60'+ sportfishing operations were the most productive. Six high/medium confidence MMSIs found; the rest are legitimately not_found (small boats without AIS) or ambiguous common-name vessels. Recommend the main session review MEDIUM confidence entries before adding them to captain_vessels.json — if wrong they would track the wrong boat.",
+  "results": [
+    {
+      "id": "canyon_runner",
+      "operation_name": "Canyon Runner",
+      "boat_name": "Canyon Runner (fleet — Toro, She Devil)",
+      "mmsi": "367716240",
+      "confidence": "low",
+      "source_url": "https://www.vesselfinder.com/vessels/details/367716240",
+      "verified_via": "Name match (CANYON RUNNER) + US flag (367 prefix) + Pleasure Craft type on VesselFinder",
+      "note": "'Canyon Runner' is a common recreational boat name. The Point Pleasant charter operation actually runs boats named 'Toro' and 'She Devil'; a boat named 'Canyon Runner' may be an additional fleet vessel or a completely unrelated NJ pleasure boat. Also confused by an unrelated CANYON RUNNER offshore supply ship (MMSI 367600580, IMO 9759381) — reject that one. Recommend Randy call the operation to confirm before subscribing."
+    },
+    {
+      "id": "wicked_fat_tuna",
+      "operation_name": "Fat Tuna Charters (Wicked Fat Tuna TV)",
+      "boat_name": "FV Fat Tuna",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "No matching MMSI found on vesselfinder or marinetraffic. Gloucester tuna charters are typically 35-45' Downeast-style boats under AIS Class A mandate — small boat, likely no AIS transponder. FV-TUNA.COM (Dave Marciano's boat) is a different operation with MMSI 367674580, do not use for Bob Cook."
+    },
+    {
+      "id": "big_game_fishing_ri",
+      "operation_name": "Big Game Fishing RI",
+      "boat_name": "Big Game / Big Game II",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "No US-flag AIS record surfaced for either Big Game or Big Game II in Rhode Island. Wakefield RI charter — small boat, likely no AIS transponder."
+    },
+    {
+      "id": "rhode_island_sportfishing",
+      "operation_name": "Rhode Island Sportfishing",
+      "boat_name": "RI Sportfishing fleet",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Operation is a fleet (multiple boats, various captains) with no single named vessel to lookup — MMSI would have to be per-boat, and per-boat names are not published. Skip."
+    },
+    {
+      "id": "rockfish_charters",
+      "operation_name": "Rockfish Charters",
+      "boat_name": "Rockfish",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Marinetraffic has a ROCKFISH (MMSI 367083580) but it is an 'Inland Supply Vessel' — a workboat, NOT the Moriches NY charter. REJECTED per criteria. The Rockfish Charters boat is a small (~30') LI charter, likely no AIS transponder."
+    },
+    {
+      "id": "reel_deal_charters",
+      "operation_name": "Reel Deal Fishing Charters",
+      "boat_name": "Reel Deal",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Marinetraffic REEL DEAL (MMSI 232014331) is UK-registered — REJECTED. No US-flag Reel Deal found from Truro MA. Small Cape Cod charter boat, likely no AIS transponder."
+    },
+    {
+      "id": "saltwater_underground",
+      "operation_name": "Saltwater Underground",
+      "boat_name": "various NJ charters (host/contributor)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Nick Honachefsky rides on multiple captains' boats as host/contributor — no single vessel to subscribe to. Skip per JSON's own note: 'MMSI would be per-episode.'"
+    },
+    {
+      "id": "tuna_cartel",
+      "operation_name": "Tuna Cartel Fisheries",
+      "boat_name": "Tuna Cartel fleet",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Fleet with various NJ/NY canyon captains — no single named boat to lookup. Skip."
+    },
+    {
+      "id": "islander_sportfishing_ct",
+      "operation_name": "Islander Sport Fishing Charters",
+      "boat_name": "Islander V (40' Custom)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "40' Custom charter boat out of Old Saybrook CT — under 65' AIS Class A mandate, likely no AIS transponder. No name match on vesselfinder/marinetraffic. GOLD priority for Randy but MMSI unavailable — recommend asking Wayne Goldsmith directly whether Islander V carries AIS."
+    },
+    {
+      "id": "keepin_it_reel_ct",
+      "operation_name": "Keepin' It Reel Sportfishing",
+      "boat_name": "New Chief (UVT La Familia)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "No AIS match found for 'New Chief' near New London CT. Small charter boat, likely no AIS transponder."
+    },
+    {
+      "id": "newport_sportfishing",
+      "operation_name": "Newport Sportfishing Charters",
+      "boat_name": "Reel EZ (35' Terry Jason)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "35' Terry Jason — well under AIS Class A mandate. No match on marine tracking sites. Small boat, likely no AIS transponder."
+    },
+    {
+      "id": "tall_tailz",
+      "operation_name": "Tall Tailz Charters",
+      "boat_name": "departs Fort Adams (boat name not published)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Operation's specific boat name is not published — 'departs Fort Adams' is the only descriptor. Cannot lookup without a boat name."
+    },
+    {
+      "id": "joe_diorio_guide",
+      "operation_name": "Joe Diorio Guide Service",
+      "boat_name": "unspecified",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Boat name unspecified in captain_vessels.json — cannot lookup. Also midshore/light-tackle guide — very likely small boat with no AIS."
+    },
+    {
+      "id": "shark_shark_tuna",
+      "operation_name": "Shark Shark Tuna Fishing Charters",
+      "boat_name": "F/V El Toro (Bass River / Sesuit); F/V Aurora Zaq (Parker's River)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "EL TORO on marinetraffic (MMSI 219024901) is Denmark-flagged; AURORA hits are all Europe/foreign pleasure craft — no US-flag matches for either El Toro or Aurora Zaq from South Yarmouth MA. Small Cape Cod charter boats, likely no AIS transponders."
+    },
+    {
+      "id": "sea_venture_hampton",
+      "operation_name": "Sea Venture — The Canyon Specialist",
+      "boat_name": "40' Topaz Royale Sport Fisherman",
+      "mmsi": "366711270",
+      "confidence": "medium",
+      "source_url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:3102567/mmsi:366711270/imo:0/vessel:SEA_VENTURE",
+      "verified_via": "Name match (SEA VENTURE) + US flag (366 prefix) + Pleasure Craft type + US call sign WDH8313",
+      "note": "'Sea Venture' is a moderately common boat name. Other Sea Ventures on AIS are foreign (offshore supply, research vessel) — this US pleasure craft is the most plausible match for the Hampton Bays NY 40' Topaz. Not verified against a home-port record. Recommend Randy verify with Capt. Peter Stassi before treating as authoritative."
+    },
+    {
+      "id": "fin_alley_hampton",
+      "operation_name": "Fin Alley Fishing Charters",
+      "boat_name": "Fin Alley (43' Tiara)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "43' Tiara — under AIS Class A mandate. No match on marine tracking sites. Small boat, likely no AIS transponder."
+    },
+    {
+      "id": "corazon_fishing_freeport",
+      "operation_name": "Corazon Fishing Charters",
+      "boat_name": "35' Duffy",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "CORAZON hits on marinetraffic are all foreign (Australia, Europe). 35' Duffy — well under AIS mandate. Small boat, likely no AIS transponder."
+    },
+    {
+      "id": "predatuna_hyannis",
+      "operation_name": "Predatuna Sport Fishing",
+      "boat_name": "Predatuna II (38' custom Down East)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "38' custom Down East — under AIS Class A mandate. No name match on marine tracking sites. Small boat, likely no AIS transponder."
+    },
+    {
+      "id": "blue_runner_sportfishing",
+      "operation_name": "Blue Runner Sportfishing",
+      "boat_name": "Blue Runner (60' Ritchie Howell) + Water Proof (42' Northern Bay) + Mary Lou Crew (32' Contender)",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "Only BLUE RUNNER on marinetraffic (MMSI 244620488) is Netherlands-flagged — REJECTED. No US-flag match. Even the 60' Ritchie Howell is right at the AIS Class A borderline (65' USCG mandate is for commercial fishing 65'+); this operation's boats likely have Class B AIS at most, or none. Would need direct contact with Capt. Mark DeBlasio."
+    },
+    {
+      "id": "miss_barnegat_light",
+      "operation_name": "Miss Barnegat Light",
+      "boat_name": "Miss Barnegat Light (party boat)",
+      "mmsi": "367151830",
+      "confidence": "high",
+      "source_url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:9019939/mmsi:367151830/imo:0/vessel:MISS%20BARNEGAT%20LIGHT",
+      "verified_via": "Exact name match (MISS BARNEGAT LIGHT) + US flag (367 prefix) + Passenger vessel type + Barnegat Light NJ home port implied by name",
+      "note": "Exact name match, US passenger vessel — high confidence. Party boat under passenger-vessel AIS mandate."
+    },
+    {
+      "id": "super_chic_charters",
+      "operation_name": "Super Chic Charters",
+      "boat_name": "Super Chic",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "No match on marine tracking sites. Small Barnegat Light NJ charter boat, likely no AIS transponder."
+    },
+    {
+      "id": "jersey_nutz_sportfishing",
+      "operation_name": "Jersey Nutz Sportfishing",
+      "boat_name": "Jersey Nutz (45' / 53' / 61' fleet)",
+      "mmsi": "338474166",
+      "confidence": "high",
+      "source_url": "https://www.marinetraffic.com/en/ais/details/ships/shipid:7739751/mmsi:338474166/imo:0/vessel:JERSEY_NUTZ",
+      "verified_via": "Exact name match (JERSEY NUTZ) + US flag (338 prefix — US auxiliary/small-craft group MMSI) + Fishing vessel type",
+      "note": "Exact name match, US-registered fishing vessel. Operation runs a 3-boat fleet (45'/53'/61') — this MMSI likely corresponds to the 61' flagship. High confidence."
+    },
+    {
+      "id": "down_n_dirty_charters",
+      "operation_name": "Down N Dirty Fishing Charters",
+      "boat_name": "Contender 39ST",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "39' Contender — well under AIS Class A mandate. Boat name may just be 'Contender 39ST' or a personal moniker not registered as vessel name. No match on marine tracking sites. Small boat, likely no AIS transponder."
+    },
+    {
+      "id": "the_gambler",
+      "operation_name": "The Gambler",
+      "boat_name": "The Gambler (125')",
+      "mmsi": "367050080",
+      "confidence": "medium",
+      "source_url": "https://www.vesselfinder.com/vessels/GAMBLER-IMO-0-MMSI-367050080",
+      "verified_via": "Name match (GAMBLER) + US flag (367 prefix) + Fishing vessel type on VesselFinder",
+      "note": "US-registered GAMBLER as fishing vessel. Given the 125' Gambler party boat operates from Point Pleasant Beach NJ and is a large passenger-fishing vessel, this is the most plausible match. Other Gamblers on AIS are foreign (Norway, Netherlands, Canada) — those are rejected. Not 100% verified against a home-port record; recommend confirming before subscribing."
+    },
+    {
+      "id": "big_jamaica",
+      "operation_name": "Big Jamaica (Bogan's Deep Sea Fishing Center)",
+      "boat_name": "125' Big Jamaica + 100' Paramount",
+      "mmsi": "367021730",
+      "confidence": "medium",
+      "source_url": "https://www.vesselfinder.com/vessels/JAMAICA-IMO-0-MMSI-367021730",
+      "verified_via": "Name match (JAMAICA — the 125' Big Jamaica is officially registered as 'JAMAICA' per fleet convention) + US flag (367 prefix) + Passenger ship type",
+      "note": "The 125' Big Jamaica is registered simply as 'JAMAICA' — that vessel on VesselFinder (MMSI 367021730, Passenger, US) is the most plausible match. IMPORTANT: This fleet operation also runs the 100' Paramount, which has a SEPARATE and independently verified MMSI 367077580 (Fishing, US, Brielle NJ) — see marinetraffic.com/en/ais/details/ships/shipid:4123926 — HIGH confidence for Paramount. Randy may want to subscribe to BOTH: 367021730 (Jamaica/Big Jamaica) and 367077580 (Paramount). A third fleet boat, Jamaica II, has MMSI 367622990 (Fishing, US) — not in this captain entry but same operator."
+    },
+    {
+      "id": "fish_stix_charters",
+      "operation_name": "Fish Stix Charters",
+      "boat_name": "Fish Stix",
+      "mmsi": null,
+      "confidence": "not_found",
+      "source_url": null,
+      "note": "No AIS record found for 'Fish Stix' near Point Pleasant NJ. Small NJ charter boat, likely no AIS transponder."
+    }
+  ],
+  "_additional_mmsi_hint": {
+    "note": "The Bogan's Deep Sea Fishing Center fleet has three verified US-registered MMSIs — Randy may want to add these to the big_jamaica entry as a boats-list rather than a single MMSI, since a bookings customer of Big Jamaica could actually sail on any of the three:",
+    "boats": [
+      {"vessel_name": "JAMAICA (125' Big Jamaica)", "mmsi": "367021730", "type": "Passenger", "flag": "USA"},
+      {"vessel_name": "PARAMOUNT (100')", "mmsi": "367077580", "type": "Fishing", "flag": "USA"},
+      {"vessel_name": "JAMAICA II", "mmsi": "367622990", "type": "Fishing", "flag": "USA"}
+    ]
+  }
+}

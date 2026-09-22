@@ -1,0 +1,62 @@
+{
+  "_readme": "Captain social-media feed URLs for the instagram_harvest.py (v24.19+, when enabled).",
+  "_how_this_works": "Instagram doesn't offer a free public API for non-owned accounts. Two paths to get their post feeds into Fish Finder:  (1) EASY — sign up for rss.app (free tier, 5 min), create an 'Instagram feed' for each captain, paste the resulting RSS URL below.  (2) HARDER — set up a Facebook developer account + Instagram Basic Display API and paste the access token.  When either field is populated for a captain, the nightly build will fetch and promote their posts into bait_intel.",
+  "_status": "SCAFFOLDING — no captain is active yet. Fill in the rss_url or ig_token field for any captain you want, then push the file back to /root/fish-finder/data/captain_socials.json and the next nightly build will pick them up.",
+  "captains": [
+    {
+      "id": "newport_sportfishing_rob_taylor",
+      "name": "Newport Sportfishing (Rob Taylor)",
+      "instagram_handle": "newport_sportfishing",
+      "region": "northeast",
+      "focus_species": ["bluefin_recreational", "yellowfin_tuna", "striped_bass", "false_albacore"],
+      "default_zones": ["s_block_nearshore", "block_island_striper", "narragansett_bay", "block_canyon"],
+      "default_coords": [41.42, -71.30],
+      "rss_url": "",
+      "ig_token": "",
+      "active": false
+    },
+    {
+      "id": "rockfish_charters_adrian_moeller",
+      "name": "Rockfish Charters (Adrian Moeller, LI Sound / Montauk)",
+      "instagram_handle": "rockfishcharters",
+      "region": "northeast",
+      "focus_species": ["striped_bass", "bluefish", "false_albacore"],
+      "default_zones": ["montauk_rips_striper", "plum_gut", "the_race", "block_island_striper"],
+      "default_coords": [41.05, -71.90],
+      "rss_url": "",
+      "ig_token": "",
+      "active": false
+    },
+    {
+      "id": "tuna_cartel",
+      "name": "Tuna Cartel Fisheries",
+      "instagram_handle": "tunacartelofficial",
+      "region": "northeast",
+      "focus_species": ["bluefin_recreational", "bluefin_giant", "yellowfin_tuna", "bigeye_tuna"],
+      "default_zones": ["s_block_nearshore", "tuna_ridge", "block_canyon", "hudson_canyon"],
+      "default_coords": [40.80, -71.20],
+      "rss_url": "",
+      "ig_token": "",
+      "active": false
+    },
+    {
+      "id": "tall_tailz_charters",
+      "name": "Tall Tailz Charters (multi-port: Newport / Block / Cape Cod)",
+      "instagram_handle": "talltailzcharters",
+      "region": "northeast",
+      "focus_species": ["bluefin_recreational", "yellowfin_tuna", "striped_bass"],
+      "default_zones": ["s_block_nearshore", "block_island_striper", "narragansett_bay", "montauk_nearshore"],
+      "default_coords": [41.30, -71.35],
+      "rss_url": "",
+      "ig_token": "",
+      "active": false
+    }
+  ],
+  "_setup_instructions_rss_app_path": [
+    "1. Go to rss.app and sign up (free tier is fine)",
+    "2. Click 'New feed' → paste the captain's Instagram profile URL (e.g. https://www.instagram.com/newport_sportfishing/ )",
+    "3. rss.app generates a stable RSS URL that mirrors their Instagram posts",
+    "4. Copy that URL, paste it into the 'rss_url' field above for that captain, and set 'active': true",
+    "5. Send this file back to Claude (or drop it into /root/fish-finder/data/captain_socials.json), and the next nightly build will start harvesting"
+  ]
+}

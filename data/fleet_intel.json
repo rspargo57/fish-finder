@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-09-19T19:59:33.819530Z",
+  "candidates": [],
+  "scan_log": [
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-17-2026",
+      "date": "2026-09-17",
+      "region": "long-island-and-nyc",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-17-2026",
+      "date": "2026-09-17",
+      "region": "connecticut",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-17-2026",
+      "date": "2026-09-17",
+      "region": "rhode-island",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-17-2026",
+      "date": "2026-09-17",
+      "region": "southern-new-jersey",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-10-2026",
+      "date": "2026-09-10",
+      "region": "long-island-and-nyc",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-10-2026",
+      "date": "2026-09-10",
+      "region": "connecticut",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-10-2026",
+      "date": "2026-09-10",
+      "region": "rhode-island",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-10-2026",
+      "date": "2026-09-10",
+      "region": "southern-new-jersey",
+      "candidates": 0
+    }
+  ],
+  "notes": [
+    "Skipped 4 URLs older than 14 days (freshness gate \u2014 Randy: 'we need current stuff')."
+  ],
+  "fetched_reports": 8,
+  "urls_probed": 20
+}

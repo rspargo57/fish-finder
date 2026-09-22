@@ -1,0 +1,770 @@
+{
+  "generated_at": "2026-09-19T19:59:06Z",
+  "window_days": 30,
+  "snapshots_total": 29,
+  "snapshots_in_window": 16,
+  "accuracy": {
+    "offshore": {
+      "1": {
+        "n": 11,
+        "hits": 11,
+        "accuracy": 1.0,
+        "samples": [
+          {
+            "actual_date": "2026-08-17",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-18",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-19",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-20",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-21",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-22",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-23",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-28",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-29",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-30",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          }
+        ]
+      },
+      "3": {
+        "n": 8,
+        "hits": 8,
+        "accuracy": 1.0,
+        "samples": [
+          {
+            "actual_date": "2026-08-16",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-18",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-19",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-20",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-21",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-22",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-23",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-30",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          }
+        ]
+      },
+      "7": {
+        "n": 0,
+        "hits": 0,
+        "accuracy": null,
+        "samples": []
+      }
+    },
+    "inshore": {
+      "1": {
+        "n": 11,
+        "hits": 11,
+        "accuracy": 1.0,
+        "samples": [
+          {
+            "actual_date": "2026-08-17",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-18",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-19",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-20",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-21",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-22",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-23",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-28",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-29",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-30",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          }
+        ]
+      },
+      "3": {
+        "n": 8,
+        "hits": 8,
+        "accuracy": 1.0,
+        "samples": [
+          {
+            "actual_date": "2026-08-16",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-18",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-19",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-20",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-21",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-22",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-23",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-08-30",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          }
+        ]
+      },
+      "7": {
+        "n": 0,
+        "hits": 0,
+        "accuracy": null,
+        "samples": []
+      }
+    }
+  },
+  "stability": {
+    "offshore": {
+      "n": 16,
+      "mean_same_as_day0_ratio": 1.0
+    },
+    "inshore": {
+      "n": 16,
+      "mean_same_as_day0_ratio": 0.9732142857142857
+    }
+  },
+  "by_region": {
+    "northeast": {
+      "accuracy": {
+        "offshore": {
+          "1": {
+            "n": 11,
+            "hits": 11,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-08-17",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-18",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-19",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-20",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-21",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-22",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-23",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-28",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-29",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-30",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              }
+            ]
+          },
+          "3": {
+            "n": 8,
+            "hits": 8,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-08-16",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-18",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-19",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-20",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-21",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-22",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-23",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-30",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              }
+            ]
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        },
+        "inshore": {
+          "1": {
+            "n": 11,
+            "hits": 11,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-08-17",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-18",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-19",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-20",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-21",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-22",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-23",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-28",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-29",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-30",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              }
+            ]
+          },
+          "3": {
+            "n": 8,
+            "hits": 8,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-08-16",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-18",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-19",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-20",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-21",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-22",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-23",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-08-30",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              }
+            ]
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        }
+      },
+      "stability": {
+        "offshore": {
+          "n": 16,
+          "mean_same_as_day0_ratio": 1.0
+        },
+        "inshore": {
+          "n": 16,
+          "mean_same_as_day0_ratio": 0.9732142857142857
+        }
+      }
+    },
+    "mid_atlantic": {
+      "accuracy": {
+        "offshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        },
+        "inshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        }
+      },
+      "stability": {
+        "offshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 0.7857142857142857
+        },
+        "inshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 1.0
+        }
+      }
+    },
+    "gulf": {
+      "accuracy": {
+        "offshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        },
+        "inshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        }
+      },
+      "stability": {
+        "offshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 0.8928571428571428
+        },
+        "inshore": {
+          "n": 0,
+          "mean_same_as_day0_ratio": null
+        }
+      }
+    },
+    "south_florida": {
+      "accuracy": {
+        "offshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        },
+        "inshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        }
+      },
+      "stability": {
+        "offshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 0.7857142857142857
+        },
+        "inshore": {
+          "n": 0,
+          "mean_same_as_day0_ratio": null
+        }
+      }
+    },
+    "south_atlantic": {
+      "accuracy": {
+        "offshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        },
+        "inshore": {
+          "1": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "3": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          },
+          "7": {
+            "n": 0,
+            "hits": 0,
+            "accuracy": null,
+            "samples": []
+          }
+        }
+      },
+      "stability": {
+        "offshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 0.5714285714285714
+        },
+        "inshore": {
+          "n": 4,
+          "mean_same_as_day0_ratio": 1.0
+        }
+      }
+    }
+  }
+}

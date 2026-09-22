@@ -1,0 +1,7 @@
+# Fish Finder is a personal fishing-prediction tool for Randy Spargo.
+# We display live AIS vessel positions (public VHF broadcast maritime
+# safety data) for personal-use fishing intelligence — not for
+# search-engine indexing or public surveillance of individual boats.
+# Please respect the noindex directive on individual pages.
+User-agent: *
+Disallow: /

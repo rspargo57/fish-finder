@@ -1,0 +1,28 @@
+{
+  "_readme": "First Mate weight-change log. Documented in skills/first-mate/SKILL.md's 'Weight tuning approach' section. Every change to a signal weight or proximity threshold in effectiveHeat() should get appended here so we can retrospectively evaluate whether a change actually helped or hurt over 30+ days of archive. Append-only. Never edit history. Every entry: date_changed (ISO), signal, change_type (weight | proximity | vocab | activation), old_value, new_value, rationale, expected_hit_rate_delta, first_mate_notes, archive_baseline (which archive dates were the 'before' state).",
+  "schema_version": 1,
+  "changes": [
+    {
+      "date_changed": "2026-09-11",
+      "signal": "persistenceBoost",
+      "change_type": "activation",
+      "old_value": "dormant (0 firings across 28 snapshots, 2+ months)",
+      "new_value": "structurally active",
+      "rationale": "compute_persistence_flags in model_signals.py required exactly 3 consecutive prior days of archive to declare persistence. Randy's archive has multi-day gaps (missing nightlies from proxy/retry issues), so the 'missing a day → return []' early-exit fired every day and the signal was permanently 0. Rewrote to tolerate gaps: take the most recent N snapshots within a 2N-day lookback window. Same semantic intent ('an SST break that stayed put over multiple days') but measured against snapshots we actually have.",
+      "expected_hit_rate_delta": "unknown — signal was structurally dormant so we have zero historical data. First 30 days after this ship give us the baseline. Expect it fires on 0-5% of zones per day when persistent breaks form near canyons/ledges.",
+      "first_mate_notes": "This isn't a weight tune — it's a bug fix that turned a dormant signal into an active one. Do NOT count the first 30 days of firings as 'the signal is helpful' vs any real baseline; instead, use those days to establish what a 'normal' firing rate looks like. Only after we have 30+ days should we start asking whether persistence-boosted zones outperform.",
+      "archive_baseline": "2026-07-25 through 2026-09-09 — 28 snapshots, all with persistenceBoost=0 for every zone"
+    },
+    {
+      "date_changed": "2026-09-11",
+      "signal": "persistenceBoost",
+      "change_type": "proximity",
+      "old_value": "12 nm",
+      "new_value": "15 nm",
+      "rationale": "Aligned proximity radius with the sistem signals (sstGradientBoost and sshaBoost both use 15 nm as the standard 'oceanographic feature close enough to matter' cutoff, per the First Mate signal-backlog documentation). 12 nm on persistenceBoost was inherited without rationale.",
+      "expected_hit_rate_delta": "roughly 1.5x more zones per persistent break can qualify (15 nm radius circle area = 1.56x the 12 nm area). Not a weight-value change — same +0.3 boost, wider trigger radius.",
+      "first_mate_notes": "This ships together with the activation fix above, so we can't disentangle their individual effects — but that's fine because the goal is 'signal now fires when it should'. Both changes applied to client (fish-finder.src.html persistenceBoost) and server (archive.py _persistence_boost) for parity.",
+      "archive_baseline": "same as above — no data at either radius before this ship"
+    }
+  ]
+}

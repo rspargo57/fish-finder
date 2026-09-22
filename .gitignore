@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.wrangler/
+node_modules/
+config/*.txt
+config/*.key
+deploy/*.zip
+*.log
+/tmp/

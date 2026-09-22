@@ -1,0 +1,5984 @@
+{
+  "_notes": "Fish Finder Zone 2 \u2014 Mid-Atlantic (NJ/DE/MD/VA/NC). Home port: Cape May, NJ. Seeded 2026-08-22 from Second Mate pre-scoped playbook. Beta \u2014 captain-intel sources not yet wired; picks rank on seasonal presence + SST fit + canyon proximity until captain heat scores populate.",
+  "region_id": "midatl",
+  "region_label": "Mid-Atlantic",
+  "region_short": "Mid-Atl",
+  "generated": "2026-09-19",
+  "season": 2026,
+  "home_port": {
+    "name": "Utsch's Marina",
+    "town": "Cape May, NJ",
+    "coords": [
+      38.9351,
+      -74.906
+    ],
+    "notes": "Cape May primary \u2014 access to Hudson (60nm), Baltimore, Wilmington canyons + Cape May Rips + Delaware Bay mouth."
+  },
+  "boat": {
+    "make_model": "28' Cobia (default)",
+    "comfortable_seas_ft": 2,
+    "tolerable_seas_ft": 3,
+    "fuel_tank_gallons": 175,
+    "miles_per_gallon": 1.6,
+    "safe_tank_pct": 0.8,
+    "trolling_reserve_gal": 12,
+    "safety_reserve_gal": 10,
+    "practical_day_range_nm": 65,
+    "extended_range_nm": 75,
+    "max_range_nm": 90,
+    "cruise_mph": 30,
+    "notes": "Same profile as Zone 1 default \u2014 visitor can customize via \u2693 chip."
+  },
+  "wind_thresholds": {
+    "comfortable_max_mph": 10,
+    "tolerable_max_mph": 15,
+    "nogo_min_mph": 16
+  },
+  "map": {
+    "center": [
+      37.5,
+      -74.0
+    ],
+    "zoom": 7,
+    "min_lat": 34.5,
+    "max_lat": 40.5,
+    "min_lon": -76.5,
+    "max_lon": -70.5
+  },
+  "sub_regions": {
+    "NJ": "New Jersey",
+    "DE": "Delaware",
+    "MD": "Maryland",
+    "VA": "Virginia",
+    "NC": "North Carolina"
+  },
+  "tide_station": {
+    "id": "8536110",
+    "name": "Cape May, NJ"
+  },
+  "noaa_gridpoint": {
+    "office": "PHI",
+    "gridX": 65,
+    "gridY": 35,
+    "path": "PHI/65,35"
+  },
+  "port_presets": [
+    {
+      "name": "Utsch's Marina",
+      "town": "Cape May, NJ",
+      "coords": [
+        38.9351,
+        -74.906
+      ],
+      "range": 90
+    },
+    {
+      "name": "Canyon Club",
+      "town": "Cape May, NJ",
+      "coords": [
+        38.9425,
+        -74.8927
+      ],
+      "range": 90
+    },
+    {
+      "name": "Atlantic City",
+      "town": "Atlantic City, NJ",
+      "coords": [
+        39.365,
+        -74.418
+      ],
+      "range": 90
+    },
+    {
+      "name": "Manasquan Inlet",
+      "town": "Point Pleasant, NJ",
+      "coords": [
+        40.1,
+        -74.033
+      ],
+      "range": 100
+    },
+    {
+      "name": "Indian River Inlet",
+      "town": "Rehoboth, DE",
+      "coords": [
+        38.611,
+        -75.067
+      ],
+      "range": 90
+    },
+    {
+      "name": "Ocean City Inlet",
+      "town": "Ocean City, MD",
+      "coords": [
+        38.325,
+        -75.088
+      ],
+      "range": 90
+    },
+    {
+      "name": "Rudee Inlet",
+      "town": "Virginia Beach, VA",
+      "coords": [
+        36.833,
+        -75.968
+      ],
+      "range": 90
+    },
+    {
+      "name": "Oregon Inlet",
+      "town": "Nags Head, NC",
+      "coords": [
+        35.775,
+        -75.535
+      ],
+      "range": 100
+    },
+    {
+      "name": "Hatteras Village",
+      "town": "Hatteras, NC",
+      "coords": [
+        35.211,
+        -75.687
+      ],
+      "range": 100
+    }
+  ],
+  "region_species_extras": {
+    "cobia": {
+      "label": "Cobia",
+      "color": "#a1887f",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 82,
+      "peak_months": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "king_mackerel": {
+      "label": "King Mackerel",
+      "color": "#ffb74d",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 68,
+      "temp_max_f": 82,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "spanish_mackerel": {
+      "label": "Spanish Mackerel",
+      "color": "#dce775",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 80,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "red_drum": {
+      "label": "Red Drum",
+      "color": "#e57373",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 55,
+      "temp_max_f": 78,
+      "peak_months": [
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  },
+  "zones": [
+    {
+      "id": "hudson_canyon_midatl",
+      "name": "Hudson Canyon",
+      "region": "NJ",
+      "category": "canyon",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "mahi",
+        "white_marlin",
+        "blue_marlin",
+        "wahoo"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          9,
+          8,
+          4,
+          1
+        ],
+        "bigeye_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          7,
+          9,
+          9,
+          7,
+          3,
+          0
+        ],
+        "bluefin_giant": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          8,
+          8,
+          7,
+          4,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          5,
+          1,
+          0
+        ],
+        "white_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          7,
+          3,
+          0,
+          0
+        ],
+        "blue_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          7,
+          7,
+          3,
+          0,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          8,
+          5,
+          1,
+          0
+        ]
+      },
+      "notes": "60 nm SE of Cape May. Premier NJ canyon \u2014 yellowfin + mahi trolling, chunking bluefin, white marlin. Classic canyon action Jul-Oct.",
+      "center": [
+        39.65,
+        -72.75
+      ],
+      "current_sst_f": 72.6,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-02",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "baltimore_canyon",
+      "name": "Baltimore Canyon",
+      "region": "MD",
+      "category": "canyon",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "mahi",
+        "white_marlin",
+        "blue_marlin",
+        "wahoo",
+        "swordfish"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          8,
+          9,
+          9,
+          8,
+          4,
+          1
+        ],
+        "bigeye_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          5,
+          8,
+          9,
+          9,
+          7,
+          3,
+          0
+        ],
+        "bluefin_giant": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          8,
+          9,
+          8,
+          5,
+          1,
+          0
+        ],
+        "white_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          8,
+          4,
+          0,
+          0
+        ],
+        "blue_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          7,
+          3,
+          0,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          5,
+          1,
+          0
+        ],
+        "swordfish": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          2,
+          0
+        ]
+      },
+      "notes": "~85 nm from Cape May. Fleet-favorite canyon out of Ocean City MD. World Cup Blue Marlin territory Aug.",
+      "center": [
+        38.3,
+        -73.833
+      ],
+      "current_sst_f": 74.8,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 5,
+          "channel_count": 2
+        }
+      }
+    },
+    {
+      "id": "wilmington_canyon",
+      "name": "Wilmington Canyon",
+      "region": "DE",
+      "category": "canyon",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "mahi",
+        "white_marlin",
+        "wahoo"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          7,
+          9,
+          9,
+          8,
+          4,
+          1
+        ],
+        "bigeye_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          7,
+          9,
+          8,
+          7,
+          3,
+          0
+        ],
+        "bluefin_giant": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          8,
+          8,
+          7,
+          4,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          5,
+          1,
+          0
+        ],
+        "white_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          7,
+          3,
+          0,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          8,
+          5,
+          1,
+          0
+        ]
+      },
+      "notes": "~75 nm from Cape May. Middle NJ/DE canyon \u2014 often less pressured than Hudson or Baltimore.",
+      "center": [
+        38.75,
+        -73.55
+      ],
+      "current_sst_f": 74.4,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "poor_mans_canyon",
+      "name": "Poor Man's Canyon",
+      "region": "MD",
+      "category": "canyon",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "mahi",
+        "white_marlin",
+        "wahoo"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          9,
+          8,
+          4,
+          1
+        ],
+        "bigeye_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          8,
+          7,
+          3,
+          0
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          5,
+          1,
+          0
+        ],
+        "white_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          8,
+          4,
+          0,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          8,
+          5,
+          1,
+          0
+        ]
+      },
+      "notes": "~110 nm from Cape May \u2014 edge range. Consistent white marlin producer late Aug through Sep.",
+      "center": [
+        37.9,
+        -74.15
+      ],
+      "current_sst_f": 76.4,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "washington_canyon",
+      "name": "Washington Canyon",
+      "region": "VA",
+      "category": "canyon",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "mahi",
+        "wahoo",
+        "blue_marlin"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          3,
+          7,
+          9,
+          9,
+          8,
+          5,
+          2
+        ],
+        "bigeye_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          8,
+          7,
+          3,
+          0
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          4,
+          8,
+          9,
+          8,
+          5,
+          2,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          6,
+          2,
+          0
+        ],
+        "blue_marlin": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          8,
+          7,
+          4,
+          0,
+          0
+        ]
+      },
+      "notes": "~130 nm from Cape May \u2014 canyon-fleet only. Gulf Stream proximity variable \u2014 track daily western-edge.",
+      "center": [
+        37.4,
+        -74.6
+      ],
+      "current_sst_f": 77.7,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "twenty_fathom_line",
+      "name": "20-Fathom Line (E of OC)",
+      "region": "MD",
+      "category": "midshore",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi",
+        "king_mackerel"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          3,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          7,
+          4,
+          1,
+          0
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ]
+      },
+      "notes": "~50 nm from Cape May. Chunk-and-jig bluefin nearshore of the canyon proper. Kings on trolled ballyhoo.",
+      "center": [
+        38.3,
+        -74.7
+      ],
+      "current_sst_f": 74.9,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 5,
+          "channel_count": 2
+        }
+      }
+    },
+    {
+      "id": "twenty_six_mile_hill",
+      "name": "26-Mile Hill",
+      "region": "MD",
+      "category": "midshore",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          6,
+          3,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          7,
+          4,
+          1,
+          0
+        ]
+      },
+      "notes": "~55 nm from Cape May. Consistent bluefin midshore pick summer. Named for distance E of OC.",
+      "center": [
+        38.4,
+        -74.55
+      ],
+      "current_sst_f": 74.9,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 5,
+          "channel_count": 2
+        }
+      }
+    },
+    {
+      "id": "jackspot_hot_dog",
+      "name": "Jackspot (Hot Dog)",
+      "region": "MD",
+      "category": "midshore",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "king_mackerel",
+        "spanish_mackerel",
+        "mako_shark"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          7,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "mako_shark": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          7,
+          6,
+          4,
+          1,
+          0
+        ]
+      },
+      "notes": "20 nm E of Ocean City. Classic Delmarva bluefin + mako hot spot. Sight-fish tuna busts on bait.",
+      "center": [
+        38.45,
+        -74.8
+      ],
+      "current_sst_f": 74.6,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 5,
+          "channel_count": 2
+        }
+      }
+    },
+    {
+      "id": "cigar",
+      "name": "The Cigar (E of VA Beach)",
+      "region": "VA",
+      "category": "midshore",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "king_mackerel"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          4,
+          2
+        ],
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          7,
+          4,
+          1,
+          0
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          3,
+          5,
+          7,
+          8,
+          8,
+          7,
+          6,
+          3,
+          1
+        ]
+      },
+      "notes": "~130 nm from Cape May \u2014 VA canyon-fleet spot. Consistent yellowfin producer, king mackerel abundant summer.",
+      "center": [
+        36.85,
+        -74.7
+      ],
+      "current_sst_f": 78.0,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 3,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "fingers",
+      "name": "The Fingers",
+      "region": "VA",
+      "category": "midshore",
+      "heat": 5,
+      "heat_updated": "2026-08-22",
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "wahoo"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          4,
+          2
+        ],
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          7,
+          4,
+          1,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          6,
+          7,
+          8,
+          6,
+          2,
+          0
+        ]
+      },
+      "notes": "VA/MD border midshore, ~110 nm from Cape May. Bottom finger contours hold bait \u2014 trolled and chunked for tuna.",
+      "center": [
+        37.15,
+        -74.9
+      ],
+      "current_sst_f": 77.9
+    },
+    {
+      "id": "barnegat_ridge",
+      "name": "Barnegat Ridge",
+      "region": "NJ",
+      "category": "nearshore",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi",
+        "mako_shark",
+        "thresher_shark"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          8,
+          6,
+          4,
+          1
+        ],
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          6,
+          2,
+          0
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          7,
+          4,
+          1,
+          0
+        ],
+        "mako_shark": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          7,
+          6,
+          4,
+          1,
+          0
+        ],
+        "thresher_shark": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          5,
+          7,
+          7,
+          6,
+          4,
+          1,
+          0
+        ]
+      },
+      "notes": "30-fathom line ~30 nm E of Barnegat Inlet, ~65 nm from Cape May. Chunk-and-jig bluefin classic. School bluefin all summer.",
+      "center": [
+        39.75,
+        -73.9
+      ],
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-16",
+          "video_count": 2,
+          "channel_count": 1
+        },
+        "fisherman": {
+          "source_count": 1,
+          "latest_date": "2026-08-27"
+        },
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 73.2
+    },
+    {
+      "id": "manasquan_ridge",
+      "name": "Manasquan Ridge",
+      "region": "NJ",
+      "category": "nearshore",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi",
+        "mako_shark"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          8,
+          6,
+          3,
+          1
+        ],
+        "yellowfin_tuna": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          7,
+          6,
+          2,
+          0
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          7,
+          4,
+          1,
+          0
+        ],
+        "mako_shark": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          7,
+          6,
+          4,
+          1,
+          0
+        ]
+      },
+      "notes": "N NJ nearshore \u2014 ~85 nm from Cape May, better from Manasquan itself. Bluefin + mahi run mid-summer.",
+      "center": [
+        40.05,
+        -73.9
+      ],
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 1,
+          "channel_count": 1
+        },
+        "fisherman": {
+          "source_count": 1,
+          "latest_date": "2026-08-13"
+        },
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 73.6
+    },
+    {
+      "id": "sea_girt_reef",
+      "name": "Sea Girt Reef",
+      "region": "NJ",
+      "category": "nearshore",
+      "heat": 4,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "striped_bass",
+        "bluefish"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          7,
+          6,
+          4,
+          2,
+          0
+        ],
+        "striped_bass": [
+          0,
+          0,
+          3,
+          6,
+          8,
+          7,
+          5,
+          5,
+          6,
+          8,
+          7,
+          4
+        ],
+        "bluefish": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          8,
+          8,
+          7,
+          5,
+          3,
+          0
+        ]
+      },
+      "notes": "N NJ artificial reef ~2 nm off Sea Girt. Bluefin school in summer, stripers spring + fall migration.",
+      "center": [
+        40.1,
+        -73.95
+      ],
+      "current_sst_f": 73.5,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-03",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "cape_may_rips",
+      "name": "Cape May Rips",
+      "region": "NJ",
+      "category": "nearshore",
+      "heat": 7,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "spanish_mackerel",
+        "false_albacore"
+      ],
+      "seasonal_presence": {
+        "striped_bass": [
+          1,
+          1,
+          3,
+          6,
+          8,
+          7,
+          5,
+          5,
+          7,
+          9,
+          8,
+          5
+        ],
+        "bluefish": [
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          7,
+          7,
+          6,
+          4,
+          1
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "false_albacore": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          6,
+          9,
+          9,
+          6,
+          1
+        ]
+      },
+      "notes": "The reefs and rips just off Cape May Point \u2014 15 nm from home port. Striper fall migration is stellar. Albies Sep-Oct.",
+      "center": [
+        38.87,
+        -74.8
+      ],
+      "current_sst_f": 74.4,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-09",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "fenwick_shoal",
+      "name": "Fenwick Shoal",
+      "region": "DE",
+      "category": "nearshore",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "bluefin_recreational",
+        "king_mackerel",
+        "spanish_mackerel",
+        "false_albacore"
+      ],
+      "seasonal_presence": {
+        "bluefin_recreational": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          8,
+          7,
+          5,
+          3,
+          1
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          4,
+          7,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "false_albacore": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          4,
+          6,
+          8,
+          9,
+          6,
+          1
+        ]
+      },
+      "notes": "~35 nm from Cape May. Kings + Spanish push into the shoal on warm-water tongues.",
+      "center": [
+        38.4,
+        -74.85
+      ],
+      "current_sst_f": 74.5,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "delaware_bay_mouth",
+      "name": "Delaware Bay Mouth",
+      "region": "DE",
+      "category": "inshore",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "spanish_mackerel"
+      ],
+      "seasonal_presence": {
+        "striped_bass": [
+          1,
+          1,
+          3,
+          7,
+          9,
+          8,
+          5,
+          5,
+          7,
+          9,
+          8,
+          5
+        ],
+        "bluefish": [
+          0,
+          0,
+          0,
+          3,
+          7,
+          8,
+          8,
+          7,
+          7,
+          6,
+          4,
+          1
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ]
+      },
+      "notes": "10 nm from home port. Best striper action spring + fall migration; chunk bunker or troll.",
+      "center": [
+        38.85,
+        -75.0
+      ],
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-17",
+          "video_count": 3,
+          "channel_count": 1
+        },
+        "fisherman": {
+          "source_count": 1,
+          "latest_date": "2026-08-13"
+        }
+      },
+      "current_sst_f": 75.0
+    },
+    {
+      "id": "cbbt_chesapeake_mouth",
+      "name": "CBBT (Chesapeake Bay Mouth)",
+      "region": "VA",
+      "category": "inshore",
+      "heat": 6,
+      "heat_updated": "2026-09-17",
+      "species": [
+        "cobia",
+        "red_drum",
+        "striped_bass",
+        "spanish_mackerel"
+      ],
+      "seasonal_presence": {
+        "cobia": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          7,
+          9,
+          9,
+          8,
+          4,
+          0,
+          0
+        ],
+        "red_drum": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          5,
+          7,
+          9,
+          9,
+          8,
+          4,
+          1
+        ],
+        "striped_bass": [
+          3,
+          3,
+          4,
+          5,
+          6,
+          4,
+          3,
+          3,
+          5,
+          7,
+          9,
+          8
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ]
+      },
+      "notes": "Chesapeake Bay Bridge Tunnel \u2014 VA's signature spot. Sight-fish cobia summer, bull-red drum schools fall, winter striper migration.",
+      "center": [
+        36.95,
+        -76.05
+      ],
+      "current_sst_f": 77.8,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-09",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "oregon_inlet",
+      "name": "Oregon Inlet (NC)",
+      "region": "NC",
+      "category": "inshore",
+      "heat": 6,
+      "heat_updated": "2026-09-19",
+      "species": [
+        "red_drum",
+        "striped_bass",
+        "bluefish",
+        "king_mackerel",
+        "spanish_mackerel"
+      ],
+      "seasonal_presence": {
+        "red_drum": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          8,
+          7,
+          7,
+          9,
+          9,
+          7,
+          4
+        ],
+        "striped_bass": [
+          7,
+          7,
+          6,
+          4,
+          2,
+          0,
+          0,
+          0,
+          2,
+          5,
+          8,
+          9
+        ],
+        "bluefish": [
+          3,
+          3,
+          5,
+          7,
+          8,
+          8,
+          7,
+          6,
+          7,
+          7,
+          5,
+          3
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          9,
+          8,
+          6,
+          3,
+          1
+        ],
+        "spanish_mackerel": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          9,
+          8,
+          6,
+          3,
+          1
+        ]
+      },
+      "notes": "OBX gateway inlet. Wintertime giant striper run (Nov-Mar). Kings + Spanish + cobia summer. Fleet posts daily.",
+      "center": [
+        35.775,
+        -75.535
+      ],
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "diamond_shoals",
+      "name": "Diamond Shoals (Hatteras)",
+      "region": "NC",
+      "category": "nearshore",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_giant",
+        "king_mackerel",
+        "mahi",
+        "red_drum"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          7,
+          7,
+          6,
+          4,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          7,
+          7
+        ],
+        "bluefin_giant": [
+          8,
+          8,
+          7,
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          3,
+          7
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          4,
+          1
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "red_drum": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          8,
+          7,
+          7,
+          9,
+          9,
+          7,
+          4
+        ]
+      },
+      "notes": "Cape Hatteras shoals. Winter giant bluefin fishery (Jan-Mar) \u2014 world-class. Summer kings + mahi. Extreme currents.",
+      "center": [
+        35.15,
+        -75.3
+      ],
+      "current_sst_f": 82.3,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "hatteras_the_point",
+      "name": "The Point (Hatteras)",
+      "region": "NC",
+      "category": "nearshore",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "wahoo",
+        "king_mackerel",
+        "sailfish"
+      ],
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          7,
+          8,
+          7,
+          4,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          7,
+          7
+        ],
+        "bluefin_recreational": [
+          5,
+          7,
+          7,
+          4,
+          2,
+          3,
+          4,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "mahi": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          7,
+          8,
+          8,
+          7,
+          5,
+          2,
+          0
+        ],
+        "wahoo": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          5,
+          7,
+          8,
+          8,
+          7,
+          3,
+          1
+        ],
+        "king_mackerel": [
+          0,
+          0,
+          0,
+          3,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          4,
+          1
+        ],
+        "sailfish": [
+          0,
+          0,
+          0,
+          0,
+          3,
+          5,
+          6,
+          7,
+          7,
+          5,
+          2,
+          0
+        ]
+      },
+      "notes": "Where the Gulf Stream comes closest to shore \u2014 12-25 nm. Year-round tuna. Sailfish in warm months. Small-boat access from Hatteras Village.",
+      "center": [
+        35.2,
+        -75.35
+      ],
+      "current_sst_f": 81.5,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "toms_canyon",
+      "name": "Toms Canyon",
+      "region": "NJ",
+      "category": "canyon",
+      "center": [
+        39.05,
+        -73.05
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "mahi",
+        "wahoo",
+        "blue_marlin"
+      ],
+      "notes": "70+ nm E of Barnegat Inlet. Yellowfin June-Oct, bigeye chunk bite mid-summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "bigeye_tuna": [
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          7,
+          5,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 75.3,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "lindenkohl_canyon",
+      "name": "Lindenkohl Canyon",
+      "region": "NJ",
+      "category": "canyon",
+      "center": [
+        38.85,
+        -72.85
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "mahi",
+        "wahoo",
+        "blue_marlin"
+      ],
+      "notes": "Deep-water canyon 85 nm E of Little Egg Inlet. Bigeye + white marlin summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "bigeye_tuna": [
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          7,
+          5,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 78.6,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "spencer_canyon",
+      "name": "Spencer Canyon",
+      "region": "NJ",
+      "category": "canyon",
+      "center": [
+        38.7,
+        -72.7
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "mahi",
+        "wahoo",
+        "blue_marlin",
+        "white_marlin"
+      ],
+      "notes": "White marlin corridor Aug-Sep. Deep-drop swordfish.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "bigeye_tuna": [
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          7,
+          5,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "white_marlin": [
+          2,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 78.5,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-02",
+          "video_count": 1,
+          "channel_count": 1
+        },
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "norfolk_canyon",
+      "name": "Norfolk Canyon",
+      "region": "VA",
+      "category": "canyon",
+      "center": [
+        37.05,
+        -74.75
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "wahoo",
+        "mahi",
+        "blue_marlin",
+        "white_marlin"
+      ],
+      "notes": "Southern-most Mid-Atl canyon \u2014 60nm E of Rudee Inlet. Tuna + bill summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "bigeye_tuna": [
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "white_marlin": [
+          2,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 77.7,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "mud_hole_nj",
+      "name": "The Mud Hole (NJ)",
+      "region": "NJ",
+      "category": "midshore",
+      "center": [
+        40.35,
+        -73.6
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi"
+      ],
+      "notes": "Bluefin migration corridor 30nm E of Manasquan. Summer tuna push.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "bluefin_recreational": [
+          4,
+          4,
+          4,
+          5,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 73.2
+    },
+    {
+      "id": "bacardi_wreck",
+      "name": "Bacardi Wreck",
+      "region": "NJ",
+      "category": "midshore",
+      "center": [
+        40.05,
+        -73.68
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "cod",
+        "ling"
+      ],
+      "notes": "Deep-water wreck 40nm E of Barnegat. Big sea bass + cod.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "cod": [
+          8,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3,
+          5,
+          7,
+          8,
+          8
+        ],
+        "ling": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7,
+          7,
+          7,
+          6,
+          5,
+          5
+        ]
+      },
+      "current_sst_f": 73.1
+    },
+    {
+      "id": "immigrant_wreck",
+      "name": "Immigrant Wreck",
+      "region": "NJ",
+      "category": "midshore",
+      "center": [
+        39.55,
+        -73.62
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "cod",
+        "ling"
+      ],
+      "notes": "185ft freighter 45nm E of Atlantic City. Structure bite year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "cod": [
+          8,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3,
+          5,
+          7,
+          8,
+          8
+        ],
+        "ling": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7,
+          7,
+          7,
+          6,
+          5,
+          5
+        ]
+      },
+      "current_sst_f": 72.9
+    },
+    {
+      "id": "mohawk_wreck",
+      "name": "Mohawk Wreck",
+      "region": "NJ",
+      "category": "midshore",
+      "center": [
+        39.85,
+        -73.75
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "ling",
+        "cod"
+      ],
+      "notes": "USS Mohawk cutter, deep wreck 35nm E of Barnegat.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "ling": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7,
+          7,
+          7,
+          6,
+          5,
+          5
+        ],
+        "cod": [
+          8,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3,
+          5,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 73.3
+    },
+    {
+      "id": "delaware_ii_wreck",
+      "name": "Delaware II / Fire Island Buoy area",
+      "region": "NJ",
+      "category": "midshore",
+      "center": [
+        40.55,
+        -73.05
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "cod"
+      ],
+      "notes": "Series of wrecks off Long Island south shore \u2014 Mid-Atl-adjacent.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "cod": [
+          8,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3,
+          5,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 71.8
+    },
+    {
+      "id": "triple_wreck_reef",
+      "name": "Triple Wrecks Reef",
+      "region": "NJ",
+      "category": "nearshore",
+      "center": [
+        39.75,
+        -74.05
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "porgy",
+        "fluke"
+      ],
+      "notes": "State artificial reef complex 8nm E of Atlantic City.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "porgy": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "fluke": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          6,
+          3,
+          2
+        ]
+      },
+      "current_sst_f": 73.7
+    },
+    {
+      "id": "indian_river_ledge",
+      "name": "Indian River Ledge",
+      "region": "DE",
+      "category": "midshore",
+      "center": [
+        38.55,
+        -74.75
+      ],
+      "species": [
+        "sea_bass",
+        "amberjack",
+        "cod",
+        "flounder"
+      ],
+      "notes": "Deep-water ledge 30nm E of Indian River Inlet.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "cod": [
+          8,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3,
+          5,
+          7,
+          8,
+          8
+        ]
+      },
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 75.3
+    },
+    {
+      "id": "del_bay_wrecks",
+      "name": "Delaware Bay Mouth Wrecks",
+      "region": "DE",
+      "category": "nearshore",
+      "center": [
+        38.75,
+        -75.05
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "flounder",
+        "striped_bass"
+      ],
+      "notes": "Cluster of wrecks around Del Bay mouth. Winter tog + spring stripers.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "striped_bass": [
+          4,
+          4,
+          5,
+          8,
+          9,
+          8,
+          6,
+          5,
+          7,
+          9,
+          9,
+          7
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 74.7
+    },
+    {
+      "id": "del_49th_st_reef",
+      "name": "49th St Reef (Ocean City DE)",
+      "region": "DE",
+      "category": "nearshore",
+      "center": [
+        38.35,
+        -74.9
+      ],
+      "species": [
+        "sea_bass",
+        "tautog",
+        "flounder",
+        "fluke"
+      ],
+      "notes": "State artificial reef offshore Ocean City Delaware.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "tautog": [
+          8,
+          8,
+          8,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          6,
+          8,
+          8
+        ],
+        "fluke": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          6,
+          3,
+          2
+        ]
+      },
+      "current_sst_f": 74.4
+    },
+    {
+      "id": "del_20_fathom",
+      "name": "20 Fathom Line (E of Indian River)",
+      "region": "DE",
+      "category": "midshore",
+      "center": [
+        38.6,
+        -74.55
+      ],
+      "species": [
+        "sea_bass",
+        "amberjack",
+        "flounder"
+      ],
+      "notes": "Contour break 40nm E of Indian River Inlet. Bottom fishing productive.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 75.6
+    },
+    {
+      "id": "great_gully_md",
+      "name": "Great Gully (MD Offshore)",
+      "region": "MD",
+      "category": "midshore",
+      "center": [
+        38.2,
+        -74.35
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "mahi",
+        "amberjack",
+        "sea_bass"
+      ],
+      "notes": "Deep gully 45nm E of Ocean City MD. Yellowfin + bottom combo.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 75.3
+    },
+    {
+      "id": "chicken_bone",
+      "name": "The Chicken Bone",
+      "region": "MD",
+      "category": "midshore",
+      "center": [
+        38.1,
+        -74.35
+      ],
+      "species": [
+        "mahi",
+        "yellowfin_tuna",
+        "amberjack",
+        "wahoo"
+      ],
+      "notes": "Structure formation 50nm E of Ocean City. Chicken-bone shaped drop.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ]
+      },
+      "current_sst_f": 75.6
+    },
+    {
+      "id": "hot_dog_extended",
+      "name": "The Hot Dog (Extended)",
+      "region": "MD",
+      "category": "midshore",
+      "center": [
+        38.02,
+        -74.55
+      ],
+      "species": [
+        "sea_bass",
+        "amberjack",
+        "flounder"
+      ],
+      "notes": "Southern extension of the Jackspot ridge.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 75.7
+    },
+    {
+      "id": "md_wilmington_lump",
+      "name": "Wilmington Lump",
+      "region": "MD",
+      "category": "midshore",
+      "center": [
+        38.3,
+        -74.2
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "mahi",
+        "amberjack"
+      ],
+      "notes": "Underwater mound 55nm E of Ocean City. Summer yellowfin bite.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 75.3
+    },
+    {
+      "id": "md_ridge",
+      "name": "The Ridge (MD)",
+      "region": "MD",
+      "category": "midshore",
+      "center": [
+        38.25,
+        -74.45
+      ],
+      "species": [
+        "sea_bass",
+        "amberjack",
+        "flounder"
+      ],
+      "notes": "Long submerged ridge system 35nm E of Ocean City.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 75.2
+    },
+    {
+      "id": "cbbt_all",
+      "name": "CBBT (Chesapeake Bay Bridge Tunnel)",
+      "region": "VA",
+      "category": "inshore",
+      "center": [
+        36.98,
+        -76.1
+      ],
+      "species": [
+        "striped_bass",
+        "spanish_mackerel",
+        "flounder",
+        "cobia",
+        "bluefish"
+      ],
+      "notes": "All 4 pilings + islands. Trophy striper + cobia migration. Winter deep tog.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "striped_bass": [
+          4,
+          4,
+          5,
+          8,
+          9,
+          8,
+          6,
+          5,
+          7,
+          9,
+          9,
+          7
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "bluefish": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7,
+          5
+        ]
+      },
+      "current_sst_f": 77.2
+    },
+    {
+      "id": "chesapeake_light_tower",
+      "name": "Chesapeake Light Tower",
+      "region": "VA",
+      "category": "midshore",
+      "center": [
+        36.91,
+        -75.71
+      ],
+      "species": [
+        "cobia",
+        "amberjack",
+        "spanish_mackerel",
+        "king_mackerel"
+      ],
+      "notes": "USCG light tower 13nm E of Cape Henry. Cobia migration May-Aug.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 76.6
+    },
+    {
+      "id": "triangle_wrecks",
+      "name": "Triangle Wrecks (VA)",
+      "region": "VA",
+      "category": "midshore",
+      "center": [
+        36.9,
+        -75.8
+      ],
+      "species": [
+        "sea_bass",
+        "flounder",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "3 USS destroyers scuttled in a triangle formation. Wreck bite year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 76.7
+    },
+    {
+      "id": "md_tower_wreck",
+      "name": "MDT Tower Wreck",
+      "region": "VA",
+      "category": "midshore",
+      "center": [
+        36.85,
+        -75.75
+      ],
+      "species": [
+        "sea_bass",
+        "amberjack",
+        "flounder"
+      ],
+      "notes": "MDT (Marine Deployment Target) tower wreck 20nm E of Cape Henry.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          5,
+          4
+        ],
+        "sea_bass": [
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 76.8
+    },
+    {
+      "id": "va_4_pack",
+      "name": "The 4 Pack (VA)",
+      "region": "VA",
+      "category": "nearshore",
+      "center": [
+        36.94,
+        -76.0
+      ],
+      "species": [
+        "cobia",
+        "spanish_mackerel",
+        "sheepshead"
+      ],
+      "notes": "Cluster of tower buoys 5nm off Cape Henry. Cobia sight fishing.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "sheepshead": [
+          8,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 78.6
+    },
+    {
+      "id": "norfolk_canyon_edge",
+      "name": "Norfolk Canyon Edge (Deep Drop)",
+      "region": "VA",
+      "category": "canyon",
+      "center": [
+        37.0,
+        -74.9
+      ],
+      "species": [
+        "swordfish",
+        "yellowfin_tuna",
+        "bigeye_tuna"
+      ],
+      "notes": "Deep-drop swordfish along the canyon rim. Daytime sword.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "bigeye_tuna": [
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          7,
+          5,
+          4
+        ],
+        "swordfish": [
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 78.0
+    },
+    {
+      "id": "oregon_inlet_break",
+      "name": "Oregon Inlet Break",
+      "region": "NC",
+      "category": "midshore",
+      "center": [
+        35.7,
+        -75.15
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "mahi",
+        "wahoo",
+        "sailfish"
+      ],
+      "notes": "20nm E of Oregon Inlet \u2014 Gulf Stream edge. Tuna daily in season.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 79.6
+    },
+    {
+      "id": "point_avon",
+      "name": "The Point (Avon NC)",
+      "region": "NC",
+      "category": "midshore",
+      "center": [
+        35.3,
+        -75.2
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "mahi",
+        "sailfish",
+        "wahoo",
+        "blue_marlin"
+      ],
+      "notes": "Where the Gulf Stream pinches closest to shore in NC. Legendary bill spot.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 82.0
+    }
+  ],
+  "sst_layer": {
+    "wms_url": "https://coastwatch.pfeg.noaa.gov/erddap/wms/jplMURSST41/request?",
+    "layer": "jplMURSST41:analysed_sst",
+    "product": "NOAA/JPL MUR SST 1-km daily",
+    "notes": "Same SST source as Northeast. 68\u201372\u00b0F break zones are the tuna target; 70\u201382\u00b0F for cobia + kings."
+  },
+  "primary_species": [
+    "bluefin_recreational",
+    "yellowfin_tuna",
+    "cobia",
+    "king_mackerel",
+    "red_drum"
+  ],
+  "bluefin_size_classes": {
+    "recreational": {
+      "range": "27\u201373 in CFL",
+      "notes": "HMS Angling recreational size class. Same rules as Northeast."
+    },
+    "giant": {
+      "range": "73+ in CFL",
+      "notes": "Trophy \u2014 Hatteras winter fishery is world-class. Release-only for Angling category."
+    }
+  },
+  "bird_intel": [],
+  "heat_scale_rubric": {
+    "1-2": "No current activity for this species",
+    "3-4": "Occasional / pass-through / low density",
+    "5-6": "Steady reports, moderate density, a real option",
+    "7-8": "Hot \u2014 multiple boats scoring, consistent action",
+    "9-10": "On fire \u2014 the bite zone this week"
+  },
+  "species_calendars": {
+    "_note": "Mid-Atlantic baseline \u2014 Cape May, NJ \u2192 Cape Hatteras, NC. Timing shifts south vs Northeast: bluefin runs later (peak NJ Nov, NC Jan-Mar), yellowfin holds longer, king mackerel + cobia + red drum active summer-fall."
+  },
+  "whale_sightings": [
+    {
+      "date": "2026-08-22",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Jersey Shore Whale Watch Trip Report \u2013 An Incredible Day From Belmar to Sandy Hook What an absolutely gorgeous day on the Atlantic Ocean! Today\u2019s whale watching adventure aboard th",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Wednesday, August 19 Whale Watching Report \ud83d\udc0b What a day aboard the Jersey Girl. We ran two successful trips today, with more than 60 passengers on the morning trip and about the sa",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Tuesday, August 18 Whale Watch Trip Report \ud83d\udc0b\ud83d\udc2c What a beautiful day on the ocean aboard the Jersey Girl! We were hoping to find whales closer to Belmar, but when you\u2019re whale watchi",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "Friday, August 14 \ud83d\udc0b Jersey Shore Whale Watch Report What a day on the Jersey Girl! We found three humpback whales off the Sandy Hook area today. Having our new, faster engines make",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-13",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Thursday, August 13 Trip Report \ud83d\udc0b\u2600\ufe0f \u2014 TWO WHALES &#38; A SURPRISE BREACH! What a beautiful day aboard the Jersey Girl! Calm seas, blue skies and plenty of bait as we headed north t",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-10",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "Trip Report 8/9/2026 \u2013 A Humpback Whale, Dolphins All Day &#38; Our Best Dolphin Show of the Year! What a day on the Jersey Shore! Sunday, August 9, 2026 was one of those summer da",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-06",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "Trip Report \u2013 August 6, 2026: Spectacular Lunge-Feeding Humpback Whale Off Sandy Hook Today\u2019s whale watching adventure aboard Jersey Shore Whale Watch was one of those unforgettabl",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-07-28",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Ocean Safari 75: A 10-Hour Offshore Whale and Pelagic Bird Expedition Monday, August 17 &#124; Departing from Belmar Marina, New Jersey The first 30 tickets are $150 each , after t",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Jersey Shore Whale Watch Trip Report \u2013 July 26, 2026: Lots of Lunge Feeding Near Sandy Hook Trip Report 7/26/2026 \u2013 LOTS of lunge feeding! What an incredible summer Sunday on the A",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "Whale Watching Trip Report \u2013 July 25, 2026 So Much Tail Slapping Along the Jersey Shore! Passengers aboard the Jersey Girl for our 12:30 p.m. Jersey Shore whale watching tour were",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "What a beautiful Thursday afternoon on the water! Today\u2019s whale watch featured a spectacular humpback whale just off Ocean Grove before we enjoyed a scenic cruise north along the J",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Wednesday, August 26 Whale Watching Report \ud83d\udc0b\u2600\ufe0f What an absolutely beautiful day on the ocean! We had a sold-out crowd aboard the Jersey Girl and headed north toward the Sandy Hook",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "Once again, the whales are up near the Sandy Hook area \u2014 and it all comes down to the bait fish. Humpback whales love bunker, and as long as the bunker remain concentrated along th",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Monday, August 24, 2026 Whale Watching Trip Report What an absolutely beautiful Jersey Shore summer day! We headed north along the coastline, passing Avon-by-the-Sea and Bradley Be",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "Sorry I haven\u2019t been able to keep up with posting our trip reports on a daily basis! We\u2019ve been busy out on the water, and the good news is that we\u2019ve been seeing whales every day",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "species": [
+        "humpback",
+        "bottlenose dolphin"
+      ],
+      "kind": "mixed",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "\ud83d\udc2c Dolphins, a Humpback Whale, and Ocean Conditions Like a Lake! Jersey Shore Whale Watch Trip Report &#124; September 8, 2026 What a beautiful afternoon to be out on the water! Tod",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "species": [
+        "unspecified_cetacean"
+      ],
+      "kind": "generic",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch_generic",
+      "quote": "\ud83d\udc0bff8bbbb73e5f47398521369709fe13bd On Saturday, September 12, the whales decided they liked the waters off Coney Island, taking us much closer to New York City than we usually trave",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "species": [
+        "dolphin_generic"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "On The Water Media",
+      "coords": [
+        39.65,
+        -72.75
+      ],
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "500-Pound Swordfish Sets New Maine State Record | Northeast Offshore Fishing Report Sept. 2nd 2026",
+      "link": "https://www.youtube.com/watch?v=gF2Pe_Si_Ko",
+      "zones": [
+        "hudson_canyon_midatl",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "spencer_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "species": [
+        "dolphin_generic"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "The Fisherman Magazine",
+      "coords": [
+        40.1,
+        -73.95
+      ],
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=n6XWxY0iE10",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "cape_may_rips",
+        "delaware_bay_mouth",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "cigar"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "species": [
+        "dolphin_generic"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "The Fisherman Magazine",
+      "coords": [
+        39.75,
+        -73.9
+      ],
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd 2026 New England Video Fishing Forecast with Dave Anderson",
+      "link": "https://www.youtube.com/watch?v=uiGzSCiM7Uk",
+      "zones": [
+        "barnegat_ridge",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "cigar"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "species": [
+        "porpoise"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "On The Water Media",
+      "coords": [
+        38.45,
+        -74.8
+      ],
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "Check out the full breakdown at On The Water\u2019s YouTube channel or the link in bio at 5pm ET.",
+      "link": "https://www.youtube.com/shorts/va9rucMK3OU",
+      "zones": [
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "\ud83d\udc0b WHALE NEGOTIATIONS UPDATE: They brought a friend. And moved the meeting farther away. We returned to the bargaining table today, Thursday, September 17, only to find TWO humpback",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Manasquan Inlet (Jersey Shore Whale Watch \u2014 Bill McKim)",
+      "coords": [
+        40.1,
+        -73.9
+      ],
+      "source": "Jersey Shore Whale Watching Tour (Bill McKim / Belmar NJ) \u2014 auto-harvested",
+      "source_type": "jersey_shore_whale_watch",
+      "quote": "\ud83d\udc0b September 19 Trip Report: The Whale Union Sent Us to Rockaway! Humpback whales on BOTH Saturday trips aboard the Jersey Girl! Despite what we thought were productive negotiations",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "barnegat_ridge"
+      ]
+    }
+  ],
+  "bait_intel": [
+    {
+      "date": "2026-08-13",
+      "bait": "regional_forecast",
+      "location": "The Fisherman",
+      "species_feeding": null,
+      "source": "The Fisherman regional forecast",
+      "source_type": "fisherman_auto",
+      "quote": "We lead off this week&#8217;s video fishing forecast for the New Jersey, Delaware Bay region roughly 75 miles east of&#8230;",
+      "link": "https://www.thefisherman.com/nj-de-bay-region-fishing-forecast-august-13th-2026/",
+      "zones": [
+        "manasquan_ridge",
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "bait": "regional_forecast",
+      "location": "The Fisherman",
+      "species_feeding": null,
+      "source": "The Fisherman regional forecast",
+      "source_type": "fisherman_auto",
+      "quote": "&nbsp; As discussed in the opening 60 seconds, there&#8217;s a lot to get to this week as we head prepare&#8230;",
+      "link": "https://www.thefisherman.com/nj-de-bay-region-fishing-forecast-august-27th-2026/",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "As discussed in the opening 60 seconds, there's a lot to get to this week as we head prepare to flip the calendar from August to September. First we'll do a deep dive into the September edition of The Fisherman Magazine coming to newsstands and tackle shops - and subscriber mailb",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3101187",
+      "zones": [
+        "barnegat_ridge",
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "It's Thursday morning, August 20th, and we're looking at a bit of rain at the Jersey Shore later this afternoon; clearer skies in the Friday forecast, but the weather prognosticators have us down for another bout of showers on Saturday. Grab a light set of oilskins for the weeken",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3083420",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "soon",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3065378",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "manasquan_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "sea_girt_reef"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "point_avon"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-3-2026",
+      "zones": [
+        "point_avon"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, sand ee",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-3-2026",
+      "zones": [
+        "washington_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, silvers",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-3-2026",
+      "zones": [
+        "diamond_shoals"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, sand eels, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/coastal-new-hampshire-and-maine-coast-fishing-report-september-3-2026",
+      "zones": [
+        "diamond_shoals"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "hatteras_the_point"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-3-2026",
+      "zones": [
+        "hatteras_the_point"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, silvers",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-3-2026",
+      "zones": [
+        "mud_hole_nj"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "mud_hole_nj"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-08-31",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396223318",
+      "lat": 40.4426,
+      "lon": -74.167,
+      "dist_nm": 22.8
+    },
+    {
+      "date": "2026-08-29",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395768241",
+      "lat": 38.7837,
+      "lon": -75.0861,
+      "dist_nm": 2.6
+    },
+    {
+      "date": "2026-08-28",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "del_49th_st_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396685189",
+      "lat": 38.2055,
+      "lon": -75.1601,
+      "dist_nm": 15.0
+    },
+    {
+      "date": "2026-08-19",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392836958",
+      "lat": 40.1856,
+      "lon": -74.0234,
+      "dist_nm": 6.1
+    },
+    {
+      "date": "2026-08-14",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "delaware_bay_mouth"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391123369",
+      "lat": 38.9783,
+      "lon": -74.9612,
+      "dist_nm": 7.9
+    },
+    {
+      "date": "2026-09-01",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396499499",
+      "lat": 38.8044,
+      "lon": -75.0923,
+      "dist_nm": 3.8
+    },
+    {
+      "date": "2026-08-21",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393214943",
+      "lat": 38.7844,
+      "lon": -75.1444,
+      "dist_nm": 4.9
+    },
+    {
+      "date": "2026-08-28",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395136178",
+      "lat": 40.1178,
+      "lon": -74.0507,
+      "dist_nm": 4.7
+    },
+    {
+      "date": "2026-08-21",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_49th_st_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393467673",
+      "lat": 38.4662,
+      "lon": -75.0722,
+      "dist_nm": 10.7
+    },
+    {
+      "date": "2026-08-21",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393344866",
+      "lat": 39.6009,
+      "lon": -74.3409,
+      "dist_nm": 16.2
+    },
+    {
+      "date": "2026-08-21",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393215232",
+      "lat": 38.7846,
+      "lon": -75.1446,
+      "dist_nm": 4.9
+    },
+    {
+      "date": "2026-08-19",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396567092",
+      "lat": 38.7834,
+      "lon": -75.1111,
+      "dist_nm": 3.5
+    },
+    {
+      "date": "2026-08-17",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_may_rips"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392169101",
+      "lat": 38.9502,
+      "lon": -74.9057,
+      "dist_nm": 6.9
+    },
+    {
+      "date": "2026-08-17",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392529460",
+      "lat": 38.6083,
+      "lon": -75.1832,
+      "dist_nm": 10.6
+    },
+    {
+      "date": "2026-08-16",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391731068",
+      "lat": 38.8583,
+      "lon": -75.2443,
+      "dist_nm": 11.2
+    },
+    {
+      "date": "2026-08-16",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391891873",
+      "lat": 40.1388,
+      "lon": -74.0286,
+      "dist_nm": 4.3
+    },
+    {
+      "date": "2026-08-15",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_may_rips"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391445114",
+      "lat": 39.0895,
+      "lon": -74.7208,
+      "dist_nm": 13.7
+    },
+    {
+      "date": "2026-08-24",
+      "type": "mackerel",
+      "species": "Atlantic mackerel",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394118408",
+      "lat": 40.1872,
+      "lon": -74.0111,
+      "dist_nm": 5.9
+    },
+    {
+      "date": "2026-08-23",
+      "type": "mackerel",
+      "species": "Atlantic mackerel",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394010860",
+      "lat": 40.1872,
+      "lon": -74.011,
+      "dist_nm": 5.9
+    },
+    {
+      "date": "2026-08-22",
+      "type": "mackerel",
+      "species": "Atlantic mackerel",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393979207",
+      "lat": 40.1845,
+      "lon": -74.1323,
+      "dist_nm": 9.8
+    },
+    {
+      "date": "2026-08-19",
+      "type": "mackerel",
+      "species": "Atlantic mackerel",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392808096",
+      "lat": 40.1879,
+      "lon": -74.0109,
+      "dist_nm": 6.0
+    },
+    {
+      "date": "2026-08-28",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "sea_girt_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395148148",
+      "lat": 40.0095,
+      "lon": -74.169,
+      "dist_nm": 11.4
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "cape_may_rips"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "mohawk_wreck"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "bunker",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=n6XWxY0iE10",
+      "zones": [
+        "manasquan_ridge",
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "We're heading into Labor Day weekend with video of a purported inshore white marlin catch &amp; release less than 10 miles from the beach. Other exotics showing up in our fishing reports this week include a Delaware barracuda, a Nantucket cubera snapper, and some South Jersey suc",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3119260",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "captain_report",
+      "location": "Carolina Sportsman",
+      "species_feeding": null,
+      "source": "Carolina Sportsman",
+      "source_type": "charter_auto",
+      "quote": "Record fish weighed 85 pounds David Ashman of Mohnton, PA caught North Carolina&#8217;s new state record cubera snapper, an 85-pound fish, while fishing out of Hatteras on July 31, 2026. The new record fish crushed the previous state record, which weighed 58 pounds, 8 ounces, and",
+      "link": "https://www.carolinasportsman.com/fishing/offshore-fishing/snapper/david-ashman-catches-new-nc-state-record-cubera-snapper/",
+      "zones": [
+        "diamond_shoals",
+        "hatteras_the_point",
+        "oregon_inlet"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_may_rips"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397834322",
+      "lat": 39.2606,
+      "lon": -74.594,
+      "dist_nm": 25.3
+    },
+    {
+      "date": "2026-09-05",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_49th_st_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397448361",
+      "lat": 38.4391,
+      "lon": -75.0603,
+      "dist_nm": 9.2
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "bait": "silversides",
+      "location": "Fisherman's Headquarters",
+      "species_feeding": null,
+      "source": "YouTube: Fisherman's Headquarters",
+      "source_type": "youtube_auto",
+      "quote": "LBI Fishing Report 9/8/26 - \"Summer\" Is Over But September Has A Lot Left In The Tank!",
+      "link": "https://www.youtube.com/watch?v=0rZ9c1hnXSI",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "Forget the bluefin\u2014North Carolina\u2019s Outer Banks offers an incredible year-round tuna fishery. Yellowfin and big eye tuna are providing offshore anglers with an exceptional bite, including some unusually large fish this season. From trolling and jigging to the adrenaline-pumping g",
+      "link": "https://coastalanglermag.com/the-ultimate-meat-trip-north-carolinas-outer-banks/?utm_source=rss&utm_medium=rss&utm_campaign=the-ultimate-meat-trip-north-carolinas-outer-banks",
+      "zones": [
+        "oregon_inlet",
+        "diamond_shoals",
+        "hatteras_the_point"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397988828",
+      "lat": 39.7589,
+      "lon": -74.111,
+      "dist_nm": 2.9
+    },
+    {
+      "date": "2026-08-31",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "delaware_bay_mouth"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398279579",
+      "lat": 38.9329,
+      "lon": -74.956,
+      "dist_nm": 5.4
+    },
+    {
+      "date": "2026-09-14",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "bait": "squid",
+      "location": "On The Water Media",
+      "species_feeding": null,
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "500-Pound Swordfish Sets New Maine State Record | Northeast Offshore Fishing Report Sept. 2nd 2026",
+      "link": "https://www.youtube.com/watch?v=gF2Pe_Si_Ko",
+      "zones": [
+        "hudson_canyon_midatl",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "spencer_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "squid",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=n6XWxY0iE10",
+      "zones": [
+        "sea_girt_reef",
+        "manasquan_ridge",
+        "cape_may_rips",
+        "delaware_bay_mouth",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "cigar"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "squid",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd 2026 New England Video Fishing Forecast with Dave Anderson",
+      "link": "https://www.youtube.com/watch?v=uiGzSCiM7Uk",
+      "zones": [
+        "barnegat_ridge",
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "cigar"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "butterfish",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+      "link": "https://www.youtube.com/watch?v=nStEMHE2Ygg",
+      "zones": [
+        "jackspot_hot_dog",
+        "twenty_fathom_line",
+        "twenty_six_mile_hill",
+        "baltimore_canyon",
+        "cigar"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "bait": "mackerel",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "The \"Next Cast\" Podcast Episode 25 - September 8th, 2026",
+      "link": "https://www.youtube.com/watch?v=q9Vl8qR5Y0M",
+      "zones": [
+        "cape_may_rips",
+        "delaware_bay_mouth",
+        "cbbt_chesapeake_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "bait": "bunker",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 10th, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=lHcQwcoSZB4",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "And so begins 10 consecutive months of porgy fishing in New Jersey, as the official opening of scup on 9/1 carries through to June of next year with a 10-inch minimum size and 30 fish bag limit. Fluke season in New Jersey is quickly coming to an end as well come 9/25, while the b",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3139883",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "I caught this 50 lbs Atlantic Sailfish in Hatteras, NC. We fed this Atlantic sailfish on a dink bait while &#8230; The post OBX Sailfish first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/obx-sailfish/?utm_source=rss&utm_medium=rss&utm_campaign=obx-sailfish",
+      "zones": [
+        "diamond_shoals",
+        "hatteras_the_point",
+        "oregon_inlet"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "mud_hole_nj"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400225880",
+      "lat": 40.4782,
+      "lon": -74.0099,
+      "dist_nm": 20.3
+    },
+    {
+      "date": "2026-09-11",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "delaware_bay_mouth"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400226027",
+      "lat": 38.9332,
+      "lon": -74.9575,
+      "dist_nm": 5.4
+    },
+    {
+      "date": "2026-09-11",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400306721",
+      "lat": 38.7874,
+      "lon": -75.101,
+      "dist_nm": 3.3
+    },
+    {
+      "date": "2026-09-06",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "mud_hole_nj"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400227131",
+      "lat": 40.4776,
+      "lon": -74.0107,
+      "dist_nm": 20.3
+    },
+    {
+      "date": "2026-09-06",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "delaware_bay_mouth"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398132411",
+      "lat": 38.9328,
+      "lon": -74.9651,
+      "dist_nm": 5.2
+    },
+    {
+      "date": "2026-09-12",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399687062",
+      "lat": 38.7883,
+      "lon": -75.0996,
+      "dist_nm": 3.3
+    },
+    {
+      "date": "2026-09-11",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399536337",
+      "lat": 38.7876,
+      "lon": -75.1007,
+      "dist_nm": 3.3
+    },
+    {
+      "date": "2026-09-10",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "mud_hole_nj"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399133804",
+      "lat": 40.4785,
+      "lon": -74.0102,
+      "dist_nm": 20.3
+    },
+    {
+      "date": "2026-09-11",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400306730",
+      "lat": 38.7882,
+      "lon": -75.1005,
+      "dist_nm": 3.3
+    },
+    {
+      "date": "2026-09-10",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399039935",
+      "lat": 38.6042,
+      "lon": -75.0737,
+      "dist_nm": 8.8
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "manasquan_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "sea_girt_reef"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "cape_may_rips"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-17-2026",
+      "zones": [
+        "fenwick_shoal"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, mullet, peanut bunker,",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-17-2026",
+      "zones": [
+        "diamond_shoals"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/coastal-new-hampshire-and-maine-coast-fishing-report-september-17-2026",
+      "zones": [
+        "diamond_shoals"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "hatteras_the_point"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "bait": "silversides",
+      "location": "Fisherman's Headquarters",
+      "species_feeding": null,
+      "source": "YouTube: Fisherman's Headquarters",
+      "source_type": "youtube_auto",
+      "quote": "LBI Fishing Report 9/16/26: Final Days Of Fluke, Bluefish Blitzes, Moving Mullet & Pompano",
+      "link": "https://www.youtube.com/watch?v=VvM1K6JKrPk",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "bait": "bunker",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 17th, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=oFRHxQ1JmAE",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "New Jersey\u2019s summer flounder season comes to a close on September 25, and while the reefs, wrecks and ocean lumps have been the place to be for targeting keepers in recent weeks, don\u2019t forget about the inlets and \u201cchoke points\u201d this week as well. Plenty of bait out back, includin",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3161865",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "del_bay_wrecks"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401141074",
+      "lat": 38.5945,
+      "lon": -75.2908,
+      "dist_nm": 14.6
+    },
+    {
+      "date": "2026-09-19",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "del_49th_st_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401563606",
+      "lat": 38.2947,
+      "lon": -75.1629,
+      "dist_nm": 12.8
+    },
+    {
+      "date": "2026-09-19",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "delaware_bay_mouth"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401558448",
+      "lat": 38.9798,
+      "lon": -74.9862,
+      "dist_nm": 7.8
+    },
+    {
+      "date": "2026-09-18",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401288780",
+      "lat": 39.5394,
+      "lon": -74.3899,
+      "dist_nm": 20.2
+    },
+    {
+      "date": "2026-09-18",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401287082",
+      "lat": 39.5394,
+      "lon": -74.3906,
+      "dist_nm": 20.2
+    },
+    {
+      "date": "2026-09-13",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_may_rips"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401166244",
+      "lat": 38.945,
+      "lon": -74.9014,
+      "dist_nm": 6.5
+    },
+    {
+      "date": "2026-09-18",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401293392",
+      "lat": 39.5398,
+      "lon": -74.3883,
+      "dist_nm": 20.1
+    }
+  ],
+  "sources_used": [
+    "Second Mate pre-scoped playbook (2026-07-29): zone candidates, home port pick",
+    "OTW regional migration series: species calendars",
+    "Canyon Runner Sportfishing blog: Mid-Atl canyon patterns",
+    "The Fisherman NJ/DE-MD-VA editions: seasonal timing",
+    "NOAA nautical charts + BOEM lease blocks: canyon coords"
+  ],
+  "_status": "BETA \u2014 captain intel sources not yet wired. Picks rank on seasonal presence + SST fit + canyon proximity. Live captain heat scores + whale/bait intel come in follow-up sessions."
+}

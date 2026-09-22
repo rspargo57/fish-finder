@@ -1,0 +1,1061 @@
+{
+  "generated_at": "2026-09-19T19:59:51.562213Z",
+  "stations": [
+    {
+      "id": "8461490",
+      "name": "New London, CT",
+      "coords": [
+        41.3717,
+        -72.0956
+      ],
+      "role": "home port area (Old Saybrook is 15nm west; tides ~15-20 min later there)",
+      "tides": [
+        {
+          "time": "2026-09-19 04:25",
+          "type": "H",
+          "height_ft": 2.207
+        },
+        {
+          "time": "2026-09-19 10:37",
+          "type": "L",
+          "height_ft": 1.104
+        },
+        {
+          "time": "2026-09-19 16:51",
+          "type": "H",
+          "height_ft": 2.724
+        },
+        {
+          "time": "2026-09-19 23:30",
+          "type": "L",
+          "height_ft": 0.81
+        },
+        {
+          "time": "2026-09-20 05:28",
+          "type": "H",
+          "height_ft": 2.262
+        },
+        {
+          "time": "2026-09-20 11:34",
+          "type": "L",
+          "height_ft": 1.052
+        },
+        {
+          "time": "2026-09-20 17:52",
+          "type": "H",
+          "height_ft": 2.743
+        }
+      ]
+    },
+    {
+      "id": "8510719",
+      "name": "Silver Eel Pond (Fishers Island / The Race), NY",
+      "coords": [
+        41.2567,
+        -72.03
+      ],
+      "role": "The Race / Fishers Island \u2014 striper current windows",
+      "tides": [
+        {
+          "time": "2026-09-19 04:19",
+          "type": "H",
+          "height_ft": 1.968
+        },
+        {
+          "time": "2026-09-19 10:32",
+          "type": "L",
+          "height_ft": 1.047
+        },
+        {
+          "time": "2026-09-19 16:48",
+          "type": "H",
+          "height_ft": 2.458
+        },
+        {
+          "time": "2026-09-19 23:25",
+          "type": "L",
+          "height_ft": 0.701
+        },
+        {
+          "time": "2026-09-20 05:25",
+          "type": "H",
+          "height_ft": 2.015
+        },
+        {
+          "time": "2026-09-20 11:34",
+          "type": "L",
+          "height_ft": 1.021
+        },
+        {
+          "time": "2026-09-20 17:49",
+          "type": "H",
+          "height_ft": 2.453
+        }
+      ]
+    },
+    {
+      "id": "8510560",
+      "name": "Montauk, NY",
+      "coords": [
+        41.0483,
+        -71.9594
+      ],
+      "role": "East End LI, Block Island Sound east side",
+      "tides": [
+        {
+          "time": "2026-09-19 03:50",
+          "type": "H",
+          "height_ft": 1.687
+        },
+        {
+          "time": "2026-09-19 10:12",
+          "type": "L",
+          "height_ft": 1.008
+        },
+        {
+          "time": "2026-09-19 16:27",
+          "type": "H",
+          "height_ft": 2.135
+        },
+        {
+          "time": "2026-09-19 23:14",
+          "type": "L",
+          "height_ft": 0.779
+        },
+        {
+          "time": "2026-09-20 04:56",
+          "type": "H",
+          "height_ft": 1.711
+        },
+        {
+          "time": "2026-09-20 11:10",
+          "type": "L",
+          "height_ft": 0.973
+        },
+        {
+          "time": "2026-09-20 17:30",
+          "type": "H",
+          "height_ft": 2.148
+        }
+      ]
+    },
+    {
+      "id": "8452660",
+      "name": "Newport, RI",
+      "coords": [
+        41.5043,
+        -71.3261
+      ],
+      "role": "RI south shore \u2014 Narragansett, Point Judith runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:16",
+          "type": "H",
+          "height_ft": 2.669
+        },
+        {
+          "time": "2026-09-19 07:20",
+          "type": "L",
+          "height_ft": 1.029
+        },
+        {
+          "time": "2026-09-19 14:47",
+          "type": "H",
+          "height_ft": 2.99
+        },
+        {
+          "time": "2026-09-19 21:27",
+          "type": "L",
+          "height_ft": 1.155
+        },
+        {
+          "time": "2026-09-20 03:10",
+          "type": "H",
+          "height_ft": 2.642
+        },
+        {
+          "time": "2026-09-20 08:43",
+          "type": "L",
+          "height_ft": 1.047
+        },
+        {
+          "time": "2026-09-20 15:47",
+          "type": "H",
+          "height_ft": 2.963
+        },
+        {
+          "time": "2026-09-20 22:27",
+          "type": "L",
+          "height_ft": 1.017
+        }
+      ]
+    },
+    {
+      "id": "8531680",
+      "name": "Sandy Hook, NJ",
+      "coords": [
+        40.4669,
+        -74.0094
+      ],
+      "role": "NY Bight / NJ north coast \u2014 Hudson Canyon runs, Mud Hole area",
+      "tides": [
+        {
+          "time": "2026-09-19 02:21",
+          "type": "H",
+          "height_ft": 3.877
+        },
+        {
+          "time": "2026-09-19 08:16",
+          "type": "L",
+          "height_ft": 1.664
+        },
+        {
+          "time": "2026-09-19 14:43",
+          "type": "H",
+          "height_ft": 4.598
+        },
+        {
+          "time": "2026-09-19 21:28",
+          "type": "L",
+          "height_ft": 1.449
+        },
+        {
+          "time": "2026-09-20 03:16",
+          "type": "H",
+          "height_ft": 3.855
+        },
+        {
+          "time": "2026-09-20 09:28",
+          "type": "L",
+          "height_ft": 1.661
+        },
+        {
+          "time": "2026-09-20 15:38",
+          "type": "H",
+          "height_ft": 4.59
+        },
+        {
+          "time": "2026-09-20 22:26",
+          "type": "L",
+          "height_ft": 1.29
+        }
+      ]
+    },
+    {
+      "id": "8534720",
+      "name": "Atlantic City, NJ",
+      "coords": [
+        39.3567,
+        -74.418
+      ],
+      "role": "Southern NJ \u2014 Barnegat / LBI area",
+      "tides": [
+        {
+          "time": "2026-09-19 01:52",
+          "type": "H",
+          "height_ft": 3.15
+        },
+        {
+          "time": "2026-09-19 07:45",
+          "type": "L",
+          "height_ft": 1.437
+        },
+        {
+          "time": "2026-09-19 14:24",
+          "type": "H",
+          "height_ft": 4.122
+        },
+        {
+          "time": "2026-09-19 21:11",
+          "type": "L",
+          "height_ft": 1.413
+        },
+        {
+          "time": "2026-09-20 03:01",
+          "type": "H",
+          "height_ft": 3.12
+        },
+        {
+          "time": "2026-09-20 08:48",
+          "type": "L",
+          "height_ft": 1.471
+        },
+        {
+          "time": "2026-09-20 15:29",
+          "type": "H",
+          "height_ft": 4.148
+        },
+        {
+          "time": "2026-09-20 22:11",
+          "type": "L",
+          "height_ft": 1.315
+        }
+      ]
+    },
+    {
+      "id": "8658163",
+      "name": "Wrightsville Beach, NC",
+      "coords": [
+        34.2133,
+        -77.7867
+      ],
+      "role": "NC coast \u2014 Frying Pan Shoals, offshore Wrightsville runs",
+      "tides": [
+        {
+          "time": "2026-09-19 01:44",
+          "type": "H",
+          "height_ft": 3.342
+        },
+        {
+          "time": "2026-09-19 08:07",
+          "type": "L",
+          "height_ft": 1.453
+        },
+        {
+          "time": "2026-09-19 14:25",
+          "type": "H",
+          "height_ft": 4.246
+        },
+        {
+          "time": "2026-09-19 21:14",
+          "type": "L",
+          "height_ft": 1.575
+        },
+        {
+          "time": "2026-09-20 02:37",
+          "type": "H",
+          "height_ft": 3.296
+        },
+        {
+          "time": "2026-09-20 09:07",
+          "type": "L",
+          "height_ft": 1.415
+        },
+        {
+          "time": "2026-09-20 15:20",
+          "type": "H",
+          "height_ft": 4.226
+        },
+        {
+          "time": "2026-09-20 22:00",
+          "type": "L",
+          "height_ft": 1.447
+        }
+      ]
+    },
+    {
+      "id": "8656483",
+      "name": "Beaufort, NC",
+      "coords": [
+        34.72,
+        -76.67
+      ],
+      "role": "NC middle coast \u2014 Cape Lookout, Big Rock runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:04",
+          "type": "H",
+          "height_ft": 2.812
+        },
+        {
+          "time": "2026-09-19 08:21",
+          "type": "L",
+          "height_ft": 0.969
+        },
+        {
+          "time": "2026-09-19 14:50",
+          "type": "H",
+          "height_ft": 3.458
+        },
+        {
+          "time": "2026-09-19 21:30",
+          "type": "L",
+          "height_ft": 1.247
+        },
+        {
+          "time": "2026-09-20 03:01",
+          "type": "H",
+          "height_ft": 2.784
+        },
+        {
+          "time": "2026-09-20 09:18",
+          "type": "L",
+          "height_ft": 0.946
+        },
+        {
+          "time": "2026-09-20 15:50",
+          "type": "H",
+          "height_ft": 3.45
+        },
+        {
+          "time": "2026-09-20 22:20",
+          "type": "L",
+          "height_ft": 1.185
+        }
+      ]
+    },
+    {
+      "id": "8665530",
+      "name": "Charleston, SC",
+      "coords": [
+        32.7817,
+        -79.925
+      ],
+      "role": "SC coast \u2014 Charleston Bump / Deli Belly runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:16",
+          "type": "H",
+          "height_ft": 4.711
+        },
+        {
+          "time": "2026-09-19 08:18",
+          "type": "L",
+          "height_ft": 1.498
+        },
+        {
+          "time": "2026-09-19 15:05",
+          "type": "H",
+          "height_ft": 5.453
+        },
+        {
+          "time": "2026-09-19 21:29",
+          "type": "L",
+          "height_ft": 1.775
+        },
+        {
+          "time": "2026-09-20 03:11",
+          "type": "H",
+          "height_ft": 4.707
+        },
+        {
+          "time": "2026-09-20 09:15",
+          "type": "L",
+          "height_ft": 1.495
+        },
+        {
+          "time": "2026-09-20 16:00",
+          "type": "H",
+          "height_ft": 5.498
+        },
+        {
+          "time": "2026-09-20 22:21",
+          "type": "L",
+          "height_ft": 1.694
+        }
+      ]
+    },
+    {
+      "id": "8670870",
+      "name": "Fort Pulaski (Savannah), GA",
+      "coords": [
+        32.0333,
+        -80.9017
+      ],
+      "role": "GA coast \u2014 Snapper Banks, Gray's Reef runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:33",
+          "type": "H",
+          "height_ft": 6.249
+        },
+        {
+          "time": "2026-09-19 08:31",
+          "type": "L",
+          "height_ft": 1.851
+        },
+        {
+          "time": "2026-09-19 15:11",
+          "type": "H",
+          "height_ft": 7.0
+        },
+        {
+          "time": "2026-09-19 21:36",
+          "type": "L",
+          "height_ft": 2.188
+        },
+        {
+          "time": "2026-09-20 03:25",
+          "type": "H",
+          "height_ft": 6.256
+        },
+        {
+          "time": "2026-09-20 09:29",
+          "type": "L",
+          "height_ft": 1.871
+        },
+        {
+          "time": "2026-09-20 16:04",
+          "type": "H",
+          "height_ft": 7.04
+        },
+        {
+          "time": "2026-09-20 22:32",
+          "type": "L",
+          "height_ft": 2.076
+        }
+      ]
+    },
+    {
+      "id": "8720030",
+      "name": "Fernandina Beach, FL",
+      "coords": [
+        30.6717,
+        -81.465
+      ],
+      "role": "NE FL coast \u2014 Amelia Island reef runs",
+      "tides": [
+        {
+          "time": "2026-09-19 03:06",
+          "type": "H",
+          "height_ft": 5.484
+        },
+        {
+          "time": "2026-09-19 09:07",
+          "type": "L",
+          "height_ft": 1.649
+        },
+        {
+          "time": "2026-09-19 15:47",
+          "type": "H",
+          "height_ft": 6.2
+        },
+        {
+          "time": "2026-09-19 22:13",
+          "type": "L",
+          "height_ft": 1.929
+        },
+        {
+          "time": "2026-09-20 04:01",
+          "type": "H",
+          "height_ft": 5.47
+        },
+        {
+          "time": "2026-09-20 10:03",
+          "type": "L",
+          "height_ft": 1.645
+        },
+        {
+          "time": "2026-09-20 16:43",
+          "type": "H",
+          "height_ft": 6.228
+        },
+        {
+          "time": "2026-09-20 23:03",
+          "type": "L",
+          "height_ft": 1.837
+        }
+      ]
+    },
+    {
+      "id": "8720587",
+      "name": "St. Augustine, FL",
+      "coords": [
+        29.8567,
+        -81.2617
+      ],
+      "role": "NE FL coast \u2014 St. Augustine ledge runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:41",
+          "type": "H",
+          "height_ft": 3.839
+        },
+        {
+          "time": "2026-09-19 08:51",
+          "type": "L",
+          "height_ft": 1.297
+        },
+        {
+          "time": "2026-09-19 15:18",
+          "type": "H",
+          "height_ft": 4.689
+        },
+        {
+          "time": "2026-09-19 21:48",
+          "type": "L",
+          "height_ft": 1.554
+        },
+        {
+          "time": "2026-09-20 03:43",
+          "type": "H",
+          "height_ft": 3.859
+        },
+        {
+          "time": "2026-09-20 09:45",
+          "type": "L",
+          "height_ft": 1.269
+        },
+        {
+          "time": "2026-09-20 16:17",
+          "type": "H",
+          "height_ft": 4.745
+        },
+        {
+          "time": "2026-09-20 22:39",
+          "type": "L",
+          "height_ft": 1.473
+        }
+      ]
+    },
+    {
+      "id": "8735180",
+      "name": "Dauphin Island, AL",
+      "coords": [
+        30.25,
+        -88.075
+      ],
+      "role": "AL coast \u2014 Mobile Bay mouth, Fort Morgan Rigs",
+      "tides": [
+        {
+          "time": "2026-09-19 04:05",
+          "type": "H",
+          "height_ft": 1.692
+        },
+        {
+          "time": "2026-09-19 16:53",
+          "type": "L",
+          "height_ft": 0.263
+        },
+        {
+          "time": "2026-09-20 05:07",
+          "type": "H",
+          "height_ft": 1.676
+        },
+        {
+          "time": "2026-09-20 17:35",
+          "type": "L",
+          "height_ft": 0.273
+        }
+      ]
+    },
+    {
+      "id": "8729840",
+      "name": "Pensacola, FL",
+      "coords": [
+        30.4033,
+        -87.2117
+      ],
+      "role": "Perdido Pass / Pensacola inshore + nearshore reefs",
+      "tides": [
+        {
+          "time": "2026-09-19 05:05",
+          "type": "H",
+          "height_ft": 1.714
+        },
+        {
+          "time": "2026-09-19 17:22",
+          "type": "L",
+          "height_ft": 0.387
+        },
+        {
+          "time": "2026-09-20 06:20",
+          "type": "H",
+          "height_ft": 1.715
+        },
+        {
+          "time": "2026-09-20 18:02",
+          "type": "L",
+          "height_ft": 0.376
+        }
+      ]
+    },
+    {
+      "id": "8729108",
+      "name": "Panama City, FL",
+      "coords": [
+        30.1517,
+        -85.6667
+      ],
+      "role": "FL Panhandle \u2014 St. Andrew Bay runs",
+      "tides": [
+        {
+          "time": "2026-09-19 02:59",
+          "type": "H",
+          "height_ft": 1.83
+        },
+        {
+          "time": "2026-09-19 15:47",
+          "type": "L",
+          "height_ft": 0.35
+        },
+        {
+          "time": "2026-09-20 04:13",
+          "type": "H",
+          "height_ft": 1.794
+        },
+        {
+          "time": "2026-09-20 16:29",
+          "type": "L",
+          "height_ft": 0.354
+        }
+      ]
+    },
+    {
+      "id": "8728690",
+      "name": "Apalachicola, FL",
+      "coords": [
+        29.7267,
+        -84.98
+      ],
+      "role": "FL Panhandle east \u2014 Apalachicola Bay + St George Island",
+      "tides": [
+        {
+          "time": "2026-09-19 07:50",
+          "type": "H",
+          "height_ft": 1.862
+        },
+        {
+          "time": "2026-09-19 18:16",
+          "type": "L",
+          "height_ft": 0.425
+        },
+        {
+          "time": "2026-09-20 09:19",
+          "type": "H",
+          "height_ft": 1.764
+        },
+        {
+          "time": "2026-09-20 19:28",
+          "type": "L",
+          "height_ft": 0.385
+        }
+      ]
+    },
+    {
+      "id": "8722670",
+      "name": "West Palm Beach, FL",
+      "coords": [
+        26.7767,
+        -80.0333
+      ],
+      "role": "Palm Beach \u2014 Sailfish Alley, Juno Ledge kite fishing",
+      "tides": [
+        {
+          "time": "2026-09-19 02:18",
+          "type": "H",
+          "height_ft": 2.466
+        },
+        {
+          "time": "2026-09-19 08:43",
+          "type": "L",
+          "height_ft": 0.832
+        },
+        {
+          "time": "2026-09-19 15:17",
+          "type": "H",
+          "height_ft": 2.809
+        },
+        {
+          "time": "2026-09-19 21:34",
+          "type": "L",
+          "height_ft": 1.176
+        },
+        {
+          "time": "2026-09-20 03:21",
+          "type": "H",
+          "height_ft": 2.463
+        },
+        {
+          "time": "2026-09-20 09:40",
+          "type": "L",
+          "height_ft": 0.837
+        },
+        {
+          "time": "2026-09-20 16:17",
+          "type": "H",
+          "height_ft": 2.841
+        },
+        {
+          "time": "2026-09-20 22:28",
+          "type": "L",
+          "height_ft": 1.13
+        }
+      ]
+    },
+    {
+      "id": "8723170",
+      "name": "Miami / Government Cut, FL",
+      "coords": [
+        25.7683,
+        -80.1317
+      ],
+      "role": "Miami \u2014 Fowey Rocks, Miami 150 Ledge, Gulf Stream edge",
+      "tides": [
+        {
+          "time": "2026-09-19 02:25",
+          "type": "H",
+          "height_ft": 2.373
+        },
+        {
+          "time": "2026-09-19 08:50",
+          "type": "L",
+          "height_ft": 0.853
+        },
+        {
+          "time": "2026-09-19 15:30",
+          "type": "H",
+          "height_ft": 2.522
+        },
+        {
+          "time": "2026-09-19 21:39",
+          "type": "L",
+          "height_ft": 1.233
+        },
+        {
+          "time": "2026-09-20 03:32",
+          "type": "H",
+          "height_ft": 2.345
+        },
+        {
+          "time": "2026-09-20 09:56",
+          "type": "L",
+          "height_ft": 0.89
+        },
+        {
+          "time": "2026-09-20 16:33",
+          "type": "H",
+          "height_ft": 2.55
+        },
+        {
+          "time": "2026-09-20 22:44",
+          "type": "L",
+          "height_ft": 1.176
+        }
+      ]
+    },
+    {
+      "id": "8723214",
+      "name": "Virginia Key (Miami), FL",
+      "coords": [
+        25.7317,
+        -80.1617
+      ],
+      "role": "Miami inner + Biscayne \u2014 sailfish + tarpon",
+      "tides": [
+        {
+          "time": "2026-09-19 03:16",
+          "type": "H",
+          "height_ft": 2.141
+        },
+        {
+          "time": "2026-09-19 09:44",
+          "type": "L",
+          "height_ft": 0.722
+        },
+        {
+          "time": "2026-09-19 16:11",
+          "type": "H",
+          "height_ft": 2.196
+        },
+        {
+          "time": "2026-09-19 22:10",
+          "type": "L",
+          "height_ft": 1.017
+        },
+        {
+          "time": "2026-09-20 04:17",
+          "type": "H",
+          "height_ft": 2.123
+        },
+        {
+          "time": "2026-09-20 10:42",
+          "type": "L",
+          "height_ft": 0.739
+        },
+        {
+          "time": "2026-09-20 17:10",
+          "type": "H",
+          "height_ft": 2.216
+        },
+        {
+          "time": "2026-09-20 23:09",
+          "type": "L",
+          "height_ft": 0.992
+        }
+      ]
+    },
+    {
+      "id": "8724580",
+      "name": "Key West, FL",
+      "coords": [
+        24.5533,
+        -81.8083
+      ],
+      "role": "Lower Keys \u2014 American Shoal, Marquesas, Tortugas",
+      "tides": [
+        {
+          "time": "2026-09-19 03:43",
+          "type": "H",
+          "height_ft": 1.916
+        },
+        {
+          "time": "2026-09-19 11:31",
+          "type": "L",
+          "height_ft": 0.631
+        },
+        {
+          "time": "2026-09-19 19:33",
+          "type": "H",
+          "height_ft": 1.198
+        },
+        {
+          "time": "2026-09-19 21:53",
+          "type": "L",
+          "height_ft": 1.176
+        },
+        {
+          "time": "2026-09-20 05:01",
+          "type": "H",
+          "height_ft": 1.905
+        },
+        {
+          "time": "2026-09-20 12:39",
+          "type": "L",
+          "height_ft": 0.635
+        },
+        {
+          "time": "2026-09-20 20:06",
+          "type": "H",
+          "height_ft": 1.295
+        },
+        {
+          "time": "2026-09-20 23:32",
+          "type": "L",
+          "height_ft": 1.18
+        }
+      ]
+    },
+    {
+      "id": "8723970",
+      "name": "Vaca Key (Marathon), FL",
+      "coords": [
+        24.71,
+        -81.1067
+      ],
+      "role": "Middle Keys \u2014 Sombrero Reef, Marathon Humps",
+      "tides": [
+        {
+          "time": "2026-09-19 06:58",
+          "type": "H",
+          "height_ft": 1.214
+        },
+        {
+          "time": "2026-09-19 13:42",
+          "type": "L",
+          "height_ft": 0.234
+        },
+        {
+          "time": "2026-09-20 07:51",
+          "type": "H",
+          "height_ft": 1.182
+        },
+        {
+          "time": "2026-09-20 14:45",
+          "type": "L",
+          "height_ft": 0.314
+        }
+      ]
+    },
+    {
+      "id": "8725110",
+      "name": "Naples, FL",
+      "coords": [
+        26.1317,
+        -81.8067
+      ],
+      "role": "SW FL \u2014 Naples Hardbottom, offshore ledges",
+      "tides": [
+        {
+          "time": "2026-09-19 06:38",
+          "type": "H",
+          "height_ft": 2.715
+        },
+        {
+          "time": "2026-09-19 14:07",
+          "type": "L",
+          "height_ft": 0.846
+        },
+        {
+          "time": "2026-09-19 23:45",
+          "type": "H",
+          "height_ft": 2.368
+        },
+        {
+          "time": "2026-09-20 02:24",
+          "type": "L",
+          "height_ft": 2.213
+        },
+        {
+          "time": "2026-09-20 08:00",
+          "type": "H",
+          "height_ft": 2.764
+        },
+        {
+          "time": "2026-09-20 15:08",
+          "type": "L",
+          "height_ft": 0.797
+        },
+        {
+          "time": "2026-09-20 23:25",
+          "type": "H",
+          "height_ft": 2.444
+        }
+      ]
+    },
+    {
+      "id": "8725520",
+      "name": "Fort Myers, FL",
+      "coords": [
+        26.6478,
+        -81.871
+      ],
+      "role": "SW FL \u2014 Fort Myers reefs, Sanibel",
+      "tides": [
+        {
+          "time": "2026-09-19 00:34",
+          "type": "H",
+          "height_ft": 0.966
+        },
+        {
+          "time": "2026-09-19 03:23",
+          "type": "L",
+          "height_ft": 0.903
+        },
+        {
+          "time": "2026-09-19 08:54",
+          "type": "H",
+          "height_ft": 1.444
+        },
+        {
+          "time": "2026-09-19 19:19",
+          "type": "L",
+          "height_ft": 0.349
+        },
+        {
+          "time": "2026-09-20 01:27",
+          "type": "H",
+          "height_ft": 1.044
+        },
+        {
+          "time": "2026-09-20 04:51",
+          "type": "L",
+          "height_ft": 0.91
+        },
+        {
+          "time": "2026-09-20 10:27",
+          "type": "H",
+          "height_ft": 1.373
+        },
+        {
+          "time": "2026-09-20 20:09",
+          "type": "L",
+          "height_ft": 0.338
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "fetched_ok": 23,
+  "fetched_total": 23
+}

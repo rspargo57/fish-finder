@@ -1,0 +1,39 @@
+# Cloudflare Pages headers
+# Randy 2026-08-27: "what I see on my laptop has to be the same thing that
+# someone else sees when they go to the website." The site changes multiple
+# times a day — no browser or CDN should cache the HTML at all. Everyone
+# fetches the current version every time.
+#
+# The HTML is small enough and Cloudflare's edge is fast enough that fetching
+# fresh on every request is imperceptible. Predictable > fast.
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+/index.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0
+
+/
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0
+
+/map/index.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0
+
+/map/
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0
+
+/map/*.html
+  Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+  Pragma: no-cache
+  Expires: 0

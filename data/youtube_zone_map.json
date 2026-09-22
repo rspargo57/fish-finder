@@ -1,0 +1,1731 @@
+{
+  "_notes": "Maps YouTube LOCATION_PATTERNS keys (from youtube_harvest.py) to zone_ids in zones.json. When a video mentions a location, EVERY zone in that location's array gets a corroboration mention from that channel. Fuzzy geography \u2014 'Montauk' bumps every zone within a stone's throw of Montauk. Empty arrays mean the location was extracted but doesn't map to any current zone (e.g., Cape Cod channels talking about Monomoy \u2014 informational but not our region). Hand-curated 2026-07-29; add zones here as they're added to zones.json.",
+  "location_to_zones": {
+    "montauk": [
+      "montauk_rips_striper",
+      "montauk_nearshore",
+      "thirty_five_fathom_line"
+    ],
+    "block_island": [
+      "block_island_striper",
+      "block_island_sound",
+      "s_block_nearshore",
+      "tuna_ridge",
+      "block_canyon"
+    ],
+    "coxes_ledge": [
+      "coxes_ledge_se"
+    ],
+    "hudson_canyon": [
+      "hudson_canyon",
+      "hudson_canyon_midatl"
+    ],
+    "atlantis_canyon": [
+      "atlantis_canyon"
+    ],
+    "veatch_canyon": [
+      "veatch_hydrographer"
+    ],
+    "block_canyon": [
+      "block_canyon"
+    ],
+    "tuna_ridge": [
+      "tuna_ridge"
+    ],
+    "point_judith": [
+      "narragansett_bay",
+      "block_island_sound"
+    ],
+    "snug_harbor": [
+      "narragansett_bay"
+    ],
+    "narragansett": [
+      "narragansett_bay"
+    ],
+    "long_island_sound": [
+      "western_li_sound",
+      "central_li_sound",
+      "the_triangle"
+    ],
+    "long_island": [
+      "south_shore_li",
+      "montauk_nearshore",
+      "s_block_nearshore"
+    ],
+    "the_race": [
+      "the_race"
+    ],
+    "plum_gut": [
+      "plum_gut"
+    ],
+    "orient_point": [
+      "plum_gut"
+    ],
+    "fishers_island": [
+      "the_race",
+      "watch_hill_reef"
+    ],
+    "old_saybrook": [
+      "central_li_sound"
+    ],
+    "connecticut_river": [
+      "central_li_sound"
+    ],
+    "watch_hill": [
+      "watch_hill_reef"
+    ],
+    "habs_ledge": [
+      "habs_ledge"
+    ],
+    "acid_barge": [
+      "acid_barge"
+    ],
+    "the_gully": [
+      "the_gully"
+    ],
+    "butterfish_hole": [
+      "butterfish_hole"
+    ],
+    "mud_hole": [
+      "mud_hole",
+      "mud_hole_nj"
+    ],
+    "millstone": [
+      "millstone_point"
+    ],
+    "thirty_five_fathom": [
+      "thirty_five_fathom_line"
+    ],
+    "cape_cod_bay": [],
+    "cape_cod_canal": [],
+    "vineyard_sound": [],
+    "monomoy": [],
+    "chatham": [],
+    "stellwagen": [],
+    "gloucester": [],
+    "the_dip": [],
+    "the_bank": [],
+    "cartwright": [
+      "cia_grounds"
+    ],
+    "barnegat": [
+      "barnegat_ridge"
+    ],
+    "long_beach_island": [],
+    "cape_may": [
+      "cape_may_rips",
+      "delaware_bay_mouth"
+    ],
+    "manasquan": [
+      "manasquan_ridge"
+    ],
+    "point_pleasant": [],
+    "shrewsbury_rocks": [],
+    "shark_river": [],
+    "sandy_hook": [],
+    "wicked_tuna_grounds": [],
+    "baltimore_canyon": [
+      "baltimore_canyon"
+    ],
+    "wilmington_canyon": [
+      "wilmington_canyon"
+    ],
+    "poor_mans_canyon": [
+      "poor_mans_canyon"
+    ],
+    "washington_canyon": [
+      "washington_canyon"
+    ],
+    "norfolk_canyon": [
+      "norfolk_canyon",
+      "norfolk_canyon_edge"
+    ],
+    "jackspot": [
+      "jackspot_hot_dog"
+    ],
+    "twenty_fathom_line": [
+      "twenty_fathom_line"
+    ],
+    "twenty_six_mile_hill": [
+      "twenty_six_mile_hill"
+    ],
+    "the_cigar": [
+      "cigar"
+    ],
+    "the_fingers": [
+      "fingers"
+    ],
+    "the_parking_lot": [
+      "twenty_fathom_line"
+    ],
+    "fenwick_shoal": [
+      "fenwick_shoal"
+    ],
+    "delaware_bay": [
+      "delaware_bay_mouth"
+    ],
+    "cape_may_rips": [
+      "cape_may_rips"
+    ],
+    "ocean_city_md": [
+      "jackspot_hot_dog",
+      "twenty_fathom_line",
+      "twenty_six_mile_hill",
+      "baltimore_canyon"
+    ],
+    "chesapeake_bay": [
+      "cbbt_chesapeake_mouth"
+    ],
+    "virginia_beach": [
+      "cigar",
+      "fingers",
+      "cbbt_chesapeake_mouth"
+    ],
+    "oregon_inlet": [
+      "oregon_inlet"
+    ],
+    "hatteras": [
+      "diamond_shoals",
+      "hatteras_the_point",
+      "oregon_inlet"
+    ],
+    "the_point_hatteras": [
+      "hatteras_the_point"
+    ],
+    "obx": [
+      "oregon_inlet",
+      "diamond_shoals",
+      "hatteras_the_point"
+    ],
+    "sea_girt": [
+      "sea_girt_reef"
+    ],
+    "atlantic_city": [],
+    "shinnecock_inlet": [],
+    "moriches_inlet": [],
+    "cia": [
+      "cia_grounds"
+    ],
+    "cia grounds": [
+      "cia_grounds"
+    ],
+    "cia ground": [
+      "cia_grounds"
+    ],
+    "cartwright grounds": [
+      "cia_grounds"
+    ],
+    "cartwright shoal": [
+      "cia_grounds"
+    ],
+    "coimbra": [
+      "coimbra_wreck"
+    ],
+    "coimbra wreck": [
+      "coimbra_wreck"
+    ],
+    "ranger": [
+      "ranger_wreck"
+    ],
+    "ranger wreck": [
+      "ranger_wreck"
+    ],
+    "niantic bay": [
+      "niantic_bay"
+    ],
+    "niantic": [
+      "niantic_bay",
+      "millstone_point"
+    ],
+    "black point": [
+      "niantic_bay"
+    ],
+    "two tree": [
+      "niantic_bay"
+    ],
+    "two tree channel": [
+      "niantic_bay"
+    ],
+    "cornfield point": [
+      "cornfield_point"
+    ],
+    "cornfield": [
+      "cornfield_point"
+    ],
+    "fishers island": [
+      "fishers_island_south",
+      "the_race"
+    ],
+    "watch hill": [
+      "watch_hill_reef"
+    ],
+    "watch hill reef": [
+      "watch_hill_reef"
+    ],
+    "watch hill reefs": [
+      "watch_hill_reef"
+    ],
+    "shinnecock bay": [
+      "south_shore_li"
+    ],
+    "sakonnet": [
+      "narragansett_bay"
+    ],
+    "sakonnet point": [
+      "narragansett_bay"
+    ],
+    "point judith light": [
+      "block_island_sound"
+    ],
+    "east grounds": [
+      "block_island_sound"
+    ],
+    "sharks ledge": [
+      "block_island_striper"
+    ],
+    "hooter": [
+      "block_island_striper"
+    ],
+    "deep hole": [
+      "block_island_striper"
+    ],
+    "windmills": [
+      "block_island_striper"
+    ],
+    "sand bank": [
+      "block_island_striper"
+    ],
+    "perdido pass": [
+      "perdido_pass"
+    ],
+    "perdido key": [
+      "perdido_pass",
+      "perdido_bay"
+    ],
+    "perdido bay": [
+      "perdido_bay"
+    ],
+    "big lagoon": [
+      "big_lagoon"
+    ],
+    "perdido beach": [
+      "perdido_cobia_alley",
+      "perdido_pass"
+    ],
+    "pensacola pass": [
+      "pensacola_pass"
+    ],
+    "pensacola beach": [
+      "pensacola_cobia_alley",
+      "pensacola_pass"
+    ],
+    "pensacola bay": [
+      "pensacola_bay"
+    ],
+    "escambia": [
+      "escambia_reefs"
+    ],
+    "oriskany": [
+      "uss_oriskany"
+    ],
+    "uss oriskany": [
+      "uss_oriskany"
+    ],
+    "massachusetts wreck": [
+      "massachusetts_wreck"
+    ],
+    "antares": [
+      "antares_wreck"
+    ],
+    "pete tide": [
+      "pete_tide"
+    ],
+    "lulu": [
+      "lulu_wreck"
+    ],
+    "m/v lulu": [
+      "lulu_wreck"
+    ],
+    "lipscomb tug": [
+      "lipscomb_tug"
+    ],
+    "vamar": [
+      "vamar_wreck"
+    ],
+    "grey ghost": [
+      "grey_ghost_wreck"
+    ],
+    "accokeek": [
+      "uss_accokeek"
+    ],
+    "ss tarpon": [
+      "ss_tarpon"
+    ],
+    "uss strength": [
+      "uss_strength"
+    ],
+    "empire mica": [
+      "empire_mica"
+    ],
+    "sherman wreck": [
+      "sherman_wreck"
+    ],
+    "mexico rock": [
+      "mexico_rock"
+    ],
+    "whitney bank": [
+      "whitney_bank"
+    ],
+    "southeast banks": [
+      "southeast_banks"
+    ],
+    "hunt reef": [
+      "hunt_reef"
+    ],
+    "csx boxcars": [
+      "csx_boxcars"
+    ],
+    "the nipple": [
+      "the_nipple"
+    ],
+    "nipple": [
+      "the_nipple"
+    ],
+    "the elbow": [
+      "the_elbow"
+    ],
+    "elbow": [
+      "the_elbow"
+    ],
+    "the spur": [
+      "the_spur"
+    ],
+    "spur": [
+      "the_spur"
+    ],
+    "desoto canyon": [
+      "desoto_canyon_head",
+      "the_nipple"
+    ],
+    "de soto canyon": [
+      "desoto_canyon_head",
+      "the_nipple"
+    ],
+    "cobia alley": [
+      "perdido_cobia_alley",
+      "pensacola_cobia_alley",
+      "navarre_cobia_alley"
+    ],
+    "navarre beach": [
+      "navarre_cobia_alley"
+    ],
+    "destin": [
+      "east_pass_destin",
+      "destin_edge"
+    ],
+    "east pass": [
+      "east_pass_destin"
+    ],
+    "the edge": [
+      "destin_edge"
+    ],
+    "the steps": [
+      "destin_steps"
+    ],
+    "choctawhatchee": [
+      "choctawhatchee_bay"
+    ],
+    "fort walton": [
+      "east_pass_destin",
+      "choctawhatchee_bay"
+    ],
+    "30a": [
+      "destin_edge",
+      "destin_steps"
+    ],
+    "panama city": [
+      "panama_city_pass",
+      "st_andrews_bay",
+      "pcb_reefs"
+    ],
+    "pcb": [
+      "panama_city_pass",
+      "pcb_reefs"
+    ],
+    "st. andrews": [
+      "st_andrews_bay"
+    ],
+    "st andrews": [
+      "st_andrews_bay"
+    ],
+    "warsaw reef": [
+      "warsaw_reef"
+    ],
+    "grouper alley": [
+      "grouper_alley"
+    ],
+    "cape san blas": [
+      "cape_san_blas"
+    ],
+    "apalachicola": [
+      "apalachicola_bay"
+    ],
+    "st. george island": [
+      "st_george_island"
+    ],
+    "st george island": [
+      "st_george_island"
+    ],
+    "mexico beach": [
+      "vamar_wreck",
+      "uss_strength"
+    ],
+    "orange beach": [
+      "perdido_pass",
+      "alabama_reef_zone",
+      "gulf_state_park_pier_reefs"
+    ],
+    "gulf shores": [
+      "alabama_reef_zone",
+      "gulf_state_park_pier_reefs"
+    ],
+    "fort morgan": [
+      "fort_morgan_rigs"
+    ],
+    "dauphin island": [
+      "dauphin_island_rigs"
+    ],
+    "mobile bay": [
+      "mobile_bay_ship_channel",
+      "dauphin_island_rigs"
+    ],
+    "alabama reef": [
+      "alabama_reef_zone"
+    ],
+    "nick reef": [
+      "nick_reef"
+    ],
+    "petronius": [
+      "petronius_platform"
+    ],
+    "ram powell": [
+      "ram_powell_tlp"
+    ],
+    "marlin rig": [
+      "marlin_tlp"
+    ],
+    "marlin tlp": [
+      "marlin_tlp"
+    ],
+    "devil's tower": [
+      "devils_tower_spar"
+    ],
+    "midnight lump": [
+      "midnight_lump"
+    ],
+    "sackett bank": [
+      "midnight_lump"
+    ],
+    "venice": [
+      "midnight_lump",
+      "bay_marchand_3"
+    ],
+    "grand isle": [
+      "bay_marchand_3"
+    ],
+    "bay marchand": [
+      "bay_marchand_3"
+    ],
+    "joe patti": [
+      "joe_patti_memorial_reef"
+    ],
+    "ocean wind": [
+      "tug_ocean_wind"
+    ],
+    "chevron platform": [
+      "fl_chevron_platform"
+    ],
+    "tenneco": [
+      "es_tenneco_platform"
+    ],
+    "brass wreck": [
+      "es_brass_wreck"
+    ],
+    "timber holes": [
+      "es_timber_holes"
+    ],
+    "trysler grounds": [
+      "trysler_grounds"
+    ],
+    "trysler": [
+      "trysler_grounds"
+    ],
+    "i-10 bridge": [
+      "i10_bridge_reef_cluster",
+      "blackwater_bridge_i10"
+    ],
+    "interstate 10 bridge": [
+      "i10_bridge_reef_cluster",
+      "blackwater_bridge_i10"
+    ],
+    "emerald coast": [
+      "destin_edge",
+      "east_pass_destin",
+      "pensacola_pass"
+    ],
+    "florida panhandle": [
+      "pensacola_pass",
+      "east_pass_destin",
+      "panama_city_pass"
+    ],
+    "fl panhandle": [
+      "pensacola_pass",
+      "east_pass_destin",
+      "panama_city_pass"
+    ],
+    "northwest florida": [
+      "pensacola_pass",
+      "east_pass_destin",
+      "panama_city_pass"
+    ],
+    "gulf coast": [
+      "pensacola_pass",
+      "perdido_pass"
+    ],
+    "palm beach": [
+      "jupiter_ledge",
+      "west_palm_sailfish",
+      "palm_beach_reef_line"
+    ],
+    "jupiter": [
+      "jupiter_ledge"
+    ],
+    "jupiter inlet": [
+      "jupiter_ledge"
+    ],
+    "jupiter ledge": [
+      "jupiter_ledge"
+    ],
+    "west palm": [
+      "west_palm_sailfish",
+      "palm_beach_reef_line"
+    ],
+    "west palm beach": [
+      "west_palm_sailfish"
+    ],
+    "sailfish alley": [
+      "west_palm_sailfish",
+      "palm_beach_reef_line"
+    ],
+    "boynton inlet": [
+      "boynton_boca_ledge"
+    ],
+    "boca inlet": [
+      "boynton_boca_ledge"
+    ],
+    "boca raton": [
+      "boynton_boca_ledge"
+    ],
+    "boynton": [
+      "boynton_boca_ledge"
+    ],
+    "fort lauderdale": [
+      "ftl_reef_lines",
+      "ftl_wreck_alley",
+      "hillsboro_reef"
+    ],
+    "ft lauderdale": [
+      "ftl_reef_lines",
+      "ftl_wreck_alley"
+    ],
+    "ftl": [
+      "ftl_reef_lines",
+      "ftl_wreck_alley"
+    ],
+    "hillsboro": [
+      "hillsboro_reef"
+    ],
+    "hillsboro inlet": [
+      "hillsboro_reef"
+    ],
+    "pompano": [
+      "hillsboro_reef"
+    ],
+    "pompano beach": [
+      "hillsboro_reef"
+    ],
+    "port everglades": [
+      "ftl_reef_lines"
+    ],
+    "hollywood": [
+      "hollywood_dania"
+    ],
+    "hollywood beach": [
+      "hollywood_dania"
+    ],
+    "dania": [
+      "hollywood_dania"
+    ],
+    "dania beach": [
+      "hollywood_dania"
+    ],
+    "dania pier": [
+      "hollywood_dania"
+    ],
+    "blue fire": [
+      "ftl_wreck_alley"
+    ],
+    "copenhagen": [
+      "ftl_wreck_alley"
+    ],
+    "rebel wreck": [
+      "ftl_wreck_alley"
+    ],
+    "papa doc": [
+      "ftl_wreck_alley"
+    ],
+    "wreck alley": [
+      "ftl_wreck_alley"
+    ],
+    "miami": [
+      "fowey_rocks",
+      "miami_190_trough",
+      "biscayne_outer_reef"
+    ],
+    "miami beach": [
+      "government_cut",
+      "fowey_rocks"
+    ],
+    "government cut": [
+      "government_cut"
+    ],
+    "gov cut": [
+      "government_cut"
+    ],
+    "haulover": [
+      "government_cut"
+    ],
+    "haulover inlet": [
+      "government_cut"
+    ],
+    "fowey rocks": [
+      "fowey_rocks"
+    ],
+    "fowey": [
+      "fowey_rocks"
+    ],
+    "fowey rocks light": [
+      "fowey_rocks"
+    ],
+    "stiltsville": [
+      "stiltsville_flats"
+    ],
+    "biscayne": [
+      "biscayne_outer_reef",
+      "stiltsville_flats"
+    ],
+    "biscayne bay": [
+      "stiltsville_flats"
+    ],
+    "biscayne national park": [
+      "stiltsville_flats",
+      "biscayne_outer_reef"
+    ],
+    "key biscayne": [
+      "stiltsville_flats"
+    ],
+    "elliot key": [
+      "biscayne_outer_reef"
+    ],
+    "miami 190": [
+      "miami_190_trough"
+    ],
+    "one nineteen": [
+      "miami_190_trough"
+    ],
+    "elbow reef": [
+      "molasses_reef"
+    ],
+    "islamorada": [
+      "alligator_reef",
+      "islamorada_hump"
+    ],
+    "islamorada hump": [
+      "islamorada_hump"
+    ],
+    "the hump": [
+      "islamorada_hump",
+      "marathon_west_hump"
+    ],
+    "alligator reef": [
+      "alligator_reef"
+    ],
+    "alligator light": [
+      "alligator_reef"
+    ],
+    "bud n mary's": [
+      "alligator_reef",
+      "islamorada_hump"
+    ],
+    "bud n mary": [
+      "alligator_reef"
+    ],
+    "key largo": [
+      "molasses_reef",
+      "wreck_trek_upper_keys"
+    ],
+    "molasses reef": [
+      "molasses_reef"
+    ],
+    "molasses": [
+      "molasses_reef"
+    ],
+    "pennekamp": [
+      "molasses_reef"
+    ],
+    "duane": [
+      "wreck_trek_upper_keys"
+    ],
+    "uss duane": [
+      "wreck_trek_upper_keys"
+    ],
+    "bibb": [
+      "wreck_trek_upper_keys"
+    ],
+    "uss bibb": [
+      "wreck_trek_upper_keys"
+    ],
+    "spiegel grove": [
+      "wreck_trek_upper_keys"
+    ],
+    "uss spiegel grove": [
+      "wreck_trek_upper_keys"
+    ],
+    "eagle wreck": [
+      "wreck_trek_upper_keys"
+    ],
+    "tavernier": [
+      "molasses_reef"
+    ],
+    "marathon": [
+      "sombrero_reef",
+      "marathon_west_hump",
+      "seven_mile_bridge"
+    ],
+    "marathon hump": [
+      "marathon_west_hump"
+    ],
+    "west hump": [
+      "marathon_west_hump"
+    ],
+    "sombrero": [
+      "sombrero_reef"
+    ],
+    "sombrero reef": [
+      "sombrero_reef"
+    ],
+    "sombrero light": [
+      "sombrero_reef"
+    ],
+    "faro blanco": [
+      "sombrero_reef"
+    ],
+    "seven mile": [
+      "seven_mile_bridge"
+    ],
+    "seven mile bridge": [
+      "seven_mile_bridge"
+    ],
+    "bahia honda": [
+      "bahia_honda_bridge"
+    ],
+    "bahia honda bridge": [
+      "bahia_honda_bridge"
+    ],
+    "big pine key": [
+      "bahia_honda_bridge"
+    ],
+    "key west": [
+      "sand_key",
+      "key_west_wreck_line",
+      "cottrell_key"
+    ],
+    "sand key": [
+      "sand_key"
+    ],
+    "sand key light": [
+      "sand_key"
+    ],
+    "cottrell": [
+      "cottrell_key"
+    ],
+    "cottrell key": [
+      "cottrell_key"
+    ],
+    "vandenberg": [
+      "key_west_wreck_line"
+    ],
+    "uss vandenberg": [
+      "key_west_wreck_line"
+    ],
+    "cayman salvager": [
+      "key_west_wreck_line"
+    ],
+    "alexander's wreck": [
+      "key_west_wreck_line"
+    ],
+    "marquesas": [
+      "marquesas_keys"
+    ],
+    "marquesas keys": [
+      "marquesas_keys"
+    ],
+    "dry tortugas": [
+      "dry_tortugas"
+    ],
+    "tortugas": [
+      "dry_tortugas"
+    ],
+    "fort jefferson": [
+      "dry_tortugas"
+    ],
+    "garden key": [
+      "dry_tortugas"
+    ],
+    "409 hole": [
+      "islamorada_409_hole"
+    ],
+    "islamorada 409": [
+      "islamorada_409_hole"
+    ],
+    "wood wall": [
+      "wood_wall"
+    ],
+    "the wood wall": [
+      "wood_wall"
+    ],
+    "wood's wall": [
+      "wood_wall"
+    ],
+    "gulf stream": [
+      "wood_wall",
+      "miami_190_trough",
+      "islamorada_409_hole"
+    ],
+    "the color change": [
+      "wood_wall",
+      "miami_190_trough"
+    ],
+    "florida keys": [
+      "alligator_reef",
+      "sombrero_reef",
+      "sand_key",
+      "islamorada_hump"
+    ],
+    "the keys": [
+      "alligator_reef",
+      "sombrero_reef",
+      "sand_key"
+    ],
+    "keys": [
+      "alligator_reef",
+      "sombrero_reef",
+      "sand_key"
+    ],
+    "upper keys": [
+      "alligator_reef",
+      "molasses_reef",
+      "wreck_trek_upper_keys"
+    ],
+    "middle keys": [
+      "sombrero_reef",
+      "marathon_west_hump",
+      "seven_mile_bridge"
+    ],
+    "lower keys": [
+      "sand_key",
+      "cottrell_key",
+      "key_west_wreck_line"
+    ],
+    "south florida": [
+      "fowey_rocks",
+      "alligator_reef",
+      "ftl_reef_lines"
+    ],
+    "south fl": [
+      "fowey_rocks",
+      "alligator_reef",
+      "ftl_reef_lines"
+    ],
+    "s florida": [
+      "fowey_rocks",
+      "alligator_reef"
+    ],
+    "sailfish coast": [
+      "west_palm_sailfish",
+      "jupiter_ledge"
+    ],
+    "gold coast": [
+      "ftl_reef_lines",
+      "palm_beach_reef_line"
+    ],
+    "treasure coast": [
+      "jupiter_ledge",
+      "west_palm_sailfish"
+    ],
+    "charleston_bump": [
+      "sc_charleston_bump"
+    ],
+    "georgetown_hole": [
+      "sc_georgetown_hole"
+    ],
+    "the_big_rock": [
+      "the_big_rock"
+    ],
+    "the_same_ol": [
+      "the_same_ol"
+    ],
+    "frying_pan_shoals": [
+      "frying_pan_shoals"
+    ],
+    "grays_reef": [
+      "ga_grays_reef"
+    ],
+    "hilton_head_snapper": [
+      "sc_hilton_head_snapper_banks"
+    ],
+    "wrightsville_rocks": [
+      "nc_wrightsville_15_mile",
+      "nc_wrightsville_23_mile"
+    ],
+    "the_steeples": [
+      "nc_steeples"
+    ],
+    "manning_line": [
+      "nc_manning_line"
+    ],
+    "elton_bottom": [
+      "nefl_elton_bottom"
+    ],
+    "20fathom_jax": [
+      "nefl_ledge_20fathom"
+    ],
+    "molasses_reef": [
+      "molasses_reef",
+      "uk_molasses_reef"
+    ],
+    "alligator_reef": [
+      "alligator_reef",
+      "uk_alligator_reef"
+    ],
+    "sombrero_reef": [
+      "sombrero_reef",
+      "mk_sombrero_reef"
+    ],
+    "looe_key": [
+      "lk_looe_key_reef"
+    ],
+    "american_shoal": [
+      "lk_american_shoal"
+    ],
+    "marathon_hump": [
+      "marathon_west_hump"
+    ],
+    "east_hump": [
+      "mk_east_hump"
+    ],
+    "islamorada_hump": [
+      "islamorada_hump"
+    ],
+    "409_hole": [
+      "islamorada_409_hole"
+    ],
+    "wood_wall": [
+      "wood_wall"
+    ],
+    "riley_hump": [
+      "lk_riley_hump"
+    ],
+    "rebecca_shoal": [
+      "lk_rebecca_shoal"
+    ],
+    "dry_tortugas": [
+      "dry_tortugas"
+    ],
+    "jupiter_ledge": [
+      "jupiter_ledge"
+    ],
+    "sailfish_alley": [
+      "pb_sailfish_alley_north"
+    ],
+    "hillsboro_ledge": [
+      "ftl_hillsboro_ledge"
+    ],
+    "bahamas_edge": [
+      "pb_west_end_bank",
+      "ftl_bahamas_edge",
+      "gs_bimini_edge"
+    ],
+    "fowey_rocks": [
+      "fowey_rocks"
+    ],
+    "miami_ledge": [
+      "miami_190_trough",
+      "mia_150_ledge"
+    ],
+    "pulley_ridge": [
+      "swfl_pulley_ridge"
+    ],
+    "copenhagen_wreck": [
+      "ftl_copenhagen_wreck"
+    ],
+    "vandenberg_wreck": [
+      "key_west_wreck_line"
+    ],
+    "gulf_stream_edge": [
+      "mia_stream_edge",
+      "gs_sword_grounds_sfl",
+      "gs_bimini_edge"
+    ],
+    "the_nipple": [
+      "the_nipple"
+    ],
+    "the_elbow": [
+      "the_elbow"
+    ],
+    "the_spur": [
+      "the_spur"
+    ],
+    "ram_powell": [
+      "ram_powell_tlp"
+    ],
+    "midnight_lump": [
+      "midnight_lump"
+    ],
+    "perdido_pass": [
+      "perdido_pass",
+      "perdido_pass_bridge_complex"
+    ],
+    "trysler_grounds": [
+      "trysler_grounds"
+    ],
+    "usa_oriskany": [
+      "uss_oriskany"
+    ],
+    "florida_middle": [
+      "florida_middle_grounds"
+    ],
+    "chesapeake_light": [
+      "chesapeake_light_tower"
+    ],
+    "cbbt": [
+      "cbbt_chesapeake_mouth",
+      "cbbt_all"
+    ],
+    "triangle_wrecks": [
+      "triangle_wrecks"
+    ],
+    "toms_canyon": [
+      "toms_canyon"
+    ],
+    "lindenkohl_canyon": [
+      "lindenkohl_canyon"
+    ],
+    "spencer_canyon": [
+      "spencer_canyon"
+    ],
+    "the_hot_dog": [
+      "jackspot_hot_dog",
+      "hot_dog_extended"
+    ],
+    "the_chicken_bone": [
+      "chicken_bone"
+    ],
+    "great_gully": [
+      "great_gully_md"
+    ],
+    "bacardi_wreck": [
+      "bacardi_wreck"
+    ],
+    "immigrant_wreck": [
+      "immigrant_wreck"
+    ],
+    "mohawk_wreck": [
+      "mohawk_wreck"
+    ],
+    "bogue inlet": [
+      "bogue_inlet"
+    ],
+    "emerald isle": [
+      "bogue_inlet"
+    ],
+    "cape fear": [
+      "cape_fear_river"
+    ],
+    "wilmington nc": [
+      "cape_fear_river"
+    ],
+    "cape lookout": [
+      "cape_lookout"
+    ],
+    "big rock cape lookout": [
+      "cape_lookout"
+    ],
+    "charleston harbor": [
+      "charleston_harbor"
+    ],
+    "charleston sc": [
+      "charleston_harbor"
+    ],
+    "charleston offshore": [
+      "charleston_offshore"
+    ],
+    "charleston 60 line": [
+      "charleston_offshore"
+    ],
+    "charleston 80 line": [
+      "charleston_offshore"
+    ],
+    "edisto flats": [
+      "edisto_flats"
+    ],
+    "edisto": [
+      "edisto_flats"
+    ],
+    "black gill wrecks": [
+      "ga_black_gill_wrecks"
+    ],
+    "kc reef": [
+      "ga_black_gill_wrecks"
+    ],
+    "georgia live bottom": [
+      "ga_black_gill_wrecks"
+    ],
+    "long reef georgia": [
+      "ga_long_reef"
+    ],
+    "ga long reef": [
+      "ga_long_reef"
+    ],
+    "r6 navy tower": [
+      "ga_navy_tower"
+    ],
+    "navy tower wreck ga": [
+      "ga_navy_tower"
+    ],
+    "sapelo live bottom": [
+      "ga_sapelo_live_bottom"
+    ],
+    "sapelo sound": [
+      "ga_sapelo_live_bottom"
+    ],
+    "sapelo": [
+      "ga_sapelo_live_bottom"
+    ],
+    "georgia snapper banks": [
+      "ga_snapper_banks"
+    ],
+    "ga snapper banks": [
+      "ga_snapper_banks"
+    ],
+    "hilton head": [
+      "hilton_head_reefs"
+    ],
+    "broad river sc": [
+      "hilton_head_reefs"
+    ],
+    "jacksonville": [
+      "jacksonville_mayport"
+    ],
+    "mayport": [
+      "jacksonville_mayport"
+    ],
+    "mayport inlet": [
+      "jacksonville_mayport"
+    ],
+    "morehead city": [
+      "morehead_city"
+    ],
+    "beaufort inlet nc": [
+      "morehead_city"
+    ],
+    "swansboro": [
+      "nc_swansboro_hole"
+    ],
+    "swansboro hole": [
+      "nc_swansboro_hole"
+    ],
+    "ten mile boxcars": [
+      "nc_ten_mile_boxcars"
+    ],
+    "10 mile boxcars": [
+      "nc_ten_mile_boxcars"
+    ],
+    "winyah bay grounds": [
+      "nc_winyah_bay_grounds"
+    ],
+    "lion wreck": [
+      "nefl_lion_wreck"
+    ],
+    "lion wreck fl": [
+      "nefl_lion_wreck"
+    ],
+    "nine mile reef": [
+      "nefl_ninemile"
+    ],
+    "9 mile reef amelia": [
+      "nefl_ninemile"
+    ],
+    "amelia island reef": [
+      "nefl_ninemile"
+    ],
+    "st augustine ledge": [
+      "nefl_st_augustine_ledge"
+    ],
+    "st. augustine ledge": [
+      "nefl_st_augustine_ledge"
+    ],
+    "ponce inlet": [
+      "ponce_inlet_daytona"
+    ],
+    "daytona": [
+      "ponce_inlet_daytona"
+    ],
+    "port canaveral": [
+      "port_canaveral"
+    ],
+    "cape canaveral": [
+      "port_canaveral"
+    ],
+    "port royal sound": [
+      "port_royal_sound"
+    ],
+    "beaufort sc": [
+      "port_royal_sound"
+    ],
+    "blackfish bank": [
+      "sc_blackfish_banks"
+    ],
+    "blackfish banks": [
+      "sc_blackfish_banks"
+    ],
+    "deli belly": [
+      "sc_deli_belly"
+    ],
+    "the deli belly": [
+      "sc_deli_belly"
+    ],
+    "edisto banks": [
+      "sc_edisto_banks"
+    ],
+    "st augustine": [
+      "st_augustine"
+    ],
+    "matanzas inlet": [
+      "st_augustine"
+    ],
+    "st simons": [
+      "st_simons_brunswick"
+    ],
+    "golden isles": [
+      "st_simons_brunswick"
+    ],
+    "brunswick ga": [
+      "st_simons_brunswick"
+    ],
+    "tybee island": [
+      "tybee_island"
+    ],
+    "savannah river": [
+      "tybee_island"
+    ],
+    "winyah bay": [
+      "winyah_bay_georgetown"
+    ],
+    "georgetown sc": [
+      "winyah_bay_georgetown"
+    ],
+    "atlantic drydock": [
+      "atlantic_drydock"
+    ],
+    "d.r. dunlap": [
+      "atlantic_drydock"
+    ],
+    "dr dunlap": [
+      "atlantic_drydock"
+    ],
+    "bills barge": [
+      "bills_barge"
+    ],
+    "bill's barge": [
+      "bills_barge"
+    ],
+    "buffalo barge": [
+      "buffalo_barge"
+    ],
+    "callon jacket": [
+      "callon_jacket"
+    ],
+    "captain shirley brown": [
+      "captain_shirley_brown"
+    ],
+    "shirley brown reef": [
+      "captain_shirley_brown"
+    ],
+    "cat island reef": [
+      "cat_island_reefs"
+    ],
+    "cat island": [
+      "cat_island_reefs"
+    ],
+    "chevron reef gulf": [
+      "chevron_reef"
+    ],
+    "chickenbone wreck": [
+      "chickenbone_wreck"
+    ],
+    "chicken bone wreck": [
+      "chickenbone_wreck"
+    ],
+    "csx rubble": [
+      "csx_rubble_site_fl"
+    ],
+    "csx rubble site": [
+      "csx_rubble_site_fl"
+    ],
+    "enhanced wreck 1": [
+      "enhanced_wreck_1"
+    ],
+    "enhanced wreck": [
+      "enhanced_wreck_1"
+    ],
+    "nipple east": [
+      "es_nipple_east"
+    ],
+    "concrete pyramids": [
+      "fl_concrete_pyramids"
+    ],
+    "harris memorial reef": [
+      "harris_memorial_reef"
+    ],
+    "hathaway bridge": [
+      "hathaway_bridge_rubble"
+    ],
+    "lundstrom reef": [
+      "lundstrom_reefs"
+    ],
+    "lundstrom reefs": [
+      "lundstrom_reefs"
+    ],
+    "marathon jacket": [
+      "marathon_jacket"
+    ],
+    "marathon reef gulf": [
+      "marathon_reef"
+    ],
+    "nail ship": [
+      "nail_ship"
+    ],
+    "new venture wreck": [
+      "new_venture"
+    ],
+    "papa joe reef": [
+      "papa_joe_reef"
+    ],
+    "john wood reef": [
+      "papa_joe_reef"
+    ],
+    "pat jones pyramids": [
+      "pat_jones_pyramids"
+    ],
+    "pcb beach cobia": [
+      "pcb_beach_cobia"
+    ],
+    "panama city cobia": [
+      "pcb_beach_cobia"
+    ],
+    "russell fields pier": [
+      "pcb_pier"
+    ],
+    "pcb pier": [
+      "pcb_pier"
+    ],
+    "panama city pier": [
+      "pcb_pier"
+    ],
+    "pensacola bay bridge": [
+      "pcola_bay_fishing_bridge"
+    ],
+    "pcola bay bridge": [
+      "pcola_bay_fishing_bridge"
+    ],
+    "pensacola beach pier": [
+      "pensacola_beach_pier"
+    ],
+    "perdido weir": [
+      "perdido_weir"
+    ],
+    "poseidon playground": [
+      "poseidon_playground"
+    ],
+    "randy hopper reef": [
+      "randy_hopper_reef"
+    ],
+    "hopper reef": [
+      "randy_hopper_reef"
+    ],
+    "rookie barge": [
+      "rookie_barge"
+    ],
+    "soule modules": [
+      "soule_modules_cluster"
+    ],
+    "soule concrete": [
+      "soule_modules_cluster"
+    ],
+    "ss united states": [
+      "ss_united_states"
+    ],
+    "united states artificial reef": [
+      "ss_united_states"
+    ],
+    "swingle reef": [
+      "swingle_reef"
+    ],
+    "three mile barge": [
+      "three_mile_barge"
+    ],
+    "3 mile barge": [
+      "three_mile_barge"
+    ],
+    "timberholes": [
+      "timberholes"
+    ],
+    "the timberholes": [
+      "timberholes"
+    ],
+    "105 tug": [
+      "tug_105"
+    ],
+    "tug 105": [
+      "tug_105"
+    ],
+    "unocal rig": [
+      "unocal_rig"
+    ],
+    "unocal": [
+      "unocal_rig"
+    ],
+    "uscg anchors": [
+      "uscg_anchors"
+    ],
+    "coast guard anchors": [
+      "uscg_anchors"
+    ],
+    "ydt 14": [
+      "ydt_14_15"
+    ],
+    "ydt 15": [
+      "ydt_14_15"
+    ],
+    "ydt-14": [
+      "ydt_14_15"
+    ],
+    "ydt-15": [
+      "ydt_14_15"
+    ],
+    "boca grande pass": [
+      "boca_grande_pass"
+    ],
+    "boca grande": [
+      "boca_grande_pass"
+    ],
+    "cape romano shoals": [
+      "cape_romano_shoals"
+    ],
+    "cape romano": [
+      "cape_romano_shoals"
+    ],
+    "charlotte harbor": [
+      "charlotte_harbor"
+    ],
+    "chokoloskee": [
+      "chokoloskee_pass"
+    ],
+    "everglades city": [
+      "chokoloskee_pass"
+    ],
+    "doctors pass": [
+      "doctors_pass"
+    ],
+    "doctor's pass": [
+      "doctors_pass"
+    ],
+    "flamingo florida": [
+      "flamingo"
+    ],
+    "flamingo everglades": [
+      "flamingo"
+    ],
+    "florida bay flats": [
+      "florida_bay_flats"
+    ],
+    "florida bay": [
+      "florida_bay_flats"
+    ],
+    "65 ledge": [
+      "ftl_65_ledge"
+    ],
+    "65 foot ledge fort lauderdale": [
+      "ftl_65_ledge"
+    ],
+    "65-foot ledge": [
+      "ftl_65_ledge"
+    ],
+    "ancient mariner wreck": [
+      "ftl_ancient_mariner"
+    ],
+    "ancient mariner": [
+      "ftl_ancient_mariner"
+    ],
+    "neptune memorial reef": [
+      "ftl_neptune_reef"
+    ],
+    "neptune reef": [
+      "ftl_neptune_reef"
+    ],
+    "rebel wreck ftl": [
+      "ftl_rebel_wreck"
+    ],
+    "rebel wreck fort lauderdale": [
+      "ftl_rebel_wreck"
+    ],
+    "marco pass": [
+      "marco_pass"
+    ],
+    "marco island pass": [
+      "marco_pass"
+    ],
+    "almirante wreck": [
+      "mia_almirante_wreck"
+    ],
+    "bahamas run miami": [
+      "mia_bahamas_run"
+    ],
+    "miami bimini run": [
+      "mia_bahamas_run"
+    ],
+    "orion wreck miami": [
+      "mia_orion_wreck"
+    ],
+    "content keys wall": [
+      "mk_content_keys_wall"
+    ],
+    "content keys": [
+      "mk_content_keys_wall"
+    ],
+    "naples offshore ledges": [
+      "naples_offshore_ledges"
+    ],
+    "naples ledges": [
+      "naples_offshore_ledges"
+    ],
+    "naples pier": [
+      "naples_pier"
+    ],
+    "naples city pier": [
+      "naples_pier"
+    ],
+    "governors reef": [
+      "pb_governors_reef"
+    ],
+    "governor's reef": [
+      "pb_governors_reef"
+    ],
+    "juno ledge south": [
+      "pb_juno_ledge_south"
+    ],
+    "juno ledge": [
+      "pb_juno_ledge_south"
+    ],
+    "loran tower wreck": [
+      "pb_loran_tower"
+    ],
+    "loran tower": [
+      "pb_loran_tower"
+    ],
+    "the trench palm beach": [
+      "pb_the_trench"
+    ],
+    "palm beach trench": [
+      "pb_the_trench"
+    ],
+    "pine island sound": [
+      "pine_island_sound"
+    ],
+    "sanibel causeway": [
+      "sanibel_causeway"
+    ],
+    "edison reef": [
+      "swfl_edison_reef"
+    ],
+    "fort myers ledge": [
+      "swfl_fort_myers_ledge"
+    ],
+    "ft myers ledge": [
+      "swfl_fort_myers_ledge"
+    ],
+    "140ft ledge": [
+      "swfl_fort_myers_ledge"
+    ],
+    "naples hardbottom": [
+      "swfl_naples_hardbottom"
+    ],
+    "ten thousand islands": [
+      "ten_thousand_islands"
+    ],
+    "10000 islands": [
+      "ten_thousand_islands"
+    ],
+    "islamorada 180": [
+      "uk_islamorada_180"
+    ],
+    "pickles reef": [
+      "uk_pickles_reef"
+    ],
+    "axel_carlson_reef": [
+      "sea_girt_reef",
+      "manasquan_ridge"
+    ],
+    "shark_river_reef": [
+      "sea_girt_reef",
+      "manasquan_ridge"
+    ],
+    "sea_bright": [
+      "mud_hole_nj",
+      "sea_girt_reef"
+    ],
+    "the_mud_hole": [
+      "mud_hole",
+      "mud_hole_nj"
+    ],
+    "cholera_bank": [
+      "mud_hole_nj",
+      "delaware_ii_wreck"
+    ],
+    "crab_ledge": [
+      "monomoy_rips",
+      "cape_cod_bay"
+    ],
+    "seventeen_fathoms": [
+      "sea_girt_reef",
+      "manasquan_ridge",
+      "barnegat_ridge"
+    ],
+    "twenty_seven_fathom": [
+      "mohawk_wreck",
+      "immigrant_wreck",
+      "triple_wreck_reef"
+    ]
+  }
+}

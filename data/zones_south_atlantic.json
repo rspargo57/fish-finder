@@ -1,0 +1,5618 @@
+{
+  "_notes": "Fish Finder Zone 3 \u2014 South Atlantic / Southeast (Cape Lookout NC \u2192 Cape Canaveral FL). Beta \u2014 captain-intel harvesters wired but new; picks rank on seasonal presence + SST fit + reef proximity until captain heat scores accumulate. Bridges Mid-Atl (which reaches to Hatteras) and Zone 5 South Florida (starts at Palm Beach).",
+  "region_id": "south_atlantic",
+  "region_label": "South Atlantic \u2014 Coastal SE",
+  "region_short": "SE",
+  "generated": "2026-09-19",
+  "season": 2026,
+  "home_port": {
+    "name": "Charleston City Marina",
+    "town": "Charleston, SC",
+    "coords": [
+      32.78,
+      -79.955
+    ],
+    "notes": "Charleston default \u2014 central for the SE coast. World-class inshore + short Gulf Stream run offshore."
+  },
+  "boat": {
+    "make_model": "28' Cobia (default)",
+    "comfortable_seas_ft": 2,
+    "tolerable_seas_ft": 3,
+    "fuel_tank_gallons": 175,
+    "miles_per_gallon": 1.6,
+    "safe_tank_pct": 0.8,
+    "trolling_reserve_gal": 12,
+    "safety_reserve_gal": 10,
+    "practical_day_range_nm": 65,
+    "extended_range_nm": 75,
+    "max_range_nm": 90,
+    "cruise_mph": 30,
+    "notes": "Same profile as Zone 1 default \u2014 visitor customizes via \u2693 chip."
+  },
+  "wind_thresholds": {
+    "comfortable_max_mph": 10,
+    "tolerable_max_mph": 15,
+    "nogo_min_mph": 16
+  },
+  "map": {
+    "center": [
+      31.5,
+      -79.5
+    ],
+    "zoom": 6,
+    "min_lat": 28.0,
+    "max_lat": 35.2,
+    "min_lon": -82.0,
+    "max_lon": -75.5
+  },
+  "sub_regions": {
+    "NC": "North Carolina (S of Hatteras)",
+    "SC": "South Carolina",
+    "GA": "Georgia",
+    "NE FL": "Northeast Florida"
+  },
+  "tide_station": {
+    "id": "8665530",
+    "name": "Charleston, SC"
+  },
+  "noaa_gridpoint": {
+    "office": "CHS",
+    "gridX": 62,
+    "gridY": 60,
+    "path": "CHS/62,60"
+  },
+  "port_presets": [
+    {
+      "name": "Beaufort Docks",
+      "town": "Beaufort, NC",
+      "coords": [
+        34.716,
+        -76.663
+      ]
+    },
+    {
+      "name": "Wrightsville Marina",
+      "town": "Wrightsville Beach, NC",
+      "coords": [
+        34.213,
+        -77.809
+      ]
+    },
+    {
+      "name": "Charleston City Marina",
+      "town": "Charleston, SC",
+      "coords": [
+        32.78,
+        -79.955
+      ]
+    },
+    {
+      "name": "Downtown Marina Beaufort",
+      "town": "Beaufort, SC",
+      "coords": [
+        32.432,
+        -80.673
+      ]
+    },
+    {
+      "name": "Palmer Johnson Marina",
+      "town": "Savannah, GA",
+      "coords": [
+        32.058,
+        -81.099
+      ]
+    },
+    {
+      "name": "Golden Isles Marina",
+      "town": "St. Simons, GA",
+      "coords": [
+        31.145,
+        -81.394
+      ]
+    },
+    {
+      "name": "Sadler Point Marina",
+      "town": "Jacksonville, FL",
+      "coords": [
+        30.39,
+        -81.63
+      ]
+    },
+    {
+      "name": "Camachee Cove",
+      "town": "St. Augustine, FL",
+      "coords": [
+        29.918,
+        -81.301
+      ]
+    },
+    {
+      "name": "Sunrise Marina",
+      "town": "Port Canaveral, FL",
+      "coords": [
+        28.407,
+        -80.634
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "cape_lookout",
+      "name": "Cape Lookout",
+      "region": "NC",
+      "category": "inshore",
+      "center": [
+        34.62,
+        -76.53
+      ],
+      "species": [
+        "false_albacore",
+        "king_mackerel",
+        "spanish_mackerel",
+        "cobia",
+        "redfish"
+      ],
+      "notes": "Legendary fall false albacore fishery \u2014 thousands of light-tackle anglers Oct-Nov. Also the tip of the outer banks arm.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "false_albacore": [
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          5,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "spanish_mackerel": [
+          5,
+          6,
+          7,
+          9,
+          9,
+          7,
+          6,
+          6,
+          7,
+          8,
+          7,
+          5
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 79.8
+    },
+    {
+      "id": "morehead_city",
+      "name": "Morehead City / Beaufort Inlet",
+      "region": "NC",
+      "category": "inshore",
+      "center": [
+        34.72,
+        -76.68
+      ],
+      "species": [
+        "king_mackerel",
+        "cobia",
+        "redfish",
+        "spotted_seatrout",
+        "mahi"
+      ],
+      "notes": "The launching point for the NC offshore fleet. King mackerel tournament capital + Gulf Stream day trips.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 80.3,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "bogue_inlet",
+      "name": "Bogue Inlet (Emerald Isle)",
+      "region": "NC",
+      "category": "inshore",
+      "center": [
+        34.66,
+        -77.11
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "cobia"
+      ],
+      "notes": "Emerald Isle's main inlet. Inshore trifecta plus pier + surf.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 80.5
+    },
+    {
+      "id": "cape_fear_river",
+      "name": "Cape Fear River (Wilmington)",
+      "region": "NC",
+      "category": "inshore",
+      "center": [
+        34.15,
+        -77.94
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "king_mackerel"
+      ],
+      "notes": "Wilmington's river mouth. Massive redfish flats + docks. Kings run the beaches summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-01",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-01",
+          "video_count": 2,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "frying_pan_shoals",
+      "name": "Frying Pan Shoals / Tower",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        33.48,
+        -77.58
+      ],
+      "species": [
+        "mahi",
+        "wahoo",
+        "king_mackerel",
+        "amberjack",
+        "blackfin_tuna"
+      ],
+      "notes": "The offshore tower + shoals 30nm SE of Cape Fear. Mahi + wahoo highway when the Gulf Stream pushes in.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "blackfin_tuna": [
+          7,
+          7,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          7,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 82.8
+    },
+    {
+      "id": "the_same_ol",
+      "name": "The Same Ol' (100/400 Rock)",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        33.6,
+        -76.9
+      ],
+      "species": [
+        "mahi",
+        "wahoo",
+        "yellowfin_tuna",
+        "blue_marlin",
+        "blackfin_tuna"
+      ],
+      "notes": "Classic NC offshore hard-bottom + Gulf Stream ledge 60nm out of Beaufort. Mahi + wahoo trolls + summer tuna.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8
+        ],
+        "yellowfin_tuna": [
+          7,
+          8,
+          7,
+          6,
+          5,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          7
+        ],
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "blackfin_tuna": [
+          7,
+          7,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 85.2
+    },
+    {
+      "id": "the_big_rock",
+      "name": "The Big Rock (Marlin Country)",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        33.85,
+        -76.35
+      ],
+      "species": [
+        "blue_marlin",
+        "white_marlin",
+        "mahi",
+        "yellowfin_tuna",
+        "wahoo"
+      ],
+      "notes": "Site of the Big Rock Blue Marlin Tournament (June). One of the most prestigious billfish tournaments on the E coast.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "white_marlin": [
+          3,
+          3,
+          4,
+          6,
+          7,
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          3
+        ],
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "yellowfin_tuna": [
+          7,
+          8,
+          7,
+          6,
+          5,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          7
+        ],
+        "wahoo": [
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 85.7,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "winyah_bay_georgetown",
+      "name": "Winyah Bay (Georgetown)",
+      "region": "SC",
+      "category": "inshore",
+      "center": [
+        33.2,
+        -79.2
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon"
+      ],
+      "notes": "Georgetown's massive estuary \u2014 four rivers converge. Redfish + trout on the flats + tarpon migration.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": 82.1
+    },
+    {
+      "id": "charleston_harbor",
+      "name": "Charleston Harbor",
+      "region": "SC",
+      "category": "inshore",
+      "center": [
+        32.78,
+        -79.9
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon",
+        "cobia"
+      ],
+      "notes": "Charleston Harbor + jetties. Massive redfish fishery on the flats + tarpon rolling under the Ravenel Bridge summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 82.7,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "charleston_offshore",
+      "name": "Charleston Offshore (60-80 Line)",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        32.2,
+        -79.2
+      ],
+      "species": [
+        "mahi",
+        "wahoo",
+        "king_mackerel",
+        "blackfin_tuna",
+        "sailfish"
+      ],
+      "notes": "The 60-80 fathom line 50nm off Charleston. Mahi + wahoo + kingfish + occasional sailfish.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8
+        ],
+        "blackfin_tuna": [
+          7,
+          7,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          7,
+          7
+        ],
+        "sailfish": [
+          6,
+          6,
+          5,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 83.7
+    },
+    {
+      "id": "edisto_flats",
+      "name": "Edisto Flats",
+      "region": "SC",
+      "category": "inshore",
+      "center": [
+        32.5,
+        -80.3
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon"
+      ],
+      "notes": "Edisto Island's back-of-the-marsh flats. Sight-fishing redfish on the grass tails.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "port_royal_sound",
+      "name": "Port Royal Sound (Beaufort SC)",
+      "region": "SC",
+      "category": "inshore",
+      "center": [
+        32.3,
+        -80.68
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "cobia",
+        "tarpon"
+      ],
+      "notes": "Beaufort SC's deep sound \u2014 spring cobia migration is enormous (peak Apr-May). Also great redfish/trout year-round.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": NaN
+    },
+    {
+      "id": "hilton_head_reefs",
+      "name": "Hilton Head / Broad River",
+      "region": "SC",
+      "category": "inshore",
+      "center": [
+        32.15,
+        -80.75
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "cobia",
+        "tarpon",
+        "spanish_mackerel"
+      ],
+      "notes": "Hilton Head Island / Broad River / Calibogue Sound. Resort area but excellent inshore + offshore access.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ],
+        "spanish_mackerel": [
+          5,
+          6,
+          7,
+          9,
+          9,
+          7,
+          6,
+          6,
+          7,
+          8,
+          7,
+          5
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "tybee_island",
+      "name": "Tybee Island / Savannah River",
+      "region": "GA",
+      "category": "inshore",
+      "center": [
+        32.02,
+        -80.85
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon"
+      ],
+      "notes": "Savannah's beach + river mouth. Tybee pier + Wassaw Sound. Redfish + trout + summer tarpon rolling.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": NaN
+    },
+    {
+      "id": "st_simons_brunswick",
+      "name": "St. Simons / Brunswick (Golden Isles)",
+      "region": "GA",
+      "category": "inshore",
+      "center": [
+        31.13,
+        -81.35
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon"
+      ],
+      "notes": "The Golden Isles inshore stack. St. Simons Sound + Jekyll Creek + Turtle River. Tarpon Jul-Aug.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": 83.5
+    },
+    {
+      "id": "ga_black_gill_wrecks",
+      "name": "Georgia Live Bottom / KC Reef",
+      "region": "GA",
+      "category": "canyon",
+      "center": [
+        31.0,
+        -80.7
+      ],
+      "species": [
+        "king_mackerel",
+        "mahi",
+        "amberjack",
+        "grouper",
+        "mangrove_snapper"
+      ],
+      "notes": "GA's offshore live-bottom reefs (KC, R6, etc.) 30-50nm out. Kingfish + AJ + grouper structure fishing.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 83.0
+    },
+    {
+      "id": "jacksonville_mayport",
+      "name": "Jacksonville / Mayport Inlet",
+      "region": "NE FL",
+      "category": "inshore",
+      "center": [
+        30.4,
+        -81.42
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "king_mackerel"
+      ],
+      "notes": "The St. John's River mouth + Mayport jetties. Fall flounder run + winter kingfish + year-round reds.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "st_augustine",
+      "name": "St. Augustine (Matanzas Inlet)",
+      "region": "NE FL",
+      "category": "inshore",
+      "center": [
+        29.71,
+        -81.24
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "flounder",
+        "tarpon",
+        "king_mackerel"
+      ],
+      "notes": "St. Augustine + Matanzas inlets. Redfish flats + tarpon summer + kingfish just off the beach.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "flounder": [
+          4,
+          4,
+          5,
+          6,
+          6,
+          6,
+          6,
+          7,
+          9,
+          10,
+          9,
+          5
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": 83.3,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "ponce_inlet_daytona",
+      "name": "Ponce Inlet (Daytona)",
+      "region": "NE FL",
+      "category": "inshore",
+      "center": [
+        29.08,
+        -80.92
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "tarpon",
+        "king_mackerel",
+        "cobia"
+      ],
+      "notes": "Daytona's main inlet. Legendary summer tarpon fishery just offshore + kingfish at the jetty.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4,
+          3
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": NaN
+    },
+    {
+      "id": "port_canaveral",
+      "name": "Port Canaveral",
+      "region": "NE FL",
+      "category": "inshore",
+      "center": [
+        28.42,
+        -80.6
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "king_mackerel",
+        "mahi",
+        "sailfish",
+        "cobia"
+      ],
+      "notes": "Cape Canaveral's port. The Gulf Stream is close in here \u2014 kingfish + sails + mahi within 15-20nm. Southern boundary of Zone 3.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "redfish": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          8,
+          9,
+          10,
+          9,
+          8
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "mahi": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "sailfish": [
+          6,
+          6,
+          5,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          6,
+          7,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          10,
+          9,
+          6,
+          4,
+          4,
+          5,
+          6,
+          5,
+          4
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "nc_manning_line",
+      "name": "The Manning Line",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        34.1,
+        -76.6
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "blue_marlin",
+        "wahoo",
+        "mahi"
+      ],
+      "notes": "Offshore Cape Lookout. Yellowfin spring, marlin summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 83.5
+    },
+    {
+      "id": "nc_winyah_bay_grounds",
+      "name": "Winyah Bay Grounds",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        33.2,
+        -78.3
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "king_mackerel",
+        "amberjack"
+      ],
+      "notes": "Live bottom 25nm off SC line. Grouper + snapper.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 83.4
+    },
+    {
+      "id": "nc_wrightsville_15_mile",
+      "name": "Wrightsville 15-Mile Rock",
+      "region": "NC",
+      "category": "midshore",
+      "center": [
+        34.1,
+        -77.55
+      ],
+      "species": [
+        "king_mackerel",
+        "spanish_mackerel",
+        "amberjack",
+        "snapper"
+      ],
+      "notes": "Classic hard bottom 15nm off Wrightsville Beach. Kings all summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 82.5
+    },
+    {
+      "id": "nc_wrightsville_23_mile",
+      "name": "Wrightsville 23-Mile Rock",
+      "region": "NC",
+      "category": "midshore",
+      "center": [
+        34.0,
+        -77.42
+      ],
+      "species": [
+        "king_mackerel",
+        "amberjack",
+        "grouper",
+        "snapper"
+      ],
+      "notes": "Deeper live bottom 23nm SE Wrightsville. Bigger kings + AJs.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 82.0
+    },
+    {
+      "id": "nc_ten_mile_boxcars",
+      "name": "The Ten-Mile Boxcars",
+      "region": "NC",
+      "category": "midshore",
+      "center": [
+        34.3,
+        -77.65
+      ],
+      "species": [
+        "king_mackerel",
+        "spanish_mackerel",
+        "cobia"
+      ],
+      "notes": "Artificial reef of sunken railcars. Kings + Spanish.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 81.0
+    },
+    {
+      "id": "nc_steeples",
+      "name": "The Steeples",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        33.9,
+        -76.75
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "wahoo",
+        "mahi",
+        "blue_marlin"
+      ],
+      "notes": "Offshore hump 50nm SE Wrightsville. Yellowfin school.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ]
+      },
+      "current_sst_f": 84.5
+    },
+    {
+      "id": "nc_swansboro_hole",
+      "name": "Swansboro Hole",
+      "region": "NC",
+      "category": "canyon",
+      "center": [
+        34.2,
+        -77.1
+      ],
+      "species": [
+        "grouper",
+        "amberjack",
+        "snapper"
+      ],
+      "notes": "Deep structure hole. Grouper + AJ year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-19",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ]
+      },
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-19",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 80.8
+    },
+    {
+      "id": "sc_georgetown_hole",
+      "name": "Georgetown Hole",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        33.15,
+        -78.65
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "wahoo",
+        "mahi",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "notes": "Legendary Gulf Stream break 55nm E Georgetown. All-species spot.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 82.8
+    },
+    {
+      "id": "sc_charleston_bump",
+      "name": "Charleston Bump",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        31.75,
+        -79.1
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "blue_marlin",
+        "wahoo",
+        "mahi",
+        "sailfish"
+      ],
+      "notes": "Massive underwater plateau. Marlin ground August-September.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.2
+    },
+    {
+      "id": "sc_blackfish_banks",
+      "name": "Blackfish Bank",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        33.05,
+        -79.2
+      ],
+      "species": [
+        "black_sea_bass",
+        "grouper",
+        "snapper",
+        "amberjack"
+      ],
+      "notes": "Live bottom 25nm E Georgetown. Sea bass + grouper.",
+      "heat": 5,
+      "heat_updated": "2026-09-17",
+      "seasonal_presence": {
+        "black_sea_bass": [
+          9,
+          9,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 81.9,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-17",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "sc_edisto_banks",
+      "name": "Edisto Banks",
+      "region": "SC",
+      "category": "midshore",
+      "center": [
+        32.3,
+        -80.1
+      ],
+      "species": [
+        "king_mackerel",
+        "grouper",
+        "snapper",
+        "amberjack"
+      ],
+      "notes": "Nearshore banks off Edisto Island. Popular king run.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 83.0
+    },
+    {
+      "id": "sc_hilton_head_snapper_banks",
+      "name": "Hilton Head Snapper Banks",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        32.05,
+        -80.6
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "king_mackerel"
+      ],
+      "notes": "Well-known snapper banks 25nm SE Hilton Head.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 83.7
+    },
+    {
+      "id": "sc_deli_belly",
+      "name": "The Deli Belly",
+      "region": "SC",
+      "category": "canyon",
+      "center": [
+        32.15,
+        -79.45
+      ],
+      "species": [
+        "yellowfin_tuna",
+        "wahoo",
+        "mahi",
+        "sailfish"
+      ],
+      "notes": "Offshore break north of Charleston Bump. Wahoo winter.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 83.6
+    },
+    {
+      "id": "ga_grays_reef",
+      "name": "Gray's Reef NMS",
+      "region": "GA",
+      "category": "midshore",
+      "center": [
+        31.4,
+        -80.87
+      ],
+      "species": [
+        "black_sea_bass",
+        "gag_grouper",
+        "snapper",
+        "amberjack"
+      ],
+      "notes": "National Marine Sanctuary 19mi off Sapelo Island. Regulated species.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "black_sea_bass": [
+          9,
+          9,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "gag_grouper": [
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          8,
+          9,
+          8,
+          6,
+          5
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 84.4
+    },
+    {
+      "id": "ga_sapelo_live_bottom",
+      "name": "Sapelo Live Bottom",
+      "region": "GA",
+      "category": "midshore",
+      "center": [
+        31.35,
+        -80.95
+      ],
+      "species": [
+        "grouper",
+        "snapper",
+        "amberjack",
+        "kingfish"
+      ],
+      "notes": "Wide live bottom system. Bottom fishing productive.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 83.6
+    },
+    {
+      "id": "ga_long_reef",
+      "name": "Long Reef (GA)",
+      "region": "GA",
+      "category": "canyon",
+      "center": [
+        31.2,
+        -80.65
+      ],
+      "species": [
+        "grouper",
+        "snapper",
+        "amberjack"
+      ],
+      "notes": "Deep ledge system 40nm off Brunswick.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 82.6
+    },
+    {
+      "id": "ga_navy_tower",
+      "name": "R-6 Navy Tower Wreck",
+      "region": "GA",
+      "category": "canyon",
+      "center": [
+        31.35,
+        -80.6
+      ],
+      "species": [
+        "amberjack",
+        "grouper",
+        "kingfish",
+        "cobia"
+      ],
+      "notes": "Sunken navy tower structure. Big amberjack.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 83.2
+    },
+    {
+      "id": "ga_snapper_banks",
+      "name": "Georgia Snapper Banks",
+      "region": "GA",
+      "category": "canyon",
+      "center": [
+        31.0,
+        -80.5
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "kingfish"
+      ],
+      "notes": "Historic snapper banks 60nm off Brunswick. Deep water.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 83.3
+    },
+    {
+      "id": "nefl_elton_bottom",
+      "name": "Elton Bottom",
+      "region": "NE FL",
+      "category": "midshore",
+      "center": [
+        30.4,
+        -80.9
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "kingfish"
+      ],
+      "notes": "Rocky bottom 25nm SE Amelia Island. Bottom fish + kings.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 83.1
+    },
+    {
+      "id": "nefl_ledge_20fathom",
+      "name": "20-Fathom Ledge (Jacksonville)",
+      "region": "NE FL",
+      "category": "midshore",
+      "center": [
+        30.1,
+        -81.05
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "kingfish",
+        "wahoo"
+      ],
+      "notes": "Continental shelf edge 40nm off Jax. Wahoo + tuna trolling.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ]
+      },
+      "current_sst_f": 82.2
+    },
+    {
+      "id": "nefl_ninemile",
+      "name": "Nine Mile Reef (Amelia)",
+      "region": "NE FL",
+      "category": "midshore",
+      "center": [
+        30.55,
+        -81.2
+      ],
+      "species": [
+        "king_mackerel",
+        "spanish_mackerel",
+        "cobia"
+      ],
+      "notes": "Nearshore reef complex 9nm off Amelia Island. Kings + cobia.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 83.7
+    },
+    {
+      "id": "nefl_st_augustine_ledge",
+      "name": "St. Augustine Ledge",
+      "region": "NE FL",
+      "category": "canyon",
+      "center": [
+        29.85,
+        -81.1
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "kingfish"
+      ],
+      "notes": "Rocky ledge 20nm off St. Augustine. Snapper year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 83.7
+    },
+    {
+      "id": "nefl_lion_wreck",
+      "name": "Lion Wreck",
+      "region": "NE FL",
+      "category": "midshore",
+      "center": [
+        30.2,
+        -81.2
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack"
+      ],
+      "notes": "300ft cargo ship wreck. Deep structure.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 82.9
+    }
+  ],
+  "whale_sightings": [
+    {
+      "date": "2026-09-01",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        30.30526,
+        -81.66136
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396687136",
+      "nearest_zone_id": "jacksonville_mayport",
+      "distance_nm": 13.7,
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.73715,
+        -80.75392
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396118736",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 20.7,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        29.67169,
+        -81.21507
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395902269",
+      "nearest_zone_id": "st_augustine",
+      "distance_nm": 2.6,
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Bottlenose Dolphins",
+      "coords": [
+        28.58345,
+        -80.64289
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395843346",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 10.1,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.32278,
+        -80.62811
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396017108",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 6.0,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.77157,
+        -79.92663
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395016167",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 1.4,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.93703,
+        -79.63878
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395005384",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 16.2,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.90603,
+        -79.59818
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394988930",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 17.0,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "species": "Atlantic Spotted Dolphin",
+      "coords": [
+        34.54668,
+        -76.01342
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396237531",
+      "nearest_zone_id": "cape_lookout",
+      "distance_nm": 25.9,
+      "zones": [
+        "cape_lookout"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.79766,
+        -79.92886
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394381157",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 1.8,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-08-24",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.22061,
+        -80.79096
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394980595",
+      "nearest_zone_id": "hilton_head_reefs",
+      "distance_nm": 4.7,
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        33.35142,
+        -79.27966
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393552195",
+      "nearest_zone_id": "winyah_bay_georgetown",
+      "distance_nm": 9.9,
+      "zones": [
+        "winyah_bay_georgetown"
+      ]
+    },
+    {
+      "date": "2026-08-21",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        29.31857,
+        -81.05115
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393280538",
+      "nearest_zone_id": "ponce_inlet_daytona",
+      "distance_nm": 15.9,
+      "zones": [
+        "ponce_inlet_daytona"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.20245,
+        -80.86571
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392826918",
+      "nearest_zone_id": "hilton_head_reefs",
+      "distance_nm": 6.7,
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.20254,
+        -80.86566
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392826902",
+      "nearest_zone_id": "hilton_head_reefs",
+      "distance_nm": 6.7,
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-08-19",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.75107,
+        -79.90651
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392675501",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 1.8,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-08-17",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        33.01354,
+        -79.58907
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394300573",
+      "nearest_zone_id": "sc_blackfish_banks",
+      "distance_nm": 19.7,
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.30154,
+        -80.73077
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391922222",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 9.9,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        34.57354,
+        -77.27097
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392372422",
+      "nearest_zone_id": "bogue_inlet",
+      "distance_nm": 9.5,
+      "zones": [
+        "bogue_inlet"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        34.4271,
+        -77.54608
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393052950",
+      "nearest_zone_id": "nc_ten_mile_boxcars",
+      "distance_nm": 9.2,
+      "zones": [
+        "nc_ten_mile_boxcars"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "White-beaked Dolphin",
+      "coords": [
+        28.7732,
+        -80.4829
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397917296",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 22.1,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        29.07084,
+        -80.9106
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397921687",
+      "nearest_zone_id": "ponce_inlet_daytona",
+      "distance_nm": 0.7,
+      "zones": [
+        "ponce_inlet_daytona"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        33.81509,
+        -78.67858
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397829107",
+      "nearest_zone_id": "sc_georgetown_hole",
+      "distance_nm": 40.0,
+      "zones": [
+        "sc_georgetown_hole"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        30.38777,
+        -81.61738
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397423007",
+      "nearest_zone_id": "jacksonville_mayport",
+      "distance_nm": 10.2,
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Bottlenose Dolphins",
+      "coords": [
+        28.40586,
+        -80.64841
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397598518",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 2.7,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-28",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.77605,
+        -79.92448
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397535854",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 1.3,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.18694,
+        -80.74863
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398506554",
+      "nearest_zone_id": "hilton_head_reefs",
+      "distance_nm": 2.2,
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        28.7732,
+        -80.4829
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397917296",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 22.1,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "species": "Oceanic Dolphins",
+      "coords": [
+        33.81509,
+        -78.67858
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397829107",
+      "nearest_zone_id": "sc_georgetown_hole",
+      "distance_nm": 40.0,
+      "zones": [
+        "sc_georgetown_hole"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.18552,
+        -80.75089
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400379460",
+      "nearest_zone_id": "hilton_head_reefs",
+      "distance_nm": 2.1,
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        29.07814,
+        -80.92149
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400029293",
+      "nearest_zone_id": "ponce_inlet_daytona",
+      "distance_nm": 0.1,
+      "zones": [
+        "ponce_inlet_daytona"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        34.70496,
+        -76.72827
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399505871",
+      "nearest_zone_id": "morehead_city",
+      "distance_nm": 2.5,
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.03754,
+        -80.96046
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399277913",
+      "nearest_zone_id": "tybee_island",
+      "distance_nm": 5.7,
+      "zones": [
+        "tybee_island"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        34.71195,
+        -76.69463
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399534022",
+      "nearest_zone_id": "morehead_city",
+      "distance_nm": 0.9,
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.77813,
+        -79.92383
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398764850",
+      "nearest_zone_id": "charleston_harbor",
+      "distance_nm": 1.2,
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.13166,
+        -80.62195
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399414235",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 17.4,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.7732,
+        -80.4829
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397917296",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 22.1,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        28.58345,
+        -80.64289
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395843346",
+      "nearest_zone_id": "port_canaveral",
+      "distance_nm": 10.1,
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.39909,
+        -80.72082
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401252488",
+      "nearest_zone_id": "port_royal_sound",
+      "distance_nm": 6.3,
+      "zones": [
+        "port_royal_sound"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        31.27067,
+        -81.30143
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400832210",
+      "nearest_zone_id": "st_simons_brunswick",
+      "distance_nm": 8.8,
+      "zones": [
+        "st_simons_brunswick"
+      ]
+    }
+  ],
+  "bait_intel": [
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, sand ee",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-3-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, mullet, sand eels, sil",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/cape-cod-fishing-report-september-3-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-3-2026",
+      "zones": [
+        "nc_ten_mile_boxcars"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-3-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "sc_edisto_banks"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-3-2026",
+      "zones": [
+        "nefl_ledge_20fathom"
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "tybee_island"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395295178",
+      "lat": 31.9893,
+      "lon": -80.8448,
+      "dist_nm": 1.9
+    },
+    {
+      "date": "2026-08-28",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "ponce_inlet_daytona"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395396044",
+      "lat": 28.946,
+      "lon": -81.3394,
+      "dist_nm": 23.4
+    },
+    {
+      "date": "2026-08-28",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "winyah_bay_georgetown"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395245288",
+      "lat": 33.3663,
+      "lon": -79.2841,
+      "dist_nm": 10.8
+    },
+    {
+      "date": "2026-08-20",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "tybee_island"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392946715",
+      "lat": 32.0274,
+      "lon": -80.8896,
+      "dist_nm": 2.1
+    },
+    {
+      "date": "2026-08-16",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "ponce_inlet_daytona"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393928064",
+      "lat": 28.9451,
+      "lon": -81.3395,
+      "dist_nm": 23.5
+    },
+    {
+      "date": "2026-08-14",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "jacksonville_mayport"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391280128",
+      "lat": 30.1111,
+      "lon": -81.6418,
+      "dist_nm": 20.8
+    },
+    {
+      "date": "2026-08-29",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395652062",
+      "lat": 33.9106,
+      "lon": -78.3053,
+      "dist_nm": 23.2
+    },
+    {
+      "date": "2026-08-22",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "jacksonville_mayport"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394406724",
+      "lat": 30.6284,
+      "lon": -81.4847,
+      "dist_nm": 14.1
+    },
+    {
+      "date": "2026-08-20",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "morehead_city"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394715108",
+      "lat": 34.7087,
+      "lon": -76.6724,
+      "dist_nm": 0.8
+    },
+    {
+      "date": "2026-08-17",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392003228",
+      "lat": 33.8952,
+      "lon": -78.4396,
+      "dist_nm": 29.2
+    },
+    {
+      "date": "2026-08-25",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "winyah_bay_georgetown"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394442250",
+      "lat": 33.5235,
+      "lon": -79.0624,
+      "dist_nm": 20.6
+    },
+    {
+      "date": "2026-08-22",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "jacksonville_mayport"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393535272",
+      "lat": 30.4178,
+      "lon": -81.532,
+      "dist_nm": 5.9
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "sc_edisto_banks"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "ponce_inlet_daytona"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397921663",
+      "lat": 29.0708,
+      "lon": -80.9106,
+      "dist_nm": 0.7
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "bogue_inlet"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398084064",
+      "lat": 35.1354,
+      "lon": -77.0319,
+      "dist_nm": 28.8
+    },
+    {
+      "date": "2026-09-05",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "ponce_inlet_daytona"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398649511",
+      "lat": 28.9463,
+      "lon": -81.3393,
+      "dist_nm": 23.4
+    },
+    {
+      "date": "2026-09-07",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "tybee_island"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398155243",
+      "lat": 31.9914,
+      "lon": -80.8447,
+      "dist_nm": 1.7
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400230089",
+      "lat": 34.2364,
+      "lon": -77.953,
+      "dist_nm": 5.2
+    },
+    {
+      "date": "2026-09-11",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "bogue_inlet"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399707877",
+      "lat": 35.0264,
+      "lon": -76.9852,
+      "dist_nm": 22.8
+    },
+    {
+      "date": "2026-09-11",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "edisto_flats"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399313738",
+      "lat": 32.372,
+      "lon": -80.4379,
+      "dist_nm": 10.4
+    },
+    {
+      "date": "2026-09-11",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399362549",
+      "lat": 33.9022,
+      "lon": -78.0825,
+      "dist_nm": 16.5
+    },
+    {
+      "date": "2026-09-10",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "charleston_harbor"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399165485",
+      "lat": 32.8646,
+      "lon": -79.812,
+      "dist_nm": 6.7
+    },
+    {
+      "date": "2026-09-05",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "st_augustine"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/399805769",
+      "lat": 29.6514,
+      "lon": -81.2071,
+      "dist_nm": 3.9
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, silvers",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-17-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, mullet, peanut bunker,",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-17-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, peanut bunker, sand eels, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-17-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/coastal-new-hampshire-and-maine-coast-fishing-report-september-17-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-17-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, peanut bunker, sand eels, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-17-2026",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "menhaden/bunker, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-17-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "anchovies, mackerel, menhaden/bunker, mullet, peanut bunker,",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-17-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "mackerel, menhaden/bunker, mullet, peanut bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-17-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401073049",
+      "lat": 34.2369,
+      "lon": -77.9533,
+      "dist_nm": 5.3
+    },
+    {
+      "date": "2026-09-16",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400815680",
+      "lat": 34.2368,
+      "lon": -77.9552,
+      "dist_nm": 5.3
+    },
+    {
+      "date": "2026-09-15",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "cape_fear_river"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400533757",
+      "lat": 34.2011,
+      "lon": -77.8019,
+      "dist_nm": 7.5
+    },
+    {
+      "date": "2026-09-19",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "port_canaveral"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401634541",
+      "lat": 28.3579,
+      "lon": -80.6351,
+      "dist_nm": 4.2
+    },
+    {
+      "date": "2026-09-19",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "st_simons_brunswick"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401543698",
+      "lat": 31.1338,
+      "lon": -81.3968,
+      "dist_nm": 2.4
+    },
+    {
+      "date": "2026-09-18",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "st_augustine"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/401343319",
+      "lat": 29.4763,
+      "lon": -81.1245,
+      "dist_nm": 15.3
+    }
+  ],
+  "region_species_extras": {
+    "cobia": {
+      "label": "Cobia",
+      "color": "#a1887f",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4
+      ]
+    },
+    "king_mackerel": {
+      "label": "King Mackerel",
+      "color": "#ffb74d",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 68,
+      "temp_max_f": 82,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "spanish_mackerel": {
+      "label": "Spanish Mackerel",
+      "color": "#dce775",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 80,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "redfish": {
+      "label": "Redfish",
+      "color": "#e57373",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 55,
+      "temp_max_f": 82,
+      "peak_months": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "spotted_seatrout": {
+      "label": "Speckled Trout",
+      "color": "#b0bec5",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 58,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ]
+    },
+    "flounder": {
+      "label": "Flounder",
+      "color": "#d7ccc8",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 55,
+      "temp_max_f": 78,
+      "peak_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    "tarpon": {
+      "label": "Tarpon",
+      "color": "#78909c",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": false,
+      "temp_min_f": 72,
+      "temp_max_f": 86,
+      "peak_months": [
+        6,
+        7,
+        8
+      ]
+    },
+    "grouper": {
+      "label": "Grouper (Gag/Red)",
+      "color": "#8d6e63",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 60,
+      "temp_max_f": 78,
+      "peak_months": [
+        3,
+        4,
+        9,
+        10,
+        11
+      ]
+    },
+    "amberjack": {
+      "label": "Amberjack",
+      "color": "#ffa726",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 66,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    "red_snapper": {
+      "label": "Red Snapper",
+      "color": "#ef5350",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 68,
+      "temp_max_f": 80,
+      "peak_months": [
+        6
+      ]
+    },
+    "blackfin_tuna": {
+      "label": "Blackfin Tuna",
+      "color": "#26a69a",
+      "mode": "offshore",
+      "isTuna": true,
+      "isKeepable": true,
+      "temp_min_f": 70,
+      "temp_max_f": 82,
+      "peak_months": [
+        10,
+        11,
+        12,
+        1
+      ]
+    }
+  }
+}

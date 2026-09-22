@@ -1,0 +1,7783 @@
+{
+  "_notes": "Fish Finder Zone 5 \u2014 South Florida / Sailfish Coast (Palm Beach \u2192 Miami \u2192 Islamorada \u2192 Key West, Atlantic side + Gulf side both live \u2014 Pass A + Pass B v24.44). Beta \u2014 captain-intel sources not yet wired; picks rank on seasonal presence + SST fit + reef/wreck proximity until captain heat scores populate. v24.44 added Pass B: Naples, Marco, 10K Islands, Everglades, Boca Grande, Charlotte Harbor, Sanibel, FL Middle Grounds.",
+  "region_id": "south_florida",
+  "region_label": "South Florida \u2014 Sailfish Coast",
+  "region_short": "S. Florida",
+  "generated": "2026-09-19",
+  "season": 2026,
+  "home_port": {
+    "name": "Bud N' Mary's Marina (Islamorada)",
+    "town": "Islamorada, FL",
+    "coords": [
+      24.923,
+      -80.622
+    ],
+    "notes": "Islamorada default \u2014 self-declared Sportfishing Capital of the World. Central for Keys + short run to Islamorada Hump + Wood Wall Gulf Stream."
+  },
+  "boat": {
+    "make_model": "28' Cobia (default)",
+    "comfortable_seas_ft": 2,
+    "tolerable_seas_ft": 3,
+    "fuel_tank_gallons": 175,
+    "miles_per_gallon": 1.6,
+    "safe_tank_pct": 0.8,
+    "trolling_reserve_gal": 12,
+    "safety_reserve_gal": 10,
+    "practical_day_range_nm": 65,
+    "extended_range_nm": 75,
+    "max_range_nm": 90,
+    "cruise_mph": 30,
+    "notes": "Same profile as Zone 1 default \u2014 visitor customizes via \u2693 chip."
+  },
+  "wind_thresholds": {
+    "comfortable_max_mph": 10,
+    "tolerable_max_mph": 15,
+    "nogo_min_mph": 16
+  },
+  "map": {
+    "center": [
+      25.8,
+      -81.5
+    ],
+    "zoom": 7,
+    "min_lat": 24.3,
+    "max_lat": 28.7,
+    "min_lon": -84.5,
+    "max_lon": -79.7
+  },
+  "sub_regions": {
+    "Palm Beach": "Palm Beach Area",
+    "Fort Lauderdale": "Fort Lauderdale",
+    "Miami": "Miami / Biscayne",
+    "Upper Keys": "Upper Keys / Islamorada",
+    "Middle Keys": "Marathon / Middle Keys",
+    "Lower Keys": "Key West / Lower Keys",
+    "Offshore GS": "Offshore Gulf Stream",
+    "SW FL": "SW Florida (Naples/Marco/Ft Myers)",
+    "Everglades": "Everglades / 10K Islands / Florida Bay"
+  },
+  "tide_station": {
+    "id": "8724580",
+    "name": "Key West, FL"
+  },
+  "noaa_gridpoint": {
+    "office": "MFL",
+    "gridX": 110,
+    "gridY": 50,
+    "path": "MFL/110,50"
+  },
+  "port_presets": [
+    {
+      "name": "Sailfish Marina",
+      "town": "Palm Beach Shores, FL",
+      "coords": [
+        26.782,
+        -80.037
+      ]
+    },
+    {
+      "name": "Bahia Mar Marina",
+      "town": "Fort Lauderdale, FL",
+      "coords": [
+        26.107,
+        -80.106
+      ]
+    },
+    {
+      "name": "Miami Beach Marina",
+      "town": "Miami Beach, FL",
+      "coords": [
+        25.773,
+        -80.14
+      ]
+    },
+    {
+      "name": "Crandon Marina",
+      "town": "Key Biscayne, FL",
+      "coords": [
+        25.717,
+        -80.155
+      ]
+    },
+    {
+      "name": "Bud N' Mary's Marina",
+      "town": "Islamorada, FL",
+      "coords": [
+        24.923,
+        -80.622
+      ]
+    },
+    {
+      "name": "Faro Blanco Resort",
+      "town": "Marathon, FL",
+      "coords": [
+        24.712,
+        -81.087
+      ]
+    },
+    {
+      "name": "A&B Marina",
+      "town": "Key West, FL",
+      "coords": [
+        24.56,
+        -81.804
+      ]
+    },
+    {
+      "name": "Naples City Dock",
+      "town": "Naples, FL",
+      "coords": [
+        26.14,
+        -81.796
+      ]
+    },
+    {
+      "name": "Rose Marina",
+      "town": "Marco Island, FL",
+      "coords": [
+        25.941,
+        -81.727
+      ]
+    },
+    {
+      "name": "Chokoloskee Island Park",
+      "town": "Everglades City, FL",
+      "coords": [
+        25.83,
+        -81.376
+      ]
+    },
+    {
+      "name": "Uncle Henry's Marina",
+      "town": "Boca Grande, FL",
+      "coords": [
+        26.741,
+        -82.259
+      ]
+    },
+    {
+      "name": "Sanibel Marina",
+      "town": "Sanibel, FL",
+      "coords": [
+        26.451,
+        -82.011
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "id": "jupiter_ledge",
+      "name": "Jupiter Ledge",
+      "region": "Palm Beach",
+      "category": "midshore",
+      "center": [
+        26.945,
+        -80.045
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "king_mackerel",
+        "wahoo",
+        "amberjack",
+        "grouper"
+      ],
+      "notes": "Legendary ledge system 2-4mi off Jupiter Inlet. Sailfish and kingfish rip through Nov-Mar; mahi + wahoo summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.7,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "west_palm_sailfish",
+      "name": "West Palm Sailfish Grounds",
+      "region": "Palm Beach",
+      "category": "nearshore",
+      "center": [
+        26.71,
+        -80.0
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "king_mackerel",
+        "wahoo",
+        "blackfin_tuna",
+        "blue_marlin"
+      ],
+      "notes": "The Sailfish Capital of the World's home ground. Kite fishing off the Palm Beach ledge. Winter sailfish tournaments.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "blackfin_tuna": [
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.7
+    },
+    {
+      "id": "palm_beach_reef_line",
+      "name": "Palm Beach Reef Line",
+      "region": "Palm Beach",
+      "category": "inshore",
+      "center": [
+        26.65,
+        -80.03
+      ],
+      "species": [
+        "king_mackerel",
+        "cobia",
+        "grouper",
+        "amberjack",
+        "spanish_mackerel",
+        "barracuda"
+      ],
+      "notes": "The three-line reef system parallel to the beach 100-500 yards out. Kingfish + cobia migrations, structure fishing.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          6,
+          6,
+          5
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "spanish_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          5,
+          4,
+          5,
+          6,
+          8,
+          8,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 85.9
+    },
+    {
+      "id": "boynton_boca_ledge",
+      "name": "Boynton / Boca Ledge",
+      "region": "Palm Beach",
+      "category": "midshore",
+      "center": [
+        26.4,
+        -80.03
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "king_mackerel",
+        "wahoo",
+        "mutton_snapper"
+      ],
+      "notes": "The offshore ledge between Boynton and Boca inlets. Sailfish drifts + summer mahi push.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.9
+    },
+    {
+      "id": "hillsboro_reef",
+      "name": "Hillsboro Reef Complex",
+      "region": "Fort Lauderdale",
+      "category": "inshore",
+      "center": [
+        26.26,
+        -80.08
+      ],
+      "species": [
+        "king_mackerel",
+        "cobia",
+        "grouper",
+        "amberjack",
+        "mutton_snapper",
+        "barracuda"
+      ],
+      "notes": "The three-line reef off Hillsboro Inlet. Popular drift + wreck fishing area, wall of wrecks nearby.",
+      "heat": 5,
+      "heat_updated": "2026-09-16",
+      "seasonal_presence": {
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          6,
+          6,
+          5
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": NaN,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-16",
+          "video_count": 2,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "ftl_reef_lines",
+      "name": "Fort Lauderdale Reef Lines",
+      "region": "Fort Lauderdale",
+      "category": "inshore",
+      "center": [
+        26.1,
+        -80.09
+      ],
+      "species": [
+        "king_mackerel",
+        "mahi",
+        "sailfish",
+        "wahoo",
+        "mutton_snapper",
+        "grouper"
+      ],
+      "notes": "Classic three-line reef system straight out of Port Everglades. Inner (60'), middle (100'), outer (180-250').",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 85.8
+    },
+    {
+      "id": "ftl_wreck_alley",
+      "name": "Fort Lauderdale Wreck Alley",
+      "region": "Fort Lauderdale",
+      "category": "nearshore",
+      "center": [
+        26.11,
+        -80.08
+      ],
+      "species": [
+        "amberjack",
+        "grouper",
+        "mutton_snapper",
+        "barracuda",
+        "king_mackerel"
+      ],
+      "notes": "Blue Fire, Copenhagen, Rebel, Papa Doc \u2014 one of the densest artificial reef systems in FL. AJ + grouper stack here.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 85.8
+    },
+    {
+      "id": "hollywood_dania",
+      "name": "Hollywood / Dania Reef",
+      "region": "Fort Lauderdale",
+      "category": "inshore",
+      "center": [
+        26.02,
+        -80.1
+      ],
+      "species": [
+        "king_mackerel",
+        "cobia",
+        "spanish_mackerel",
+        "mutton_snapper",
+        "grouper"
+      ],
+      "notes": "The reefs off Hollywood/Dania Beach. Live-bait kingfish drift country + Dania Pier tarpon in summer.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          6,
+          6,
+          5
+        ],
+        "spanish_mackerel": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          5,
+          4,
+          5,
+          6,
+          8,
+          8,
+          7
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.3
+    },
+    {
+      "id": "government_cut",
+      "name": "Government Cut / Miami Inlet",
+      "region": "Miami",
+      "category": "inshore",
+      "center": [
+        25.77,
+        -80.13
+      ],
+      "species": [
+        "tarpon",
+        "king_mackerel",
+        "cobia",
+        "barracuda",
+        "permit"
+      ],
+      "notes": "Miami's primary inlet. Legendary tarpon fishery in the cut Apr-Jul (150-lb+ fish common). Kingfish rip through winter.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          6,
+          6,
+          5
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.2,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "fowey_rocks",
+      "name": "Fowey Rocks",
+      "region": "Miami",
+      "category": "midshore",
+      "center": [
+        25.59,
+        -80.1
+      ],
+      "species": [
+        "sailfish",
+        "king_mackerel",
+        "mahi",
+        "wahoo",
+        "blackfin_tuna",
+        "grouper"
+      ],
+      "notes": "Iconic reef + light structure at the edge of the Gulf Stream. Where captains start their offshore drift for sails.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "blackfin_tuna": [
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "current_sst_f": 86.7
+    },
+    {
+      "id": "stiltsville_flats",
+      "name": "Stiltsville / Biscayne Flats",
+      "region": "Miami",
+      "category": "inshore",
+      "center": [
+        25.65,
+        -80.17
+      ],
+      "species": [
+        "bonefish",
+        "permit",
+        "tarpon",
+        "barracuda"
+      ],
+      "notes": "The Biscayne Bay flats. Bonefish, tarpon, permit \u2014 the trifecta on fly. Stiltsville houses are the landmark.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "bonefish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          6
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.1
+    },
+    {
+      "id": "miami_190_trough",
+      "name": "Miami 190 Trough",
+      "region": "Miami",
+      "category": "nearshore",
+      "center": [
+        25.75,
+        -80.05
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "wahoo",
+        "blackfin_tuna",
+        "blue_marlin",
+        "swordfish"
+      ],
+      "notes": "The Gulf Stream offshore trough. Kite fishing sails + trolling for mahi. Swordfish deep drop after dark.",
+      "heat": 5,
+      "heat_updated": "2026-09-13",
+      "seasonal_presence": {
+        "sailfish": [
+          9,
+          10,
+          9,
+          6,
+          4,
+          3,
+          3,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "blackfin_tuna": [
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "swordfish": [
+          6,
+          7,
+          7,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 86.5,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-13",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "biscayne_outer_reef",
+      "name": "Biscayne Outer Reef",
+      "region": "Miami",
+      "category": "inshore",
+      "center": [
+        25.55,
+        -80.13
+      ],
+      "species": [
+        "mutton_snapper",
+        "yellowtail_snapper",
+        "grouper",
+        "king_mackerel",
+        "mahi"
+      ],
+      "notes": "The outer reef line off Biscayne Bay. Yellowtail chum fishery + mutton snapper on the drop-off.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "king_mackerel": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.7
+    },
+    {
+      "id": "islamorada_hump",
+      "name": "Islamorada Hump",
+      "region": "Upper Keys",
+      "category": "nearshore",
+      "center": [
+        24.85,
+        -80.6
+      ],
+      "species": [
+        "blackfin_tuna",
+        "wahoo",
+        "amberjack",
+        "king_mackerel",
+        "mahi"
+      ],
+      "notes": "The famous 500-800' seamount 20mi south of Islamorada. Blackfin tuna live-bait mecca + AJ jigging + big kings.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "blackfin_tuna": [
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8
+        ]
+      },
+      "current_sst_f": 87.0,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "alligator_reef",
+      "name": "Alligator Reef Light",
+      "region": "Upper Keys",
+      "category": "inshore",
+      "center": [
+        24.85,
+        -80.62
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mutton_snapper",
+        "grouper",
+        "cero_mackerel",
+        "barracuda"
+      ],
+      "notes": "Iconic 1873 lighthouse marking Islamorada's premier reef. Yellowtail chum fishery + reef stack.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "cero_mackerel": [
+          7,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.9,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "molasses_reef",
+      "name": "Molasses Reef (Key Largo)",
+      "region": "Upper Keys",
+      "category": "inshore",
+      "center": [
+        25.01,
+        -80.38
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mutton_snapper",
+        "cero_mackerel",
+        "barracuda",
+        "grouper"
+      ],
+      "notes": "Key Largo's premier reef spot in Pennekamp Park. Massive yellowtail chum lines + tropical stack.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cero_mackerel": [
+          7,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.9
+    },
+    {
+      "id": "wreck_trek_upper_keys",
+      "name": "Upper Keys Wreck Trek",
+      "region": "Upper Keys",
+      "category": "midshore",
+      "center": [
+        25.01,
+        -80.29
+      ],
+      "species": [
+        "amberjack",
+        "mutton_snapper",
+        "grouper",
+        "barracuda",
+        "permit"
+      ],
+      "notes": "Duane, Bibb, Spiegel Grove, USS Vandenberg-class wrecks. Deep AJ + grouper + permit on the wrecks in June.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ]
+      },
+      "current_sst_f": 87.1
+    },
+    {
+      "id": "marathon_west_hump",
+      "name": "Marathon West Hump",
+      "region": "Middle Keys",
+      "category": "midshore",
+      "center": [
+        24.55,
+        -81.1
+      ],
+      "species": [
+        "blackfin_tuna",
+        "wahoo",
+        "amberjack",
+        "king_mackerel"
+      ],
+      "notes": "Deep-drop seamount 15mi south of Marathon. Blackfin tuna paradise + AJ + wahoo trolls.",
+      "heat": 5,
+      "heat_updated": "2026-09-02",
+      "seasonal_presence": {
+        "blackfin_tuna": [
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8
+        ]
+      },
+      "current_sst_f": 87.9,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-02",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "sombrero_reef",
+      "name": "Sombrero Reef",
+      "region": "Middle Keys",
+      "category": "inshore",
+      "center": [
+        24.63,
+        -81.11
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mutton_snapper",
+        "cero_mackerel",
+        "barracuda",
+        "grouper"
+      ],
+      "notes": "Marathon's iconic reef with the 1858 lighthouse. Yellowtail chum + snorkel-tourist mecca.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cero_mackerel": [
+          7,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.8,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "seven_mile_bridge",
+      "name": "Seven Mile Bridge / Channel",
+      "region": "Middle Keys",
+      "category": "inshore",
+      "center": [
+        24.71,
+        -81.16
+      ],
+      "species": [
+        "tarpon",
+        "permit",
+        "barracuda",
+        "grouper",
+        "mutton_snapper"
+      ],
+      "notes": "Structure fishing at the bridge pilings. Tarpon migration Apr-Jul stacks under the arches at night.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 87.5,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        },
+        "youtube": {
+          "last_video_date": "2026-09-02",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "bahia_honda_bridge",
+      "name": "Bahia Honda Bridge",
+      "region": "Middle Keys",
+      "category": "inshore",
+      "center": [
+        24.66,
+        -81.28
+      ],
+      "species": [
+        "tarpon",
+        "permit",
+        "bonefish",
+        "barracuda"
+      ],
+      "notes": "Legendary tarpon spot at the old bridge remnants. Also the Bahia Honda channel is a permit + bonefish flat.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "bonefish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          6
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.7
+    },
+    {
+      "id": "sand_key",
+      "name": "Sand Key",
+      "region": "Lower Keys",
+      "category": "inshore",
+      "center": [
+        24.45,
+        -81.87
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mutton_snapper",
+        "cero_mackerel",
+        "king_mackerel",
+        "barracuda"
+      ],
+      "notes": "Key West's home reef with the 1853 lighthouse. Yellowtail + mutton snapper stack all season.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cero_mackerel": [
+          7,
+          8,
+          9,
+          9,
+          8,
+          6,
+          5,
+          5,
+          6,
+          6,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.6,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "cottrell_key",
+      "name": "Cottrell Key",
+      "region": "Lower Keys",
+      "category": "midshore",
+      "center": [
+        24.63,
+        -82.0
+      ],
+      "species": [
+        "mutton_snapper",
+        "grouper",
+        "amberjack",
+        "yellowtail_snapper",
+        "barracuda"
+      ],
+      "notes": "Offshore reef complex NW of Key West. Deep mutton snapper + grouper drop-off, less pressure than Sand Key.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.0,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "marquesas_keys",
+      "name": "Marquesas Keys",
+      "region": "Lower Keys",
+      "category": "midshore",
+      "center": [
+        24.57,
+        -82.14
+      ],
+      "species": [
+        "permit",
+        "tarpon",
+        "bonefish",
+        "mutton_snapper",
+        "grouper"
+      ],
+      "notes": "The wildest flats + backcountry in the Keys. Permit paradise. Tarpon migration staging area April-June.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "bonefish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          6
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.3
+    },
+    {
+      "id": "key_west_wreck_line",
+      "name": "Key West Wreck Line (Vandenberg+)",
+      "region": "Lower Keys",
+      "category": "nearshore",
+      "center": [
+        24.55,
+        -81.8
+      ],
+      "species": [
+        "amberjack",
+        "grouper",
+        "mutton_snapper",
+        "barracuda",
+        "permit"
+      ],
+      "notes": "USS Vandenberg (525-ft wreck, world class) + Alexander's Wreck + Cayman Salvager. AJ jigging + permit April-June.",
+      "heat": 5,
+      "heat_updated": "2026-09-15",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "barracuda": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ]
+      },
+      "current_sst_f": 87.6,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-15",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "dry_tortugas",
+      "name": "Dry Tortugas",
+      "region": "Lower Keys",
+      "category": "canyon",
+      "center": [
+        24.63,
+        -82.87
+      ],
+      "species": [
+        "mutton_snapper",
+        "grouper",
+        "amberjack",
+        "blackfin_tuna",
+        "permit",
+        "yellowtail_snapper"
+      ],
+      "notes": "70mi west of Key West. Untouched grouper + mutton fishery. Multi-day trip territory. Fort Jefferson is the landmark.",
+      "heat": 5,
+      "heat_updated": "2026-08-30",
+      "seasonal_presence": {
+        "mutton_snapper": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "grouper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "blackfin_tuna": [
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "yellowtail_snapper": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.8
+    },
+    {
+      "id": "islamorada_409_hole",
+      "name": "Islamorada 409 Hole",
+      "region": "Offshore GS",
+      "category": "midshore",
+      "center": [
+        24.75,
+        -80.35
+      ],
+      "species": [
+        "blackfin_tuna",
+        "wahoo",
+        "mahi",
+        "sailfish",
+        "blue_marlin",
+        "swordfish"
+      ],
+      "notes": "Deep Gulf Stream hole SE of Islamorada. Live-bait blackfin + swordfish deep drop after dark.",
+      "heat": 5,
+      "heat_updated": "2026-09-13",
+      "seasonal_presence": {
+        "blackfin_tuna": [
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "sailfish": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "swordfish": [
+          6,
+          7,
+          7,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 87.4,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-13",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "wood_wall",
+      "name": "The Wood Wall (Islamorada Offshore)",
+      "region": "Offshore GS",
+      "category": "nearshore",
+      "center": [
+        24.8,
+        -80.2
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "wahoo",
+        "blackfin_tuna",
+        "blue_marlin"
+      ],
+      "notes": "The Gulf Stream western wall \u2014 the color change captains chase. Sails + mahi + wahoo on the temperature break.",
+      "heat": 5,
+      "heat_updated": "2026-09-13",
+      "seasonal_presence": {
+        "sailfish": [
+          8,
+          8,
+          7,
+          5,
+          4,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          4,
+          6,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          4,
+          3
+        ],
+        "wahoo": [
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          8
+        ],
+        "blackfin_tuna": [
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9
+        ],
+        "blue_marlin": [
+          3,
+          3,
+          4,
+          5,
+          7,
+          9,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": 87.4,
+      "intel_sources": {
+        "youtube": {
+          "last_video_date": "2026-09-13",
+          "video_count": 1,
+          "channel_count": 1
+        }
+      }
+    },
+    {
+      "id": "naples_pier",
+      "name": "Naples City Pier",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.13,
+        -81.81
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "spotted_seatrout",
+        "spanish_mackerel",
+        "tarpon"
+      ],
+      "notes": "Naples' iconic pier \u2014 daytime snook + trout, evening tarpon rolls in summer. Kids-friendly access to Gulf.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "spanish_mackerel": [
+          6,
+          6,
+          7,
+          8,
+          8,
+          6,
+          5,
+          5,
+          6,
+          8,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": 85.8
+    },
+    {
+      "id": "doctors_pass",
+      "name": "Doctor's Pass (Naples)",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.16,
+        -81.82
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "tarpon",
+        "spotted_seatrout",
+        "cobia"
+      ],
+      "notes": "Naples' main inlet pass. Strong tidal flow attracts snook + redfish; cobia sight-fishing on the beach spring.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 85.9
+    },
+    {
+      "id": "naples_offshore_ledges",
+      "name": "Naples Offshore Ledges",
+      "region": "SW FL",
+      "category": "midshore",
+      "center": [
+        26.1,
+        -82.1
+      ],
+      "species": [
+        "grouper",
+        "mangrove_snapper",
+        "king_mackerel",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "The 60-80' ledge system 15-25nm offshore Naples. Grouper + snapper stacks + winter kingfish drift.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "grouper": [
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 88.3
+    },
+    {
+      "id": "marco_pass",
+      "name": "Marco Pass",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        25.94,
+        -81.73
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "tarpon",
+        "spotted_seatrout",
+        "mangrove_snapper"
+      ],
+      "notes": "Marco Island's main inlet \u2014 mangrove-lined creeks feed the pass; snook + redfish on the flats + oyster bars.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": NaN
+    },
+    {
+      "id": "cape_romano_shoals",
+      "name": "Cape Romano Shoals",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        25.85,
+        -81.68
+      ],
+      "species": [
+        "redfish",
+        "spotted_seatrout",
+        "snook",
+        "tarpon",
+        "permit"
+      ],
+      "notes": "The shoals SW of Marco Island. Wading + skiff flats for redfish + trout. Permit occasional on the outer shoals.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ]
+      },
+      "current_sst_f": 86.7
+    },
+    {
+      "id": "ten_thousand_islands",
+      "name": "Ten Thousand Islands",
+      "region": "Everglades",
+      "category": "inshore",
+      "center": [
+        25.8,
+        -81.55
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "spotted_seatrout",
+        "tarpon",
+        "mangrove_snapper"
+      ],
+      "notes": "Untouched maze of mangrove islands S of Marco. Skiff-only wilderness fishery; snook + redfish on virtually every point.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 86.5
+    },
+    {
+      "id": "chokoloskee_pass",
+      "name": "Chokoloskee / Everglades City",
+      "region": "Everglades",
+      "category": "inshore",
+      "center": [
+        25.83,
+        -81.37
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "tarpon",
+        "spotted_seatrout"
+      ],
+      "notes": "The launch point for Everglades backcountry. Chokoloskee Bay + Turner River. Guides run out of here for wilderness snook/redfish trips.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 86.2
+    },
+    {
+      "id": "flamingo",
+      "name": "Flamingo (Florida Bay)",
+      "region": "Everglades",
+      "category": "inshore",
+      "center": [
+        25.14,
+        -80.93
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "tarpon",
+        "bonefish",
+        "permit"
+      ],
+      "notes": "S. tip of Everglades National Park \u2014 the border between Gulf and Florida Bay. Backcountry snook + Florida Bay bones/permit/tarpon.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "bonefish": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6,
+          5
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ]
+      },
+      "current_sst_f": NaN
+    },
+    {
+      "id": "florida_bay_flats",
+      "name": "Florida Bay Flats",
+      "region": "Everglades",
+      "category": "inshore",
+      "center": [
+        25.03,
+        -80.8
+      ],
+      "species": [
+        "bonefish",
+        "permit",
+        "tarpon",
+        "redfish",
+        "spotted_seatrout"
+      ],
+      "notes": "The vast shallow flats between the mainland and the Keys. Backcountry paradise \u2014 Islamorada guides run over here for backcountry days.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "bonefish": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6,
+          5
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 85.7
+    },
+    {
+      "id": "boca_grande_pass",
+      "name": "Boca Grande Pass",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.72,
+        -82.26
+      ],
+      "species": [
+        "tarpon",
+        "snook",
+        "cobia",
+        "permit",
+        "grouper"
+      ],
+      "notes": "TARPON CAPITAL OF THE WORLD. May-July the pass is packed with 150+ boats live-baiting for 100-200lb tarpon. World Series of Tarpon.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "tarpon": [
+          3,
+          4,
+          6,
+          8,
+          10,
+          10,
+          10,
+          9,
+          7,
+          5,
+          4,
+          3
+        ],
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          5,
+          5,
+          4
+        ],
+        "permit": [
+          5,
+          6,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          7,
+          6,
+          6,
+          5
+        ],
+        "grouper": [
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "charlotte_harbor",
+      "name": "Charlotte Harbor",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.85,
+        -82.15
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "spotted_seatrout",
+        "tarpon",
+        "mangrove_snapper"
+      ],
+      "notes": "Second-largest estuary in FL. Placida to Punta Gorda. Snook + redfish flats + tarpon migrating in from Boca Grande.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 85.9,
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      }
+    },
+    {
+      "id": "pine_island_sound",
+      "name": "Pine Island Sound",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.6,
+        -82.15
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "spotted_seatrout",
+        "tarpon"
+      ],
+      "notes": "Between Pine Island and Sanibel/Captiva. Grass flats + oyster bars \u2014 classic SW FL inshore stack.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "spotted_seatrout": [
+          7,
+          7,
+          8,
+          9,
+          8,
+          6,
+          5,
+          5,
+          7,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ]
+      },
+      "current_sst_f": 85.9
+    },
+    {
+      "id": "sanibel_causeway",
+      "name": "Sanibel Causeway",
+      "region": "SW FL",
+      "category": "inshore",
+      "center": [
+        26.44,
+        -82.02
+      ],
+      "species": [
+        "snook",
+        "redfish",
+        "tarpon",
+        "spanish_mackerel",
+        "mangrove_snapper"
+      ],
+      "notes": "Bridge pilings between Ft Myers and Sanibel. Snook + tarpon night bite under the lights; kingfish + mackerel outside.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "snook": [
+          5,
+          5,
+          6,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "redfish": [
+          6,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          9,
+          8,
+          7
+        ],
+        "tarpon": [
+          4,
+          5,
+          7,
+          9,
+          10,
+          10,
+          9,
+          8,
+          6,
+          5,
+          4,
+          3
+        ],
+        "spanish_mackerel": [
+          6,
+          6,
+          7,
+          8,
+          8,
+          6,
+          5,
+          5,
+          6,
+          8,
+          8,
+          7
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 85.8
+    },
+    {
+      "id": "florida_middle_grounds",
+      "name": "Florida Middle Grounds",
+      "region": "SW FL",
+      "category": "canyon",
+      "center": [
+        28.5,
+        -84.2
+      ],
+      "species": [
+        "grouper",
+        "amberjack",
+        "mangrove_snapper",
+        "king_mackerel",
+        "wahoo",
+        "cobia"
+      ],
+      "notes": "80-120nm W of Ft Myers/Tampa. Massive live-bottom ecosystem. Multi-day grouper + AJ trips. Cooler-water refugia in a hot Gulf.",
+      "heat": 5,
+      "heat_updated": "2026-08-31",
+      "seasonal_presence": {
+        "grouper": [
+          7,
+          7,
+          8,
+          8,
+          7,
+          6,
+          5,
+          5,
+          6,
+          7,
+          8,
+          8
+        ],
+        "amberjack": [
+          7,
+          8,
+          9,
+          9,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "mangrove_snapper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7
+        ],
+        "king_mackerel": [
+          7,
+          7,
+          6,
+          5,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          8
+        ],
+        "wahoo": [
+          6,
+          5,
+          4,
+          4,
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          4,
+          5,
+          8,
+          9,
+          7,
+          4,
+          3,
+          3,
+          4,
+          5,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 86.5
+    },
+    {
+      "id": "pb_sailfish_alley_north",
+      "name": "Sailfish Alley North (Juno-Jupiter)",
+      "region": "Palm Beach",
+      "category": "midshore",
+      "center": [
+        26.9,
+        -80.02
+      ],
+      "species": [
+        "sailfish",
+        "king_mackerel",
+        "mahi",
+        "blackfin_tuna"
+      ],
+      "notes": "Nov-Mar sailfish migration corridor. Kite fishing edge of Gulf Stream.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.8
+    },
+    {
+      "id": "pb_loran_tower",
+      "name": "Loran Tower Wreck",
+      "region": "Palm Beach",
+      "category": "nearshore",
+      "center": [
+        26.65,
+        -80.0
+      ],
+      "species": [
+        "amberjack",
+        "grouper",
+        "cobia",
+        "king_mackerel"
+      ],
+      "notes": "Sunken navigation tower. Structure fish year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 86.1
+    },
+    {
+      "id": "pb_governors_reef",
+      "name": "Governor's Reef",
+      "region": "Palm Beach",
+      "category": "nearshore",
+      "center": [
+        26.72,
+        -80.02
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "Artificial reef complex. Bottom fishing + trolling.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 86.3
+    },
+    {
+      "id": "pb_the_trench",
+      "name": "The Trench (Palm Beach)",
+      "region": "Palm Beach",
+      "category": "nearshore",
+      "center": [
+        26.75,
+        -79.95
+      ],
+      "species": [
+        "wahoo",
+        "blackfin_tuna",
+        "mahi",
+        "sailfish"
+      ],
+      "notes": "Deep-water ledge east of Palm Beach. Wahoo winter/spring.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.6
+    },
+    {
+      "id": "pb_juno_ledge_south",
+      "name": "Juno Ledge South",
+      "region": "Palm Beach",
+      "category": "midshore",
+      "center": [
+        26.85,
+        -80.02
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "king_mackerel"
+      ],
+      "notes": "Extension of Jupiter Ledge system south of Juno. Live-bait sails.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 86.7
+    },
+    {
+      "id": "pb_west_end_bank",
+      "name": "West End Bank (Bahamas Edge)",
+      "region": "Palm Beach",
+      "category": "canyon",
+      "center": [
+        26.65,
+        -79.1
+      ],
+      "species": [
+        "wahoo",
+        "mahi",
+        "blackfin_tuna",
+        "yellowfin_tuna",
+        "blue_marlin"
+      ],
+      "notes": "Bahamas Edge run \u2014 45nm ESE Palm Beach. Wahoo March-May, marlin summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 86.3
+    },
+    {
+      "id": "ftl_copenhagen_wreck",
+      "name": "Copenhagen Wreck",
+      "region": "Fort Lauderdale",
+      "category": "midshore",
+      "center": [
+        26.22,
+        -80.06
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "1900 shipwreck in 25ft. Snapper + cobia on wreck.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 86.5
+    },
+    {
+      "id": "ftl_rebel_wreck",
+      "name": "Rebel Wreck",
+      "region": "Fort Lauderdale",
+      "category": "nearshore",
+      "center": [
+        26.1,
+        -80.06
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "goliath_grouper"
+      ],
+      "notes": "185ft freighter sunk 1985. Deep drop for grouper + goliath.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "goliath_grouper": [
+          7,
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "ftl_ancient_mariner",
+      "name": "Ancient Mariner Wreck",
+      "region": "Fort Lauderdale",
+      "category": "nearshore",
+      "center": [
+        26.1,
+        -80.08
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack"
+      ],
+      "notes": "185ft coastal freighter. Excellent structure.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 85.9
+    },
+    {
+      "id": "ftl_hillsboro_ledge",
+      "name": "Hillsboro Ledge (Deep)",
+      "region": "Fort Lauderdale",
+      "category": "midshore",
+      "center": [
+        26.25,
+        -80.05
+      ],
+      "species": [
+        "sailfish",
+        "king_mackerel",
+        "mahi",
+        "amberjack"
+      ],
+      "notes": "Second reef ledge north Fort Lauderdale. Sailfish winter.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 86.5
+    },
+    {
+      "id": "ftl_65_ledge",
+      "name": "65-Foot Ledge (Ft. Lauderdale)",
+      "region": "Fort Lauderdale",
+      "category": "nearshore",
+      "center": [
+        26.13,
+        -80.09
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "kingfish",
+        "cobia"
+      ],
+      "notes": "Classic reef ledge 3nm off Port Everglades.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 85.5
+    },
+    {
+      "id": "ftl_bahamas_edge",
+      "name": "Bahamas Edge (Ft Lauderdale)",
+      "region": "Fort Lauderdale",
+      "category": "canyon",
+      "center": [
+        26.1,
+        -79.5
+      ],
+      "species": [
+        "wahoo",
+        "blue_marlin",
+        "yellowfin_tuna",
+        "mahi"
+      ],
+      "notes": "Gulf Stream to Bahamas Edge run. Trolling for pelagics.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 87.5
+    },
+    {
+      "id": "ftl_neptune_reef",
+      "name": "Neptune Memorial Reef",
+      "region": "Fort Lauderdale",
+      "category": "midshore",
+      "center": [
+        25.85,
+        -80.08
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "amberjack",
+        "kingfish"
+      ],
+      "notes": "Artificial reef 3.25mi E of Miami Beach. Big amberjack.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "mia_150_ledge",
+      "name": "Miami 150 Ledge",
+      "region": "Miami",
+      "category": "nearshore",
+      "center": [
+        25.78,
+        -80.08
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "cobia",
+        "king_mackerel"
+      ],
+      "notes": "150ft depth ledge. Bottom fishing + trolling combo.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "mia_stream_edge",
+      "name": "Miami Gulf Stream Edge",
+      "region": "Miami",
+      "category": "midshore",
+      "center": [
+        25.75,
+        -79.9
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "wahoo",
+        "blackfin_tuna"
+      ],
+      "notes": "Inner edge of Gulf Stream. Kite fishing sails winter.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 87.1
+    },
+    {
+      "id": "mia_orion_wreck",
+      "name": "Orion Wreck",
+      "region": "Miami",
+      "category": "nearshore",
+      "center": [
+        25.73,
+        -80.09
+      ],
+      "species": [
+        "grouper",
+        "amberjack",
+        "snapper"
+      ],
+      "notes": "119ft Coast Guard cutter sunk 1985.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "mia_almirante_wreck",
+      "name": "Almirante Wreck (Miami)",
+      "region": "Miami",
+      "category": "nearshore",
+      "center": [
+        25.7,
+        -80.09
+      ],
+      "species": [
+        "grouper",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "197ft freighter. Deep structure drop.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "mia_bahamas_run",
+      "name": "Miami-Bimini Run",
+      "region": "Miami",
+      "category": "canyon",
+      "center": [
+        25.7,
+        -79.4
+      ],
+      "species": [
+        "blue_marlin",
+        "yellowfin_tuna",
+        "wahoo",
+        "mahi"
+      ],
+      "notes": "50nm Bimini/Bahamas Bank edge. Pelagic run summer.",
+      "heat": 5,
+      "heat_updated": "2026-09-04",
+      "seasonal_presence": {
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ]
+      },
+      "intel_sources": {
+        "multi_source_refresh": {
+          "last_report_date": "2026-09-04",
+          "sources": "OTW + Fisherman Magazine + Fisherman's Post"
+        }
+      },
+      "current_sst_f": 87.0
+    },
+    {
+      "id": "uk_molasses_reef",
+      "name": "Molasses Reef",
+      "region": "Upper Keys",
+      "category": "midshore",
+      "center": [
+        25.01,
+        -80.37
+      ],
+      "species": [
+        "mahi",
+        "sailfish",
+        "king_mackerel",
+        "yellowtail_snapper"
+      ],
+      "notes": "Iconic UK reef 6mi SE Key Largo. Ultra popular light tackle.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 86.9
+    },
+    {
+      "id": "uk_alligator_reef",
+      "name": "Alligator Reef",
+      "region": "Upper Keys",
+      "category": "nearshore",
+      "center": [
+        24.85,
+        -80.62
+      ],
+      "species": [
+        "sailfish",
+        "mahi",
+        "yellowtail_snapper",
+        "king_mackerel"
+      ],
+      "notes": "Historic lighthouse reef 4mi SE Islamorada.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 86.9
+    },
+    {
+      "id": "uk_pickles_reef",
+      "name": "Pickles Reef",
+      "region": "Upper Keys",
+      "category": "midshore",
+      "center": [
+        25.0,
+        -80.42
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "grouper",
+        "hogfish",
+        "mahi"
+      ],
+      "notes": "Shallow reef, big yellowtail + hogfish.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ],
+        "hogfish": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 86.8
+    },
+    {
+      "id": "uk_islamorada_180",
+      "name": "Islamorada 180 (Deep)",
+      "region": "Upper Keys",
+      "category": "midshore",
+      "center": [
+        24.75,
+        -80.6
+      ],
+      "species": [
+        "mahi",
+        "wahoo",
+        "blackfin_tuna",
+        "swordfish"
+      ],
+      "notes": "180-fathom curve S of Islamorada Hump. Sword daytime.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ],
+        "swordfish": [
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 87.4
+    },
+    {
+      "id": "mk_sombrero_reef",
+      "name": "Sombrero Reef",
+      "region": "Middle Keys",
+      "category": "midshore",
+      "center": [
+        24.63,
+        -81.11
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mahi",
+        "sailfish",
+        "king_mackerel"
+      ],
+      "notes": "Lighthouse reef 4mi S Marathon. Yellowtail + sails.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 87.8
+    },
+    {
+      "id": "mk_east_hump",
+      "name": "Marathon East Hump",
+      "region": "Middle Keys",
+      "category": "midshore",
+      "center": [
+        24.55,
+        -80.85
+      ],
+      "species": [
+        "blackfin_tuna",
+        "wahoo",
+        "mahi",
+        "amberjack"
+      ],
+      "notes": "Underwater seamount 3nm E of West Hump. Blackfin schools.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "blackfin_tuna": [
+          8,
+          8,
+          8,
+          8,
+          7,
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8
+        ]
+      },
+      "current_sst_f": 88.1
+    },
+    {
+      "id": "mk_content_keys_wall",
+      "name": "Content Keys Wall",
+      "region": "Middle Keys",
+      "category": "midshore",
+      "center": [
+        24.8,
+        -81.3
+      ],
+      "species": [
+        "grouper",
+        "snapper",
+        "cobia"
+      ],
+      "notes": "Deep wall system. Good grouper structure.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 87.2
+    },
+    {
+      "id": "lk_looe_key_reef",
+      "name": "Looe Key Reef",
+      "region": "Lower Keys",
+      "category": "midshore",
+      "center": [
+        24.55,
+        -81.4
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "mahi",
+        "hogfish",
+        "king_mackerel"
+      ],
+      "notes": "Sanctuary reef 6mi S of Big Pine. Yellowtail hotspot.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "king_mackerel": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ],
+        "hogfish": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          8,
+          8,
+          7
+        ]
+      },
+      "current_sst_f": 88.3
+    },
+    {
+      "id": "lk_american_shoal",
+      "name": "American Shoal Reef",
+      "region": "Lower Keys",
+      "category": "midshore",
+      "center": [
+        24.53,
+        -81.52
+      ],
+      "species": [
+        "yellowtail_snapper",
+        "grouper",
+        "mahi",
+        "sailfish"
+      ],
+      "notes": "Big offshore reef complex W of Looe. Full-day trip.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "sailfish": [
+          7,
+          6,
+          5,
+          4,
+          3,
+          3,
+          5,
+          6,
+          6,
+          7,
+          8,
+          8
+        ],
+        "yellowtail_snapper": [
+          7,
+          7,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 88.2
+    },
+    {
+      "id": "lk_riley_hump",
+      "name": "Riley's Hump",
+      "region": "Lower Keys",
+      "category": "canyon",
+      "center": [
+        24.48,
+        -83.1
+      ],
+      "species": [
+        "mutton_snapper",
+        "grouper",
+        "amberjack"
+      ],
+      "notes": "Legendary mutton snapper spawning site 60nm W Key West. Regulated.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "lk_rebecca_shoal",
+      "name": "Rebecca Shoal",
+      "region": "Lower Keys",
+      "category": "canyon",
+      "center": [
+        24.58,
+        -82.55
+      ],
+      "species": [
+        "mutton_snapper",
+        "grouper",
+        "amberjack",
+        "cobia"
+      ],
+      "notes": "Shoal between Marquesas and Tortugas. Mutton snapper + grouper.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 87.9
+    },
+    {
+      "id": "gs_sword_grounds_sfl",
+      "name": "Swordfish Grounds (S. Florida)",
+      "region": "Offshore GS",
+      "category": "canyon",
+      "center": [
+        25.9,
+        -79.75
+      ],
+      "species": [
+        "swordfish",
+        "yellowfin_tuna",
+        "mahi"
+      ],
+      "notes": "1500ft+ Gulf Stream. Daytime deep-drop sword. Buoy line.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ],
+        "mahi": [
+          3,
+          3,
+          5,
+          7,
+          9,
+          9,
+          8,
+          8,
+          7,
+          7,
+          5,
+          4
+        ],
+        "swordfish": [
+          4,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          5,
+          4
+        ]
+      },
+      "current_sst_f": 87.3
+    },
+    {
+      "id": "gs_bimini_edge",
+      "name": "Bimini Edge Wall",
+      "region": "Offshore GS",
+      "category": "canyon",
+      "center": [
+        25.7,
+        -79.3
+      ],
+      "species": [
+        "blue_marlin",
+        "wahoo",
+        "yellowfin_tuna"
+      ],
+      "notes": "Bahamas dropoff edge. Trolling pelagics.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "blue_marlin": [
+          2,
+          2,
+          3,
+          5,
+          7,
+          8,
+          8,
+          8,
+          7,
+          6,
+          4,
+          2
+        ],
+        "wahoo": [
+          4,
+          4,
+          5,
+          8,
+          8,
+          7,
+          6,
+          6,
+          7,
+          9,
+          8,
+          6
+        ],
+        "yellowfin_tuna": [
+          3,
+          3,
+          4,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          4
+        ]
+      },
+      "current_sst_f": 86.4
+    },
+    {
+      "id": "swfl_pulley_ridge",
+      "name": "Pulley Ridge",
+      "region": "SW FL",
+      "category": "canyon",
+      "center": [
+        24.75,
+        -83.75
+      ],
+      "species": [
+        "red_grouper",
+        "mutton_snapper",
+        "amberjack"
+      ],
+      "notes": "Deep coral reef 70nm W of Tortugas. Red grouper trophy zone.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "red_grouper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6
+        ],
+        "mutton_snapper": [
+          7,
+          7,
+          8,
+          8,
+          9,
+          9,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7
+        ]
+      },
+      "current_sst_f": 87.4
+    },
+    {
+      "id": "swfl_naples_hardbottom",
+      "name": "Naples Hardbottom",
+      "region": "SW FL",
+      "category": "midshore",
+      "center": [
+        25.98,
+        -82.1
+      ],
+      "species": [
+        "red_grouper",
+        "gag_grouper",
+        "kingfish",
+        "cobia"
+      ],
+      "notes": "40nm W Naples. Winter kingfish + grouper year-round.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "gag_grouper": [
+          4,
+          4,
+          5,
+          6,
+          7,
+          7,
+          8,
+          8,
+          9,
+          8,
+          6,
+          5
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "red_grouper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 88.4
+    },
+    {
+      "id": "swfl_fort_myers_ledge",
+      "name": "Ft Myers Ledge (140ft)",
+      "region": "SW FL",
+      "category": "canyon",
+      "center": [
+        26.3,
+        -82.6
+      ],
+      "species": [
+        "red_grouper",
+        "amberjack",
+        "kingfish",
+        "cobia"
+      ],
+      "notes": "Deep ledge system 50nm SW Fort Myers.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "amberjack": [
+          7,
+          7,
+          7,
+          8,
+          9,
+          9,
+          8,
+          7,
+          7,
+          8,
+          8,
+          7
+        ],
+        "kingfish": [
+          2,
+          2,
+          3,
+          6,
+          8,
+          9,
+          9,
+          9,
+          9,
+          8,
+          6,
+          3
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ],
+        "red_grouper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          8,
+          7,
+          7,
+          7,
+          7,
+          6
+        ]
+      },
+      "current_sst_f": 88.6
+    },
+    {
+      "id": "swfl_edison_reef",
+      "name": "Edison Reef",
+      "region": "SW FL",
+      "category": "midshore",
+      "center": [
+        26.3,
+        -82.15
+      ],
+      "species": [
+        "snapper",
+        "grouper",
+        "spanish_mackerel",
+        "cobia"
+      ],
+      "notes": "State artificial reef 15nm W Fort Myers.",
+      "heat": 5,
+      "heat_updated": "2026-09-03",
+      "seasonal_presence": {
+        "snapper": [
+          6,
+          6,
+          6,
+          7,
+          8,
+          8,
+          9,
+          9,
+          9,
+          8,
+          7,
+          6
+        ],
+        "grouper": [
+          5,
+          5,
+          6,
+          7,
+          8,
+          8,
+          8,
+          8,
+          8,
+          7,
+          7,
+          6
+        ],
+        "spanish_mackerel": [
+          1,
+          1,
+          2,
+          5,
+          8,
+          9,
+          9,
+          8,
+          8,
+          7,
+          5,
+          2
+        ],
+        "cobia": [
+          1,
+          2,
+          5,
+          9,
+          9,
+          6,
+          4,
+          3,
+          5,
+          6,
+          3,
+          1
+        ]
+      },
+      "current_sst_f": 88.0
+    }
+  ],
+  "whale_sightings": [
+    {
+      "date": "2026-08-30",
+      "species": "Bottlenose Dolphins",
+      "coords": [
+        25.73779,
+        -81.34737
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395943013",
+      "nearest_zone_id": "chokoloskee_pass",
+      "distance_nm": 5.7,
+      "zones": [
+        "chokoloskee_pass"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        24.76705,
+        -80.94551
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395841842",
+      "nearest_zone_id": "sombrero_reef",
+      "distance_nm": 12.2,
+      "zones": [
+        "sombrero_reef"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        25.96307,
+        -81.69491
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394946952",
+      "nearest_zone_id": "marco_pass",
+      "distance_nm": 2.3,
+      "zones": [
+        "marco_pass"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        24.57887,
+        -81.78697
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394689910",
+      "nearest_zone_id": "key_west_wreck_line",
+      "distance_nm": 1.9,
+      "zones": [
+        "key_west_wreck_line"
+      ]
+    },
+    {
+      "date": "2026-08-22",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        25.98549,
+        -81.74765
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/393494537",
+      "nearest_zone_id": "marco_pass",
+      "distance_nm": 2.9,
+      "zones": [
+        "marco_pass"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": "Bottlenose Dolphins",
+      "coords": [
+        26.52758,
+        -82.19482
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396976126",
+      "nearest_zone_id": "pine_island_sound",
+      "distance_nm": 5.0,
+      "zones": [
+        "pine_island_sound"
+      ]
+    },
+    {
+      "date": "2026-08-27",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        26.52758,
+        -82.19482
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396976126",
+      "nearest_zone_id": "pine_island_sound",
+      "distance_nm": 5.0,
+      "zones": [
+        "pine_island_sound"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "species": "Bottlenose Dolphins",
+      "coords": [
+        24.56713,
+        -81.80675
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397791221",
+      "nearest_zone_id": "key_west_wreck_line",
+      "distance_nm": 1.1,
+      "zones": [
+        "key_west_wreck_line"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        26.03769,
+        -81.77312
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/397602880",
+      "nearest_zone_id": "naples_pier",
+      "distance_nm": 5.9,
+      "zones": [
+        "naples_pier"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "species": "Common Bottlenose Dolphin",
+      "coords": [
+        24.49229,
+        -81.85845
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398509273",
+      "nearest_zone_id": "sand_key",
+      "distance_nm": 2.6,
+      "zones": [
+        "sand_key"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "species": [
+        "dolphin_generic"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "On The Water Media",
+      "coords": [
+        24.63,
+        -81.11
+      ],
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "500-Pound Swordfish Sets New Maine State Record | Northeast Offshore Fishing Report Sept. 2nd 2026",
+      "link": "https://www.youtube.com/watch?v=gF2Pe_Si_Ko",
+      "zones": [
+        "sombrero_reef",
+        "marathon_west_hump",
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "species": [
+        "dolphin_generic"
+      ],
+      "kind": "dolphin",
+      "count": null,
+      "location": "The Fisherman Magazine",
+      "coords": [
+        24.8,
+        -80.2
+      ],
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=n6XWxY0iE10",
+      "zones": [
+        "wood_wall",
+        "miami_190_trough",
+        "islamorada_409_hole"
+      ]
+    }
+  ],
+  "bait_intel": [
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charlotte_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jupiter_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-3-2026",
+      "zones": [
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, mullet, sand eels, sil",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/cape-cod-fishing-report-september-3-2026",
+      "zones": [
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-3-2026",
+      "zones": [
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "mia_bahamas_run"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "boynton_boca_ledge"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396943113",
+      "lat": 26.3925,
+      "lon": -80.0656,
+      "dist_nm": 2.0
+    },
+    {
+      "date": "2026-08-31",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "boynton_boca_ledge"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396168848",
+      "lat": 26.3907,
+      "lon": -80.0659,
+      "dist_nm": 2.0
+    },
+    {
+      "date": "2026-08-24",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "sanibel_causeway"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/394184712",
+      "lat": 26.4509,
+      "lon": -82.1032,
+      "dist_nm": 4.5
+    },
+    {
+      "date": "2026-08-18",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "sanibel_causeway"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/395183837",
+      "lat": 26.4693,
+      "lon": -82.1389,
+      "dist_nm": 6.6
+    },
+    {
+      "date": "2026-09-02",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "sanibel_causeway"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/396748557",
+      "lat": 26.4586,
+      "lon": -82.1567,
+      "dist_nm": 7.4
+    },
+    {
+      "date": "2026-08-20",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "jupiter_ledge"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392983135",
+      "lat": 27.1753,
+      "lon": -80.1728,
+      "dist_nm": 15.4
+    },
+    {
+      "date": "2026-08-18",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "hillsboro_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/392925523",
+      "lat": 26.2374,
+      "lon": -80.0865,
+      "dist_nm": 1.4
+    },
+    {
+      "date": "2026-08-16",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "marco_pass"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391880863",
+      "lat": 25.9569,
+      "lon": -81.7521,
+      "dist_nm": 1.6
+    },
+    {
+      "date": "2026-08-15",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "jupiter_ledge"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/391814030",
+      "lat": 27.3811,
+      "lon": -80.254,
+      "dist_nm": 28.5
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jupiter_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charlotte_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "mia_bahamas_run"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "government_cut"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "Ventral combines an inflatable fishing platform with smart electric propulsion, giving anglers a more stable and controlled way to fish on the water. Courtesy Ventral Glide effortlessly to your favorite fishing spot with the Ventral Inflatable Smart Drive Fishing Board with GPS .",
+      "link": "https://www.sportfishingmag.com/sponsored-post/meet-the-ventral-inflatable-smart-drive-board/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "Big trout prefer a big meal. When targeting trophies, fish larger plugs or live baitfish like mullet, pogies or croakers. John N. Felsher Captain Recommended Louisiana Inshore Lures Matrix Shad Strike King Tidal Shrimp Marker 54 Shrimp Berkley Rattle Shrimp Boat Monkey Cork Down ",
+      "link": "https://www.sportfishingmag.com/howto/guide-to-inshore-fishing-the-louisiana-coast/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "caught this 41\u201d Snook in Jupiter FL. This 41-inch snook was caught and released while fishing with me, Capt. Austin &#8230; The post 41\u201d South Florida Snook first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/41-south-florida-snook/?utm_source=rss&utm_medium=rss&utm_campaign=41-south-florida-snook",
+      "zones": [
+        "jupiter_ledge",
+        "fowey_rocks",
+        "alligator_reef",
+        "ftl_reef_lines"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "The estuaries surrounding Trophy Bay provide a scenic gateway to the Gulf of Chiriqu\u00ed. Courtesy Trophy Bay Marina If you&#8217;re interested in chasing black marlin around an undersea mesa or working poppers along the rocky shorelines of Central America, you probably already know",
+      "link": "https://www.sportfishingmag.com/sponsored-post/new-marina-rising-where-panamas-best-fishing-meets-coast/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "I caught this 40 lb Atlantic sailfish Sailfish in West Palm Beach, Florida. This Atlantic Sailfish was caught off the &#8230; The post West Palm Sailfish first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/west-palm-sailfish/?utm_source=rss&utm_medium=rss&utm_campaign=west-palm-sailfish",
+      "zones": [
+        "jupiter_ledge",
+        "west_palm_sailfish",
+        "palm_beach_reef_line"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "bait": "captain_report",
+      "location": "Saltwater Sportsman",
+      "species_feeding": null,
+      "source": "Saltwater Sportsman",
+      "source_type": "charter_auto",
+      "quote": "Fall mahi can be fun to catch if you know where to go and what to do. George Poveromo Southern Florida\u2019s primary Atlantic mahi migration begins in May or April. Good pushes of fish continue beyond this peak, but taper down by July, when most schools have long since traveled to th",
+      "link": "https://www.saltwatersportsman.com/howto/fishing-south-floridas-second-mahi-season/",
+      "zones": [
+        "alligator_reef",
+        "sombrero_reef",
+        "sand_key",
+        "islamorada_hump",
+        "fowey_rocks",
+        "ftl_reef_lines"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "biscayne_outer_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/398648948",
+      "lat": 25.5193,
+      "lon": -80.3638,
+      "dist_nm": 12.8
+    },
+    {
+      "date": "2026-09-02",
+      "bait": "squid",
+      "location": "On The Water Media",
+      "species_feeding": null,
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "500-Pound Swordfish Sets New Maine State Record | Northeast Offshore Fishing Report Sept. 2nd 2026",
+      "link": "https://www.youtube.com/watch?v=gF2Pe_Si_Ko",
+      "zones": [
+        "sombrero_reef",
+        "marathon_west_hump",
+        "seven_mile_bridge"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "bait": "squid",
+      "location": "My Fishing Cape Cod",
+      "species_feeding": null,
+      "source": "YouTube: My Fishing Cape Cod",
+      "source_type": "youtube_auto",
+      "quote": "Cape Cod Blue Marlin",
+      "link": "https://www.youtube.com/shorts/YUqzxBAiKpU",
+      "zones": [
+        "wood_wall",
+        "miami_190_trough",
+        "islamorada_409_hole"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "bait": "squid",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=n6XWxY0iE10",
+      "zones": [
+        "wood_wall",
+        "miami_190_trough",
+        "islamorada_409_hole"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "bait": "silversides",
+      "location": "Fisherman's Headquarters",
+      "species_feeding": null,
+      "source": "YouTube: Fisherman's Headquarters",
+      "source_type": "youtube_auto",
+      "quote": "LBI Fishing Report 9/8/26 - \"Summer\" Is Over But September Has A Lot Left In The Tank!",
+      "link": "https://www.youtube.com/watch?v=0rZ9c1hnXSI",
+      "zones": [
+        "hillsboro_reef"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "At inlets, outgoing tide rushing past a jetty stimulates feeding activity. David A. Brown Tides are the product of lunar and solar gravitational pull on the earth\u2019s oceans. That\u2019s the big picture, but while rising water gets most of the love by filling shallow areas, the opposite",
+      "link": "https://www.sportfishingmag.com/howto/fishing-the-falling-tide/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "I caught this 41&#8243; Snook in Jupiter Inlet. The post Jupiter Inlet Slob first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/jupiter-inlet-slob/?utm_source=rss&utm_medium=rss&utm_campaign=jupiter-inlet-slob",
+      "zones": [
+        "jupiter_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "caught this Over 40 Redfish or red drum in Haulover Canal. Kayaking Haulover and you have to know where the &#8230; The post Haulover Red first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/haulover-red-2/?utm_source=rss&utm_medium=rss&utm_campaign=haulover-red-2",
+      "zones": [
+        "government_cut"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "hollywood_dania"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/400064754",
+      "lat": 26.0661,
+      "lon": -80.205,
+      "dist_nm": 6.3
+    },
+    {
+      "date": "2026-09-16",
+      "bait": "silversides",
+      "location": "Fisherman's Headquarters",
+      "species_feeding": null,
+      "source": "YouTube: Fisherman's Headquarters",
+      "source_type": "youtube_auto",
+      "quote": "LBI Fishing Report 9/16/26: Final Days Of Fluke, Bluefish Blitzes, Moving Mullet & Pompano",
+      "link": "https://www.youtube.com/watch?v=VvM1K6JKrPk",
+      "zones": [
+        "hillsboro_reef"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "Sheepshead are among the many species anglers might encounter fishing the waters south of Calcasieu Estuary. John N. Felsher Most people fish the Calcasieu Estuary in southwestern Louisiana to catch trophy speckled trout. Indeed, the area can produce double-digit trout, but it al",
+      "link": "https://www.sportfishingmag.com/travel/calcasieu-estuary-louisiana-inshore-wonderland/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "Cooling water temperatures drive king mackerel closer to shore to feed on migrating baitfish. Colin Gonzalez Between the summer doldrums and winter lull, the fall migration is the highlight of the fishing year. As water temperatures drop, fish move from warm-water haunts to cold-",
+      "link": "https://www.sportfishingmag.com/travel/four-fall-fishing-destinations/",
+      "zones": [
+        "alligator_reef",
+        "islamorada_hump",
+        "molasses_reef"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "A 16-year-old Miami angler has made Florida fishing history, landing a 3.02-pound jaguar guapote that has been certified as the new state record. The post Teen Angler Lands New Florida State Record Jaguar Guapote first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/teen-angler-lands-new-florida-state-record-jaguar-guapote/?utm_source=rss&utm_medium=rss&utm_campaign=teen-angler-lands-new-florida-state-record-jaguar-guapote",
+      "zones": [
+        "fowey_rocks",
+        "miami_190_trough",
+        "biscayne_outer_reef"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "Late summer means tuna time in the Florida Keys! Discover where to find hard-fighting blackfin tuna, the best techniques and tackle to put them in the boat, and how to spot feeding fish offshore. The post Tuna Time In The Keys first appeared on Coastal Angler & The Angler Magazin",
+      "link": "https://coastalanglermag.com/tuna-time-in-the-keys/?utm_source=rss&utm_medium=rss&utm_campaign=tuna-time-in-the-keys",
+      "zones": [
+        "alligator_reef",
+        "sombrero_reef",
+        "sand_key",
+        "islamorada_hump"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "bait": "captain_report",
+      "location": "Saltwater Sportsman",
+      "species_feeding": null,
+      "source": "Saltwater Sportsman",
+      "source_type": "charter_auto",
+      "quote": "The new upper station offers room and comfort for two crew members aloft. Courtesy Formula Visit Formula Build Your Formula Find a Formula Dealer When we punched outside of Haulover Inlet in North Miami, Florida, the fishing conditions off the coast of South Florida proved less t",
+      "link": "https://www.saltwatersportsman.com/boats/formula-387-ccf-upper-station/",
+      "zones": [
+        "fowey_rocks",
+        "miami_190_trough",
+        "biscayne_outer_reef",
+        "government_cut",
+        "alligator_reef",
+        "ftl_reef_lines"
+      ]
+    }
+  ],
+  "region_species_extras": {
+    "cobia": {
+      "label": "Cobia",
+      "color": "#a1887f",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4
+      ]
+    },
+    "king_mackerel": {
+      "label": "King Mackerel",
+      "color": "#ffb74d",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 68,
+      "temp_max_f": 82,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "spanish_mackerel": {
+      "label": "Spanish Mackerel",
+      "color": "#dce775",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 65,
+      "temp_max_f": 80,
+      "peak_months": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "redfish": {
+      "label": "Redfish",
+      "color": "#e57373",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 55,
+      "temp_max_f": 82,
+      "peak_months": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "spotted_seatrout": {
+      "label": "Speckled Trout",
+      "color": "#b0bec5",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 58,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ]
+    },
+    "flounder": {
+      "label": "Flounder",
+      "color": "#d7ccc8",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 55,
+      "temp_max_f": 78,
+      "peak_months": [
+        9,
+        10,
+        11
+      ]
+    },
+    "tarpon": {
+      "label": "Tarpon",
+      "color": "#78909c",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": false,
+      "temp_min_f": 72,
+      "temp_max_f": 86,
+      "peak_months": [
+        6,
+        7,
+        8
+      ]
+    },
+    "grouper": {
+      "label": "Grouper (Gag/Red)",
+      "color": "#8d6e63",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 60,
+      "temp_max_f": 78,
+      "peak_months": [
+        3,
+        4,
+        9,
+        10,
+        11
+      ]
+    },
+    "amberjack": {
+      "label": "Amberjack",
+      "color": "#ffa726",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 66,
+      "temp_max_f": 82,
+      "peak_months": [
+        3,
+        4,
+        5,
+        8,
+        9,
+        10
+      ]
+    },
+    "red_snapper": {
+      "label": "Red Snapper",
+      "color": "#ef5350",
+      "mode": "inshore",
+      "isTuna": false,
+      "isKeepable": true,
+      "temp_min_f": 68,
+      "temp_max_f": 80,
+      "peak_months": [
+        6
+      ]
+    },
+    "blackfin_tuna": {
+      "label": "Blackfin Tuna",
+      "color": "#26a69a",
+      "mode": "offshore",
+      "isTuna": true,
+      "isKeepable": true,
+      "temp_min_f": 70,
+      "temp_max_f": 82,
+      "peak_months": [
+        10,
+        11,
+        12,
+        1
+      ]
+    }
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T23:18:32.538206Z",
+  "zones_state": {
+    "western_li_sound": {
+      "heat": 7,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 4,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": -0.3,
+      "effective_heat": 6.7
+    },
+    "central_li_sound": {
+      "heat": 5,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 4,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": -0.3,
+      "effective_heat": 4.7
+    },
+    "the_triangle": {
+      "heat": 7,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 6,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 7.1
+    },
+    "the_race": {
+      "heat": 9,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 9.4
+    },
+    "plum_gut": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "watch_hill_reef": {
+      "heat": 7,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "millstone_point": {
+      "heat": 6,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 7,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    },
+    "narragansett_bay": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "providence_seekonk": {
+      "heat": 6,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 5,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "block_island_striper": {
+      "heat": 9,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 9,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "effective_heat": 9.7
+    },
+    "montauk_rips_striper": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 6,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 8.1
+    },
+    "block_island_sound": {
+      "heat": 5,
+      "species": [
+        "striped_bass",
+        "bluefin_recreational",
+        "false_albacore"
+      ],
+      "season_fit": 7,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 5.4
+    },
+    "south_shore_li": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi"
+      ],
+      "season_fit": 5,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "montauk_nearshore": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "s_block_nearshore": {
+      "heat": 9,
+      "species": [
+        "bluefin_recreational",
+        "bluefin_giant",
+        "wahoo"
+      ],
+      "season_fit": 9,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "effective_heat": 9.7
+    },
+    "acid_barge": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "mahi"
+      ],
+      "season_fit": 5,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "coxes_ledge_se": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "season_fit": 7,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "the_gully": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational"
+      ],
+      "season_fit": 6,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "habs_ledge": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "thresher_shark",
+        "wahoo"
+      ],
+      "season_fit": 8,
+      "season_species": "thresher_shark",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "tuna_ridge": {
+      "heat": 8,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "wahoo",
+        "swordfish"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "butterfish_hole": {
+      "heat": 6,
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational"
+      ],
+      "season_fit": 5,
+      "season_species": "yellowfin_tuna",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "mud_hole": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi",
+        "mako_shark"
+      ],
+      "season_fit": 8,
+      "season_species": "mako_shark",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    },
+    "hudson_canyon": {
+      "heat": 8,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "block_canyon": {
+      "heat": 8,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "atlantis_canyon": {
+      "heat": 9,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 9.4
+    },
+    "veatch_hydrographer": {
+      "heat": 7,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "thirty_five_fathom_line": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    }
+  },
+  "picks": {
+    "tuna": {
+      "zone_id": "s_block_nearshore",
+      "zone_name": "Nearshore South of Block Island",
+      "distance_nm": 41.2,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "striper": {
+      "zone_id": "block_island_striper",
+      "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+      "distance_nm": 36.1,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "runners_up": {
+      "tuna_unconstrained": [
+        {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "s_block_nearshore",
+          "heat": 9,
+          "effective_heat": 9.7,
+          "whale_boost": 0,
+          "season_boost": 0.7,
+          "gap_to_winner": 0.0
+        },
+        {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "atlantis_canyon",
+          "heat": 9,
+          "effective_heat": 9.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 0.3
+        },
+        {
+          "zone_id": "tuna_ridge",
+          "zone_name": "tuna_ridge",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "hudson_canyon",
+          "zone_name": "hudson_canyon",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "block_canyon",
+          "zone_name": "block_canyon",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        }
+      ],
+      "striper_unconstrained": [
+        {
+          "zone_id": "block_island_striper",
+          "zone_name": "block_island_striper",
+          "heat": 9,
+          "effective_heat": 9.7,
+          "whale_boost": 0,
+          "season_boost": 0.7,
+          "gap_to_winner": 0.0
+        },
+        {
+          "zone_id": "the_race",
+          "zone_name": "the_race",
+          "heat": 9,
+          "effective_heat": 9.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 0.3
+        },
+        {
+          "zone_id": "plum_gut",
+          "zone_name": "plum_gut",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "narragansett_bay",
+          "zone_name": "narragansett_bay",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "montauk_rips_striper",
+          "zone_name": "montauk_rips_striper",
+          "heat": 8,
+          "effective_heat": 8.1,
+          "whale_boost": 0,
+          "season_boost": 0.1,
+          "gap_to_winner": 1.6
+        }
+      ]
+    }
+  },
+  "whale_sightings_count": 8,
+  "recent_whale_sightings": [],
+  "bait_intel_count": 12,
+  "weather": {
+    "wind": "8 to 12 mph SE",
+    "forecast": "Chance Showers And Thunderstorms",
+    "waves_ft": 3.018
+  },
+  "pressure": {
+    "current_hpa": 1002.8,
+    "samples_count": 16
+  },
+  "notes": "auto-written by build-inlined.py"
+}

@@ -1,0 +1,747 @@
+{
+  "_notes": "YouTube RSS harvest sources. Every nightly build fetches each channel's RSS feed at https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}, extracts recent titles + descriptions, and stores intel in the archive snapshot. Tier: gold = weekly dated regional/local reports (highest signal); good = dated trip recaps with species/location; contextual = tactics/education mixed with trip content; seasonal = only meaningful during specific season windows. Region: 'northeast' (Zone 1), 'midatl' (Zone 2), 'both' (dual coverage). Verified 2026-08-23 with 8 Mid-Atl channels added.",
+  "channels": [
+    {
+      "id": "on_the_water_media",
+      "name": "On The Water Media",
+      "channel_id": "UCaYq4eKDzuxBHo8tCrFUAeA",
+      "tier": "gold",
+      "area": "Northeast regional",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "bluefin_giant",
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "striped_bass"
+      ],
+      "signature_pattern": "Northeast Offshore Fishing Report [Month Day, Year]",
+      "notes": "Weekly Northeast Offshore Fishing Report + weekly Striper Migration Report. The single highest-value NE aggregator feed.",
+      "region": "northeast"
+    },
+    {
+      "id": "my_fishing_cape_cod",
+      "name": "My Fishing Cape Cod",
+      "channel_id": "UCxXDOyQ_5Sj9ThykSiTq2cg",
+      "tier": "gold",
+      "area": "Cape Cod, MA",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "bluefin_giant",
+        "striped_bass",
+        "false_albacore",
+        "bluefish"
+      ],
+      "signature_pattern": "[Month Day] Cape Cod Fishing Report | [species/spot]",
+      "notes": "Ryan & Kevin Collins \u2014 near-daily dated Cape reports (Monomoy, Vineyard Sound, Cape Cod Bay). Names guests + specific spots.",
+      "region": "northeast"
+    },
+    {
+      "id": "goose_hummock_shop",
+      "name": "Goose Hummock Shop",
+      "channel_id": "UCB-XMVj1bWtqRmu6VPQ9Bhw",
+      "tier": "gold",
+      "area": "Orleans / Cape Cod, MA",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefish",
+        "bluefin_recreational",
+        "bluefin_giant"
+      ],
+      "signature_pattern": "This Weeks Cape Cod Fishing Report / Capt [Name] got into the [species]",
+      "notes": "Cape Cod tackle shop; weekly dated reports naming specific endorsed captains and their catches ('Capt Scott Yelle got into the bluefin yesterday').",
+      "region": "northeast"
+    },
+    {
+      "id": "fishermans_headquarters",
+      "name": "Fisherman's Headquarters",
+      "channel_id": "UCqMkTT_IfrtYdpfyFPuZh6A",
+      "tier": "gold",
+      "area": "Long Beach Island, NJ",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "signature_pattern": "LBI Fishing Report [M/D/YY] - [conditions summary]",
+      "notes": "60+ year LBI tackle shop; dated LBI/Barnegat area reports with named species/conditions. Southern edge of the striper migration.",
+      "region": "northeast"
+    },
+    {
+      "id": "fisherman_magazine",
+      "name": "The Fisherman Magazine",
+      "channel_id": "UCn7b8YyEaAU1t89llo4j4Yg",
+      "tier": "gold",
+      "area": "Northeast regional",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "signature_pattern": "[Region] Video Fishing Forecast / Next Cast Podcast Episode [N]",
+      "notes": "Publication with weekly regional video forecasts (LI Metro, New England, NJ). Podcast + video hybrid.",
+      "region": "northeast"
+    },
+    {
+      "id": "reel_deal_charters",
+      "name": "Reel Deal Fishing Charters",
+      "channel_id": "UCLGC74zab_0iqzD5PVUOliQ",
+      "tier": "good",
+      "area": "Truro / Outer Cape Cod, MA",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefin_recreational",
+        "bluefin_giant"
+      ],
+      "signature_pattern": "[species] Blitz off Cape Cod / trip recap shorts",
+      "notes": "Capt. Bobby Rice and Outer Cape fleet \u2014 frequent dated trip clips (blitzes, tuna, shark).",
+      "region": "northeast"
+    },
+    {
+      "id": "rhode_island_sportfishing",
+      "name": "Rhode Island Sportfishing",
+      "channel_id": "UCceAZGBF1ANCvzhFm0a5jYw",
+      "tier": "good",
+      "area": "Point Judith / RI coast",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "striped_bass"
+      ],
+      "signature_pattern": "[species] fishing off Rhode Island / [species] running off drag",
+      "notes": "Active RI angler; species/location tagged videos (Giant Bluefin Tuna, yellowfin arrival).",
+      "region": "northeast"
+    },
+    {
+      "id": "saltwater_edge",
+      "name": "The Saltwater Edge",
+      "channel_id": "UC-KGEdM5Sg4bSPlKFq7mNiw",
+      "tier": "good",
+      "area": "Middletown / Newport, RI",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "false_albacore",
+        "bluefish"
+      ],
+      "signature_pattern": "[topic] w/ [captain name] / [tactic] for [region]",
+      "notes": "Serious RI tackle shop; podcast + video hybrid featuring named RI guides discussing what's biting. Sometimes bonito/albie decisions with real timing intel.",
+      "region": "northeast"
+    },
+    {
+      "id": "salty_cape",
+      "name": "Salty Cape",
+      "channel_id": "UCOYjJHb-T0r4-BnxJ2_FdNg",
+      "tier": "good",
+      "area": "Cape Cod / Vineyard / Nantucket, MA",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "striped_bass",
+        "false_albacore"
+      ],
+      "signature_pattern": "Season episodes (Salty Cape TV S20xx Ep XX) / Tactical [technique] Off the [spot]",
+      "notes": "Full-production dated episodes with tuna jigging, topwater bluefin, canyon runs. Captains Diogo, Mike, others post regularly with location names.",
+      "region": "gulf_and_sfl"
+    },
+    {
+      "id": "fishing_with_jonny",
+      "name": "Fishing With Jonny",
+      "channel_id": "UCkksZl9TrxkWe1GcoofwHOg",
+      "tier": "good",
+      "area": "Rhode Island (kayak + shore)",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "signature_pattern": "trip recaps, blitz footage, RI kayak/shore content",
+      "notes": "47K-sub RI kayak/shore angler; frequent weekly trip content. Not tuna but real-time RI water conditions/bait context.",
+      "region": "northeast"
+    },
+    {
+      "id": "saltwater_underground",
+      "name": "Saltwater Underground with Nick Honachefsky",
+      "channel_id": "UCXTQXrl91tf6KtBjKhlrmhA",
+      "tier": "good",
+      "area": "New Jersey coast + wider Northeast",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "signature_pattern": "S[N] EP[N] - [episode title] / [species] Fishing is ON FIRE",
+      "notes": "20+ year saltwater journalist; TV show with dated episodes covering specific NJ/NE bites. Lower posting frequency but high name recognition.",
+      "region": "both"
+    },
+    {
+      "id": "canyon_runner",
+      "name": "Canyon Runner",
+      "channel_id": "UCg5mMeLvBU7HgbD7G1ZZFUg",
+      "tier": "contextual",
+      "area": "Point Pleasant Beach, NJ (canyons)",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "swordfish",
+        "white_marlin",
+        "blue_marlin",
+        "mahi"
+      ],
+      "signature_pattern": "Tactical/educational (East Wind Rule, temp break tips, canyon strategy)",
+      "notes": "Capt. Deane Lambros \u2014 respected canyon operator. Content is heavy on tactical education (when to go, when to wait) rather than daily trip recaps. Useful for validating our own rules.",
+      "region": "both"
+    },
+    {
+      "id": "609_fishing",
+      "name": "609 Fishing",
+      "channel_id": "UCJ9NThXcHnrAFtWPfK6IKjA",
+      "tier": "contextual",
+      "area": "New Jersey (Ocean/Monmouth County)",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefish"
+      ],
+      "signature_pattern": "NJ shore/back-bay trip content, species-specific tactics",
+      "notes": "Active NJ shore angler; mixed content (some tactics, some trip recaps). Southern-edge striper timing.",
+      "region": "both"
+    },
+    {
+      "id": "wicked_fat_tuna",
+      "name": "Wicked Fat Tuna TV (Fat Tuna Charters)",
+      "channel_id": "UCF80c8D8iIFdFDRfEH8ytaA",
+      "tier": "seasonal",
+      "area": "Gloucester / Cape Ann, MA",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "bluefin_giant",
+        "thresher_shark",
+        "mako_shark"
+      ],
+      "signature_pattern": "Giant bluefin day/night bite footage",
+      "notes": "Cape Ann giant-tuna fleet. Posts primarily during Aug-Nov giant season. Currently ~90 days idle (checked 2026-07-29) \u2014 will pick up as season fires.",
+      "region": "northeast"
+    },
+    {
+      "id": "joe_diorio_guide",
+      "name": "Joe Diorio Guide Service",
+      "channel_id": "UClDY56dEhxzGalA85dqI-LA",
+      "tier": "good",
+      "area": "Eastern CT + Block Island Sound",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "striped_bass"
+      ],
+      "signature_pattern": "Trip recaps with dolphin pod / school bluefin content",
+      "notes": "Added 2026-08-12 (Randy directive: more rec-tuna charter captains). Verified RSS 200 with 15 recent entries. OTW CT Aug 6 2026: bluefin up to 71\" on UVT jigs around dolphin pods.",
+      "region": "northeast"
+    },
+    {
+      "id": "shark_shark_tuna",
+      "name": "Shark Shark Tuna Fishing Charters",
+      "channel_id": "UCJ77M-l6NRJQCcxjlW8O4tQ",
+      "tier": "good",
+      "area": "South Yarmouth, MA (Cape Cod)",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "signature_pattern": "Cape Cod \u2192 NE Canyon trip recaps (family fishing operation)",
+      "notes": "Added 2026-08-12 (Randy directive: more rec-tuna charter captains). Verified RSS 200 with 15 recent entries. Fishes Stellwagen \u2192 Veatch/Atlantis canyons. Third/fourth-generation Cape fishing family, charter arm takes rec anglers.",
+      "region": "northeast"
+    },
+    {
+      "id": "jersey_nutz_sportfishing",
+      "name": "Jersey Nutz Sportfishing",
+      "channel_id": "UCd_byEB12UlQzJAhMbLL2IQ",
+      "tier": "contextual",
+      "area": "Manasquan, NJ \u2192 NY Bight offshore (mud hole, Coimbra, canyons)",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "striped_bass"
+      ],
+      "signature_pattern": "'Get 'Em Giddy Radio' podcast episodes (mixed with occasional trip content)",
+      "notes": "Added 2026-08-13 (Randy directive: NJ boats fishing Coimbra Wreck area). Verified RSS 200, 15 entries. Content is mostly podcast episodes discussing tuna in general \u2014 tier is `contextual`, not `gold`, so the model doesn't over-weight zone mentions in podcast titles. Occasional trip recap content justifies the slot.",
+      "region": "northeast"
+    },
+    {
+      "id": "big_game_fishing_ri",
+      "name": "Big Game Fishing RI (Capt. Brian Bacon)",
+      "channel_id": "UCHJAZajMsMsfQiB7x90B5tg",
+      "tier": "seasonal",
+      "area": "Wakefield / Snug Harbor, RI",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "white_marlin",
+        "blue_marlin",
+        "wahoo",
+        "striped_bass"
+      ],
+      "signature_pattern": "Charter trip recaps (dormant since ~2025-08)",
+      "notes": "Randy's explicit ask \u2014 Capt. Brian Bacon fishes canyons and shelf edge, direct overlap with Randy's tuna zones. YouTube channel has been idle ~11 months; kept in the harvest in case he resumes posting.",
+      "region": "northeast"
+    },
+    {
+      "id": "b_stav_fishing",
+      "name": "B Stav Fishing",
+      "channel_id": "UCvuLklNHzGTTrf-4jELD4Og",
+      "tier": "good",
+      "area": "Cape May / Atlantic Counties, NJ",
+      "region": "midatl",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "signature_pattern": "Inshore/backbay reports out of Cape May County",
+      "notes": "Flounder-heavy but useful for Cape May inshore + rips corroboration. Added 2026-08-23."
+    },
+    {
+      "id": "nj_sport_fishing",
+      "name": "NJ Sport Fishing",
+      "channel_id": "UCjlJpGxs0G5ZDmUHXV3rhFQ",
+      "tier": "good",
+      "area": "NJ offshore canyons",
+      "region": "midatl",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "bigeye_tuna",
+        "mahi",
+        "white_marlin"
+      ],
+      "signature_pattern": "Canyon trolling recaps + spot-specific tuna reports",
+      "notes": "Small channel (405 subs) but offshore-only focus \u2014 high-signal for NJ canyon zones. Added 2026-08-23."
+    },
+    {
+      "id": "hatuna_matata",
+      "name": "Hatuna Matata Sportsfishing",
+      "channel_id": "UCGcm42S_3r15_gE_RzCW7Tw",
+      "tier": "good",
+      "area": "Ocean City, MD + Chesapeake Bay",
+      "region": "midatl",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "cobia",
+        "king_mackerel"
+      ],
+      "signature_pattern": "Mid-Atl waters recaps out of Ocean City",
+      "notes": "OC MD-based, canyon + bay coverage. Added 2026-08-23."
+    },
+    {
+      "id": "ib_fishing",
+      "name": "I.B. Fishing",
+      "channel_id": "UCvsNFMT9UOumwJ1PCP0NywQ",
+      "tier": "contextual",
+      "area": "Ocean City, MD",
+      "region": "midatl",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "king_mackerel"
+      ],
+      "signature_pattern": "OC MD offshore + inshore mix",
+      "notes": "Small channel \u2014 supplemental corroboration for OC MD zones. Added 2026-08-23."
+    },
+    {
+      "id": "matador_charters",
+      "name": "Fishing with the Matador",
+      "channel_id": "UCfY3CBxxi5V5CnAezAF-MJw",
+      "tier": "good",
+      "area": "Virginia Beach + Hatteras, NC",
+      "region": "midatl",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "wahoo",
+        "swordfish",
+        "cobia",
+        "king_mackerel"
+      ],
+      "signature_pattern": "Matador offshore recaps from VA Beach + OBX",
+      "notes": "Full offshore + wreck coverage VA/NC. Added 2026-08-23."
+    },
+    {
+      "id": "rebel_sportfishing",
+      "name": "Rebel Sportfishing",
+      "channel_id": "UCgVR-GV-wehvOfWqYGO7iJA",
+      "tier": "good",
+      "area": "Virginia Beach + OBX",
+      "region": "midatl",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "mahi",
+        "wahoo",
+        "king_mackerel"
+      ],
+      "signature_pattern": "VA/OBX offshore trip recaps",
+      "notes": "VA Beach + OBX offshore charter. Added 2026-08-23."
+    },
+    {
+      "id": "anchors_away_obx",
+      "name": "Anchors Away Nags Head",
+      "channel_id": "UChiv4ATgQRcgAjc2aCusIFw",
+      "tier": "contextual",
+      "area": "Outer Banks, NC",
+      "region": "midatl",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "red_drum",
+        "king_mackerel",
+        "spanish_mackerel"
+      ],
+      "signature_pattern": "OBX beach/nearshore reports",
+      "notes": "Nags Head area, mixed inshore/vacation focus. Contextual tier. Added 2026-08-23."
+    },
+    {
+      "id": "fishermans_post_carolinas",
+      "name": "Fisherman's Post",
+      "channel_id": "UC5jUAggU561rxfiL8rm5ZFw",
+      "tier": "gold",
+      "area": "Carolinas (Wilmington NC HQ)",
+      "region": "midatl",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "bluefin_recreational",
+        "red_drum",
+        "king_mackerel",
+        "spanish_mackerel",
+        "cobia",
+        "mahi",
+        "wahoo"
+      ],
+      "signature_pattern": "Weekly Carolinas fishing report podcast + video series",
+      "notes": "Wilmington NC-based magazine + video series. Regional aggregator equivalent to OTW for the Carolinas. Added 2026-08-23."
+    },
+    {
+      "id": "chew_on_this",
+      "name": "Chew On This Fishing",
+      "channel_id": "UCdFpYAdjM0x7m6AK36GOxmQ",
+      "tier": "good",
+      "area": "Gulf \u2014 Panhandle",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "red_snapper",
+        "amberjack",
+        "yellowfin_tuna",
+        "cobia",
+        "king_mackerel"
+      ],
+      "signature_pattern": "Pensacola / Perdido / Gulf trip recaps",
+      "notes": "Pensacola-anchored Gulf offshore YouTube channel \u2014 reefs, snapper, tuna trips.",
+      "region": "gulf"
+    },
+    {
+      "id": "tradition_fishing_charters",
+      "name": "Tradition Fishing Charters",
+      "channel_id": "UC3Ft1OFKJ9azCA9zLWRkZkA",
+      "tier": "good",
+      "area": "Gulf \u2014 Perdido/Pensacola",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "red_snapper",
+        "amberjack",
+        "grouper",
+        "cobia",
+        "yellowfin_tuna",
+        "king_mackerel"
+      ],
+      "signature_pattern": "Perdido/Pensacola trip recaps",
+      "notes": "Perdido Key / Pensacola charter operator \u2014 regular offshore/inshore trip videos.",
+      "region": "gulf"
+    },
+    {
+      "id": "in_the_spread",
+      "name": "In The Spread",
+      "channel_id": "UCUpjRuV2iN7yDAg3PdFz9VQ",
+      "tier": "contextual",
+      "area": "Gulf + billfish tactics",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "blue_marlin",
+        "white_marlin",
+        "yellowfin_tuna",
+        "wahoo",
+        "mahi"
+      ],
+      "signature_pattern": "Billfish + Gulf tuna tactics",
+      "notes": "Deep-dive tactics content for offshore blue-water \u2014 often Gulf-based.",
+      "region": "gulf_and_sfl"
+    },
+    {
+      "id": "blacktiph",
+      "name": "BlacktipH",
+      "channel_id": "UCyoNI76fFUdjaIeb92YT7zQ",
+      "tier": "contextual",
+      "area": "FL Panhandle & Gulf big-game",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "yellowfin_tuna",
+        "blue_marlin",
+        "mako_shark",
+        "thresher_shark",
+        "cobia",
+        "red_snapper"
+      ],
+      "signature_pattern": "FL panhandle big-game trip videos",
+      "notes": "Josh Jorgensen \u2014 high-production FL Panhandle + Gulf big-game content.",
+      "region": "gulf_and_sfl"
+    },
+    {
+      "id": "reelistic_fishing",
+      "name": "Reel-istic Fishing Charters",
+      "channel_id": "UCEZH495fKsI00D-tZeXMjQw",
+      "tier": "good",
+      "area": "Gulf \u2014 Panama City",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "red_snapper",
+        "amberjack",
+        "grouper",
+        "king_mackerel",
+        "cobia"
+      ],
+      "signature_pattern": "PCB charter trip recaps",
+      "notes": "Panama City Beach charter \u2014 regular Gulf offshore trip videos.",
+      "region": "gulf"
+    },
+    {
+      "id": "local_knowledge_fishing",
+      "name": "Local Knowledge Fishing Show",
+      "channel_id": "UCqBQ3N3rskMwzgQMRkgPCXA",
+      "tier": "contextual",
+      "area": "Gulf multi-port",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "red_snapper",
+        "grouper",
+        "amberjack",
+        "yellowfin_tuna",
+        "cobia",
+        "tarpon"
+      ],
+      "signature_pattern": "Multi-port Gulf coast episodes",
+      "notes": "Gulf-focused TV-style fishing show \u2014 covers multiple ports across the Gulf.",
+      "region": "gulf"
+    },
+    {
+      "id": "reel_fun_pensacola",
+      "name": "Reel Fun Charters",
+      "channel_id": "UChyB8IGThWMUnftYZSgVT9g",
+      "tier": "good",
+      "area": "Gulf \u2014 Pensacola",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "red_snapper",
+        "amberjack",
+        "king_mackerel",
+        "cobia"
+      ],
+      "signature_pattern": "Pensacola charter trip recaps",
+      "notes": "Pensacola charter operator \u2014 regular offshore trip videos.",
+      "region": "gulf"
+    },
+    {
+      "id": "salt_strong",
+      "name": "Salt Strong",
+      "channel_id": "UCk93bnDlwuegvzr5r-J0f-A",
+      "tier": "gold",
+      "area": "S. Florida inshore + flats",
+      "mode": [
+        "inshore"
+      ],
+      "focus_species": [
+        "redfish",
+        "spotted_seatrout",
+        "tarpon",
+        "snook",
+        "flounder"
+      ],
+      "signature_pattern": "How to catch [species] in [FL region] / Snook + Redfish reports",
+      "notes": "Luke Simonds \u2014 the largest FL inshore fishing channel. Weekly reports across FL coasts; heavy snook/redfish/trout/tarpon focus. High corroboration value for S. FL + Gulf side.",
+      "region": "south_florida"
+    },
+    {
+      "id": "sean_reel_life",
+      "name": "Sean's Reel Life",
+      "channel_id": "UCwMbCEeLL7dSrPXhWZk0MFA",
+      "tier": "good",
+      "area": "Palm Beach / Jupiter",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "sailfish",
+        "mahi",
+        "wahoo",
+        "kingfish",
+        "tarpon"
+      ],
+      "signature_pattern": "Palm Beach / Jupiter charter reports",
+      "notes": "Palm Beach area sportfishing captain \u2014 sailfish season reports, kingfish drift, summer mahi runs off Jupiter Ledge.",
+      "region": "south_florida"
+    },
+    {
+      "id": "islamorada_charter_boats",
+      "name": "Islamorada Charter Boat Association",
+      "channel_id": "UCjXtFEUR3TP-JqQuwEuHqAg",
+      "tier": "good",
+      "area": "Islamorada / Upper Keys",
+      "mode": [
+        "offshore",
+        "inshore"
+      ],
+      "focus_species": [
+        "sailfish",
+        "blackfin_tuna",
+        "mahi",
+        "tarpon",
+        "permit"
+      ],
+      "signature_pattern": "Islamorada fishing reports / Bud N' Mary's + Whale Harbor + Robbie's captains",
+      "notes": "The Islamorada fleet's collective channel \u2014 Bud N' Mary's, Whale Harbor, Robbie's captains posting Keys reports.",
+      "region": "south_florida"
+    },
+    {
+      "id": "fish_on_fishing",
+      "name": "Fish On Fishing",
+      "channel_id": "UCCJNQIcgxJlIYzOI9tsRlvw",
+      "tier": "good",
+      "area": "S. Florida offshore",
+      "mode": [
+        "offshore"
+      ],
+      "focus_species": [
+        "sailfish",
+        "mahi",
+        "wahoo",
+        "blackfin_tuna",
+        "swordfish"
+      ],
+      "signature_pattern": "Offshore reports Palm Beach \u2192 Keys",
+      "notes": "S. Florida offshore charter content \u2014 kite fishing sails, mahi trolling, swordfish deep drops.",
+      "region": "south_florida"
+    }
+  ]
+}

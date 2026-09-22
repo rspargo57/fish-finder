@@ -1,0 +1,3569 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T23:35:45.777929Z",
+  "zones_state": {
+    "western_li_sound": {
+      "heat": 7,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 4,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": -0.3,
+      "effective_heat": 6.7
+    },
+    "central_li_sound": {
+      "heat": 5,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 4,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": -0.3,
+      "effective_heat": 4.7
+    },
+    "the_triangle": {
+      "heat": 7,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 6,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 7.1
+    },
+    "the_race": {
+      "heat": 9,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 9.4
+    },
+    "plum_gut": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "watch_hill_reef": {
+      "heat": 7,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "millstone_point": {
+      "heat": 6,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 7,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    },
+    "narragansett_bay": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "bluefish",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "providence_seekonk": {
+      "heat": 6,
+      "species": [
+        "striped_bass"
+      ],
+      "season_fit": 5,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "block_island_striper": {
+      "heat": 9,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 9,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "effective_heat": 9.7
+    },
+    "montauk_rips_striper": {
+      "heat": 8,
+      "species": [
+        "striped_bass",
+        "false_albacore"
+      ],
+      "season_fit": 6,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 8.1
+    },
+    "block_island_sound": {
+      "heat": 5,
+      "species": [
+        "striped_bass",
+        "bluefin_recreational",
+        "false_albacore"
+      ],
+      "season_fit": 7,
+      "season_species": "striped_bass",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 5.4
+    },
+    "south_shore_li": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi"
+      ],
+      "season_fit": 5,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "montauk_nearshore": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "false_albacore"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "s_block_nearshore": {
+      "heat": 9,
+      "species": [
+        "bluefin_recreational",
+        "bluefin_giant",
+        "wahoo"
+      ],
+      "season_fit": 9,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "effective_heat": 9.7
+    },
+    "acid_barge": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "mahi"
+      ],
+      "season_fit": 5,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "coxes_ledge_se": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "season_fit": 7,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "the_gully": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational"
+      ],
+      "season_fit": 6,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "habs_ledge": {
+      "heat": 7,
+      "species": [
+        "bluefin_recreational",
+        "thresher_shark",
+        "wahoo"
+      ],
+      "season_fit": 8,
+      "season_species": "thresher_shark",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "tuna_ridge": {
+      "heat": 8,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "wahoo",
+        "swordfish"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "butterfish_hole": {
+      "heat": 6,
+      "species": [
+        "yellowfin_tuna",
+        "bluefin_recreational"
+      ],
+      "season_fit": 5,
+      "season_species": "yellowfin_tuna",
+      "whale_boost": 0,
+      "season_boost": 0.1,
+      "effective_heat": 6.1
+    },
+    "mud_hole": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna",
+        "mahi",
+        "mako_shark"
+      ],
+      "season_fit": 8,
+      "season_species": "mako_shark",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    },
+    "hudson_canyon": {
+      "heat": 8,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "block_canyon": {
+      "heat": 8,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "bluefin_giant",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 8.4
+    },
+    "atlantis_canyon": {
+      "heat": 9,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 9.4
+    },
+    "veatch_hydrographer": {
+      "heat": 7,
+      "species": [
+        "yellowfin_tuna",
+        "bigeye_tuna",
+        "swordfish",
+        "wahoo",
+        "white_marlin",
+        "blue_marlin",
+        "sailfish"
+      ],
+      "season_fit": 8,
+      "season_species": "swordfish",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 7.4
+    },
+    "thirty_five_fathom_line": {
+      "heat": 6,
+      "species": [
+        "bluefin_recreational",
+        "yellowfin_tuna"
+      ],
+      "season_fit": 8,
+      "season_species": "bluefin_recreational",
+      "whale_boost": 0,
+      "season_boost": 0.4,
+      "effective_heat": 6.4
+    }
+  },
+  "picks": {
+    "tuna": {
+      "zone_id": "s_block_nearshore",
+      "zone_name": "Nearshore South of Block Island",
+      "distance_nm": 41.2,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "striper": {
+      "zone_id": "block_island_striper",
+      "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+      "distance_nm": 36.1,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "tuna_in_range": {
+      "zone_id": "s_block_nearshore",
+      "zone_name": "Nearshore South of Block Island",
+      "distance_nm": 41.2,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "tuna_unconstrained": {
+      "zone_id": "s_block_nearshore",
+      "zone_name": "Nearshore South of Block Island",
+      "distance_nm": 41.2,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "striper_in_range": {
+      "zone_id": "block_island_striper",
+      "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+      "distance_nm": 36.1,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "striper_unconstrained": {
+      "zone_id": "block_island_striper",
+      "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+      "distance_nm": 36.1,
+      "in_range": true,
+      "heat": 9,
+      "whale_boost": 0,
+      "season_boost": 0.7,
+      "season_fit": 9,
+      "effective_heat": 9.7
+    },
+    "picks_by_species": {
+      "swordfish": {
+        "in_range": null,
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 8,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      },
+      "wahoo": {
+        "in_range": null,
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 3,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      },
+      "mako_shark": {
+        "in_range": {
+          "zone_id": "mud_hole",
+          "zone_name": "The Mud Hole",
+          "distance_nm": 78.6,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 6,
+          "effective_heat": 6.4
+        },
+        "unconstrained": {
+          "zone_id": "mud_hole",
+          "zone_name": "The Mud Hole",
+          "distance_nm": 78.6,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 6,
+          "effective_heat": 6.4
+        }
+      },
+      "bluefish": {
+        "in_range": {
+          "zone_id": "plum_gut",
+          "zone_name": "Plum Gut",
+          "distance_nm": 11.7,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 8,
+          "effective_heat": 8.4
+        },
+        "unconstrained": {
+          "zone_id": "plum_gut",
+          "zone_name": "Plum Gut",
+          "distance_nm": 11.7,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 8,
+          "effective_heat": 8.4
+        }
+      },
+      "bigeye_tuna": {
+        "in_range": null,
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 4,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      },
+      "white_marlin": {
+        "in_range": null,
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 6,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      },
+      "bluefin_recreational": {
+        "in_range": {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "Nearshore South of Block Island",
+          "distance_nm": 41.2,
+          "in_range": true,
+          "season_presence": 9,
+          "heat": 9,
+          "effective_heat": 9.7
+        },
+        "unconstrained": {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "Nearshore South of Block Island",
+          "distance_nm": 41.2,
+          "in_range": true,
+          "season_presence": 9,
+          "heat": 9,
+          "effective_heat": 9.7
+        }
+      },
+      "thresher_shark": {
+        "in_range": {
+          "zone_id": "habs_ledge",
+          "zone_name": "Habs Ledge",
+          "distance_nm": 28.7,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 7,
+          "effective_heat": 7.4
+        },
+        "unconstrained": {
+          "zone_id": "habs_ledge",
+          "zone_name": "Habs Ledge",
+          "distance_nm": 28.7,
+          "in_range": true,
+          "season_presence": 8,
+          "heat": 7,
+          "effective_heat": 7.4
+        }
+      },
+      "blue_marlin": {
+        "in_range": null,
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 4,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      },
+      "striped_bass": {
+        "in_range": {
+          "zone_id": "block_island_striper",
+          "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+          "distance_nm": 36.1,
+          "in_range": true,
+          "season_presence": 9,
+          "heat": 9,
+          "effective_heat": 9.7
+        },
+        "unconstrained": {
+          "zone_id": "block_island_striper",
+          "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+          "distance_nm": 36.1,
+          "in_range": true,
+          "season_presence": 9,
+          "heat": 9,
+          "effective_heat": 9.7
+        }
+      },
+      "mahi": {
+        "in_range": {
+          "zone_id": "mud_hole",
+          "zone_name": "The Mud Hole",
+          "distance_nm": 78.6,
+          "in_range": true,
+          "season_presence": 4,
+          "heat": 6,
+          "effective_heat": 6.4
+        },
+        "unconstrained": {
+          "zone_id": "mud_hole",
+          "zone_name": "The Mud Hole",
+          "distance_nm": 78.6,
+          "in_range": true,
+          "season_presence": 4,
+          "heat": 6,
+          "effective_heat": 6.4
+        }
+      },
+      "bluefin_giant": {
+        "in_range": {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "Nearshore South of Block Island",
+          "distance_nm": 41.2,
+          "in_range": true,
+          "season_presence": 4,
+          "heat": 9,
+          "effective_heat": 9.7
+        },
+        "unconstrained": {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "Nearshore South of Block Island",
+          "distance_nm": 41.2,
+          "in_range": true,
+          "season_presence": 4,
+          "heat": 9,
+          "effective_heat": 9.7
+        }
+      },
+      "yellowfin_tuna": {
+        "in_range": {
+          "zone_id": "tuna_ridge",
+          "zone_name": "Tuna Ridge (30-Fathom S of Block)",
+          "distance_nm": 51.4,
+          "in_range": true,
+          "season_presence": 4,
+          "heat": 8,
+          "effective_heat": 8.4
+        },
+        "unconstrained": {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "distance_nm": 120.5,
+          "in_range": false,
+          "season_presence": 5,
+          "heat": 9,
+          "effective_heat": 9.4
+        }
+      }
+    },
+    "runners_up": {
+      "tuna_unconstrained": [
+        {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "s_block_nearshore",
+          "heat": 9,
+          "effective_heat": 9.7,
+          "whale_boost": 0,
+          "season_boost": 0.7,
+          "gap_to_winner": 0.0
+        },
+        {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "atlantis_canyon",
+          "heat": 9,
+          "effective_heat": 9.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 0.3
+        },
+        {
+          "zone_id": "tuna_ridge",
+          "zone_name": "tuna_ridge",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "hudson_canyon",
+          "zone_name": "hudson_canyon",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "block_canyon",
+          "zone_name": "block_canyon",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        }
+      ],
+      "striper_unconstrained": [
+        {
+          "zone_id": "block_island_striper",
+          "zone_name": "block_island_striper",
+          "heat": 9,
+          "effective_heat": 9.7,
+          "whale_boost": 0,
+          "season_boost": 0.7,
+          "gap_to_winner": 0.0
+        },
+        {
+          "zone_id": "the_race",
+          "zone_name": "the_race",
+          "heat": 9,
+          "effective_heat": 9.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 0.3
+        },
+        {
+          "zone_id": "plum_gut",
+          "zone_name": "plum_gut",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "narragansett_bay",
+          "zone_name": "narragansett_bay",
+          "heat": 8,
+          "effective_heat": 8.4,
+          "whale_boost": 0,
+          "season_boost": 0.4,
+          "gap_to_winner": 1.3
+        },
+        {
+          "zone_id": "montauk_rips_striper",
+          "zone_name": "montauk_rips_striper",
+          "heat": 8,
+          "effective_heat": 8.1,
+          "whale_boost": 0,
+          "season_boost": 0.1,
+          "gap_to_winner": 1.6
+        }
+      ]
+    }
+  },
+  "whale_sightings_count": 11,
+  "recent_whale_sightings": [
+    {
+      "date": "2026-07-27",
+      "kind": "mixed",
+      "location": "South of Montauk Point lighthouse",
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "kind": "mixed",
+      "location": "Offshore Montauk",
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore",
+        "coxes_ledge_se"
+      ]
+    }
+  ],
+  "bait_intel_count": 16,
+  "weather": {
+    "wind": "3 mph NE",
+    "forecast": "Chance Showers And Thunderstorms",
+    "waves_ft": 5.052
+  },
+  "pressure": {
+    "current_hpa": 1006.8,
+    "samples_count": 16
+  },
+  "notes": "auto-written by build-inlined.py",
+  "sst_contours": {
+    "f68": [
+      [
+        [
+          40.63693396226415,
+          -68.0
+        ],
+        [
+          40.63675754625122,
+          -68.1
+        ],
+        [
+          40.63685160126297,
+          -68.2
+        ],
+        [
+          40.65497435897436,
+          -68.3
+        ],
+        [
+          40.65833333333333,
+          -68.4
+        ],
+        [
+          40.65241192411924,
+          -68.5
+        ],
+        [
+          40.64345898004434,
+          -68.6
+        ],
+        [
+          40.63524835427888,
+          -68.7
+        ],
+        [
+          40.62554385964913,
+          -68.8
+        ],
+        [
+          40.60723626852659,
+          -68.9
+        ],
+        [
+          40.6,
+          -68.92577639751553
+        ],
+        [
+          40.580521597392014,
+          -69.0
+        ],
+        [
+          40.55175834084761,
+          -69.1
+        ],
+        [
+          40.524370594159116,
+          -69.2
+        ],
+        [
+          40.500449943757026,
+          -69.3
+        ],
+        [
+          40.5,
+          -69.3025641025641
+        ],
+        [
+          40.48268792710706,
+          -69.4
+        ],
+        [
+          40.47254672897196,
+          -69.5
+        ],
+        [
+          40.46913580246913,
+          -69.6
+        ],
+        [
+          40.47456140350877,
+          -69.7
+        ],
+        [
+          40.5,
+          -69.77873303167421
+        ],
+        [
+          40.50580964153276,
+          -69.8
+        ],
+        [
+          40.52922279792746,
+          -69.9
+        ],
+        [
+          40.53312101910828,
+          -70.0
+        ],
+        [
+          40.558746736292434,
+          -70.1
+        ],
+        [
+          40.6,
+          -70.15917602996255
+        ],
+        [
+          40.61282352941176,
+          -70.2
+        ],
+        [
+          40.605173635719346,
+          -70.3
+        ],
+        [
+          40.62120227457352,
+          -70.4
+        ],
+        [
+          40.61429990069513,
+          -70.5
+        ],
+        [
+          40.62605863192182,
+          -70.6
+        ],
+        [
+          40.64395759717315,
+          -70.7
+        ],
+        [
+          40.7,
+          -70.78517722878625
+        ],
+        [
+          40.74630872483222,
+          -70.80000000000001
+        ],
+        [
+          40.8,
+          -70.82826855123675
+        ],
+        [
+          40.85456989247312,
+          -70.9
+        ],
+        [
+          40.9,
+          -70.93840909090909
+        ],
+        [
+          40.95940246045694,
+          -70.9
+        ],
+        [
+          41.0,
+          -70.88117359413204
+        ],
+        [
+          41.083393501805055,
+          -70.9
+        ],
+        [
+          41.1,
+          -70.93150684931507
+        ],
+        [
+          41.11443001443001,
+          -71.0
+        ],
+        [
+          41.1,
+          -71.03367003367003
+        ],
+        [
+          41.076378896882495,
+          -71.1
+        ],
+        [
+          41.04944099378882,
+          -71.20000000000002
+        ],
+        [
+          41.03361064891847,
+          -71.30000000000001
+        ],
+        [
+          41.05365853658537,
+          -71.4
+        ],
+        [
+          41.1,
+          -71.41923509561306
+        ],
+        [
+          41.15777027027028,
+          -71.4
+        ],
+        [
+          41.2,
+          -71.37899159663867
+        ],
+        [
+          41.24119193689746,
+          -71.3
+        ],
+        [
+          41.281762917933136,
+          -71.2
+        ],
+        [
+          41.281879194630875,
+          -71.1
+        ],
+        [
+          41.2634903640257,
+          -71.0
+        ],
+        [
+          41.282637571157494,
+          -70.9
+        ],
+        [
+          41.3,
+          -70.8362369337979
+        ],
+        [
+          41.4,
+          -70.8373417721519
+        ],
+        [
+          41.442293906810036,
+          -70.8
+        ],
+        [
+          41.4,
+          -70.7340782122905
+        ],
+        [
+          41.3,
+          -70.74720812182741
+        ],
+        [
+          41.293146647015476,
+          -70.7
+        ],
+        [
+          41.29590100541376,
+          -70.6
+        ],
+        [
+          41.3,
+          -70.58239202657806
+        ],
+        [
+          41.389830508474574,
+          -70.6
+        ],
+        [
+          41.4,
+          -70.6089552238806
+        ],
+        [
+          41.44285714285716,
+          -70.6
+        ],
+        [
+          41.50000000000001,
+          -70.59420289855072
+        ]
+      ],
+      [
+        [
+          41.8,
+          -70.31893939393939
+        ],
+        [
+          41.89259259259258,
+          -70.3
+        ],
+        [
+          41.9,
+          -70.29915966386554
+        ],
+        [
+          41.90119760479042,
+          -70.3
+        ],
+        [
+          41.96915887850467,
+          -70.4
+        ],
+        [
+          41.9,
+          -70.46218487394958
+        ],
+        [
+          41.86641791044776,
+          -70.5
+        ]
+      ],
+      [
+        [
+          42.0,
+          -69.60068027210883
+        ],
+        [
+          41.9,
+          -69.66891025641026
+        ],
+        [
+          41.85124716553288,
+          -69.6
+        ],
+        [
+          41.8,
+          -69.55670498084291
+        ],
+        [
+          41.76897274633124,
+          -69.5
+        ],
+        [
+          41.72128935532234,
+          -69.4
+        ],
+        [
+          41.7,
+          -69.33425925925927
+        ],
+        [
+          41.68854489164087,
+          -69.3
+        ],
+        [
+          41.666823899371074,
+          -69.2
+        ],
+        [
+          41.651414309484196,
+          -69.1
+        ],
+        [
+          41.7,
+          -69.04795008912656
+        ],
+        [
+          41.780662983425415,
+          -69.1
+        ],
+        [
+          41.8,
+          -69.12978723404255
+        ],
+        [
+          41.833653846153844,
+          -69.1
+        ],
+        [
+          41.9,
+          -69.06377952755905
+        ],
+        [
+          41.93957654723127,
+          -69.0
+        ],
+        [
+          41.95421052631579,
+          -68.9
+        ],
+        [
+          41.96468885672938,
+          -68.8
+        ],
+        [
+          41.988992974238876,
+          -68.7
+        ],
+        [
+          42.0,
+          -68.61047619047619
+        ]
+      ],
+      [
+        [
+          40.23483146067416,
+          -69.8
+        ],
+        [
+          40.3,
+          -69.86236559139785
+        ],
+        [
+          40.32396694214876,
+          -69.8
+        ],
+        [
+          40.3,
+          -69.79036544850499
+        ],
+        [
+          40.23483146067416,
+          -69.8
+        ]
+      ],
+      [
+        [
+          41.098727272727274,
+          -71.8
+        ],
+        [
+          41.1,
+          -71.80440251572325
+        ],
+        [
+          41.2,
+          -71.87076923076924
+        ],
+        [
+          41.212105263157895,
+          -71.8
+        ],
+        [
+          41.20384615384616,
+          -71.7
+        ],
+        [
+          41.2,
+          -71.69690522243714
+        ],
+        [
+          41.197790055248625,
+          -71.7
+        ],
+        [
+          41.099999999999994,
+          -71.79902097902098
+        ],
+        [
+          41.098727272727274,
+          -71.8
+        ]
+      ],
+      [
+        [
+          41.39191374663073,
+          -71.00000000000001
+        ],
+        [
+          41.4,
+          -71.02803738317758
+        ],
+        [
+          41.413698630136984,
+          -71.0
+        ],
+        [
+          41.4,
+          -70.98684210526316
+        ],
+        [
+          41.39191374663073,
+          -71.0
+        ]
+      ]
+    ],
+    "f72": [
+      [
+        [
+          40.538886529841946,
+          -68.0
+        ],
+        [
+          40.53617998163453,
+          -68.1
+        ],
+        [
+          40.5330527764544,
+          -68.19999999999999
+        ],
+        [
+          40.538026819923374,
+          -68.3
+        ],
+        [
+          40.534417025721375,
+          -68.4
+        ],
+        [
+          40.52303971660195,
+          -68.5
+        ],
+        [
+          40.50874224478286,
+          -68.6
+        ],
+        [
+          40.5,
+          -68.65319605319606
+        ],
+        [
+          40.489205501137825,
+          -68.7
+        ],
+        [
+          40.46264384488927,
+          -68.8
+        ],
+        [
+          40.43116208817143,
+          -68.9
+        ],
+        [
+          40.4,
+          -68.9740965207632
+        ],
+        [
+          40.38411124879526,
+          -69.0
+        ],
+        [
+          40.322386425834694,
+          -69.1
+        ],
+        [
+          40.3,
+          -69.1434875066454
+        ],
+        [
+          40.26382508082355,
+          -69.2
+        ],
+        [
+          40.21676082862523,
+          -69.3
+        ],
+        [
+          40.2,
+          -69.34708994708996
+        ],
+        [
+          40.17671957671958,
+          -69.4
+        ],
+        [
+          40.11272689119715,
+          -69.5
+        ],
+        [
+          40.1,
+          -69.51118487782388
+        ],
+        [
+          40.0,
+          -69.533836667925
+        ],
+        [
+          39.952961173734124,
+          -69.6
+        ],
+        [
+          39.9,
+          -69.66029127202363
+        ],
+        [
+          39.859700258397936,
+          -69.7
+        ],
+        [
+          39.8,
+          -69.76322933771209
+        ],
+        [
+          39.745355457946964,
+          -69.79999999999998
+        ],
+        [
+          39.7,
+          -69.8592309326535
+        ],
+        [
+          39.64601969057665,
+          -69.9
+        ],
+        [
+          39.62099795956223,
+          -70.0
+        ],
+        [
+          39.60076011625308,
+          -70.1
+        ],
+        [
+          39.7,
+          -70.18474608629248
+        ],
+        [
+          39.777550663871416,
+          -70.1
+        ],
+        [
+          39.8,
+          -70.07839973104723
+        ],
+        [
+          39.9,
+          -70.0779108449767
+        ],
+        [
+          39.94289405684754,
+          -70.1
+        ],
+        [
+          39.95618038576474,
+          -70.2
+        ],
+        [
+          39.90957940991839,
+          -70.3
+        ],
+        [
+          39.9,
+          -70.3399895178197
+        ],
+        [
+          39.846545284780575,
+          -70.4
+        ],
+        [
+          39.8,
+          -70.41243297169224
+        ],
+        [
+          39.77921617677715,
+          -70.4
+        ],
+        [
+          39.78420098420098,
+          -70.3
+        ],
+        [
+          39.7,
+          -70.21972839506174
+        ],
+        [
+          39.642844585091424,
+          -70.3
+        ],
+        [
+          39.66108550947261,
+          -70.4
+        ],
+        [
+          39.67651320555885,
+          -70.5
+        ],
+        [
+          39.67952023753712,
+          -70.6
+        ],
+        [
+          39.67261813537676,
+          -70.7
+        ],
+        [
+          39.64683211129912,
+          -70.8
+        ],
+        [
+          39.7,
+          -70.89003502069404
+        ],
+        [
+          39.8,
+          -70.84356725146199
+        ],
+        [
+          39.827140255009105,
+          -70.8
+        ],
+        [
+          39.89999999999999,
+          -70.76349532283824
+        ],
+        [
+          40.0,
+          -70.70207156308852
+        ],
+        [
+          40.01799930771893,
+          -70.8
+        ],
+        [
+          40.0185369449051,
+          -70.9
+        ],
+        [
+          40.01223249443588,
+          -71.0
+        ],
+        [
+          40.00465921884472,
+          -71.1
+        ],
+        [
+          40.007042510490784,
+          -71.2
+        ],
+        [
+          40.0,
+          -71.24065297525013
+        ],
+        [
+          39.93578347578348,
+          -71.3
+        ],
+        [
+          39.9,
+          -71.31198930889653
+        ],
+        [
+          39.85651763818147,
+          -71.4
+        ],
+        [
+          39.82899380066762,
+          -71.5
+        ],
+        [
+          39.850928135773,
+          -71.6
+        ],
+        [
+          39.9,
+          -71.66853703703704
+        ],
+        [
+          39.92177367679098,
+          -71.70000000000002
+        ],
+        [
+          39.97834616795013,
+          -71.8
+        ],
+        [
+          39.998483187134504,
+          -71.9
+        ],
+        [
+          40.0,
+          -71.90539311241066
+        ],
+        [
+          40.003588413316045,
+          -71.9
+        ],
+        [
+          40.1,
+          -71.80578791719475
+        ],
+        [
+          40.10450361604208,
+          -71.8
+        ],
+        [
+          40.16347905282332,
+          -71.7
+        ],
+        [
+          40.19088888888889,
+          -71.6
+        ],
+        [
+          40.20000000000001,
+          -71.59288194444444
+        ],
+        [
+          40.3,
+          -71.5974227355363
+        ],
+        [
+          40.39999999999999,
+          -71.5974266072092
+        ],
+        [
+          40.5,
+          -71.59762032563964
+        ],
+        [
+          40.506397306397304,
+          -71.6
+        ],
+        [
+          40.5,
+          -71.61407407407407
+        ],
+        [
+          40.42543617998164,
+          -71.7
+        ],
+        [
+          40.39999999999999,
+          -71.7183201058201
+        ],
+        [
+          40.36079365079365,
+          -71.8
+        ],
+        [
+          40.3,
+          -71.89499007936509
+        ],
+        [
+          40.29599206349206,
+          -71.9
+        ],
+        [
+          40.3,
+          -71.90385643375335
+        ],
+        [
+          40.4,
+          -71.92639710716634
+        ],
+        [
+          40.429546054367904,
+          -72.0
+        ],
+        [
+          40.43275415333028,
+          -72.1
+        ],
+        [
+          40.429749103942655,
+          -72.2
+        ],
+        [
+          40.433642427200255,
+          -72.29999999999998
+        ],
+        [
+          40.46209900148715,
+          -72.4
+        ],
+        [
+          40.47303240740741,
+          -72.5
+        ],
+        [
+          40.5,
+          -72.56314363143632
+        ],
+        [
+          40.52471443406023,
+          -72.6
+        ],
+        [
+          40.51595044521874,
+          -72.7
+        ],
+        [
+          40.51665791776028,
+          -72.8
+        ],
+        [
+          40.5,
+          -72.83525925925926
+        ],
+        [
+          40.4729871735435,
+          -72.9
+        ],
+        [
+          40.435567502986856,
+          -73.0
+        ],
+        [
+          40.42998532746432,
+          -73.1
+        ],
+        [
+          40.44219875984582,
+          -73.2
+        ],
+        [
+          40.5,
+          -73.24296213253612
+        ],
+        [
+          40.56489512471656,
+          -73.3
+        ],
+        [
+          40.6,
+          -73.33431698531449
+        ],
+        [
+          40.7,
+          -73.3335137085137
+        ],
+        [
+          40.8,
+          -73.33878663940014
+        ],
+        [
+          40.8860153256705,
+          -73.4
+        ],
+        [
+          40.89999999999999,
+          -73.40519943019943
+        ],
+        [
+          40.91001371742112,
+          -73.4
+        ],
+        [
+          40.94469227591904,
+          -73.3
+        ],
+        [
+          40.900000000000006,
+          -73.22578875171469
+        ],
+        [
+          40.87691835481891,
+          -73.2
+        ],
+        [
+          40.872097844112766,
+          -73.1
+        ],
+        [
+          40.898963515754566,
+          -73.0
+        ],
+        [
+          40.9,
+          -72.99634502923976
+        ],
+        [
+          40.922810661128416,
+          -72.9
+        ],
+        [
+          40.95347953216374,
+          -72.80000000000001
+        ],
+        [
+          41.0,
+          -72.72755009107468
+        ],
+        [
+          41.04124062713019,
+          -72.7
+        ],
+        [
+          41.1,
+          -72.64463712267181
+        ],
+        [
+          41.19976851851852,
+          -72.7
+        ],
+        [
+          41.2,
+          -72.7001836547291
+        ]
+      ],
+      [
+        [
+          40.8,
+          -73.86670321637428
+        ],
+        [
+          40.77048914804017,
+          -73.9
+        ],
+        [
+          40.76264862648626,
+          -73.93735137351374
+        ]
+      ]
+    ]
+  },
+  "chla_contours": {
+    "blue_green": [],
+    "green_inner": [
+      [
+        [
+          39.541664,
+          -70.20245361897437
+        ],
+        [
+          39.664589548967875,
+          -68.958336
+        ]
+      ]
+    ]
+  },
+  "derived_signals_summary": {
+    "sst_gradient_hot_count": 44,
+    "chla_gradient_hot_count": 0,
+    "current_convergence_count": 1,
+    "persistent_breaks_count": 0,
+    "pressure_state": "steady"
+  },
+  "youtube_intel": {
+    "harvested_at": "2026-07-29T23:35:45.768457Z",
+    "cutoff_days": 14,
+    "channel_count": 15,
+    "channels_ok": 15,
+    "total_videos_in_window": 24,
+    "channels": [
+      {
+        "id": "on_the_water_media",
+        "name": "On The Water Media",
+        "channel_id": "UCaYq4eKDzuxBHo8tCrFUAeA",
+        "tier": "gold",
+        "area": "Northeast regional",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "280 MILES of Bluefin Tuna | Northeast Offshore Fishing Report July 29th, 2026",
+            "published": "2026-07-29T21:00:10+00:00",
+            "link": "https://www.youtube.com/watch?v=000MPZp0UBY",
+            "species": [
+              "bluefin_giant"
+            ],
+            "locations": [
+              "montauk",
+              "cape_may"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "Surfcasting Obsession with Frank Goncalves and Pete Utschig | OTW Podcast #89",
+            "published": "2026-07-23T16:00:04+00:00",
+            "link": "https://www.youtube.com/watch?v=DTMm1K1699Q",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          },
+          {
+            "title": "Any Port in the Tuna Storm | Northeast Offshore Fishing Report July 22nd, 2026",
+            "published": "2026-07-22T21:00:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2GOHiRfLWo4",
+            "species": [
+              "bluefin_giant"
+            ],
+            "locations": [],
+            "is_trip_recap": true
+          }
+        ],
+        "kept_count": 3,
+        "total_in_window": 7
+      },
+      {
+        "id": "my_fishing_cape_cod",
+        "name": "My Fishing Cape Cod",
+        "channel_id": "UCxXDOyQ_5Sj9ThykSiTq2cg",
+        "tier": "gold",
+        "area": "Cape Cod, MA",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "July 26 CapeCod Fishing Report | Fluke & Bonito Blitz",
+            "published": "2026-07-27T20:58:10+00:00",
+            "link": "https://www.youtube.com/watch?v=8N-Klipkhcw",
+            "species": [],
+            "locations": [
+              "monomoy"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "July 25 CapeCod Fishing Report Bass Blues and Fluke From the Beach with Amy Wrightson of Sports Port",
+            "published": "2026-07-25T19:48:27+00:00",
+            "link": "https://www.youtube.com/watch?v=ss6fpPMWL9w",
+            "species": [
+              "striped_bass",
+              "bluefish",
+              "false_albacore"
+            ],
+            "locations": [
+              "cape_cod_bay",
+              "cape_cod_canal",
+              "monomoy"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "July 22 Cape Cod Fishing Report |Ebb Tide Produces at Monomoy: Live Report From MFCC Member Bruno",
+            "published": "2026-07-22T13:45:23+00:00",
+            "link": "https://www.youtube.com/watch?v=120sVSoAMss",
+            "species": [
+              "bluefin_recreational",
+              "striped_bass"
+            ],
+            "locations": [
+              "monomoy",
+              "chatham"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "Giant Striped Bass Attack My Lure Underwater (Camera Didn't Survive)",
+            "published": "2026-07-19T18:51:53+00:00",
+            "link": "https://www.youtube.com/watch?v=eJtbyQIJ27k",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [
+              "monomoy"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "This Shouldn't Be Here... Whale Shark Off Cape Cod",
+            "published": "2026-07-16T00:00:41+00:00",
+            "link": "https://www.youtube.com/shorts/yNjSd4ABCnM",
+            "species": [
+              "yellowfin_tuna"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          }
+        ],
+        "kept_count": 5,
+        "total_in_window": 6
+      },
+      {
+        "id": "goose_hummock_shop",
+        "name": "Goose Hummock Shop",
+        "channel_id": "UCB-XMVj1bWtqRmu6VPQ9Bhw",
+        "tier": "gold",
+        "area": "Orleans / Cape Cod, MA",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 2
+      },
+      {
+        "id": "fishermans_headquarters",
+        "name": "Fisherman's Headquarters",
+        "channel_id": "UCqMkTT_IfrtYdpfyFPuZh6A",
+        "tier": "gold",
+        "area": "Long Beach Island, NJ",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "fisherman_magazine",
+        "name": "The Fisherman Magazine",
+        "channel_id": "UCn7b8YyEaAU1t89llo4j4Yg",
+        "tier": "gold",
+        "area": "Northeast regional",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [
+              "long_island_sound",
+              "long_island"
+            ],
+            "is_trip_recap": false
+          },
+          {
+            "title": "Target Doormat Fluke (summer flounder)",
+            "published": "2026-07-26T09:00:26+00:00",
+            "link": "https://www.youtube.com/watch?v=Sojh7eRzHyA",
+            "species": [],
+            "locations": [
+              "long_island"
+            ],
+            "is_trip_recap": false
+          },
+          {
+            "title": "The Fisherman 2026 Dream Boat Challenge Update July 22nd, 2026",
+            "published": "2026-07-24T10:00:25+00:00",
+            "link": "https://www.youtube.com/watch?v=27evgU99V7A",
+            "species": [
+              "bluefish"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ",
+            "species": [
+              "bluefin_recreational",
+              "yellowfin_tuna"
+            ],
+            "locations": [
+              "montauk",
+              "long_island_sound",
+              "long_island"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "July 23rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+            "published": "2026-07-23T15:59:11+00:00",
+            "link": "https://www.youtube.com/watch?v=yQcCL8j95H0",
+            "species": [],
+            "locations": [
+              "long_island"
+            ],
+            "is_trip_recap": false
+          },
+          {
+            "title": "July 23rd 2026 New England Video Fishing Forecast with Dave Anderson",
+            "published": "2026-07-23T15:58:40+00:00",
+            "link": "https://www.youtube.com/watch?v=OCnTGWXcsYc",
+            "species": [
+              "bluefin_recreational",
+              "striped_bass"
+            ],
+            "locations": [
+              "block_island"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "The \"Next Cast\" Podcast Episode 18 - July 21, 2026",
+            "published": "2026-07-21T18:11:53+00:00",
+            "link": "https://www.youtube.com/watch?v=SHyl8Sb-0Ok",
+            "species": [
+              "bluefin_recreational",
+              "striped_bass"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          },
+          {
+            "title": "The Fisherman 2026 Dream Boat Challenge Update July 15th, 2026",
+            "published": "2026-07-17T11:43:45+00:00",
+            "link": "https://www.youtube.com/watch?v=PUYpGgCL4ZM",
+            "species": [
+              "bluefish"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          },
+          {
+            "title": "July 16th 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "published": "2026-07-16T17:56:06+00:00",
+            "link": "https://www.youtube.com/watch?v=clu21xZb37Q",
+            "species": [
+              "bluefin_recreational",
+              "striped_bass"
+            ],
+            "locations": [
+              "montauk",
+              "long_island"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "July 16th 2026 New England Video Fishing Forecast with Dave Anderson",
+            "published": "2026-07-16T15:55:12+00:00",
+            "link": "https://www.youtube.com/watch?v=cGdQ9-VDmwc",
+            "species": [
+              "bluefin_recreational",
+              "striped_bass"
+            ],
+            "locations": [
+              "chatham"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "July 16th, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+            "published": "2026-07-16T15:54:53+00:00",
+            "link": "https://www.youtube.com/watch?v=oclKMIU1GPU",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          }
+        ],
+        "kept_count": 11,
+        "total_in_window": 15
+      },
+      {
+        "id": "reel_deal_charters",
+        "name": "Reel Deal Fishing Charters",
+        "channel_id": "UCLGC74zab_0iqzD5PVUOliQ",
+        "tier": "good",
+        "area": "Truro / Outer Cape Cod, MA",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "rhode_island_sportfishing",
+        "name": "Rhode Island Sportfishing",
+        "channel_id": "UCceAZGBF1ANCvzhFm0a5jYw",
+        "tier": "good",
+        "area": "Point Judith / RI coast",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "Rhode Island Giant Tuna Battle | Setting up | Preperation",
+            "published": "2026-07-29T22:38:42+00:00",
+            "link": "https://www.youtube.com/watch?v=IrNWGLIkKds",
+            "species": [
+              "bluefin_giant",
+              "striped_bass"
+            ],
+            "locations": [
+              "chatham"
+            ],
+            "is_trip_recap": true
+          },
+          {
+            "title": "Rhode Island Giant Tuna",
+            "published": "2026-07-29T20:30:09+00:00",
+            "link": "https://www.youtube.com/shorts/C5Eg6h1fLTM",
+            "species": [
+              "bluefin_giant"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          },
+          {
+            "title": "Rhode Island Giant Bluefin Tuna",
+            "published": "2026-07-27T22:22:26+00:00",
+            "link": "https://www.youtube.com/shorts/LnUJYwViu8A",
+            "species": [
+              "bluefin_giant"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          }
+        ],
+        "kept_count": 3,
+        "total_in_window": 4
+      },
+      {
+        "id": "saltwater_edge",
+        "name": "The Saltwater Edge",
+        "channel_id": "UC-KGEdM5Sg4bSPlKFq7mNiw",
+        "tier": "good",
+        "area": "Middletown / Newport, RI",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "Rigged Slug-Gos Are Always Sold Out \u2014 Here's How to Make Your Own",
+            "published": "2026-07-17T18:13:49+00:00",
+            "link": "https://www.youtube.com/watch?v=Vzt4a_1cp9A",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          }
+        ],
+        "kept_count": 1,
+        "total_in_window": 2
+      },
+      {
+        "id": "salty_cape",
+        "name": "Salty Cape",
+        "channel_id": "UCOYjJHb-T0r4-BnxJ2_FdNg",
+        "tier": "good",
+        "area": "Cape Cod / Vineyard / Nantucket, MA",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "fishing_with_jonny",
+        "name": "Fishing With Jonny",
+        "channel_id": "UCkksZl9TrxkWe1GcoofwHOg",
+        "tier": "good",
+        "area": "Rhode Island (kayak + shore)",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 1
+      },
+      {
+        "id": "saltwater_underground",
+        "name": "Saltwater Underground with Nick Honachefsky",
+        "channel_id": "UCXTQXrl91tf6KtBjKhlrmhA",
+        "tier": "good",
+        "area": "New Jersey coast + wider Northeast",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "canyon_runner",
+        "name": "Canyon Runner",
+        "channel_id": "UCg5mMeLvBU7HgbD7G1ZZFUg",
+        "tier": "contextual",
+        "area": "Point Pleasant Beach, NJ (canyons)",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "609_fishing",
+        "name": "609 Fishing",
+        "channel_id": "UCJ9NThXcHnrAFtWPfK6IKjA",
+        "tier": "contextual",
+        "area": "New Jersey (Ocean/Monmouth County)",
+        "ok": true,
+        "recent_videos": [
+          {
+            "title": "What's Actually Living Under This NJ Bridge? (Camera Drop Test)",
+            "published": "2026-07-25T21:00:35+00:00",
+            "link": "https://www.youtube.com/watch?v=GluKL3ZAzbY",
+            "species": [
+              "striped_bass"
+            ],
+            "locations": [],
+            "is_trip_recap": false
+          }
+        ],
+        "kept_count": 1,
+        "total_in_window": 2
+      },
+      {
+        "id": "wicked_fat_tuna",
+        "name": "Wicked Fat Tuna TV (Fat Tuna Charters)",
+        "channel_id": "UCF80c8D8iIFdFDRfEH8ytaA",
+        "tier": "seasonal",
+        "area": "Gloucester / Cape Ann, MA",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      },
+      {
+        "id": "big_game_fishing_ri",
+        "name": "Big Game Fishing RI (Capt. Brian Bacon)",
+        "channel_id": "UCHJAZajMsMsfQiB7x90B5tg",
+        "tier": "seasonal",
+        "area": "Wakefield / Snug Harbor, RI",
+        "ok": true,
+        "recent_videos": [],
+        "kept_count": 0,
+        "total_in_window": 0
+      }
+    ],
+    "corroboration": {
+      "locations": {
+        "montauk": [
+          "On The Water Media",
+          "The Fisherman Magazine"
+        ],
+        "cape_may": [
+          "On The Water Media"
+        ],
+        "monomoy": [
+          "My Fishing Cape Cod"
+        ],
+        "cape_cod_bay": [
+          "My Fishing Cape Cod"
+        ],
+        "cape_cod_canal": [
+          "My Fishing Cape Cod"
+        ],
+        "chatham": [
+          "My Fishing Cape Cod",
+          "Rhode Island Sportfishing",
+          "The Fisherman Magazine"
+        ],
+        "long_island_sound": [
+          "The Fisherman Magazine"
+        ],
+        "long_island": [
+          "The Fisherman Magazine"
+        ],
+        "block_island": [
+          "The Fisherman Magazine"
+        ]
+      },
+      "species": {
+        "bluefin_giant": [
+          "On The Water Media",
+          "Rhode Island Sportfishing"
+        ],
+        "striped_bass": [
+          "609 Fishing",
+          "My Fishing Cape Cod",
+          "On The Water Media",
+          "Rhode Island Sportfishing",
+          "The Fisherman Magazine",
+          "The Saltwater Edge"
+        ],
+        "bluefish": [
+          "My Fishing Cape Cod",
+          "The Fisherman Magazine"
+        ],
+        "false_albacore": [
+          "My Fishing Cape Cod"
+        ],
+        "bluefin_recreational": [
+          "My Fishing Cape Cod",
+          "The Fisherman Magazine"
+        ],
+        "yellowfin_tuna": [
+          "My Fishing Cape Cod",
+          "The Fisherman Magazine"
+        ]
+      }
+    },
+    "zone_mentions": {
+      "montauk_rips_striper": {
+        "channels": [
+          "On The Water Media",
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 2,
+        "video_count": 3,
+        "top_titles": [
+          {
+            "title": "280 MILES of Bluefin Tuna | Northeast Offshore Fishing Report July 29th, 2026",
+            "channel": "On The Water Media",
+            "published": "2026-07-29T21:00:10+00:00",
+            "link": "https://www.youtube.com/watch?v=000MPZp0UBY"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          },
+          {
+            "title": "July 16th 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-16T17:56:06+00:00",
+            "link": "https://www.youtube.com/watch?v=clu21xZb37Q"
+          }
+        ],
+        "via_locations": [
+          "montauk"
+        ]
+      },
+      "montauk_nearshore": {
+        "channels": [
+          "On The Water Media",
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 2,
+        "video_count": 6,
+        "top_titles": [
+          {
+            "title": "280 MILES of Bluefin Tuna | Northeast Offshore Fishing Report July 29th, 2026",
+            "channel": "On The Water Media",
+            "published": "2026-07-29T21:00:10+00:00",
+            "link": "https://www.youtube.com/watch?v=000MPZp0UBY"
+          },
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "Target Doormat Fluke (summer flounder)",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-26T09:00:26+00:00",
+            "link": "https://www.youtube.com/watch?v=Sojh7eRzHyA"
+          }
+        ],
+        "via_locations": [
+          "long_island",
+          "montauk"
+        ]
+      },
+      "thirty_five_fathom_line": {
+        "channels": [
+          "On The Water Media",
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 2,
+        "video_count": 3,
+        "top_titles": [
+          {
+            "title": "280 MILES of Bluefin Tuna | Northeast Offshore Fishing Report July 29th, 2026",
+            "channel": "On The Water Media",
+            "published": "2026-07-29T21:00:10+00:00",
+            "link": "https://www.youtube.com/watch?v=000MPZp0UBY"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          },
+          {
+            "title": "July 16th 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-16T17:56:06+00:00",
+            "link": "https://www.youtube.com/watch?v=clu21xZb37Q"
+          }
+        ],
+        "via_locations": [
+          "montauk"
+        ]
+      },
+      "western_li_sound": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 2,
+        "top_titles": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          }
+        ],
+        "via_locations": [
+          "long_island_sound"
+        ]
+      },
+      "central_li_sound": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 2,
+        "top_titles": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          }
+        ],
+        "via_locations": [
+          "long_island_sound"
+        ]
+      },
+      "the_triangle": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 2,
+        "top_titles": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          }
+        ],
+        "via_locations": [
+          "long_island_sound"
+        ]
+      },
+      "south_shore_li": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 5,
+        "top_titles": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "Target Doormat Fluke (summer flounder)",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-26T09:00:26+00:00",
+            "link": "https://www.youtube.com/watch?v=Sojh7eRzHyA"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          }
+        ],
+        "via_locations": [
+          "long_island"
+        ]
+      },
+      "s_block_nearshore": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 6,
+        "top_titles": [
+          {
+            "title": "Live-Lining Spot for Striped Bass - The Fisherman Magazine",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-29T17:13:11+00:00",
+            "link": "https://www.youtube.com/watch?v=2O_IRhn8F34"
+          },
+          {
+            "title": "Target Doormat Fluke (summer flounder)",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-26T09:00:26+00:00",
+            "link": "https://www.youtube.com/watch?v=Sojh7eRzHyA"
+          },
+          {
+            "title": "July 23rd 2026 Long Island Metro Fishing Report with Matthew Broderick",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T16:00:16+00:00",
+            "link": "https://www.youtube.com/watch?v=fKeVXEQBXrQ"
+          }
+        ],
+        "via_locations": [
+          "block_island",
+          "long_island"
+        ]
+      },
+      "block_island_striper": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 1,
+        "top_titles": [
+          {
+            "title": "July 23rd 2026 New England Video Fishing Forecast with Dave Anderson",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T15:58:40+00:00",
+            "link": "https://www.youtube.com/watch?v=OCnTGWXcsYc"
+          }
+        ],
+        "via_locations": [
+          "block_island"
+        ]
+      },
+      "block_island_sound": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 1,
+        "top_titles": [
+          {
+            "title": "July 23rd 2026 New England Video Fishing Forecast with Dave Anderson",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T15:58:40+00:00",
+            "link": "https://www.youtube.com/watch?v=OCnTGWXcsYc"
+          }
+        ],
+        "via_locations": [
+          "block_island"
+        ]
+      },
+      "tuna_ridge": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 1,
+        "top_titles": [
+          {
+            "title": "July 23rd 2026 New England Video Fishing Forecast with Dave Anderson",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T15:58:40+00:00",
+            "link": "https://www.youtube.com/watch?v=OCnTGWXcsYc"
+          }
+        ],
+        "via_locations": [
+          "block_island"
+        ]
+      },
+      "block_canyon": {
+        "channels": [
+          "The Fisherman Magazine"
+        ],
+        "channel_count": 1,
+        "video_count": 1,
+        "top_titles": [
+          {
+            "title": "July 23rd 2026 New England Video Fishing Forecast with Dave Anderson",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-07-23T15:58:40+00:00",
+            "link": "https://www.youtube.com/watch?v=OCnTGWXcsYc"
+          }
+        ],
+        "via_locations": [
+          "block_island"
+        ]
+      }
+    }
+  },
+  "look_ahead": [
+    {
+      "date": "2026-07-29",
+      "day_index": 0,
+      "day_label": "Today",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 21.7,
+            "wind_dir_deg": 116,
+            "wind_gusts_mph": 27.5,
+            "wave_ft": 5.3,
+            "wave_period_s": 5.3,
+            "wave_dir_deg": 150,
+            "weather_code": 3,
+            "precip_pct": 23,
+            "cloud_pct": 100,
+            "temp_f": 71.0
+          },
+          "afternoon": {
+            "wind_mph": 21.1,
+            "wind_dir_deg": 102,
+            "wind_gusts_mph": 33.6,
+            "wave_ft": 6.2,
+            "wave_period_s": 5.7,
+            "wave_dir_deg": 138,
+            "weather_code": 3,
+            "precip_pct": 23,
+            "cloud_pct": 100,
+            "temp_f": 68.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 16.4,
+            "wind_dir_deg": 104,
+            "wind_gusts_mph": 26.6,
+            "wave_ft": 5.2,
+            "wave_period_s": 5.2,
+            "wave_dir_deg": 149,
+            "weather_code": 61,
+            "precip_pct": 23,
+            "cloud_pct": 100,
+            "temp_f": 70.0
+          },
+          "afternoon": {
+            "wind_mph": 15.8,
+            "wind_dir_deg": 123,
+            "wind_gusts_mph": 32.7,
+            "wave_ft": 5.9,
+            "wave_period_s": 5.7,
+            "wave_dir_deg": 136,
+            "weather_code": 3,
+            "precip_pct": 27,
+            "cloud_pct": 100,
+            "temp_f": 70.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "day_index": 1,
+      "day_label": "Tmrw",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 1.4,
+            "wind_dir_deg": 342,
+            "wind_gusts_mph": 2.7,
+            "wave_ft": 5.1,
+            "wave_period_s": 6.9,
+            "wave_dir_deg": 154,
+            "weather_code": 45,
+            "precip_pct": 12,
+            "cloud_pct": 100,
+            "temp_f": 69.0
+          },
+          "afternoon": {
+            "wind_mph": 4.6,
+            "wind_dir_deg": 129,
+            "wind_gusts_mph": 4.7,
+            "wave_ft": 4.4,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 157,
+            "weather_code": 2,
+            "precip_pct": 12,
+            "cloud_pct": 63,
+            "temp_f": 70.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 1.8,
+            "wind_dir_deg": 83,
+            "wind_gusts_mph": 1.8,
+            "wave_ft": 4.8,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 152,
+            "weather_code": 3,
+            "precip_pct": 13,
+            "cloud_pct": 100,
+            "temp_f": 68.0
+          },
+          "afternoon": {
+            "wind_mph": 2.5,
+            "wind_dir_deg": 180,
+            "wind_gusts_mph": 2.5,
+            "wave_ft": 4.2,
+            "wave_period_s": 6.8,
+            "wave_dir_deg": 152,
+            "weather_code": 1,
+            "precip_pct": 15,
+            "cloud_pct": 37,
+            "temp_f": 75.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "day_index": 2,
+      "day_label": "2026-07-31",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 13.4,
+            "wind_dir_deg": 322,
+            "wind_gusts_mph": 19.2,
+            "wave_ft": 3.8,
+            "wave_period_s": 6.5,
+            "wave_dir_deg": 149,
+            "weather_code": 3,
+            "precip_pct": 2,
+            "cloud_pct": 100,
+            "temp_f": 69.0
+          },
+          "afternoon": {
+            "wind_mph": 6.0,
+            "wind_dir_deg": 227,
+            "wind_gusts_mph": 7.0,
+            "wave_ft": 3.1,
+            "wave_period_s": 7.5,
+            "wave_dir_deg": 150,
+            "weather_code": 1,
+            "precip_pct": 0,
+            "cloud_pct": 13,
+            "temp_f": 70.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 8.4,
+            "wind_dir_deg": 320,
+            "wind_gusts_mph": 17.4,
+            "wave_ft": 3.5,
+            "wave_period_s": 6.5,
+            "wave_dir_deg": 150,
+            "weather_code": 3,
+            "precip_pct": 2,
+            "cloud_pct": 100,
+            "temp_f": 66.0
+          },
+          "afternoon": {
+            "wind_mph": 9.4,
+            "wind_dir_deg": 231,
+            "wind_gusts_mph": 11.0,
+            "wave_ft": 2.8,
+            "wave_period_s": 7.7,
+            "wave_dir_deg": 151,
+            "weather_code": 1,
+            "precip_pct": 1,
+            "cloud_pct": 85,
+            "temp_f": 72.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-08-01",
+      "day_index": 3,
+      "day_label": "2026-08-01",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 11.3,
+            "wind_dir_deg": 205,
+            "wind_gusts_mph": 14.8,
+            "wave_ft": 3.1,
+            "wave_period_s": 7.5,
+            "wave_dir_deg": 168,
+            "weather_code": 0,
+            "precip_pct": 0,
+            "cloud_pct": 13,
+            "temp_f": 70.0
+          },
+          "afternoon": {
+            "wind_mph": 12.9,
+            "wind_dir_deg": 190,
+            "wind_gusts_mph": 18.6,
+            "wave_ft": 2.8,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 167,
+            "weather_code": 3,
+            "precip_pct": 0,
+            "cloud_pct": 100,
+            "temp_f": 71.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 7.7,
+            "wind_dir_deg": 206,
+            "wind_gusts_mph": 15.2,
+            "wave_ft": 2.9,
+            "wave_period_s": 7.5,
+            "wave_dir_deg": 167,
+            "weather_code": 0,
+            "precip_pct": 0,
+            "cloud_pct": 8,
+            "temp_f": 69.0
+          },
+          "afternoon": {
+            "wind_mph": 11.4,
+            "wind_dir_deg": 190,
+            "wind_gusts_mph": 20.1,
+            "wave_ft": 2.6,
+            "wave_period_s": 6.9,
+            "wave_dir_deg": 167,
+            "weather_code": 3,
+            "precip_pct": 0,
+            "cloud_pct": 100,
+            "temp_f": 75.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "day_index": 4,
+      "day_label": "2026-08-02",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 12.6,
+            "wind_dir_deg": 186,
+            "wind_gusts_mph": 16.3,
+            "wave_ft": 2.8,
+            "wave_period_s": 5.8,
+            "wave_dir_deg": 174,
+            "weather_code": 3,
+            "precip_pct": 1,
+            "cloud_pct": 100,
+            "temp_f": 71.0
+          },
+          "afternoon": {
+            "wind_mph": 11.9,
+            "wind_dir_deg": 174,
+            "wind_gusts_mph": 21.7,
+            "wave_ft": 2.7,
+            "wave_period_s": 5.7,
+            "wave_dir_deg": 166,
+            "weather_code": 3,
+            "precip_pct": 1,
+            "cloud_pct": 100,
+            "temp_f": 72.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 8.4,
+            "wind_dir_deg": 196,
+            "wind_gusts_mph": 16.8,
+            "wave_ft": 2.7,
+            "wave_period_s": 5.7,
+            "wave_dir_deg": 173,
+            "weather_code": 3,
+            "precip_pct": 1,
+            "cloud_pct": 100,
+            "temp_f": 70.0
+          },
+          "afternoon": {
+            "wind_mph": 11.2,
+            "wind_dir_deg": 181,
+            "wind_gusts_mph": 21.3,
+            "wave_ft": 2.6,
+            "wave_period_s": 5.6,
+            "wave_dir_deg": 165,
+            "weather_code": 3,
+            "precip_pct": 2,
+            "cloud_pct": 100,
+            "temp_f": 75.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "day_index": 5,
+      "day_label": "2026-08-03",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 12.7,
+            "wind_dir_deg": 252,
+            "wind_gusts_mph": 23.3,
+            "wave_ft": 2.8,
+            "wave_period_s": 6.0,
+            "wave_dir_deg": 166,
+            "weather_code": 3,
+            "precip_pct": 22,
+            "cloud_pct": 100,
+            "temp_f": 72.0
+          },
+          "afternoon": {
+            "wind_mph": 12.5,
+            "wind_dir_deg": 260,
+            "wind_gusts_mph": 38.7,
+            "wave_ft": 4.3,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 171,
+            "weather_code": 3,
+            "precip_pct": 25,
+            "cloud_pct": 100,
+            "temp_f": 71.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 11.5,
+            "wind_dir_deg": 277,
+            "wind_gusts_mph": 25.5,
+            "wave_ft": 2.6,
+            "wave_period_s": 6.0,
+            "wave_dir_deg": 166,
+            "weather_code": 55,
+            "precip_pct": 24,
+            "cloud_pct": 100,
+            "temp_f": 68.0
+          },
+          "afternoon": {
+            "wind_mph": 9.9,
+            "wind_dir_deg": 265,
+            "wind_gusts_mph": 34.7,
+            "wave_ft": 4.1,
+            "wave_period_s": 6.8,
+            "wave_dir_deg": 170,
+            "weather_code": 51,
+            "precip_pct": 25,
+            "cloud_pct": 100,
+            "temp_f": 72.0
+          }
+        }
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "day_index": 6,
+      "day_label": "2026-08-04",
+      "offshore": {
+        "zone_id": "s_block_nearshore",
+        "zone_name": "Nearshore South of Block Island",
+        "distance_nm": 41.2,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 7.6,
+            "wind_dir_deg": 317,
+            "wind_gusts_mph": 15.4,
+            "wave_ft": 4.4,
+            "wave_period_s": 7.4,
+            "wave_dir_deg": 184,
+            "weather_code": 2,
+            "precip_pct": 6,
+            "cloud_pct": 70,
+            "temp_f": 69.0
+          },
+          "afternoon": {
+            "wind_mph": 13.7,
+            "wind_dir_deg": 236,
+            "wind_gusts_mph": 9.2,
+            "wave_ft": 3.9,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 183,
+            "weather_code": 0,
+            "precip_pct": 6,
+            "cloud_pct": 0,
+            "temp_f": 71.0
+          }
+        }
+      },
+      "inshore": {
+        "zone_id": "block_island_striper",
+        "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+        "distance_nm": 36.1,
+        "heat": 9,
+        "effective_heat": 9.7,
+        "weather": {
+          "morning": {
+            "wind_mph": 6.0,
+            "wind_dir_deg": 304,
+            "wind_gusts_mph": 14.3,
+            "wave_ft": 4.1,
+            "wave_period_s": 7.3,
+            "wave_dir_deg": 181,
+            "weather_code": 0,
+            "precip_pct": 6,
+            "cloud_pct": 0,
+            "temp_f": 63.0
+          },
+          "afternoon": {
+            "wind_mph": 14.9,
+            "wind_dir_deg": 234,
+            "wind_gusts_mph": 14.1,
+            "wave_ft": 3.7,
+            "wave_period_s": 7.0,
+            "wave_dir_deg": 180,
+            "weather_code": 0,
+            "precip_pct": 5,
+            "cloud_pct": 0,
+            "temp_f": 76.0
+          }
+        }
+      }
+    }
+  ],
+  "bait_intel_full": [
+    {
+      "date": "2026-07-15",
+      "bait": "sand eels + squid + bunker",
+      "location": "Coxes Ledge \u2192 Cape Cod Bay",
+      "species_feeding": "bluefin (recreational + giant)",
+      "source": "OTW Northeast Offshore Report",
+      "quote": "recreational and giant bluefin feeding on bunker, squid, and sand eels from Coxes Ledge to Cape Cod Bay and beyond",
+      "zones": [
+        "coxes_ledge_se",
+        "tuna_ridge",
+        "s_block_nearshore",
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "sand eels",
+      "location": "Montauk offshore",
+      "species_feeding": "bluefin (30-55\")",
+      "source": "Capt. Scott Worth via OTW LI/NYC report",
+      "quote": "Small sand eels working on 30-55\" bluefin \u2014 soft plastics like the Joe Baggs Miracle Minnow",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "squid chasing sand eels",
+      "location": "Moriches / South Shore LI",
+      "species_feeding": "bluefin + yellowfin",
+      "source": "Capt. Adrian Moeller, Rockfish Charters",
+      "quote": "huge schools of squid chasing sand eels on the surface \u2014 jigging squid and mackerel between tuna bites",
+      "zones": [
+        "south_shore_li",
+        "mud_hole",
+        "butterfish_hole"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "bait": "sand eels + squid + butterfish",
+      "location": "East Atlantis / Montauk inshore tuna grounds",
+      "species_feeding": "bluefin",
+      "source": "Capt. Skip, Adios Charters",
+      "quote": "Lots of big offshore sand eels showing. Sand eels, squid, even butterfish are being found in [tuna] stomachs. Whales and porpoises in the area.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "butterfish_hole"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "butterfish",
+      "location": "Northport / Western LI Sound",
+      "species_feeding": "striped bass",
+      "source": "Capt. Stu, Northport Charters via OTW",
+      "quote": "Stripers were slamming butterfish on top",
+      "zones": [
+        "western_li_sound",
+        "central_li_sound"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "shad",
+      "location": "Narragansett area + South County reefs/rips",
+      "species_feeding": "striped bass",
+      "source": "Jay (Pamela May Charters) + Dave (Ocean State Tackle) via OTW",
+      "quote": "Large push of shad locally, beneficial for live-liners. Stripers feeding on an abundance of shad that moved into the area this week.",
+      "zones": [
+        "narragansett_bay",
+        "block_island_striper",
+        "watch_hill_reef"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "squid",
+      "location": "Newport, Upper Bay, Cape Cod Canal",
+      "species_feeding": "striped bass + fluke",
+      "source": "Eric, The Saltwater Edge via OTW",
+      "quote": "Squid still active around Newport, in the Upper Bay, and in the Cape Cod Canal",
+      "zones": [
+        "narragansett_bay",
+        "block_island_striper"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "bait": "school bluefin busting butterfish + squid + sand eels",
+      "location": "NY / NJ nearshore-midshore (school bluefin bonanza belt)",
+      "species_feeding": "bluefin (recreational \u2014 school size 30-55\")",
+      "source": "OTW Northeast Offshore Report \u2014 Jul 22, 2026",
+      "quote": "There's a school bluefin bonanza in New York and New Jersey, the giant fishing is lock and load in New England, and the canyons are still on fire.",
+      "zones": [
+        "mud_hole",
+        "butterfish_hole",
+        "south_shore_li"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "bait": "butterfish schools",
+      "location": "Offshore NY (north of Butterfish Hole area)",
+      "species_feeding": "bluefin (recreational \u2014 20-30 lb class)",
+      "source": "Bill Falco, Chasing Tails Bait & Tackle (Oakdale) via OTW LI/NYC report",
+      "quote": "Twenty- to 30-pound fish are destroying schools of butterfish up north, and the Montauk bass are all over the bunker and sand eels.",
+      "zones": [
+        "butterfish_hole",
+        "mud_hole"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "bait": "mackerel schools",
+      "location": "Offshore south of Montauk, going airborne under shark feeds",
+      "species_feeding": "spinner + thresher sharks + tuna proximity",
+      "source": "Capt. Pete Douma, Windward Outfitters (Montauk) via OTW LI/NYC report",
+      "quote": "There have been some really impressive spinner and thresher shark feeds under the schools of mackerel, going completely airborne.",
+      "zones": [
+        "montauk_nearshore",
+        "habs_ledge"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "bait": "hungry bluefin school (jigged 4 at a time)",
+      "location": "Center Moriches / midshore",
+      "species_feeding": "bluefin (recreational \u2014 up to 55\")",
+      "source": "Capt. Adrian Moeller, Rockfish Charters (Center Moriches)",
+      "quote": "The amount of life is a great sign, and we managed to find a feed of hungry bluefin, jigging four at a time up to 55 inches!",
+      "zones": [
+        "mud_hole",
+        "south_shore_li",
+        "butterfish_hole"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "bait": "bonito arriving",
+      "location": "RI South County / Newport area",
+      "species_feeding": "bonito (early fall run signal)",
+      "source": "Dustin Stevens, RI Kayak Fishing Adventures via OTW RI report",
+      "quote": "Seen bonito. Fall run around corner\u2014book spots ASAP!",
+      "zones": [
+        "narragansett_bay",
+        "watch_hill_reef"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "bait": "sand lance / sand eels (inferred from bubble-net feeding behavior)",
+      "location": "South of Montauk Point lighthouse",
+      "species_feeding": "humpback whales (12+), minke, bottlenose dolphins",
+      "source": "CRESLI/Viking Fleet whale watch \u2014 12+ humpbacks bubble-net feeding is a specific sand lance / sand eel indicator",
+      "quote": "Over a dozen humpback cooperatively bubble net feeding \u2014 south of Montauk Point lighthouse. Bubble net = concentrated small-forage-fish schools.",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-07-29",
+      "bait": "bunker",
+      "location": "On The Water Media",
+      "species_feeding": null,
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "280 MILES of Bluefin Tuna | Northeast Offshore Fishing Report July 29th, 2026",
+      "link": "https://www.youtube.com/watch?v=000MPZp0UBY",
+      "zones": [
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon",
+        "coxes_ledge_se",
+        "south_shore_li",
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "thirty_five_fathom_line",
+        "the_gully"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "bait": "squid",
+      "location": "My Fishing Cape Cod",
+      "species_feeding": null,
+      "source": "YouTube: My Fishing Cape Cod",
+      "source_type": "youtube_auto",
+      "quote": "July 26 CapeCod Fishing Report | Fluke & Bonito Blitz",
+      "link": "https://www.youtube.com/watch?v=8N-Klipkhcw",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "bait": "bunker",
+      "location": "On The Water Media",
+      "species_feeding": null,
+      "source": "YouTube: On The Water Media",
+      "source_type": "youtube_auto",
+      "quote": "Cape Cod Bay Blitzes | Northeast Offshore Fishing Report July 15th, 2026",
+      "link": "https://www.youtube.com/watch?v=vQY0_yC18z0",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "block_island_striper",
+        "block_island_sound",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "block_canyon",
+        "coxes_ledge_se",
+        "south_shore_li"
+      ]
+    }
+  ],
+  "whale_sightings_full": [
+    {
+      "date": "2026-07-20",
+      "species": [
+        "finback",
+        "bottlenose dolphin",
+        "common dolphin"
+      ],
+      "kind": "mixed",
+      "count": "5 cetacean species",
+      "location": "~20 mi off Montauk",
+      "coords": [
+        40.75,
+        -71.85
+      ],
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "quote": "Epic conditions \u2014 5 cetacean species logged, 1100+ ID photos reviewed.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "species": [
+        "Tamanend's bottlenose dolphin"
+      ],
+      "kind": "dolphin",
+      "count": "small pod",
+      "location": "off Montauk",
+      "coords": [
+        40.85,
+        -71.9
+      ],
+      "source": "CRESLI / Viking Fleet whale watch",
+      "quote": "3 cetacean species incl. Tamanend's bottlenose dolphins, mild haze, good visibility.",
+      "zones": [
+        "montauk_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "species": [
+        "whale (unspecified)"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "offshore tuna grounds (Coxes \u2192 Butterfish Hole)",
+      "coords": [
+        40.4,
+        -71.0
+      ],
+      "source": "OTW Northeast Offshore Report (Jimmy Fee / Anthony DeiCicchi)",
+      "quote": "Anglers willing to cover water are still finding success around whales, bait, and clean temperature breaks.",
+      "zones": [
+        "coxes_ledge_se",
+        "tuna_ridge",
+        "s_block_nearshore",
+        "montauk_nearshore",
+        "butterfish_hole"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "species": [
+        "multiple cetaceans"
+      ],
+      "kind": "mixed",
+      "count": null,
+      "location": "20 mi off Montauk",
+      "coords": [
+        40.75,
+        -71.9
+      ],
+      "source": "CRESLI / Viking Fleet whale watch",
+      "quote": "Low 70s, light breeze, sunny skies; multiple cetacean species with sporadic activity.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "species": [
+        "bottlenose dolphin",
+        "short-beaked common dolphin"
+      ],
+      "kind": "dolphin",
+      "count": "15-20 bottlenose + 200 common dolphins",
+      "location": "off Montauk, 76.5 ft depth",
+      "coords": [
+        40.9,
+        -72.0
+      ],
+      "source": "CRESLI / Viking Fleet whale watch",
+      "quote": "5 species logged \u2014 15-20 bottlenose plus 200 short-beaked common dolphins in multiple groups. Calm seas, unlimited visibility.",
+      "zones": [
+        "montauk_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "species": [
+        "finback",
+        "dolphin"
+      ],
+      "kind": "mixed",
+      "count": null,
+      "location": "off Montauk",
+      "coords": [
+        40.85,
+        -71.9
+      ],
+      "source": "CRESLI / Viking Fleet whale watch",
+      "quote": "Whale watching described as 'ON FIRE' \u2014 dolphins and finback whales.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "species": [
+        "finback",
+        "bottlenose dolphin",
+        "common dolphin"
+      ],
+      "kind": "mixed",
+      "count": "8+ finbacks + dolphin pods",
+      "location": "off Montauk",
+      "coords": [
+        40.85,
+        -71.9
+      ],
+      "source": "CRESLI / Viking Fleet whale watch",
+      "quote": "At least 8 finback whales confirmed alongside bottlenose and common dolphins. Dark shoals of bait visible at the surface.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "species": [
+        "whale",
+        "porpoise"
+      ],
+      "kind": "mixed",
+      "count": null,
+      "location": "East Atlantis / Montauk inshore tuna grounds",
+      "coords": [
+        40.6,
+        -70.8
+      ],
+      "source": "Capt. Skip (Adios Charters, Montauk)",
+      "quote": "Lots of big offshore sand eels showing. Whales and porpoises in the area \u2014 sand eels, squid, even butterfish in tuna stomachs.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore",
+        "tuna_ridge",
+        "butterfish_hole"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "species": [
+        "humpback",
+        "minke",
+        "bottlenose dolphin"
+      ],
+      "kind": "mixed",
+      "count": "12+ humpbacks bubble-net feeding, plus minkes and dolphins",
+      "location": "South of Montauk Point lighthouse",
+      "coords": [
+        41.02,
+        -71.85
+      ],
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "quote": "Over a dozen humpback cooperatively bubble net feeding \u2014 south of Montauk Point lighthouse. Massive bait ball indicator.",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "species": [
+        "humpback",
+        "minke",
+        "common dolphin"
+      ],
+      "kind": "mixed",
+      "count": "8-12 humpbacks (incl. mother/calf pairs), 8 minkes, 60-80 common dolphins",
+      "location": "Offshore Montauk",
+      "coords": [
+        40.9,
+        -71.8
+      ],
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "quote": "8-12 humpbacks including mother/calf pairs, 8 minkes, 60-80 short-beaked common dolphins.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore",
+        "coxes_ledge_se"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "species": [
+        "humpback",
+        "minke",
+        "bottlenose dolphin"
+      ],
+      "kind": "mixed",
+      "count": "Multiple species \u2014 humpbacks + minkes + dolphins",
+      "location": "Offshore Montauk",
+      "coords": [
+        40.85,
+        -71.8
+      ],
+      "source": "CRESLI / Viking Fleet whale watch (Montauk)",
+      "quote": "Humpbacks, minke whales, bottlenose dolphins \u2014 multiple cetacean species encountered.",
+      "zones": [
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    }
+  ],
+  "backfilled_at": [
+    "2026-08-09T00:16:41.208639Z",
+    "2026-08-09T00:17:49.510304Z"
+  ]
+}

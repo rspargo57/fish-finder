@@ -1,0 +1,1054 @@
+{
+  "generated_at": "2026-09-11T12:50:19.086073Z",
+  "transcripts_scanned": 33,
+  "zones_with_bait_lure_intel": 11,
+  "total_mentions": 17,
+  "by_zone": {
+    "south_shore_li": {
+      "total_mentions": 3,
+      "top_categories": [
+        {
+          "category": "live bait",
+          "count": 2
+        },
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "chunking",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "striper"
+          ],
+          "best_example": {
+            "bait_lure": "chunking",
+            "category": "technique",
+            "species": [
+              "striper"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 189,
+            "snippet": "und, guys. Casting into the rocks, your glide baits or even chunking in the rocks will get you quite a few stripe bass. have reports of fish up to 44 inches her",
+            "video_id": "K-nuwyIDuZE",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-08-27",
+            "title": "August 27th 2026 Long Island Metro Fishing Report with Matthew Broderick"
+          }
+        },
+        {
+          "bait_lure": "peanut bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "bluefish"
+          ],
+          "best_example": {
+            "bait_lure": "peanut bunker",
+            "category": "live bait",
+            "species": [
+              "bluefish"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 102,
+            "snippet": "n take us with you on the drive. We also talked a lot about Peanut Bunker and also Bluefish. They are around here in New Jersey. There was a jumbo bluefish up i",
+            "video_id": "n6XWxY0iE10",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr."
+          }
+        },
+        {
+          "bait_lure": "adult bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [],
+          "best_example": {
+            "bait_lure": "adult bunker",
+            "category": "live bait",
+            "species": [],
+            "location_key": "long_island",
+            "distance_chars": 34,
+            "snippet": "you were saying that u you guys were seeing like the legit adult bunker on the southshore of Long Island uh just this week, but we haven't seen them in any kin",
+            "video_id": "q9Vl8qR5Y0M",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-09",
+            "title": "The \"Next Cast\" Podcast Episode 25 - September 8th, 2026"
+          }
+        }
+      ],
+      "by_species": {
+        "striper": [
+          {
+            "bait_lure": "chunking",
+            "mentions": 1
+          }
+        ],
+        "bluefish": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "_any": [
+          {
+            "bait_lure": "adult bunker",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 2,
+          "channels": [
+            "On The Water Media",
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 2,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 62,
+            "snippet": "ng Island. Um he said, \"Yo, Chef Fish have settled in after the full moon. Went 11 for 13 yesterday on jigs. 47 to 55 inch blue fins came together in about a two-hour bite window.",
+            "video_id": "gF2Pe_Si_Ko",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 2
+    },
+    "montauk_nearshore": {
+      "total_mentions": 4,
+      "top_categories": [
+        {
+          "category": "live bait",
+          "count": 3
+        },
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "peanut bunker",
+          "category": "live bait",
+          "mentions": 2,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "bluefish",
+            "fluke",
+            "spanish_mackerel"
+          ],
+          "best_example": {
+            "bait_lure": "peanut bunker",
+            "category": "live bait",
+            "species": [
+              "bluefish"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 102,
+            "snippet": "n take us with you on the drive. We also talked a lot about Peanut Bunker and also Bluefish. They are around here in New Jersey. There was a jumbo bluefish up i",
+            "video_id": "n6XWxY0iE10",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr."
+          }
+        },
+        {
+          "bait_lure": "chunking",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "striper"
+          ],
+          "best_example": {
+            "bait_lure": "chunking",
+            "category": "technique",
+            "species": [
+              "striper"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 189,
+            "snippet": "und, guys. Casting into the rocks, your glide baits or even chunking in the rocks will get you quite a few stripe bass. have reports of fish up to 44 inches her",
+            "video_id": "K-nuwyIDuZE",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-08-27",
+            "title": "August 27th 2026 Long Island Metro Fishing Report with Matthew Broderick"
+          }
+        },
+        {
+          "bait_lure": "adult bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [],
+          "best_example": {
+            "bait_lure": "adult bunker",
+            "category": "live bait",
+            "species": [],
+            "location_key": "long_island",
+            "distance_chars": 34,
+            "snippet": "you were saying that u you guys were seeing like the legit adult bunker on the southshore of Long Island uh just this week, but we haven't seen them in any kin",
+            "video_id": "q9Vl8qR5Y0M",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-09",
+            "title": "The \"Next Cast\" Podcast Episode 25 - September 8th, 2026"
+          }
+        }
+      ],
+      "by_species": {
+        "striper": [
+          {
+            "bait_lure": "chunking",
+            "mentions": 1
+          }
+        ],
+        "bluefish": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 2
+          }
+        ],
+        "fluke": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "spanish_mackerel": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "_any": [
+          {
+            "bait_lure": "adult bunker",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 3,
+          "channels": [
+            "On The Water Media",
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 2,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 62,
+            "snippet": "ng Island. Um he said, \"Yo, Chef Fish have settled in after the full moon. Went 11 for 13 yesterday on jigs. 47 to 55 inch blue fins came together in about a two-hour bite window.",
+            "video_id": "gF2Pe_Si_Ko",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 3
+    },
+    "s_block_nearshore": {
+      "total_mentions": 3,
+      "top_categories": [
+        {
+          "category": "live bait",
+          "count": 2
+        },
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "chunking",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "striper"
+          ],
+          "best_example": {
+            "bait_lure": "chunking",
+            "category": "technique",
+            "species": [
+              "striper"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 189,
+            "snippet": "und, guys. Casting into the rocks, your glide baits or even chunking in the rocks will get you quite a few stripe bass. have reports of fish up to 44 inches her",
+            "video_id": "K-nuwyIDuZE",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-08-27",
+            "title": "August 27th 2026 Long Island Metro Fishing Report with Matthew Broderick"
+          }
+        },
+        {
+          "bait_lure": "peanut bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "bluefish"
+          ],
+          "best_example": {
+            "bait_lure": "peanut bunker",
+            "category": "live bait",
+            "species": [
+              "bluefish"
+            ],
+            "location_key": "long_island",
+            "distance_chars": 102,
+            "snippet": "n take us with you on the drive. We also talked a lot about Peanut Bunker and also Bluefish. They are around here in New Jersey. There was a jumbo bluefish up i",
+            "video_id": "n6XWxY0iE10",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr."
+          }
+        },
+        {
+          "bait_lure": "adult bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [],
+          "best_example": {
+            "bait_lure": "adult bunker",
+            "category": "live bait",
+            "species": [],
+            "location_key": "long_island",
+            "distance_chars": 34,
+            "snippet": "you were saying that u you guys were seeing like the legit adult bunker on the southshore of Long Island uh just this week, but we haven't seen them in any kin",
+            "video_id": "q9Vl8qR5Y0M",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-09",
+            "title": "The \"Next Cast\" Podcast Episode 25 - September 8th, 2026"
+          }
+        }
+      ],
+      "by_species": {
+        "striper": [
+          {
+            "bait_lure": "chunking",
+            "mentions": 1
+          }
+        ],
+        "bluefish": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "_any": [
+          {
+            "bait_lure": "adult bunker",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 2,
+          "channels": [
+            "On The Water Media",
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 2,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 62,
+            "snippet": "ng Island. Um he said, \"Yo, Chef Fish have settled in after the full moon. Went 11 for 13 yesterday on jigs. 47 to 55 inch blue fins came together in about a two-hour bite window.",
+            "video_id": "gF2Pe_Si_Ko",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 2
+    },
+    "montauk_rips_striper": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "live bait",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "peanut bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "bluefish",
+            "fluke",
+            "spanish_mackerel"
+          ],
+          "best_example": {
+            "bait_lure": "peanut bunker",
+            "category": "live bait",
+            "species": [
+              "bluefish",
+              "fluke",
+              "spanish_mackerel"
+            ],
+            "location_key": "montauk",
+            "distance_chars": 150,
+            "snippet": "cast net, learn how to throw a cast net, and get some live peanuts. Uh in terms of game fish, uh in the inshore grounds, there's been, you know, great shots of",
+            "video_id": "nStEMHE2Ygg",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd 2026 Long Island Metro Fishing Report with Matthew Broderick"
+          }
+        }
+      ],
+      "by_species": {
+        "bluefish": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "fluke": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "spanish_mackerel": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 103,
+            "snippet": "ow week. Um what we're looking at now is two things. Either the full moon is going to change everything, which by the way, big big hope that it does. We think it will. It's comes i",
+            "video_id": "7A0lep5wlWU",
+            "channel": "On The Water Media",
+            "published": "2026-08-26"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "thirty_five_fathom_line": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "live bait",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "peanut bunker",
+          "category": "live bait",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [
+            "bluefish",
+            "fluke",
+            "spanish_mackerel"
+          ],
+          "best_example": {
+            "bait_lure": "peanut bunker",
+            "category": "live bait",
+            "species": [
+              "bluefish",
+              "fluke",
+              "spanish_mackerel"
+            ],
+            "location_key": "montauk",
+            "distance_chars": 150,
+            "snippet": "cast net, learn how to throw a cast net, and get some live peanuts. Uh in terms of game fish, uh in the inshore grounds, there's been, you know, great shots of",
+            "video_id": "nStEMHE2Ygg",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd 2026 Long Island Metro Fishing Report with Matthew Broderick"
+          }
+        }
+      ],
+      "by_species": {
+        "bluefish": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "fluke": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ],
+        "spanish_mackerel": [
+          {
+            "bait_lure": "peanut bunker",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 103,
+            "snippet": "ow week. Um what we're looking at now is two things. Either the full moon is going to change everything, which by the way, big big hope that it does. We think it will. It's comes i",
+            "video_id": "7A0lep5wlWU",
+            "channel": "On The Water Media",
+            "published": "2026-08-26"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "coimbra_wreck": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "jigging",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "species": [],
+          "best_example": {
+            "bait_lure": "jigging",
+            "category": "technique",
+            "species": [],
+            "location_key": "coimbra",
+            "distance_chars": 125,
+            "snippet": "s where guys have jigged three to six um bluefins. It's all jigging and live bait. That was pretty good. Um all this closer fishing in in shallow 60-80 ft of wa",
+            "video_id": "uiGzSCiM7Uk",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-03",
+            "title": "September 3rd 2026 New England Video Fishing Forecast with Dave Anderson"
+          }
+        }
+      ],
+      "by_species": {
+        "_any": [
+          {
+            "bait_lure": "jigging",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 99,
+            "snippet": "uite a bit. You've also got some yellowfin in the mix since the full moon. Some days they're showing up in force, other days it's a tough pick. Find the porpoises, skipjacks or sli",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "jackspot_hot_dog": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "trolling",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "species": [
+            "yellowfin",
+            "mahi",
+            "swordfish",
+            "marlin",
+            "wahoo"
+          ],
+          "best_example": {
+            "bait_lure": "trolling",
+            "category": "technique",
+            "species": [
+              "yellowfin",
+              "mahi",
+              "swordfish",
+              "marlin",
+              "wahoo"
+            ],
+            "location_key": "ocean_city_md",
+            "distance_chars": 79,
+            "snippet": "e Mahi all over the pots and some nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02",
+            "title": "Check out the full breakdown at On The Water\u2019s YouTube channel or the link in bio at 5pm ET."
+          }
+        }
+      ],
+      "by_species": {
+        "yellowfin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "mahi": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "swordfish": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "marlin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "wahoo": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 109,
+            "snippet": "ome nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after take a poke to Tom's Canyon. There have been a goo",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "twenty_fathom_line": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "trolling",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "species": [
+            "yellowfin",
+            "mahi",
+            "swordfish",
+            "marlin",
+            "wahoo"
+          ],
+          "best_example": {
+            "bait_lure": "trolling",
+            "category": "technique",
+            "species": [
+              "yellowfin",
+              "mahi",
+              "swordfish",
+              "marlin",
+              "wahoo"
+            ],
+            "location_key": "ocean_city_md",
+            "distance_chars": 79,
+            "snippet": "e Mahi all over the pots and some nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02",
+            "title": "Check out the full breakdown at On The Water\u2019s YouTube channel or the link in bio at 5pm ET."
+          }
+        }
+      ],
+      "by_species": {
+        "yellowfin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "mahi": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "swordfish": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "marlin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "wahoo": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 109,
+            "snippet": "ome nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after take a poke to Tom's Canyon. There have been a goo",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "twenty_six_mile_hill": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "trolling",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "species": [
+            "yellowfin",
+            "mahi",
+            "swordfish",
+            "marlin",
+            "wahoo"
+          ],
+          "best_example": {
+            "bait_lure": "trolling",
+            "category": "technique",
+            "species": [
+              "yellowfin",
+              "mahi",
+              "swordfish",
+              "marlin",
+              "wahoo"
+            ],
+            "location_key": "ocean_city_md",
+            "distance_chars": 79,
+            "snippet": "e Mahi all over the pots and some nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02",
+            "title": "Check out the full breakdown at On The Water\u2019s YouTube channel or the link in bio at 5pm ET."
+          }
+        }
+      ],
+      "by_species": {
+        "yellowfin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "mahi": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "swordfish": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "marlin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "wahoo": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 109,
+            "snippet": "ome nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after take a poke to Tom's Canyon. There have been a goo",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "baltimore_canyon": {
+      "total_mentions": 1,
+      "top_categories": [
+        {
+          "category": "technique",
+          "count": 1
+        }
+      ],
+      "top_items": [
+        {
+          "bait_lure": "trolling",
+          "category": "technique",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "species": [
+            "yellowfin",
+            "mahi",
+            "swordfish",
+            "marlin",
+            "wahoo"
+          ],
+          "best_example": {
+            "bait_lure": "trolling",
+            "category": "technique",
+            "species": [
+              "yellowfin",
+              "mahi",
+              "swordfish",
+              "marlin",
+              "wahoo"
+            ],
+            "location_key": "ocean_city_md",
+            "distance_chars": 79,
+            "snippet": "e Mahi all over the pots and some nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02",
+            "title": "Check out the full breakdown at On The Water\u2019s YouTube channel or the link in bio at 5pm ET."
+          }
+        }
+      ],
+      "by_species": {
+        "yellowfin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "mahi": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "swordfish": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "marlin": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ],
+        "wahoo": [
+          {
+            "bait_lure": "trolling",
+            "mentions": 1
+          }
+        ]
+      },
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "On The Water Media"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 109,
+            "snippet": "ome nice midshore wahoo being trolled up on the backside of the full moon. Moving on up the coast, if it's yellowfin you're after take a poke to Tom's Canyon. There have been a goo",
+            "video_id": "va9rucMK3OU",
+            "channel": "On The Water Media",
+            "published": "2026-09-02"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 1
+    },
+    "delaware_bay_mouth": {
+      "total_mentions": 0,
+      "top_categories": [],
+      "top_items": [],
+      "by_species": {},
+      "top_bite_windows": [
+        {
+          "window": "full moon",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "full moon",
+            "distance_chars": 69,
+            "snippet": "eekly digital number 27 for you subscribers who are getting the full package. My name is Jim Hutchinson. I'm with the New Jersey Delaware Bay edition of the Fisherman Magazine. To",
+            "video_id": "Ea6-qEq8Hfc",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-01"
+          }
+        },
+        {
+          "window": "dawn / first light",
+          "mentions": 1,
+          "channels": [
+            "The Fisherman Magazine"
+          ],
+          "channel_count": 1,
+          "best_example": {
+            "window": "dawn / first light",
+            "distance_chars": 276,
+            "snippet": "e beach in a while. We hadn't been up there. It was, it was sun up. She was sitting in a chair reading and I was casting at tiny schools of Bonita that were crashing all over the p",
+            "video_id": "q9Vl8qR5Y0M",
+            "channel": "The Fisherman Magazine",
+            "published": "2026-09-09"
+          }
+        }
+      ],
+      "total_bite_window_mentions": 2
+    }
+  }
+}

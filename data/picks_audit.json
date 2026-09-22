@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-09-19T20:03:35.931108Z",
+  "for_date": "2026-09-20",
+  "hollow_eh_threshold": 6.5,
+  "hollow_corrob_threshold": 1,
+  "regions": {
+    "NE": {
+      "top5": [
+        {
+          "zone_id": "the_race",
+          "zone_name": "The Race / Race Rock",
+          "effective_heat": 10.0,
+          "heat": 9,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 16
+        },
+        {
+          "zone_id": "block_island_striper",
+          "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
+          "effective_heat": 10.0,
+          "heat": 9,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 4,
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "hudson_canyon",
+          "zone_name": "Hudson Canyon",
+          "effective_heat": 10.0,
+          "heat": 9,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 10,
+          "corroboration": 4,
+          "heat_updated_age": 3
+        },
+        {
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
+          "effective_heat": 10.0,
+          "heat": 9,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 10,
+          "corroboration": 4,
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "s_block_nearshore",
+          "zone_name": "Nearshore South of Block Island",
+          "effective_heat": 9.7,
+          "heat": 9,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 7,
+          "corroboration": 4,
+          "heat_updated_age": 2
+        }
+      ],
+      "hollow_in_top5": 0,
+      "total_zones": 49
+    },
+    "MIDATL": {
+      "top5": [
+        {
+          "zone_id": "cape_may_rips",
+          "zone_name": "Cape May Rips",
+          "effective_heat": 8.0,
+          "heat": 7,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 4,
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "cbbt_chesapeake_mouth",
+          "zone_name": "CBBT (Chesapeake Bay Mouth)",
+          "effective_heat": 7.0,
+          "heat": 6,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 4,
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "oregon_inlet",
+          "zone_name": "Oregon Inlet (NC)",
+          "effective_heat": 7.0,
+          "heat": 6,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 0
+        },
+        {
+          "zone_id": "hudson_canyon_midatl",
+          "zone_name": "Hudson Canyon",
+          "effective_heat": 6.7,
+          "heat": 6,
+          "season_boost": 0.7,
+          "bait_boost": 0.0,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "baltimore_canyon",
+          "zone_name": "Baltimore Canyon",
+          "effective_heat": 6.7,
+          "heat": 6,
+          "season_boost": 0.7,
+          "bait_boost": 0.0,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 2
+        }
+      ],
+      "hollow_in_top5": 0,
+      "total_zones": 47
+    },
+    "SEATL": {
+      "top5": [
+        {
+          "zone_id": "morehead_city",
+          "zone_name": "Morehead City / Beaufort Inlet",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 0
+        },
+        {
+          "zone_id": "bogue_inlet",
+          "zone_name": "Bogue Inlet (Emerald Isle)",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 1,
+          "heat_updated_age": 19
+        },
+        {
+          "zone_id": "cape_fear_river",
+          "zone_name": "Cape Fear River (Wilmington)",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 2,
+          "heat_updated_age": 18
+        },
+        {
+          "zone_id": "charleston_harbor",
+          "zone_name": "Charleston Harbor",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 0
+        },
+        {
+          "zone_id": "edisto_flats",
+          "zone_name": "Edisto Flats",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 0
+        }
+      ],
+      "hollow_in_top5": 0,
+      "total_zones": 43
+    },
+    "GULF": {
+      "top5": [
+        {
+          "zone_id": "pensacola_pass",
+          "zone_name": "Pensacola Pass",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 2,
+          "heat_updated_age": 21
+        },
+        {
+          "zone_id": "east_pass_destin",
+          "zone_name": "East Pass (Destin Inlet)",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 3,
+          "heat_updated_age": 10
+        },
+        {
+          "zone_id": "panama_city_pass",
+          "zone_name": "Panama City Pass",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 1,
+          "heat_updated_age": 21
+        },
+        {
+          "zone_id": "st_andrews_bay",
+          "zone_name": "St. Andrews Bay",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 1,
+          "heat_updated_age": 21
+        },
+        {
+          "zone_id": "cat_island_reefs",
+          "zone_name": "Cat Island Reef Complex",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 1,
+          "heat_updated_age": 21
+        }
+      ],
+      "hollow_in_top5": 0,
+      "total_zones": 103
+    },
+    "SOFL": {
+      "top5": [
+        {
+          "zone_id": "jupiter_ledge",
+          "zone_name": "Jupiter Ledge",
+          "effective_heat": 5.7,
+          "heat": 5,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 8,
+          "corroboration": 2,
+          "heat_updated_age": 15
+        },
+        {
+          "zone_id": "hillsboro_reef",
+          "zone_name": "Hillsboro Reef Complex",
+          "effective_heat": 5.7,
+          "heat": 5,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 8,
+          "corroboration": 3,
+          "heat_updated_age": 3
+        },
+        {
+          "zone_id": "ftl_reef_lines",
+          "zone_name": "Fort Lauderdale Reef Lines",
+          "effective_heat": 5.7,
+          "heat": 5,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 8,
+          "corroboration": 1,
+          "heat_updated_age": 20
+        },
+        {
+          "zone_id": "hollywood_dania",
+          "zone_name": "Hollywood / Dania Reef",
+          "effective_heat": 5.7,
+          "heat": 5,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 7,
+          "corroboration": 1,
+          "heat_updated_age": 20
+        },
+        {
+          "zone_id": "government_cut",
+          "zone_name": "Government Cut / Miami Inlet",
+          "effective_heat": 5.7,
+          "heat": 5,
+          "season_boost": 0.4,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 8,
+          "corroboration": 2,
+          "heat_updated_age": 15
+        }
+      ],
+      "hollow_in_top5": 0,
+      "total_zones": 77
+    }
+  },
+  "hollow_picks": [],
+  "total_hollow": 0
+}
