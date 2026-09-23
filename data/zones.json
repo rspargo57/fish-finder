@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "season": "2026",
   "primary_species": [
     "bluefin_recreational",
@@ -1525,6 +1525,28 @@
       "source": "CRESLI / Viking Fleet whale watch (Montauk) \u2014 auto-harvested",
       "source_type": "viking_fleet",
       "quote": "Our preantepenultimate trip (4th from last) did not disappoint us. We traveled eastward at first to an area where we've regularly seen Tamanend's bottlenose dolphins and found seve",
+      "zones": [
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "s_block_nearshore",
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "species": [
+        "humpback"
+      ],
+      "kind": "whale",
+      "count": null,
+      "location": "Off Montauk (CRESLI/Viking Fleet whale watch)",
+      "coords": [
+        41.02,
+        -71.85
+      ],
+      "source": "CRESLI / Viking Fleet whale watch (Montauk) \u2014 auto-harvested",
+      "source_type": "viking_fleet",
+      "quote": "Close to shore and lots of dolphins and 6 humpbacks again!",
       "zones": [
         "montauk_nearshore",
         "montauk_rips_striper",
@@ -6323,6 +6345,24 @@
         "montauk_nearshore",
         "block_island_sound"
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (NE)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (NE)",
+      "source_type": "charter_auto",
+      "quote": "Welcome to Episode 27 of The \"Next Cast\" Podcast, recorded on September 22, 2026. Join us as we dive into another week of fishing insights and expert analysis. In this episode, we cover: Nor'easter tips, tactics &amp; warnings A look back at a stormy night in September 1984 Presi",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3171391",
+      "zones": [
+        "s_block_nearshore",
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "block_island_striper",
+        "narragansett_bay",
+        "south_shore_li"
+      ]
     }
   ],
   "zones": [
@@ -6452,7 +6492,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.4
+      "current_sst_f": 70.3
     },
     {
       "id": "the_triangle",
@@ -7055,19 +7095,19 @@
           0
         ]
       },
-      "heat_updated": "2026-09-14",
+      "heat_updated": "2026-09-17",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-14",
-          "video_count": 6,
-          "channel_count": 4
+          "last_video_date": "2026-09-17",
+          "video_count": 5,
+          "channel_count": 3
         },
         "fisherman": {
           "source_count": 1,
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 70.6
+      "current_sst_f": 70.5
     },
     {
       "id": "block_island_sound",
@@ -7245,7 +7285,7 @@
           "latest_date": "2026-09-17"
         }
       },
-      "current_sst_f": 70.5
+      "current_sst_f": 70.4
     },
     {
       "id": "montauk_nearshore",
@@ -7320,9 +7360,9 @@
       "heat_updated": "2026-09-17",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-14",
-          "video_count": 8,
-          "channel_count": 4
+          "last_video_date": "2026-09-17",
+          "video_count": 7,
+          "channel_count": 3
         },
         "fisherman": {
           "source_count": 2,
@@ -7421,7 +7461,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.7
+      "current_sst_f": 70.6
     },
     {
       "id": "acid_barge",
@@ -7594,7 +7634,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 72.1
+      "current_sst_f": 72.0
     },
     {
       "id": "habs_ledge",
@@ -8102,7 +8142,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 72.9
+      "current_sst_f": 72.8
     },
     {
       "id": "block_canyon",
@@ -8597,12 +8637,12 @@
       },
       "notes": "Real bathymetric edge \u2014 the 35-fathom contour line running south of Montauk. School bluefin follow this edge in summer, yellowfin push here Aug-Sep. Referenced by Kevin Albohn (OTW Bluefin Calendar) as a classic early-season school bluefin edge. User-added spot, awaiting first specific captain report.",
       "added_by": "Randy 2026-07-28",
-      "heat_updated": "2026-09-14",
+      "heat_updated": "2026-09-17",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-14",
-          "video_count": 6,
-          "channel_count": 4
+          "last_video_date": "2026-09-17",
+          "video_count": 5,
+          "channel_count": 3
         },
         "fisherman": {
           "source_count": 1,
@@ -9491,7 +9531,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 67.0
+      "current_sst_f": 66.9
     },
     {
       "id": "monomoy_rips",
@@ -9912,7 +9952,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 75.0
+      "current_sst_f": 74.9
     },
     {
       "id": "cia_grounds",
@@ -10367,7 +10407,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 67.5
+      "current_sst_f": 67.4
     },
     {
       "id": "cape_cod_bay",

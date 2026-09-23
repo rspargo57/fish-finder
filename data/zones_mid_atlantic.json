@@ -3,7 +3,7 @@
   "region_id": "midatl",
   "region_label": "Mid-Atlantic",
   "region_short": "Mid-Atl",
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "season": 2026,
   "home_port": {
     "name": "Utsch's Marina",
@@ -333,7 +333,7 @@
         39.65,
         -72.75
       ],
-      "current_sst_f": 72.6,
+      "current_sst_f": 72.5,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -700,7 +700,7 @@
         37.9,
         -74.15
       ],
-      "current_sst_f": 76.4,
+      "current_sst_f": 76.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1316,7 +1316,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-16",
-          "video_count": 2,
+          "video_count": 1,
           "channel_count": 1
         },
         "fisherman": {
@@ -1573,7 +1573,7 @@
         38.87,
         -74.8
       ],
-      "current_sst_f": 74.4,
+      "current_sst_f": 74.1,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1662,7 +1662,7 @@
         38.4,
         -74.85
       ],
-      "current_sst_f": 74.5,
+      "current_sst_f": 74.4,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1742,7 +1742,7 @@
           "latest_date": "2026-08-13"
         }
       },
-      "current_sst_f": 75.0
+      "current_sst_f": 74.9
     },
     {
       "id": "cbbt_chesapeake_mouth",
@@ -1839,7 +1839,7 @@
       "region": "NC",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-22",
+      "heat_updated": "2026-09-23",
       "species": [
         "red_drum",
         "striped_bass",
@@ -1927,7 +1927,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-22",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1938,7 +1938,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-22",
+      "heat_updated": "2026-09-23",
       "species": [
         "yellowfin_tuna",
         "bluefin_giant",
@@ -2026,7 +2026,7 @@
       "current_sst_f": 82.3,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-22",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2037,7 +2037,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-22",
+      "heat_updated": "2026-09-23",
       "species": [
         "yellowfin_tuna",
         "bluefin_recreational",
@@ -2140,7 +2140,7 @@
       "current_sst_f": 81.5,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-22",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2335,7 +2335,7 @@
           2
         ]
       },
-      "current_sst_f": 78.6,
+      "current_sst_f": 78.5,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -2449,7 +2449,7 @@
           2
         ]
       },
-      "current_sst_f": 78.5,
+      "current_sst_f": 78.3,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-02",
@@ -2793,7 +2793,7 @@
           5
         ]
       },
-      "current_sst_f": 72.9
+      "current_sst_f": 72.8
     },
     {
       "id": "mohawk_wreck",
@@ -3031,7 +3031,7 @@
       ],
       "notes": "Deep-water ledge 30nm E of Indian River Inlet.",
       "heat": 5,
-      "heat_updated": "2026-09-22",
+      "heat_updated": "2026-09-23",
       "seasonal_presence": {
         "amberjack": [
           7,
@@ -3092,7 +3092,7 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-22",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
@@ -3315,7 +3315,7 @@
           8
         ]
       },
-      "current_sst_f": 75.6
+      "current_sst_f": 75.5
     },
     {
       "id": "great_gully_md",
@@ -3393,7 +3393,7 @@
           8
         ]
       },
-      "current_sst_f": 75.3
+      "current_sst_f": 75.2
     },
     {
       "id": "chicken_bone",
@@ -3534,7 +3534,7 @@
           8
         ]
       },
-      "current_sst_f": 75.7
+      "current_sst_f": 75.6
     },
     {
       "id": "md_wilmington_lump",
@@ -3660,7 +3660,7 @@
           8
         ]
       },
-      "current_sst_f": 75.2
+      "current_sst_f": 75.1
     },
     {
       "id": "cbbt_all",
@@ -3909,7 +3909,7 @@
           8
         ]
       },
-      "current_sst_f": 76.7
+      "current_sst_f": 76.6
     },
     {
       "id": "md_tower_wreck",
@@ -6006,6 +6006,15 @@
       "lat": 40.4407,
       "lon": -74.0933,
       "dist_nm": 21.5
+    },
+    {
+      "date": "2026-09-23",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
     }
   ],
   "sources_used": [

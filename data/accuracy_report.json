@@ -1,33 +1,15 @@
 {
-  "generated_at": "2026-09-22T01:23:38Z",
+  "generated_at": "2026-09-23T00:20:44Z",
   "window_days": 30,
-  "snapshots_total": 30,
-  "snapshots_in_window": 13,
+  "snapshots_total": 31,
+  "snapshots_in_window": 11,
   "accuracy": {
     "offshore": {
       "1": {
-        "n": 7,
-        "hits": 7,
+        "n": 4,
+        "hits": 4,
         "accuracy": 1.0,
         "samples": [
-          {
-            "actual_date": "2026-08-20",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-21",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-22",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
           {
             "actual_date": "2026-08-23",
             "pred_zone": "s_block_nearshore",
@@ -55,28 +37,10 @@
         ]
       },
       "3": {
-        "n": 5,
-        "hits": 5,
+        "n": 3,
+        "hits": 3,
         "accuracy": 1.0,
         "samples": [
-          {
-            "actual_date": "2026-08-20",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-21",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-22",
-            "pred_zone": "s_block_nearshore",
-            "actual_zone": "s_block_nearshore",
-            "hit": true
-          },
           {
             "actual_date": "2026-08-23",
             "pred_zone": "s_block_nearshore",
@@ -85,6 +49,12 @@
           },
           {
             "actual_date": "2026-08-30",
+            "pred_zone": "s_block_nearshore",
+            "actual_zone": "s_block_nearshore",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-09-22",
             "pred_zone": "s_block_nearshore",
             "actual_zone": "s_block_nearshore",
             "hit": true
@@ -100,28 +70,10 @@
     },
     "inshore": {
       "1": {
-        "n": 7,
-        "hits": 7,
+        "n": 4,
+        "hits": 4,
         "accuracy": 1.0,
         "samples": [
-          {
-            "actual_date": "2026-08-20",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-21",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-22",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
           {
             "actual_date": "2026-08-23",
             "pred_zone": "block_island_striper",
@@ -149,28 +101,10 @@
         ]
       },
       "3": {
-        "n": 5,
-        "hits": 5,
+        "n": 3,
+        "hits": 3,
         "accuracy": 1.0,
         "samples": [
-          {
-            "actual_date": "2026-08-20",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-21",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
-          {
-            "actual_date": "2026-08-22",
-            "pred_zone": "block_island_striper",
-            "actual_zone": "block_island_striper",
-            "hit": true
-          },
           {
             "actual_date": "2026-08-23",
             "pred_zone": "block_island_striper",
@@ -179,6 +113,12 @@
           },
           {
             "actual_date": "2026-08-30",
+            "pred_zone": "block_island_striper",
+            "actual_zone": "block_island_striper",
+            "hit": true
+          },
+          {
+            "actual_date": "2026-09-22",
             "pred_zone": "block_island_striper",
             "actual_zone": "block_island_striper",
             "hit": true
@@ -195,12 +135,12 @@
   },
   "stability": {
     "offshore": {
-      "n": 13,
-      "mean_same_as_day0_ratio": 0.9340659340659341
+      "n": 11,
+      "mean_same_as_day0_ratio": 0.922077922077922
     },
     "inshore": {
-      "n": 13,
-      "mean_same_as_day0_ratio": 0.967032967032967
+      "n": 11,
+      "mean_same_as_day0_ratio": 0.8831168831168831
     }
   },
   "by_region": {
@@ -208,28 +148,10 @@
       "accuracy": {
         "offshore": {
           "1": {
-            "n": 7,
-            "hits": 7,
+            "n": 4,
+            "hits": 4,
             "accuracy": 1.0,
             "samples": [
-              {
-                "actual_date": "2026-08-20",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-21",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-22",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
               {
                 "actual_date": "2026-08-23",
                 "pred_zone": "s_block_nearshore",
@@ -257,28 +179,10 @@
             ]
           },
           "3": {
-            "n": 5,
-            "hits": 5,
+            "n": 3,
+            "hits": 3,
             "accuracy": 1.0,
             "samples": [
-              {
-                "actual_date": "2026-08-20",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-21",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-22",
-                "pred_zone": "s_block_nearshore",
-                "actual_zone": "s_block_nearshore",
-                "hit": true
-              },
               {
                 "actual_date": "2026-08-23",
                 "pred_zone": "s_block_nearshore",
@@ -287,6 +191,12 @@
               },
               {
                 "actual_date": "2026-08-30",
+                "pred_zone": "s_block_nearshore",
+                "actual_zone": "s_block_nearshore",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-09-22",
                 "pred_zone": "s_block_nearshore",
                 "actual_zone": "s_block_nearshore",
                 "hit": true
@@ -302,28 +212,10 @@
         },
         "inshore": {
           "1": {
-            "n": 7,
-            "hits": 7,
+            "n": 4,
+            "hits": 4,
             "accuracy": 1.0,
             "samples": [
-              {
-                "actual_date": "2026-08-20",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-21",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-22",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
               {
                 "actual_date": "2026-08-23",
                 "pred_zone": "block_island_striper",
@@ -351,28 +243,10 @@
             ]
           },
           "3": {
-            "n": 5,
-            "hits": 5,
+            "n": 3,
+            "hits": 3,
             "accuracy": 1.0,
             "samples": [
-              {
-                "actual_date": "2026-08-20",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-21",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
-              {
-                "actual_date": "2026-08-22",
-                "pred_zone": "block_island_striper",
-                "actual_zone": "block_island_striper",
-                "hit": true
-              },
               {
                 "actual_date": "2026-08-23",
                 "pred_zone": "block_island_striper",
@@ -381,6 +255,12 @@
               },
               {
                 "actual_date": "2026-08-30",
+                "pred_zone": "block_island_striper",
+                "actual_zone": "block_island_striper",
+                "hit": true
+              },
+              {
+                "actual_date": "2026-09-22",
                 "pred_zone": "block_island_striper",
                 "actual_zone": "block_island_striper",
                 "hit": true
@@ -397,12 +277,12 @@
       },
       "stability": {
         "offshore": {
-          "n": 13,
-          "mean_same_as_day0_ratio": 0.9340659340659341
+          "n": 11,
+          "mean_same_as_day0_ratio": 0.922077922077922
         },
         "inshore": {
-          "n": 13,
-          "mean_same_as_day0_ratio": 0.967032967032967
+          "n": 11,
+          "mean_same_as_day0_ratio": 0.8831168831168831
         }
       }
     },
@@ -416,10 +296,17 @@
             "samples": []
           },
           "3": {
-            "n": 0,
+            "n": 1,
             "hits": 0,
-            "accuracy": null,
-            "samples": []
+            "accuracy": 0.0,
+            "samples": [
+              {
+                "actual_date": "2026-09-22",
+                "pred_zone": "baltimore_canyon",
+                "actual_zone": "barnegat_ridge",
+                "hit": false
+              }
+            ]
           },
           "7": {
             "n": 0,
@@ -436,10 +323,17 @@
             "samples": []
           },
           "3": {
-            "n": 0,
-            "hits": 0,
-            "accuracy": null,
-            "samples": []
+            "n": 1,
+            "hits": 1,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-09-22",
+                "pred_zone": "cape_may_rips",
+                "actual_zone": "cape_may_rips",
+                "hit": true
+              }
+            ]
           },
           "7": {
             "n": 0,
@@ -451,11 +345,11 @@
       },
       "stability": {
         "offshore": {
-          "n": 5,
-          "mean_same_as_day0_ratio": 0.7714285714285715
+          "n": 6,
+          "mean_same_as_day0_ratio": 0.8095238095238095
         },
         "inshore": {
-          "n": 5,
+          "n": 6,
           "mean_same_as_day0_ratio": 1.0
         }
       }
@@ -470,10 +364,17 @@
             "samples": []
           },
           "3": {
-            "n": 0,
-            "hits": 0,
-            "accuracy": null,
-            "samples": []
+            "n": 1,
+            "hits": 1,
+            "accuracy": 1.0,
+            "samples": [
+              {
+                "actual_date": "2026-09-22",
+                "pred_zone": "destin_edge",
+                "actual_zone": "destin_edge",
+                "hit": true
+              }
+            ]
           },
           "7": {
             "n": 0,
@@ -505,8 +406,8 @@
       },
       "stability": {
         "offshore": {
-          "n": 5,
-          "mean_same_as_day0_ratio": 0.9142857142857143
+          "n": 6,
+          "mean_same_as_day0_ratio": 0.7857142857142857
         },
         "inshore": {
           "n": 0,
@@ -524,10 +425,17 @@
             "samples": []
           },
           "3": {
-            "n": 0,
+            "n": 1,
             "hits": 0,
-            "accuracy": null,
-            "samples": []
+            "accuracy": 0.0,
+            "samples": [
+              {
+                "actual_date": "2026-09-22",
+                "pred_zone": "islamorada_hump",
+                "actual_zone": "gs_sword_grounds_sfl",
+                "hit": false
+              }
+            ]
           },
           "7": {
             "n": 0,
@@ -559,8 +467,8 @@
       },
       "stability": {
         "offshore": {
-          "n": 5,
-          "mean_same_as_day0_ratio": 0.6571428571428571
+          "n": 6,
+          "mean_same_as_day0_ratio": 0.6428571428571428
         },
         "inshore": {
           "n": 0,
@@ -578,10 +486,17 @@
             "samples": []
           },
           "3": {
-            "n": 0,
+            "n": 1,
             "hits": 0,
-            "accuracy": null,
-            "samples": []
+            "accuracy": 0.0,
+            "samples": [
+              {
+                "actual_date": "2026-09-22",
+                "pred_zone": "morehead_city",
+                "actual_zone": "sc_georgetown_hole",
+                "hit": false
+              }
+            ]
           },
           "7": {
             "n": 0,
@@ -613,11 +528,11 @@
       },
       "stability": {
         "offshore": {
-          "n": 5,
-          "mean_same_as_day0_ratio": 0.6571428571428571
+          "n": 6,
+          "mean_same_as_day0_ratio": 0.6904761904761905
         },
         "inshore": {
-          "n": 5,
+          "n": 6,
           "mean_same_as_day0_ratio": 1.0
         }
       }

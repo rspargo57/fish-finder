@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T01:28:28.622258Z",
-  "date": "2026-09-22",
+  "generated_at": "2026-09-23T00:27:03.261254Z",
+  "date": "2026-09-23",
   "regions": {
     "NE": {
       "code": "NE",
@@ -19,42 +19,42 @@
         {
           "id": "millstone_point",
           "name": "Millstone Point",
-          "days": 75,
+          "days": 76,
           "heat": 6,
           "category": "inshore"
         },
         {
           "id": "acid_barge",
           "name": "The Acid Barge",
-          "days": 75,
+          "days": 76,
           "heat": 6,
           "category": "nearshore"
         },
         {
           "id": "six_mile_reef",
           "name": "Six Mile Reef",
-          "days": 75,
+          "days": 76,
           "heat": 6,
           "category": "inshore"
         },
         {
           "id": "faulkners_island",
           "name": "Faulkner's Island Reef",
-          "days": 75,
+          "days": 76,
           "heat": 6,
           "category": "inshore"
         },
         {
           "id": "nebraska_shoal",
           "name": "Nebraska Shoal",
-          "days": 75,
+          "days": 76,
           "heat": 6,
           "category": "nearshore"
         }
       ],
-      "whale_count": 51,
-      "latest_whale_days": 8,
-      "bait_count": 369,
+      "whale_count": 52,
+      "latest_whale_days": 4,
+      "bait_count": 370,
       "hollow_in_top5": 0
     },
     "MIDATL": {
@@ -74,42 +74,42 @@
         {
           "id": "fingers",
           "name": "The Fingers",
-          "days": 31,
+          "days": 32,
           "heat": 5,
           "category": "midshore"
         },
         {
           "id": "cigar",
           "name": "The Cigar (E of VA Beach)",
-          "days": 19,
+          "days": 20,
           "heat": 5,
           "category": "midshore"
         },
         {
           "id": "mud_hole_nj",
           "name": "The Mud Hole (NJ)",
-          "days": 19,
+          "days": 20,
           "heat": 5,
           "category": "midshore"
         },
         {
           "id": "bacardi_wreck",
           "name": "Bacardi Wreck",
-          "days": 19,
+          "days": 20,
           "heat": 5,
           "category": "midshore"
         },
         {
           "id": "immigrant_wreck",
           "name": "Immigrant Wreck",
-          "days": 19,
+          "days": 20,
           "heat": 5,
           "category": "midshore"
         }
       ],
       "whale_count": 23,
-      "latest_whale_days": 2,
-      "bait_count": 100,
+      "latest_whale_days": 3,
+      "bait_count": 101,
       "hollow_in_top5": 0
     },
     "SEATL": {
@@ -118,8 +118,8 @@
       "emoji": "\ud83c\udf34",
       "zone_count": 43,
       "fresh": 10,
-      "stale": 22,
-      "dead": 11,
+      "stale": 21,
+      "dead": 12,
       "unknown": 0,
       "top_pick": {
         "name": "Cape Lookout",
@@ -129,42 +129,42 @@
         {
           "id": "cape_lookout",
           "name": "Cape Lookout",
-          "days": 22,
+          "days": 23,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "bogue_inlet",
           "name": "Bogue Inlet (Emerald Isle)",
-          "days": 22,
+          "days": 23,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "frying_pan_shoals",
           "name": "Frying Pan Shoals / Tower",
-          "days": 22,
+          "days": 23,
           "heat": 5,
           "category": "canyon"
         },
         {
           "id": "the_same_ol",
           "name": "The Same Ol' (100/400 Rock)",
-          "days": 22,
+          "days": 23,
           "heat": 5,
           "category": "canyon"
         },
         {
           "id": "winyah_bay_georgetown",
           "name": "Winyah Bay (Georgetown)",
-          "days": 22,
+          "days": 23,
           "heat": 5,
           "category": "inshore"
         }
       ],
-      "whale_count": 42,
-      "latest_whale_days": 1,
-      "bait_count": 118,
+      "whale_count": 43,
+      "latest_whale_days": 2,
+      "bait_count": 128,
       "hollow_in_top5": 0
     },
     "GULF": {
@@ -184,42 +184,42 @@
         {
           "id": "perdido_pass",
           "name": "Perdido Pass",
-          "days": 24,
+          "days": 25,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "perdido_bay",
           "name": "Perdido Bay",
-          "days": 24,
+          "days": 25,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "big_lagoon",
           "name": "Big Lagoon",
-          "days": 24,
+          "days": 25,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "massachusetts_wreck",
           "name": "The Massachusetts Wreck",
-          "days": 24,
+          "days": 25,
           "heat": 5,
           "category": "nearshore"
         },
         {
           "id": "alabama_reef_zone",
           "name": "Alabama Artificial Reef Zone",
-          "days": 24,
+          "days": 25,
           "heat": 5,
           "category": "midshore"
         }
       ],
       "whale_count": 28,
-      "latest_whale_days": 14,
-      "bait_count": 54,
+      "latest_whale_days": 15,
+      "bait_count": 58,
       "hollow_in_top5": 0
     },
     "SOFL": {
@@ -239,57 +239,57 @@
         {
           "id": "west_palm_sailfish",
           "name": "West Palm Sailfish Grounds",
-          "days": 23,
+          "days": 24,
           "heat": 5,
           "category": "nearshore"
         },
         {
           "id": "palm_beach_reef_line",
           "name": "Palm Beach Reef Line",
-          "days": 23,
+          "days": 24,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "boynton_boca_ledge",
           "name": "Boynton / Boca Ledge",
-          "days": 23,
+          "days": 24,
           "heat": 5,
           "category": "midshore"
         },
         {
           "id": "ftl_reef_lines",
           "name": "Fort Lauderdale Reef Lines",
-          "days": 23,
+          "days": 24,
           "heat": 5,
           "category": "inshore"
         },
         {
           "id": "ftl_wreck_alley",
           "name": "Fort Lauderdale Wreck Alley",
-          "days": 23,
+          "days": 24,
           "heat": 5,
           "category": "nearshore"
         }
       ],
       "whale_count": 12,
-      "latest_whale_days": 16,
-      "bait_count": 44,
+      "latest_whale_days": 17,
+      "bait_count": 45,
       "hollow_in_top5": 0
     }
   },
   "accuracy": {
     "accuracy_1_offshore": {
       "mean": 1.0,
-      "n": 17
+      "n": 18
     },
     "accuracy_1_inshore": {
       "mean": 1.0,
-      "n": 17
+      "n": 18
     },
     "accuracy_1_overall": {
       "mean": 1.0,
-      "n": 34
+      "n": 36
     },
     "accuracy_3_offshore": {
       "mean": 1.0,
@@ -305,7 +305,7 @@
     }
   },
   "accuracy_warnings": [],
-  "archive_days": 31,
+  "archive_days": 32,
   "picks_audit": {
     "total_hollow": 0,
     "hollow_picks": [],
@@ -318,28 +318,28 @@
     }
   },
   "source_health": {
-    "generated_at": "2026-09-22T01:28:28.330637Z",
-    "date": "2026-09-22",
+    "generated_at": "2026-09-23T00:27:02.968527Z",
+    "date": "2026-09-23",
     "sources": {
       "otw_multi": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 8,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "youtube": {
-        "status": "stale",
-        "days_since_success": 3,
-        "consecutive_fails": 1,
+        "status": "fresh",
+        "days_since_success": 0,
+        "consecutive_fails": 0,
         "last_rows": 31,
-        "last_success": "2026-09-19",
+        "last_success": "2026-09-23",
         "last_error": "0/37 channels returned videos"
       },
       "inat_whales": {
         "status": "dead",
-        "days_since_success": 18,
+        "days_since_success": 19,
         "consecutive_fails": 0,
         "last_rows": 1,
         "last_success": "2026-09-04",
@@ -349,13 +349,13 @@
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 141,
-        "last_success": "2026-09-22",
+        "last_rows": 143,
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "viking_whales": {
         "status": "dead",
-        "days_since_success": 18,
+        "days_since_success": 19,
         "consecutive_fails": 0,
         "last_rows": 3,
         "last_success": "2026-09-04",
@@ -365,8 +365,8 @@
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 21,
-        "last_success": "2026-09-22",
+        "last_rows": 22,
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "tides": {
@@ -374,7 +374,7 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 23,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "sst_contours_ne": {
@@ -382,39 +382,39 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 4,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "sst_contours_gulf": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 6,
-        "last_success": "2026-09-22",
+        "last_rows": 4,
+        "last_success": "2026-09-23",
         "last_error": "empty or fallback"
       },
       "sst_contours_sofl": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 1,
-        "last_success": "2026-09-22",
+        "last_rows": 2,
+        "last_success": "2026-09-23",
         "last_error": "empty or fallback"
       },
       "sst_contours_seatl": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 27,
-        "last_success": "2026-09-22",
+        "last_rows": 26,
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "chla_contours_ne": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 4,
-        "last_success": "2026-09-22",
+        "last_rows": 5,
+        "last_success": "2026-09-23",
         "last_error": "empty or fallback"
       },
       "chla_contours_gulf": {
@@ -422,15 +422,15 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 5,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "chla_contours_sofl": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 7,
-        "last_success": "2026-09-22",
+        "last_rows": 8,
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "chla_contours_seatl": {
@@ -438,7 +438,7 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 3,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "zone_weather": {
@@ -446,7 +446,7 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 49,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "archive_save": {
@@ -454,7 +454,7 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 1,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "fisherman_harvest": {
@@ -462,7 +462,7 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 6,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "fisherman_regional": {
@@ -470,34 +470,34 @@
         "days_since_success": 0,
         "consecutive_fails": 0,
         "last_rows": 29,
-        "last_success": "2026-09-22",
+        "last_success": "2026-09-23",
         "last_error": null
       },
       "charter_harvest": {
         "status": "fresh",
         "days_since_success": 0,
         "consecutive_fails": 0,
-        "last_rows": 402,
-        "last_success": "2026-09-22",
+        "last_rows": 403,
+        "last_success": "2026-09-23",
         "last_error": null
       }
     },
-    "flags": 3,
+    "flags": 2,
     "total_known": 20
   },
   "archive_integrity": {
-    "generated_at": "2026-09-22T01:28:28.521320Z",
-    "date": "2026-09-22",
+    "generated_at": "2026-09-23T00:27:03.155527Z",
+    "date": "2026-09-23",
     "status": "critical",
     "warnings": [],
     "errors": [
-      "11 missing days in last 14: 2026-09-08, 2026-09-10, 2026-09-11, 2026-09-12, 2026-09-13 \u2026"
+      "10 missing days in last 14: 2026-09-10, 2026-09-11, 2026-09-12, 2026-09-13, 2026-09-14 \u2026"
     ],
     "stats": {
-      "total_snapshots": 31,
-      "latest": "2026-09-22.json",
+      "total_snapshots": 32,
+      "latest": "2026-09-23.json",
       "days_since_latest": 0,
-      "gaps_last_14d": 11
+      "gaps_last_14d": 10
     }
   }
 }

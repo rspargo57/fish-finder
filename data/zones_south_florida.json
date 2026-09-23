@@ -3,7 +3,7 @@
   "region_id": "south_florida",
   "region_label": "South Florida \u2014 Sailfish Coast",
   "region_short": "S. Florida",
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "season": 2026,
   "home_port": {
     "name": "Bud N' Mary's Marina (Islamorada)",
@@ -271,7 +271,7 @@
           9
         ]
       },
-      "current_sst_f": 86.7,
+      "current_sst_f": 86.6,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -586,7 +586,7 @@
           9
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.8
     },
     {
       "id": "hillsboro_reef",
@@ -698,7 +698,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-16",
-          "video_count": 2,
+          "video_count": 1,
           "channel_count": 1
         }
       }
@@ -902,7 +902,7 @@
           9
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 85.7
     },
     {
       "id": "hollywood_dania",
@@ -995,7 +995,7 @@
           9
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.2
     },
     {
       "id": "government_cut",
@@ -1202,7 +1202,7 @@
           9
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.6
     },
     {
       "id": "stiltsville_flats",
@@ -1488,7 +1488,7 @@
           8
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.6
     },
     {
       "id": "islamorada_hump",
@@ -1581,7 +1581,7 @@
           8
         ]
       },
-      "current_sst_f": 87.0,
+      "current_sst_f": 86.9,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -1781,7 +1781,7 @@
           8
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.8
     },
     {
       "id": "wreck_trek_upper_keys",
@@ -1874,7 +1874,7 @@
           5
         ]
       },
-      "current_sst_f": 87.1
+      "current_sst_f": 86.9
     },
     {
       "id": "marathon_west_hump",
@@ -2334,7 +2334,7 @@
           8
         ]
       },
-      "current_sst_f": 87.6,
+      "current_sst_f": 87.4,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2434,7 +2434,7 @@
           8
         ]
       },
-      "current_sst_f": 87.0,
+      "current_sst_f": 86.8,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2534,7 +2534,7 @@
           8
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.2
     },
     {
       "id": "key_west_wreck_line",
@@ -2627,7 +2627,7 @@
           5
         ]
       },
-      "current_sst_f": 87.6,
+      "current_sst_f": 87.5,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2742,7 +2742,7 @@
           8
         ]
       },
-      "current_sst_f": 87.8
+      "current_sst_f": 87.5
     },
     {
       "id": "islamorada_409_hole",
@@ -3050,7 +3050,7 @@
           3
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 85.9
     },
     {
       "id": "doctors_pass",
@@ -3143,7 +3143,7 @@
           4
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 85.8
     },
     {
       "id": "naples_offshore_ledges",
@@ -3422,7 +3422,7 @@
           5
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 85.9
     },
     {
       "id": "ten_thousand_islands",
@@ -3515,7 +3515,7 @@
           7
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.4
     },
     {
       "id": "chokoloskee_pass",
@@ -3593,7 +3593,7 @@
           7
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 85.7
     },
     {
       "id": "flamingo",
@@ -3779,7 +3779,7 @@
           7
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 85.8
     },
     {
       "id": "boca_grande_pass",
@@ -3872,7 +3872,7 @@
           8
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.6
     },
     {
       "id": "charlotte_harbor",
@@ -3965,7 +3965,7 @@
           7
         ]
       },
-      "current_sst_f": 85.9,
+      "current_sst_f": 85.7,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -4049,7 +4049,7 @@
           3
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 85.8
     },
     {
       "id": "sanibel_causeway",
@@ -4562,7 +4562,7 @@
           8
         ]
       },
-      "current_sst_f": 87.6
+      "current_sst_f": 87.5
     },
     {
       "id": "pb_juno_ledge_south",
@@ -4874,7 +4874,7 @@
           7
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.3
     },
     {
       "id": "ftl_ancient_mariner",
@@ -5015,7 +5015,7 @@
           7
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.4
     },
     {
       "id": "ftl_65_ledge",
@@ -5171,7 +5171,7 @@
           4
         ]
       },
-      "current_sst_f": 87.5
+      "current_sst_f": 87.2
     },
     {
       "id": "ftl_neptune_reef",
@@ -5249,7 +5249,7 @@
           3
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.3
     },
     {
       "id": "mia_150_ledge",
@@ -5327,7 +5327,7 @@
           3
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.3
     },
     {
       "id": "mia_stream_edge",
@@ -5615,7 +5615,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 87.0
+      "current_sst_f": 86.7
     },
     {
       "id": "uk_molasses_reef",
@@ -5693,7 +5693,7 @@
           7
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.8
     },
     {
       "id": "uk_alligator_reef",
@@ -5849,7 +5849,7 @@
           7
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.7
     },
     {
       "id": "uk_islamorada_180",
@@ -6302,7 +6302,7 @@
           7
         ]
       },
-      "current_sst_f": 88.2
+      "current_sst_f": 88.1
     },
     {
       "id": "lk_riley_hump",
@@ -6365,7 +6365,7 @@
           7
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 87.3
     },
     {
       "id": "lk_rebecca_shoal",
@@ -6443,7 +6443,7 @@
           7
         ]
       },
-      "current_sst_f": 87.9
+      "current_sst_f": 87.5
     },
     {
       "id": "gs_sword_grounds_sfl",
@@ -6569,7 +6569,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.2
     },
     {
       "id": "swfl_pulley_ridge",
@@ -6788,7 +6788,7 @@
           6
         ]
       },
-      "current_sst_f": 88.6
+      "current_sst_f": 88.4
     },
     {
       "id": "swfl_edison_reef",
@@ -6866,7 +6866,7 @@
           1
         ]
       },
-      "current_sst_f": 88.0
+      "current_sst_f": 87.7
     }
   ],
   "whale_sightings": [
@@ -7638,6 +7638,19 @@
       "lat": 26.0911,
       "lon": -80.1115,
       "dist_nm": 1.3
+    },
+    {
+      "date": "2026-09-21",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "biscayne_outer_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/402508197",
+      "lat": 25.534,
+      "lon": -80.323,
+      "dist_nm": 10.5
     }
   ],
   "region_species_extras": {
