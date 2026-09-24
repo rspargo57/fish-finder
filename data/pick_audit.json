@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-23",
-  "generated_at": "2026-09-23T00:27:03.238194Z",
-  "archive_used": "2026-09-23",
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T00:35:15.956077Z",
+  "archive_used": "2026-09-24",
   "regions": {
     "northeast": {
       "region": "northeast",
@@ -14,21 +14,21 @@
           "zone_id": "s_block_nearshore",
           "zone_name": "Nearshore South of Block Island",
           "heat": 9,
-          "effective_heat": 12.12,
+          "effective_heat": 12.42,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 3,
-            "bait_ref_count": 37,
-            "whale_ref_count": 13,
+            "bait_ref_count": 34,
+            "whale_ref_count": 11,
             "notes_len": 237,
             "backing_paths": [
               "3 intel_sources",
-              "37 bait_intel \u226414d",
-              "13 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "34 bait_intel \u226414d",
+              "11 whale sighting \u226421d",
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -37,21 +37,21 @@
           "zone_id": "block_island_striper",
           "zone_name": "Block Island Reefs (SW Ledge / SE Light)",
           "heat": 9,
-          "effective_heat": 11.41,
+          "effective_heat": 12.21,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 4,
-            "bait_ref_count": 25,
+            "bait_ref_count": 24,
             "whale_ref_count": 2,
             "notes_len": 338,
             "backing_paths": [
               "4 intel_sources",
-              "25 bait_intel \u226414d",
+              "24 bait_intel \u226414d",
               "2 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -60,66 +60,64 @@
           "zone_id": "montauk_rips_striper",
           "zone_name": "Montauk Point Rips",
           "heat": 8,
-          "effective_heat": 11.0,
+          "effective_heat": 11.8,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 2,
-            "bait_ref_count": 34,
-            "whale_ref_count": 12,
+            "bait_ref_count": 33,
+            "whale_ref_count": 11,
             "notes_len": 217,
             "backing_paths": [
               "2 intel_sources",
-              "34 bait_intel \u226414d",
-              "12 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "33 bait_intel \u226414d",
+              "11 whale sighting \u226421d",
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
         {
           "rank": 4,
-          "zone_id": "atlantis_canyon",
-          "zone_name": "Atlantis Canyon",
+          "zone_id": "hudson_canyon",
+          "zone_name": "Hudson Canyon",
           "heat": 9,
-          "effective_heat": 10.44,
+          "effective_heat": 11.2,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
-            "intel_source_count": 2,
+            "heat_updated": "2026-09-23",
+            "heat_updated_days_stale": 1,
+            "intel_source_count": 3,
             "bait_ref_count": 1,
             "whale_ref_count": 0,
-            "notes_len": 241,
+            "notes_len": 428,
             "backing_paths": [
-              "2 intel_sources",
+              "3 intel_sources",
               "1 bait_intel \u226414d",
-              "heat verified 6d ago w/ notes"
+              "heat verified 1d ago w/ notes"
             ]
           }
         },
         {
           "rank": 5,
-          "zone_id": "hudson_canyon",
-          "zone_name": "Hudson Canyon",
+          "zone_id": "atlantis_canyon",
+          "zone_name": "Atlantis Canyon",
           "heat": 9,
-          "effective_heat": 10.4,
+          "effective_heat": 10.7,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-16",
-            "heat_updated_days_stale": 7,
-            "intel_source_count": 3,
-            "bait_ref_count": 1,
-            "whale_ref_count": 1,
-            "notes_len": 428,
+            "heat_updated": "2026-09-23",
+            "heat_updated_days_stale": 1,
+            "intel_source_count": 2,
+            "bait_ref_count": 0,
+            "whale_ref_count": 0,
+            "notes_len": 241,
             "backing_paths": [
-              "3 intel_sources",
-              "1 bait_intel \u226414d",
-              "1 whale sighting \u226421d",
-              "heat verified 7d ago w/ notes"
+              "2 intel_sources",
+              "heat verified 1d ago w/ notes"
             ]
           }
         }
@@ -136,21 +134,21 @@
           "zone_id": "cape_may_rips",
           "zone_name": "Cape May Rips",
           "heat": 7,
-          "effective_heat": 9.38,
+          "effective_heat": 9.18,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 2,
-            "bait_ref_count": 4,
+            "bait_ref_count": 3,
             "whale_ref_count": 1,
             "notes_len": 117,
             "backing_paths": [
               "2 intel_sources",
-              "4 bait_intel \u226414d",
+              "3 bait_intel \u226414d",
               "1 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -159,12 +157,12 @@
           "zone_id": "barnegat_ridge",
           "zone_name": "Barnegat Ridge",
           "heat": 6,
-          "effective_heat": 8.65,
+          "effective_heat": 8.95,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 3,
             "bait_ref_count": 3,
             "whale_ref_count": 6,
@@ -173,7 +171,7 @@
               "3 intel_sources",
               "3 bait_intel \u226414d",
               "6 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -182,21 +180,21 @@
           "zone_id": "delaware_bay_mouth",
           "zone_name": "Delaware Bay Mouth",
           "heat": 6,
-          "effective_heat": 7.96,
+          "effective_heat": 8.26,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 2,
-            "bait_ref_count": 7,
+            "bait_ref_count": 6,
             "whale_ref_count": 1,
             "notes_len": 89,
             "backing_paths": [
               "2 intel_sources",
-              "7 bait_intel \u226414d",
+              "6 bait_intel \u226414d",
               "1 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -205,20 +203,20 @@
           "zone_id": "baltimore_canyon",
           "zone_name": "Baltimore Canyon",
           "heat": 6,
-          "effective_heat": 7.22,
+          "effective_heat": 7.52,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 2,
             "bait_ref_count": 0,
-            "whale_ref_count": 4,
+            "whale_ref_count": 2,
             "notes_len": 102,
             "backing_paths": [
               "2 intel_sources",
-              "4 whale sighting \u226421d",
-              "heat verified 6d ago w/ notes"
+              "2 whale sighting \u226421d",
+              "heat verified 7d ago w/ notes"
             ]
           }
         },
@@ -227,19 +225,19 @@
           "zone_id": "wilmington_canyon",
           "zone_name": "Wilmington Canyon",
           "heat": 6,
-          "effective_heat": 7.21,
+          "effective_heat": 7.51,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
+            "heat_updated_days_stale": 7,
             "intel_source_count": 1,
             "bait_ref_count": 0,
             "whale_ref_count": 0,
             "notes_len": 90,
             "backing_paths": [
               "1 intel_sources",
-              "heat verified 6d ago w/ notes"
+              "heat verified 7d ago w/ notes"
             ]
           }
         }
@@ -256,11 +254,11 @@
           "zone_id": "charleston_harbor",
           "zone_name": "Charleston Harbor",
           "heat": 5,
-          "effective_heat": 7.4,
+          "effective_heat": 7.7,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-23",
+            "heat_updated": "2026-09-24",
             "heat_updated_days_stale": 0,
             "intel_source_count": 1,
             "bait_ref_count": 6,
@@ -276,37 +274,59 @@
         },
         {
           "rank": 2,
-          "zone_id": "morehead_city",
-          "zone_name": "Morehead City / Beaufort Inlet",
+          "zone_id": "sc_blackfish_banks",
+          "zone_name": "Blackfish Bank",
           "heat": 5,
-          "effective_heat": 6.3,
+          "effective_heat": 6.7,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-23",
+            "heat_updated": "2026-09-17",
+            "heat_updated_days_stale": 7,
+            "intel_source_count": 1,
+            "bait_ref_count": 3,
+            "whale_ref_count": 0,
+            "notes_len": 50,
+            "backing_paths": [
+              "1 intel_sources",
+              "3 bait_intel \u226414d",
+              "heat verified 7d ago w/ notes"
+            ]
+          }
+        },
+        {
+          "rank": 3,
+          "zone_id": "morehead_city",
+          "zone_name": "Morehead City / Beaufort Inlet",
+          "heat": 5,
+          "effective_heat": 6.6,
+          "verdict": "BACKED",
+          "reasons": [],
+          "meta": {
+            "heat_updated": "2026-09-24",
             "heat_updated_days_stale": 0,
             "intel_source_count": 1,
-            "bait_ref_count": 5,
+            "bait_ref_count": 6,
             "whale_ref_count": 2,
             "notes_len": 104,
             "backing_paths": [
               "1 intel_sources",
-              "5 bait_intel \u226414d",
+              "6 bait_intel \u226414d",
               "2 whale sighting \u226421d",
               "heat verified 0d ago w/ notes"
             ]
           }
         },
         {
-          "rank": 3,
+          "rank": 4,
           "zone_id": "st_augustine",
           "zone_name": "St. Augustine (Matanzas Inlet)",
           "heat": 5,
-          "effective_heat": 6.3,
+          "effective_heat": 6.6,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-23",
+            "heat_updated": "2026-09-24",
             "heat_updated_days_stale": 0,
             "intel_source_count": 1,
             "bait_ref_count": 6,
@@ -320,7 +340,7 @@
           }
         },
         {
-          "rank": 4,
+          "rank": 5,
           "zone_id": "nc_swansboro_hole",
           "zone_name": "Swansboro Hole",
           "heat": 5,
@@ -328,7 +348,7 @@
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-23",
+            "heat_updated": "2026-09-24",
             "heat_updated_days_stale": 0,
             "intel_source_count": 1,
             "bait_ref_count": 5,
@@ -338,28 +358,6 @@
               "1 intel_sources",
               "5 bait_intel \u226414d",
               "heat verified 0d ago w/ notes"
-            ]
-          }
-        },
-        {
-          "rank": 5,
-          "zone_id": "sc_blackfish_banks",
-          "zone_name": "Blackfish Bank",
-          "heat": 5,
-          "effective_heat": 6.1,
-          "verdict": "BACKED",
-          "reasons": [],
-          "meta": {
-            "heat_updated": "2026-09-17",
-            "heat_updated_days_stale": 6,
-            "intel_source_count": 1,
-            "bait_ref_count": 3,
-            "whale_ref_count": 0,
-            "notes_len": 50,
-            "backing_paths": [
-              "1 intel_sources",
-              "3 bait_intel \u226414d",
-              "heat verified 6d ago w/ notes"
             ]
           }
         }
@@ -373,65 +371,64 @@
       "picks": [
         {
           "rank": 1,
-          "zone_id": "east_pass_destin",
-          "zone_name": "East Pass (Destin Inlet)",
+          "zone_id": "destin_edge",
+          "zone_name": "The Edge (Destin)",
           "heat": 5,
-          "effective_heat": 4.1,
+          "effective_heat": 3.86,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-09",
-            "heat_updated_days_stale": 14,
-            "intel_source_count": 1,
-            "bait_ref_count": 6,
-            "whale_ref_count": 1,
-            "notes_len": 171,
+            "heat_updated_days_stale": 15,
+            "intel_source_count": 2,
+            "bait_ref_count": 5,
+            "whale_ref_count": 0,
+            "notes_len": 190,
             "backing_paths": [
-              "1 intel_sources",
-              "6 bait_intel \u226414d",
-              "1 whale sighting \u226421d",
-              "heat verified 14d ago w/ notes"
+              "2 intel_sources",
+              "5 bait_intel \u226414d",
+              "heat verified 15d ago w/ notes"
             ]
           }
         },
         {
           "rank": 2,
-          "zone_id": "destin_edge",
-          "zone_name": "The Edge (Destin)",
+          "zone_id": "east_pass_destin",
+          "zone_name": "East Pass (Destin Inlet)",
           "heat": 5,
-          "effective_heat": 3.76,
+          "effective_heat": 3.8,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-09",
-            "heat_updated_days_stale": 14,
-            "intel_source_count": 2,
-            "bait_ref_count": 6,
+            "heat_updated_days_stale": 15,
+            "intel_source_count": 1,
+            "bait_ref_count": 5,
             "whale_ref_count": 1,
-            "notes_len": 190,
+            "notes_len": 171,
             "backing_paths": [
-              "2 intel_sources",
-              "6 bait_intel \u226414d",
+              "1 intel_sources",
+              "5 bait_intel \u226414d",
               "1 whale sighting \u226421d",
-              "heat verified 14d ago w/ notes"
+              "heat verified 15d ago w/ notes"
             ]
           }
         },
         {
           "rank": 3,
-          "zone_id": "sherman_wreck",
-          "zone_name": "Sherman Wreck",
+          "zone_id": "the_elbow",
+          "zone_name": "The Elbow",
           "heat": 5,
-          "effective_heat": 2.7,
+          "effective_heat": 3.22,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-04",
+            "heat_updated": "2026-09-05",
             "heat_updated_days_stale": 19,
             "intel_source_count": 1,
             "bait_ref_count": 0,
             "whale_ref_count": 0,
-            "notes_len": 111,
+            "notes_len": 127,
             "backing_paths": [
               "1 intel_sources",
               "heat verified 19d ago w/ notes"
@@ -440,43 +437,43 @@
         },
         {
           "rank": 4,
-          "zone_id": "southeast_banks",
-          "zone_name": "Southeast Banks",
+          "zone_id": "sherman_wreck",
+          "zone_name": "Sherman Wreck",
           "heat": 5,
-          "effective_heat": 2.6,
+          "effective_heat": 3.0,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-04",
-            "heat_updated_days_stale": 19,
+            "heat_updated_days_stale": 20,
+            "intel_source_count": 1,
+            "bait_ref_count": 0,
+            "whale_ref_count": 0,
+            "notes_len": 111,
+            "backing_paths": [
+              "1 intel_sources",
+              "heat verified 20d ago w/ notes"
+            ]
+          }
+        },
+        {
+          "rank": 5,
+          "zone_id": "southeast_banks",
+          "zone_name": "Southeast Banks",
+          "heat": 5,
+          "effective_heat": 2.9,
+          "verdict": "BACKED",
+          "reasons": [],
+          "meta": {
+            "heat_updated": "2026-09-04",
+            "heat_updated_days_stale": 20,
             "intel_source_count": 1,
             "bait_ref_count": 0,
             "whale_ref_count": 0,
             "notes_len": 139,
             "backing_paths": [
               "1 intel_sources",
-              "heat verified 19d ago w/ notes"
-            ]
-          }
-        },
-        {
-          "rank": 5,
-          "zone_id": "the_elbow",
-          "zone_name": "The Elbow",
-          "heat": 5,
-          "effective_heat": 2.52,
-          "verdict": "BACKED",
-          "reasons": [],
-          "meta": {
-            "heat_updated": "2026-09-05",
-            "heat_updated_days_stale": 18,
-            "intel_source_count": 1,
-            "bait_ref_count": 0,
-            "whale_ref_count": 0,
-            "notes_len": 127,
-            "backing_paths": [
-              "1 intel_sources",
-              "heat verified 18d ago w/ notes"
+              "heat verified 20d ago w/ notes"
             ]
           }
         }
@@ -493,20 +490,20 @@
           "zone_id": "alligator_reef",
           "zone_name": "Alligator Reef Light",
           "heat": 5,
-          "effective_heat": 6.3,
+          "effective_heat": 6.6,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-15",
-            "heat_updated_days_stale": 8,
+            "heat_updated_days_stale": 9,
             "intel_source_count": 1,
-            "bait_ref_count": 6,
+            "bait_ref_count": 5,
             "whale_ref_count": 0,
             "notes_len": 95,
             "backing_paths": [
               "1 intel_sources",
-              "6 bait_intel \u226414d",
-              "heat verified 8d ago w/ notes"
+              "5 bait_intel \u226414d",
+              "heat verified 9d ago w/ notes"
             ]
           }
         },
@@ -515,89 +512,86 @@
           "zone_id": "sombrero_reef",
           "zone_name": "Sombrero Reef",
           "heat": 5,
-          "effective_heat": 6.0,
+          "effective_heat": 6.3,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-15",
-            "heat_updated_days_stale": 8,
+            "heat_updated_days_stale": 9,
             "intel_source_count": 1,
             "bait_ref_count": 1,
-            "whale_ref_count": 1,
+            "whale_ref_count": 0,
             "notes_len": 89,
             "backing_paths": [
               "1 intel_sources",
               "1 bait_intel \u226414d",
-              "1 whale sighting \u226421d",
-              "heat verified 8d ago w/ notes"
+              "heat verified 9d ago w/ notes"
             ]
           }
         },
         {
           "rank": 3,
-          "zone_id": "miami_190_trough",
-          "zone_name": "Miami 190 Trough",
+          "zone_id": "sand_key",
+          "zone_name": "Sand Key",
           "heat": 5,
-          "effective_heat": 5.86,
+          "effective_heat": 6.14,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
-            "heat_updated": "2026-09-13",
-            "heat_updated_days_stale": 10,
+            "heat_updated": "2026-09-15",
+            "heat_updated_days_stale": 9,
             "intel_source_count": 1,
-            "bait_ref_count": 3,
-            "whale_ref_count": 1,
-            "notes_len": 104,
+            "bait_ref_count": 1,
+            "whale_ref_count": 0,
+            "notes_len": 92,
             "backing_paths": [
               "1 intel_sources",
-              "3 bait_intel \u226414d",
-              "1 whale sighting \u226421d",
-              "heat verified 10d ago w/ notes"
+              "1 bait_intel \u226414d",
+              "heat verified 9d ago w/ notes"
             ]
           }
         },
         {
           "rank": 4,
-          "zone_id": "sand_key",
-          "zone_name": "Sand Key",
+          "zone_id": "islamorada_hump",
+          "zone_name": "Islamorada Hump",
           "heat": 5,
-          "effective_heat": 5.84,
+          "effective_heat": 5.9,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-15",
-            "heat_updated_days_stale": 8,
+            "heat_updated_days_stale": 9,
             "intel_source_count": 1,
-            "bait_ref_count": 1,
-            "whale_ref_count": 1,
-            "notes_len": 92,
+            "bait_ref_count": 4,
+            "whale_ref_count": 0,
+            "notes_len": 110,
             "backing_paths": [
               "1 intel_sources",
-              "1 bait_intel \u226414d",
-              "1 whale sighting \u226421d",
-              "heat verified 8d ago w/ notes"
+              "4 bait_intel \u226414d",
+              "heat verified 9d ago w/ notes"
             ]
           }
         },
         {
           "rank": 5,
-          "zone_id": "islamorada_hump",
-          "zone_name": "Islamorada Hump",
+          "zone_id": "key_west_wreck_line",
+          "zone_name": "Key West Wreck Line (Vandenberg+)",
           "heat": 5,
-          "effective_heat": 5.6,
+          "effective_heat": 5.88,
           "verdict": "BACKED",
           "reasons": [],
           "meta": {
             "heat_updated": "2026-09-15",
-            "heat_updated_days_stale": 8,
+            "heat_updated_days_stale": 9,
             "intel_source_count": 1,
-            "bait_ref_count": 5,
-            "whale_ref_count": 0,
-            "notes_len": 110,
+            "bait_ref_count": 0,
+            "whale_ref_count": 1,
+            "notes_len": 113,
             "backing_paths": [
               "1 intel_sources",
-              "5 bait_intel \u226414d",
-              "heat verified 8d ago w/ notes"
+              "1 whale sighting \u226421d",
+              "heat verified 9d ago w/ notes"
             ]
           }
         }

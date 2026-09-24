@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-23T00:27:02.968527Z",
+  "generated_at": "2026-09-24T00:35:15.677360Z",
   "sources": {
     "otw_multi": {
-      "last_success": "2026-09-23",
-      "last_rows": 8,
+      "last_success": "2026-09-24",
+      "last_rows": 9,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -141,12 +141,27 @@
           "date": "2026-09-23",
           "rows": 8,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 6,
+          "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 5,
+          "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 9,
+          "result": "ok"
         }
       ]
     },
     "youtube": {
-      "last_success": "2026-09-23",
-      "last_rows": 31,
+      "last_success": "2026-09-24",
+      "last_rows": 30,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -210,13 +225,18 @@
           "date": "2026-09-23",
           "rows": 31,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 30,
+          "result": "ok"
         }
       ],
       "last_error": "0/37 channels returned videos"
     },
     "inat_bait": {
-      "last_success": "2026-09-23",
-      "last_rows": 143,
+      "last_success": "2026-09-24",
+      "last_rows": 145,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -259,6 +279,11 @@
           "date": "2026-09-23",
           "rows": 143,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 145,
+          "result": "ok"
         }
       ]
     },
@@ -289,8 +314,8 @@
       ]
     },
     "chla_contours_ne": {
-      "last_success": "2026-09-23",
-      "last_rows": 5,
+      "last_success": "2026-09-24",
+      "last_rows": 3,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -374,13 +399,18 @@
           "date": "2026-09-23",
           "rows": 5,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 3,
+          "result": "ok"
         }
       ],
       "last_error": "empty or fallback"
     },
     "chla_contours_gulf": {
-      "last_success": "2026-09-23",
-      "last_rows": 5,
+      "last_success": "2026-09-24",
+      "last_rows": 6,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -458,12 +488,17 @@
           "date": "2026-09-23",
           "rows": 5,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 6,
+          "result": "ok"
         }
       ]
     },
     "chla_contours_sofl": {
-      "last_success": "2026-09-23",
-      "last_rows": 8,
+      "last_success": "2026-09-24",
+      "last_rows": 9,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -541,11 +576,16 @@
           "date": "2026-09-23",
           "rows": 8,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 9,
+          "result": "ok"
         }
       ]
     },
     "chla_contours_seatl": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 3,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -624,12 +664,17 @@
           "date": "2026-09-23",
           "rows": 3,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 3,
+          "result": "ok"
         }
       ]
     },
     "sst_contours_ne": {
-      "last_success": "2026-09-23",
-      "last_rows": 4,
+      "last_success": "2026-09-24",
+      "last_rows": 2,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -707,12 +752,17 @@
           "date": "2026-09-23",
           "rows": 4,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 2,
+          "result": "ok"
         }
       ]
     },
     "sst_contours_gulf": {
-      "last_success": "2026-09-23",
-      "last_rows": 4,
+      "last_success": "2026-09-24",
+      "last_rows": 2,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -794,6 +844,11 @@
         {
           "date": "2026-09-23",
           "rows": 4,
+          "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 2,
           "result": "ok"
         }
       ],
@@ -802,8 +857,8 @@
     "sst_contours_sofl": {
       "last_success": "2026-09-23",
       "last_rows": 2,
-      "last_result": "ok",
-      "consecutive_fails": 0,
+      "last_result": "fail",
+      "consecutive_fails": 1,
       "history": [
         {
           "date": "2026-09-05",
@@ -881,13 +936,19 @@
           "date": "2026-09-23",
           "rows": 2,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 0,
+          "result": "fail",
+          "error": "empty or fallback"
         }
       ],
       "last_error": "empty or fallback"
     },
     "sst_contours_seatl": {
-      "last_success": "2026-09-23",
-      "last_rows": 26,
+      "last_success": "2026-09-24",
+      "last_rows": 18,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -965,11 +1026,16 @@
           "date": "2026-09-23",
           "rows": 26,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 18,
+          "result": "ok"
         }
       ]
     },
     "tides": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 23,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1023,11 +1089,16 @@
           "date": "2026-09-23",
           "rows": 23,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 23,
+          "result": "ok"
         }
       ]
     },
     "fisherman_harvest": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 6,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1071,11 +1142,16 @@
           "date": "2026-09-23",
           "rows": 6,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 6,
+          "result": "ok"
         }
       ]
     },
     "fisherman_regional": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 29,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1119,12 +1195,17 @@
           "date": "2026-09-23",
           "rows": 29,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 29,
+          "result": "ok"
         }
       ]
     },
     "charter_harvest": {
-      "last_success": "2026-09-23",
-      "last_rows": 403,
+      "last_success": "2026-09-24",
+      "last_rows": 404,
       "last_result": "ok",
       "consecutive_fails": 0,
       "history": [
@@ -1167,11 +1248,16 @@
           "date": "2026-09-23",
           "rows": 403,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 404,
+          "result": "ok"
         }
       ]
     },
     "archive_save": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 1,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1210,11 +1296,16 @@
           "date": "2026-09-23",
           "rows": 1,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 1,
+          "result": "ok"
         }
       ]
     },
     "zone_weather": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 49,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1293,11 +1384,16 @@
           "date": "2026-09-23",
           "rows": 49,
           "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
+          "rows": 49,
+          "result": "ok"
         }
       ]
     },
     "ndbc_buoys": {
-      "last_success": "2026-09-23",
+      "last_success": "2026-09-24",
       "last_rows": 22,
       "last_result": "ok",
       "consecutive_fails": 0,
@@ -1349,6 +1445,11 @@
         },
         {
           "date": "2026-09-23",
+          "rows": 22,
+          "result": "ok"
+        },
+        {
+          "date": "2026-09-24",
           "rows": 22,
           "result": "ok"
         }

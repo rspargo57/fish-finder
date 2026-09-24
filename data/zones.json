@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "season": "2026",
   "primary_species": [
     "bluefin_recreational",
@@ -6363,6 +6363,24 @@
         "narragansett_bay",
         "south_shore_li"
       ]
+    },
+    {
+      "date": "2026-09-23",
+      "bait": "captain_report",
+      "location": "OTW Northeast Offshore Report podcast",
+      "species_feeding": null,
+      "source": "OTW Northeast Offshore Report podcast",
+      "source_type": "charter_auto",
+      "quote": "A major nor\u2019easter is about to put the Northeast offshore fishery on hold\u2014but the storm could also be exactly what the tuna grounds need. This week on the Northeast Offshore Report, we break down the latest offshore action from New England through the Mid-Atlantic, including the ",
+      "link": "https://podcasters.spotify.com/pod/show/northeastfishingreports/episodes/Rum-Fronts-AComin--Northeast-Offshore-Report-September-23rd-2026-e3p9fki",
+      "zones": [
+        "montauk_rips_striper",
+        "montauk_nearshore",
+        "thirty_five_fathom_line",
+        "hudson_canyon",
+        "narragansett_bay",
+        "block_island_sound"
+      ]
     }
   ],
   "zones": [
@@ -6410,7 +6428,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 3,
+          "video_count": 2,
           "channel_count": 1
         },
         "otw": {
@@ -6428,7 +6446,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 71.3
+      "current_sst_f": 69.7
     },
     {
       "id": "central_li_sound",
@@ -6474,7 +6492,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 3,
+          "video_count": 2,
           "channel_count": 1
         },
         "otw": {
@@ -6492,7 +6510,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 69.2
     },
     {
       "id": "the_triangle",
@@ -6538,7 +6556,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 3,
+          "video_count": 2,
           "channel_count": 1
         },
         "fisherman": {
@@ -6546,7 +6564,7 @@
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 70.4
+      "current_sst_f": 69.3
     },
     {
       "id": "the_race",
@@ -6621,7 +6639,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.5
+      "current_sst_f": 69.1
     },
     {
       "id": "plum_gut",
@@ -6704,7 +6722,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.8
+      "current_sst_f": 69.3
     },
     {
       "id": "watch_hill_reef",
@@ -6773,7 +6791,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.9
+      "current_sst_f": 69.0
     },
     {
       "id": "millstone_point",
@@ -6816,7 +6834,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.3
+      "current_sst_f": 68.9
     },
     {
       "id": "narragansett_bay",
@@ -6910,7 +6928,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 68.9
+      "current_sst_f": 67.5
     },
     {
       "id": "providence_seekonk",
@@ -7038,7 +7056,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 70.2
+      "current_sst_f": 69.5
     },
     {
       "id": "montauk_rips_striper",
@@ -7099,7 +7117,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 5,
+          "video_count": 4,
           "channel_count": 3
         },
         "fisherman": {
@@ -7107,7 +7125,7 @@
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 70.5
+      "current_sst_f": 69.8
     },
     {
       "id": "block_island_sound",
@@ -7201,7 +7219,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 69.4
+      "current_sst_f": 68.6
     },
     {
       "id": "south_shore_li",
@@ -7277,7 +7295,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 5,
+          "video_count": 4,
           "channel_count": 1
         },
         "fisherman": {
@@ -7285,7 +7303,7 @@
           "latest_date": "2026-09-17"
         }
       },
-      "current_sst_f": 70.4
+      "current_sst_f": 70.5
     },
     {
       "id": "montauk_nearshore",
@@ -7361,7 +7379,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 7,
+          "video_count": 6,
           "channel_count": 3
         },
         "fisherman": {
@@ -7373,7 +7391,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.5
+      "current_sst_f": 70.0
     },
     {
       "id": "s_block_nearshore",
@@ -7449,7 +7467,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 5,
+          "video_count": 4,
           "channel_count": 1
         },
         "fisherman": {
@@ -7461,7 +7479,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.6
+      "current_sst_f": 70.0
     },
     {
       "id": "acid_barge",
@@ -7519,7 +7537,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.8
+      "current_sst_f": 70.0
     },
     {
       "id": "coxes_ledge_se",
@@ -7584,7 +7602,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 69.1
     },
     {
       "id": "the_gully",
@@ -7634,7 +7652,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 72.0
+      "current_sst_f": 70.7
     },
     {
       "id": "habs_ledge",
@@ -7714,7 +7732,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 71.0
+      "current_sst_f": 70.3
     },
     {
       "id": "tuna_ridge",
@@ -7813,7 +7831,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 72.0
+      "current_sst_f": 70.8
     },
     {
       "id": "butterfish_hole",
@@ -7882,7 +7900,7 @@
           "source": "Randy Spargo direct (spillover from Coimbra Wreck ~13nm E)"
         }
       },
-      "current_sst_f": 72.6
+      "current_sst_f": 71.7
     },
     {
       "id": "mud_hole",
@@ -7976,7 +7994,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 72.3
+      "current_sst_f": 71.5
     },
     {
       "id": "hudson_canyon",
@@ -8123,7 +8141,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-16",
+      "heat_updated": "2026-09-23",
       "intel_sources": {
         "otw": {
           "date": "2026-08-06",
@@ -8133,16 +8151,16 @@
           "corroborated": true
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-16",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
-          "last_video_date": "2026-09-02",
+          "last_video_date": "2026-09-23",
           "video_count": 1,
           "channel_count": 1
         }
       },
-      "current_sst_f": 72.8
+      "current_sst_f": 73.0
     },
     {
       "id": "block_canyon",
@@ -8274,7 +8292,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-10",
@@ -8282,7 +8300,7 @@
           "channel_count": 1
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "fisherman": {
@@ -8290,7 +8308,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 74.5
+      "current_sst_f": 74.3
     },
     {
       "id": "atlantis_canyon",
@@ -8422,7 +8440,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-08-30",
@@ -8430,11 +8448,11 @@
           "channel_count": 1
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 77.9
+      "current_sst_f": 77.2
     },
     {
       "id": "veatch_hydrographer",
@@ -8566,7 +8584,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "intel_sources": {
         "otw": {
           "date": "2026-08-06",
@@ -8575,11 +8593,11 @@
           "captain": "Capt. Chris Oliver (Keepin' It Reel)"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 76.9
+      "current_sst_f": 76.2
     },
     {
       "id": "thirty_five_fathom_line",
@@ -8641,7 +8659,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 5,
+          "video_count": 4,
           "channel_count": 3
         },
         "fisherman": {
@@ -8649,7 +8667,7 @@
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 72.5
+      "current_sst_f": 70.9
     },
     {
       "id": "long_sand_shoal",
@@ -8728,7 +8746,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 69.0
     },
     {
       "id": "six_mile_reef",
@@ -8816,7 +8834,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.4
+      "current_sst_f": 69.1
     },
     {
       "id": "bartlett_reef",
@@ -8895,7 +8913,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.4
+      "current_sst_f": 68.9
     },
     {
       "id": "faulkners_island",
@@ -8968,7 +8986,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.3
+      "current_sst_f": 69.1
     },
     {
       "id": "stratford_shoal",
@@ -9062,7 +9080,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.7
+      "current_sst_f": 69.4
     },
     {
       "id": "point_judith_light",
@@ -9158,7 +9176,7 @@
           "captain": "Frances Fleet"
         }
       },
-      "current_sst_f": 69.6
+      "current_sst_f": 68.5
     },
     {
       "id": "nebraska_shoal",
@@ -9246,7 +9264,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 69.6
+      "current_sst_f": 68.7
     },
     {
       "id": "beavertail_point",
@@ -9327,7 +9345,7 @@
           "captain": "Dave (Ocean State Tackle)"
         }
       },
-      "current_sst_f": 69.1
+      "current_sst_f": 67.8
     },
     {
       "id": "sakonnet_point",
@@ -9400,7 +9418,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 68.8
+      "current_sst_f": 67.2
     },
     {
       "id": "sow_pigs_reef",
@@ -9458,7 +9476,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 68.4
+      "current_sst_f": 66.4
     },
     {
       "id": "wasque_rip",
@@ -9531,7 +9549,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 66.9
+      "current_sst_f": 65.2
     },
     {
       "id": "monomoy_rips",
@@ -9615,7 +9633,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 64.7
+      "current_sst_f": 64.0
     },
     {
       "id": "coimbra_wreck",
@@ -9731,7 +9749,7 @@
           "channel_count": 2
         }
       },
-      "current_sst_f": 72.1
+      "current_sst_f": 71.5
     },
     {
       "id": "the_dumping_ground",
@@ -9834,7 +9852,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 71.2
+      "current_sst_f": 70.6
     },
     {
       "id": "the_fishtails",
@@ -9952,7 +9970,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 74.9
+      "current_sst_f": 74.6
     },
     {
       "id": "cia_grounds",
@@ -10042,7 +10060,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 70.9
+      "current_sst_f": 70.3
     },
     {
       "id": "ranger_wreck",
@@ -10125,7 +10143,7 @@
         "yellowfin_tuna"
       ],
       "intel_sources": {},
-      "current_sst_f": 72.1
+      "current_sst_f": 71.6
     },
     {
       "id": "niantic_bay",
@@ -10198,7 +10216,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 68.8
     },
     {
       "id": "cornfield_point",
@@ -10338,7 +10356,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.2
+      "current_sst_f": 69.1
     },
     {
       "id": "buzzards_bay",
@@ -10356,7 +10374,7 @@
       ],
       "notes": "Big Massachusetts back-bay complex between Cape Cod and Rhode Island. Striper + blues year-round; false albacore fall run. Surfaced 2026-08-30 via spot_discovery from 3 different captain sources (OTW Media, Fisherman Magazine, My Fishing Cape Cod).",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "seasonal_presence": {
         "striped_bass": [
           1,
@@ -10403,11 +10421,11 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 67.4
+      "current_sst_f": 65.5
     },
     {
       "id": "cape_cod_bay",
@@ -10426,7 +10444,7 @@
       ],
       "notes": "MA Cape Cod Bay \u2014 striper + bluefish + summer bluefin. Major migration corridor + late-summer bluefin destination. Surfaced 2026-08-30 via spot_discovery (My Fishing Cape Cod + Fisherman Magazine).",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "seasonal_presence": {
         "striped_bass": [
           1,
@@ -10487,7 +10505,7 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -10496,7 +10514,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 66.5
+      "current_sst_f": 64.2
     }
   ],
   "sources_used": [

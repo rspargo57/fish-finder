@@ -3,7 +3,7 @@
   "region_id": "midatl",
   "region_label": "Mid-Atlantic",
   "region_short": "Mid-Atl",
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "season": 2026,
   "home_port": {
     "name": "Utsch's Marina",
@@ -218,7 +218,7 @@
       "region": "NJ",
       "category": "canyon",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-23",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -336,11 +336,11 @@
       "current_sst_f": 72.5,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-23",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
-          "last_video_date": "2026-09-02",
+          "last_video_date": "2026-09-23",
           "video_count": 1,
           "channel_count": 1
         }
@@ -482,7 +482,7 @@
         38.3,
         -73.833
       ],
-      "current_sst_f": 74.8,
+      "current_sst_f": 75.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -700,7 +700,7 @@
         37.9,
         -74.15
       ],
-      "current_sst_f": 76.3,
+      "current_sst_f": 76.0,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -799,7 +799,7 @@
         37.4,
         -74.6
       ],
-      "current_sst_f": 77.7,
+      "current_sst_f": 77.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -883,7 +883,7 @@
         38.3,
         -74.7
       ],
-      "current_sst_f": 74.9,
+      "current_sst_f": 74.8,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -957,7 +957,7 @@
         38.4,
         -74.55
       ],
-      "current_sst_f": 74.9,
+      "current_sst_f": 74.7,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1046,7 +1046,7 @@
         38.45,
         -74.8
       ],
-      "current_sst_f": 74.6,
+      "current_sst_f": 74.2,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1135,7 +1135,7 @@
         36.85,
         -74.7
       ],
-      "current_sst_f": 78.0,
+      "current_sst_f": 76.9,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-03",
@@ -1328,7 +1328,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 73.2
+      "current_sst_f": 71.9
     },
     {
       "id": "manasquan_ridge",
@@ -1421,7 +1421,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 73.6
+      "current_sst_f": 71.4
     },
     {
       "id": "sea_girt_reef",
@@ -1484,7 +1484,7 @@
         40.1,
         -73.95
       ],
-      "current_sst_f": 73.5,
+      "current_sst_f": 71.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1573,7 +1573,7 @@
         38.87,
         -74.8
       ],
-      "current_sst_f": 74.1,
+      "current_sst_f": 73.6,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1662,7 +1662,7 @@
         38.4,
         -74.85
       ],
-      "current_sst_f": 74.4,
+      "current_sst_f": 74.2,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1734,7 +1734,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 3,
+          "video_count": 2,
           "channel_count": 1
         },
         "fisherman": {
@@ -1742,7 +1742,7 @@
           "latest_date": "2026-08-13"
         }
       },
-      "current_sst_f": 74.9
+      "current_sst_f": 73.8
     },
     {
       "id": "cbbt_chesapeake_mouth",
@@ -1820,7 +1820,7 @@
         36.95,
         -76.05
       ],
-      "current_sst_f": 77.8,
+      "current_sst_f": 78.0,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1839,7 +1839,7 @@
       "region": "NC",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "species": [
         "red_drum",
         "striped_bass",
@@ -1927,7 +1927,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1938,7 +1938,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bluefin_giant",
@@ -2023,10 +2023,10 @@
         35.15,
         -75.3
       ],
-      "current_sst_f": 82.3,
+      "current_sst_f": 82.6,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2037,7 +2037,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bluefin_recreational",
@@ -2137,10 +2137,10 @@
         35.2,
         -75.35
       ],
-      "current_sst_f": 81.5,
+      "current_sst_f": 81.6,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2236,7 +2236,7 @@
           2
         ]
       },
-      "current_sst_f": 75.3,
+      "current_sst_f": 75.0,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -2335,7 +2335,7 @@
           2
         ]
       },
-      "current_sst_f": 78.5,
+      "current_sst_f": 76.6,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -2449,7 +2449,7 @@
           2
         ]
       },
-      "current_sst_f": 78.3,
+      "current_sst_f": 77.0,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-02",
@@ -2568,7 +2568,7 @@
           2
         ]
       },
-      "current_sst_f": 77.7,
+      "current_sst_f": 77.9,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -2637,7 +2637,7 @@
           4
         ]
       },
-      "current_sst_f": 73.2
+      "current_sst_f": 70.9
     },
     {
       "id": "bacardi_wreck",
@@ -2715,7 +2715,7 @@
           5
         ]
       },
-      "current_sst_f": 73.1
+      "current_sst_f": 71.4
     },
     {
       "id": "immigrant_wreck",
@@ -2793,7 +2793,7 @@
           5
         ]
       },
-      "current_sst_f": 72.8
+      "current_sst_f": 72.2
     },
     {
       "id": "mohawk_wreck",
@@ -2871,7 +2871,7 @@
           8
         ]
       },
-      "current_sst_f": 73.3
+      "current_sst_f": 71.8
     },
     {
       "id": "delaware_ii_wreck",
@@ -2934,7 +2934,7 @@
           8
         ]
       },
-      "current_sst_f": 71.8
+      "current_sst_f": 70.7
     },
     {
       "id": "triple_wreck_reef",
@@ -3012,7 +3012,7 @@
           2
         ]
       },
-      "current_sst_f": 73.7
+      "current_sst_f": 71.9
     },
     {
       "id": "indian_river_ledge",
@@ -3031,7 +3031,7 @@
       ],
       "notes": "Deep-water ledge 30nm E of Indian River Inlet.",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "amberjack": [
           7,
@@ -3092,11 +3092,11 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 75.3
+      "current_sst_f": 74.1
     },
     {
       "id": "del_bay_wrecks",
@@ -3174,7 +3174,7 @@
           8
         ]
       },
-      "current_sst_f": 74.7
+      "current_sst_f": 73.8
     },
     {
       "id": "del_49th_st_reef",
@@ -3252,7 +3252,7 @@
           2
         ]
       },
-      "current_sst_f": 74.4
+      "current_sst_f": 74.2
     },
     {
       "id": "del_20_fathom",
@@ -3315,7 +3315,7 @@
           8
         ]
       },
-      "current_sst_f": 75.5
+      "current_sst_f": 74.3
     },
     {
       "id": "great_gully_md",
@@ -3393,7 +3393,7 @@
           8
         ]
       },
-      "current_sst_f": 75.2
+      "current_sst_f": 75.5
     },
     {
       "id": "chicken_bone",
@@ -3534,7 +3534,7 @@
           8
         ]
       },
-      "current_sst_f": 75.6
+      "current_sst_f": 75.7
     },
     {
       "id": "md_wilmington_lump",
@@ -3597,7 +3597,7 @@
           7
         ]
       },
-      "current_sst_f": 75.3
+      "current_sst_f": 75.2
     },
     {
       "id": "md_ridge",
@@ -3660,7 +3660,7 @@
           8
         ]
       },
-      "current_sst_f": 75.1
+      "current_sst_f": 75.3
     },
     {
       "id": "cbbt_all",
@@ -3753,7 +3753,7 @@
           5
         ]
       },
-      "current_sst_f": 77.2
+      "current_sst_f": 78.1
     },
     {
       "id": "chesapeake_light_tower",
@@ -3831,7 +3831,7 @@
           3
         ]
       },
-      "current_sst_f": 76.6
+      "current_sst_f": 77.0
     },
     {
       "id": "triangle_wrecks",
@@ -3909,7 +3909,7 @@
           8
         ]
       },
-      "current_sst_f": 76.6
+      "current_sst_f": 77.5
     },
     {
       "id": "md_tower_wreck",
@@ -3972,7 +3972,7 @@
           8
         ]
       },
-      "current_sst_f": 76.8
+      "current_sst_f": 77.4
     },
     {
       "id": "va_4_pack",
@@ -4035,7 +4035,7 @@
           8
         ]
       },
-      "current_sst_f": 78.6
+      "current_sst_f": 78.0
     },
     {
       "id": "norfolk_canyon_edge",
@@ -4098,7 +4098,7 @@
           4
         ]
       },
-      "current_sst_f": 78.0
+      "current_sst_f": 77.8
     },
     {
       "id": "oregon_inlet_break",
@@ -4176,7 +4176,7 @@
           8
         ]
       },
-      "current_sst_f": 79.6
+      "current_sst_f": 78.9
     },
     {
       "id": "point_avon",
@@ -4269,7 +4269,7 @@
           2
         ]
       },
-      "current_sst_f": 82.0
+      "current_sst_f": 82.3
     }
   ],
   "sst_layer": {
@@ -6009,6 +6009,15 @@
     },
     {
       "date": "2026-09-23",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-24",
       "type": "mackerel, menhaden/bunker, mullet",
       "source": "OTW/Fisherman report auto-extract",
       "source_url": "https://coastalanglermag.com/fishing-reports/",

@@ -3,7 +3,7 @@
   "region_id": "south_florida",
   "region_label": "South Florida \u2014 Sailfish Coast",
   "region_short": "S. Florida",
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "season": 2026,
   "home_port": {
     "name": "Bud N' Mary's Marina (Islamorada)",
@@ -271,7 +271,7 @@
           9
         ]
       },
-      "current_sst_f": 86.6,
+      "current_sst_f": 85.8,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -385,7 +385,7 @@
           9
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.8
     },
     {
       "id": "palm_beach_reef_line",
@@ -493,7 +493,7 @@
           9
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.9
     },
     {
       "id": "boynton_boca_ledge",
@@ -586,7 +586,7 @@
           9
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 87.4
     },
     {
       "id": "hillsboro_reef",
@@ -809,7 +809,7 @@
           9
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 87.0
     },
     {
       "id": "ftl_wreck_alley",
@@ -902,7 +902,7 @@
           9
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 87.0
     },
     {
       "id": "hollywood_dania",
@@ -995,7 +995,7 @@
           9
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 87.0
     },
     {
       "id": "government_cut",
@@ -1088,7 +1088,7 @@
           9
         ]
       },
-      "current_sst_f": 86.2,
+      "current_sst_f": 86.7,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -1202,7 +1202,7 @@
           9
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 86.3
     },
     {
       "id": "stiltsville_flats",
@@ -1280,7 +1280,7 @@
           8
         ]
       },
-      "current_sst_f": 86.1
+      "current_sst_f": 86.4
     },
     {
       "id": "miami_190_trough",
@@ -1388,7 +1388,7 @@
           6
         ]
       },
-      "current_sst_f": 86.5,
+      "current_sst_f": 86.7,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-13",
@@ -1488,7 +1488,7 @@
           8
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 86.2
     },
     {
       "id": "islamorada_hump",
@@ -1581,7 +1581,7 @@
           8
         ]
       },
-      "current_sst_f": 86.9,
+      "current_sst_f": 86.1,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -1681,7 +1681,7 @@
           8
         ]
       },
-      "current_sst_f": 86.9,
+      "current_sst_f": 86.1,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -1781,7 +1781,7 @@
           8
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.0
     },
     {
       "id": "wreck_trek_upper_keys",
@@ -1874,7 +1874,7 @@
           5
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.1
     },
     {
       "id": "marathon_west_hump",
@@ -1952,7 +1952,7 @@
           8
         ]
       },
-      "current_sst_f": 87.9,
+      "current_sst_f": 86.3,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-02",
@@ -2052,7 +2052,7 @@
           8
         ]
       },
-      "current_sst_f": 87.8,
+      "current_sst_f": 86.4,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2152,7 +2152,7 @@
           7
         ]
       },
-      "current_sst_f": 87.5,
+      "current_sst_f": 86.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -2241,7 +2241,7 @@
           8
         ]
       },
-      "current_sst_f": 87.7
+      "current_sst_f": 86.0
     },
     {
       "id": "sand_key",
@@ -2334,7 +2334,7 @@
           8
         ]
       },
-      "current_sst_f": 87.4,
+      "current_sst_f": 86.5,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2434,7 +2434,7 @@
           8
         ]
       },
-      "current_sst_f": 86.8,
+      "current_sst_f": 87.0,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2534,7 +2534,7 @@
           8
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 87.1
     },
     {
       "id": "key_west_wreck_line",
@@ -2627,7 +2627,7 @@
           5
         ]
       },
-      "current_sst_f": 87.5,
+      "current_sst_f": 86.5,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-15",
@@ -2850,7 +2850,7 @@
           6
         ]
       },
-      "current_sst_f": 87.4,
+      "current_sst_f": 86.5,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-13",
@@ -2950,7 +2950,7 @@
           3
         ]
       },
-      "current_sst_f": 87.4,
+      "current_sst_f": 86.5,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-13",
@@ -3050,7 +3050,7 @@
           3
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.3
     },
     {
       "id": "doctors_pass",
@@ -3143,7 +3143,7 @@
           4
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.3
     },
     {
       "id": "naples_offshore_ledges",
@@ -3236,7 +3236,7 @@
           4
         ]
       },
-      "current_sst_f": 88.3
+      "current_sst_f": 88.0
     },
     {
       "id": "marco_pass",
@@ -3422,7 +3422,7 @@
           5
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.0
     },
     {
       "id": "ten_thousand_islands",
@@ -3515,7 +3515,7 @@
           7
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 85.9
     },
     {
       "id": "chokoloskee_pass",
@@ -3593,7 +3593,7 @@
           7
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 85.8
     },
     {
       "id": "flamingo",
@@ -3779,7 +3779,7 @@
           7
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.0
     },
     {
       "id": "boca_grande_pass",
@@ -3872,7 +3872,7 @@
           8
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 86.8
     },
     {
       "id": "charlotte_harbor",
@@ -3965,7 +3965,7 @@
           7
         ]
       },
-      "current_sst_f": 85.7,
+      "current_sst_f": 86.1,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -4049,7 +4049,7 @@
           3
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.2
     },
     {
       "id": "sanibel_causeway",
@@ -4142,7 +4142,7 @@
           7
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.2
     },
     {
       "id": "florida_middle_grounds",
@@ -4328,7 +4328,7 @@
           8
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 85.8
     },
     {
       "id": "pb_loran_tower",
@@ -4406,7 +4406,7 @@
           3
         ]
       },
-      "current_sst_f": 86.1
+      "current_sst_f": 86.9
     },
     {
       "id": "pb_governors_reef",
@@ -4484,7 +4484,7 @@
           1
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.7
     },
     {
       "id": "pb_the_trench",
@@ -4562,7 +4562,7 @@
           8
         ]
       },
-      "current_sst_f": 87.5
+      "current_sst_f": 86.7
     },
     {
       "id": "pb_juno_ledge_south",
@@ -4625,7 +4625,7 @@
           3
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.0
     },
     {
       "id": "pb_west_end_bank",
@@ -4718,7 +4718,7 @@
           8
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.9
     },
     {
       "id": "ftl_copenhagen_wreck",
@@ -4796,7 +4796,7 @@
           1
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 87.1
     },
     {
       "id": "ftl_rebel_wreck",
@@ -4874,7 +4874,7 @@
           7
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 87.1
     },
     {
       "id": "ftl_ancient_mariner",
@@ -4937,7 +4937,7 @@
           7
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 87.0
     },
     {
       "id": "ftl_hillsboro_ledge",
@@ -5015,7 +5015,7 @@
           7
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 87.2
     },
     {
       "id": "ftl_65_ledge",
@@ -5093,7 +5093,7 @@
           1
         ]
       },
-      "current_sst_f": 85.5
+      "current_sst_f": 87.0
     },
     {
       "id": "ftl_bahamas_edge",
@@ -5171,7 +5171,7 @@
           4
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 85.4
     },
     {
       "id": "ftl_neptune_reef",
@@ -5249,7 +5249,7 @@
           3
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.9
     },
     {
       "id": "mia_150_ledge",
@@ -5327,7 +5327,7 @@
           3
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.7
     },
     {
       "id": "mia_stream_edge",
@@ -5405,7 +5405,7 @@
           8
         ]
       },
-      "current_sst_f": 87.1
+      "current_sst_f": 86.6
     },
     {
       "id": "mia_orion_wreck",
@@ -5468,7 +5468,7 @@
           6
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.6
     },
     {
       "id": "mia_almirante_wreck",
@@ -5531,7 +5531,7 @@
           1
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.5
     },
     {
       "id": "mia_bahamas_run",
@@ -5615,7 +5615,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 85.6
     },
     {
       "id": "uk_molasses_reef",
@@ -5693,7 +5693,7 @@
           7
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.0
     },
     {
       "id": "uk_alligator_reef",
@@ -5771,7 +5771,7 @@
           7
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.1
     },
     {
       "id": "uk_pickles_reef",
@@ -5849,7 +5849,7 @@
           7
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.0
     },
     {
       "id": "uk_islamorada_180",
@@ -5927,7 +5927,7 @@
           4
         ]
       },
-      "current_sst_f": 87.4
+      "current_sst_f": 86.3
     },
     {
       "id": "mk_sombrero_reef",
@@ -6005,7 +6005,7 @@
           7
         ]
       },
-      "current_sst_f": 87.8
+      "current_sst_f": 86.4
     },
     {
       "id": "mk_east_hump",
@@ -6083,7 +6083,7 @@
           8
         ]
       },
-      "current_sst_f": 88.1
+      "current_sst_f": 86.4
     },
     {
       "id": "mk_content_keys_wall",
@@ -6146,7 +6146,7 @@
           1
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 86.3
     },
     {
       "id": "lk_looe_key_reef",
@@ -6224,7 +6224,7 @@
           7
         ]
       },
-      "current_sst_f": 88.3
+      "current_sst_f": 85.9
     },
     {
       "id": "lk_american_shoal",
@@ -6302,7 +6302,7 @@
           7
         ]
       },
-      "current_sst_f": 88.1
+      "current_sst_f": 87.0
     },
     {
       "id": "lk_riley_hump",
@@ -6365,7 +6365,7 @@
           7
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 87.1
     },
     {
       "id": "lk_rebecca_shoal",
@@ -6443,7 +6443,7 @@
           7
         ]
       },
-      "current_sst_f": 87.5
+      "current_sst_f": 87.7
     },
     {
       "id": "gs_sword_grounds_sfl",
@@ -6506,7 +6506,7 @@
           4
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 86.6
     },
     {
       "id": "gs_bimini_edge",
@@ -6569,7 +6569,7 @@
           4
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 85.4
     },
     {
       "id": "swfl_pulley_ridge",
@@ -6632,7 +6632,7 @@
           7
         ]
       },
-      "current_sst_f": 87.4
+      "current_sst_f": 87.8
     },
     {
       "id": "swfl_naples_hardbottom",
@@ -6710,7 +6710,7 @@
           6
         ]
       },
-      "current_sst_f": 88.4
+      "current_sst_f": 88.1
     },
     {
       "id": "swfl_fort_myers_ledge",
@@ -6788,7 +6788,7 @@
           6
         ]
       },
-      "current_sst_f": 88.4
+      "current_sst_f": 88.1
     },
     {
       "id": "swfl_edison_reef",
@@ -6866,7 +6866,7 @@
           1
         ]
       },
-      "current_sst_f": 87.7
+      "current_sst_f": 87.0
     }
   ],
   "whale_sightings": [
@@ -7651,6 +7651,48 @@
       "lat": 25.534,
       "lon": -80.323,
       "dist_nm": 10.5
+    },
+    {
+      "date": "2026-09-23",
+      "bait": "captain_report",
+      "location": "Sport Fishing Magazine",
+      "species_feeding": null,
+      "source": "Sport Fishing Magazine",
+      "source_type": "charter_auto",
+      "quote": "Mutton snapper are a primary target on the ledges off West End, Bahamas. Jason Stemple Every successful trip begins with a plan. Productive Bahamas crossings rarely come from simply running to a waypoint and dropping lines. Success begins long before departure by identifying prim",
+      "link": "https://www.sportfishingmag.com/travel/crossing-to-the-bahamas-six-tips-for-success/",
+      "zones": [
+        "jupiter_ledge",
+        "wood_wall",
+        "miami_190_trough",
+        "islamorada_409_hole"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "bait": "captain_report",
+      "location": "Coastal Angler Magazine",
+      "species_feeding": null,
+      "source": "Coastal Angler Magazine",
+      "source_type": "charter_auto",
+      "quote": "caught this Sailfish in Boynton Beach &#8211; offshore. Trolling bonita strips on Deep Blue Fishing Charters The post Sailfish off Boynton Beach first appeared on Coastal Angler & The Angler Magazine .",
+      "link": "https://coastalanglermag.com/sailfish-off-boynton-beach/?utm_source=rss&utm_medium=rss&utm_campaign=sailfish-off-boynton-beach",
+      "zones": [
+        "boynton_boca_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "type": "ballyhoo",
+      "species": "Ballyhoo family",
+      "zones": [
+        "jupiter_ledge"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/402734285",
+      "lat": 27.2496,
+      "lon": -80.3802,
+      "dist_nm": 25.6
     }
   ],
   "region_species_extras": {

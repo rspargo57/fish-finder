@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T00:21:08.273914Z",
+  "generated_at": "2026-09-24T00:30:16.207049Z",
   "candidates": [],
   "scan_log": [
     {
@@ -51,7 +51,9 @@
       "candidates": 0
     }
   ],
-  "notes": [],
+  "notes": [
+    "Skipped 4 URLs older than 14 days (freshness gate \u2014 Randy: 'we need current stuff')."
+  ],
   "fetched_reports": 8,
-  "urls_probed": 16
+  "urls_probed": 20
 }
