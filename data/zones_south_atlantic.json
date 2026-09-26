@@ -3,7 +3,7 @@
   "region_id": "south_atlantic",
   "region_label": "South Atlantic \u2014 Coastal SE",
   "region_short": "SE",
-  "generated": "2026-09-24",
+  "generated": "2026-09-26",
   "season": 2026,
   "home_port": {
     "name": "Charleston City Marina",
@@ -227,7 +227,7 @@
           8
         ]
       },
-      "current_sst_f": 80.2
+      "current_sst_f": 81.0
     },
     {
       "id": "morehead_city",
@@ -247,7 +247,7 @@
       ],
       "notes": "The launching point for the NC offshore fleet. King mackerel tournament capital + Gulf Stream day trips.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "cobia": [
           4,
@@ -320,10 +320,10 @@
           8
         ]
       },
-      "current_sst_f": 81.0,
+      "current_sst_f": 80.9,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -404,7 +404,7 @@
           4
         ]
       },
-      "current_sst_f": 80.8
+      "current_sst_f": 80.7
     },
     {
       "id": "cape_fear_river",
@@ -582,7 +582,7 @@
           8
         ]
       },
-      "current_sst_f": 84.4
+      "current_sst_f": 84.8
     },
     {
       "id": "the_same_ol",
@@ -695,7 +695,7 @@
       ],
       "notes": "Site of the Big Rock Blue Marlin Tournament (June). One of the most prestigious billfish tournaments on the E coast.",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "blue_marlin": [
           3,
@@ -768,10 +768,10 @@
           8
         ]
       },
-      "current_sst_f": 85.5,
+      "current_sst_f": 85.7,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -872,7 +872,7 @@
       ],
       "notes": "Charleston Harbor + jetties. Massive redfish fishery on the flats + tarpon rolling under the Ravenel Bridge summer.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -945,10 +945,10 @@
           4
         ]
       },
-      "current_sst_f": 82.9,
+      "current_sst_f": 82.4,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1044,7 +1044,7 @@
           8
         ]
       },
-      "current_sst_f": 84.3
+      "current_sst_f": 84.5
     },
     {
       "id": "edisto_flats",
@@ -1063,7 +1063,7 @@
       ],
       "notes": "Edisto Island's back-of-the-marsh flats. Sight-fishing redfish on the grass tails.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -1125,7 +1125,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1226,7 +1226,7 @@
       ],
       "notes": "Hilton Head Island / Broad River / Calibogue Sound. Resort area but excellent inshore + offshore access.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -1302,7 +1302,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1461,7 +1461,7 @@
           3
         ]
       },
-      "current_sst_f": 83.5
+      "current_sst_f": 83.9
     },
     {
       "id": "ga_black_gill_wrecks",
@@ -1554,7 +1554,7 @@
           8
         ]
       },
-      "current_sst_f": 82.4
+      "current_sst_f": 83.2
     },
     {
       "id": "jacksonville_mayport",
@@ -1573,7 +1573,7 @@
       ],
       "notes": "The St. John's River mouth + Mayport jetties. Fall flounder run + winter kingfish + year-round reds.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -1635,7 +1635,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1658,7 +1658,7 @@
       ],
       "notes": "St. Augustine + Matanzas inlets. Redfish flats + tarpon summer + kingfish just off the beach.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -1731,10 +1731,10 @@
           8
         ]
       },
-      "current_sst_f": 83.6,
+      "current_sst_f": 83.7,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1851,7 +1851,7 @@
       ],
       "notes": "Cape Canaveral's port. The Gulf Stream is close in here \u2014 kingfish + sails + mahi within 15-20nm. Southern boundary of Zone 3.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "redfish": [
           7,
@@ -1941,7 +1941,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2022,7 +2022,7 @@
           4
         ]
       },
-      "current_sst_f": 84.9
+      "current_sst_f": 84.3
     },
     {
       "id": "nc_winyah_bay_grounds",
@@ -2100,7 +2100,7 @@
           7
         ]
       },
-      "current_sst_f": 82.7
+      "current_sst_f": 83.1
     },
     {
       "id": "nc_wrightsville_15_mile",
@@ -2178,7 +2178,7 @@
           6
         ]
       },
-      "current_sst_f": 80.8
+      "current_sst_f": 81.6
     },
     {
       "id": "nc_wrightsville_23_mile",
@@ -2256,7 +2256,7 @@
           6
         ]
       },
-      "current_sst_f": 80.4
+      "current_sst_f": 82.4
     },
     {
       "id": "nc_ten_mile_boxcars",
@@ -2319,7 +2319,7 @@
           1
         ]
       },
-      "current_sst_f": 80.8
+      "current_sst_f": 81.0
     },
     {
       "id": "nc_steeples",
@@ -2397,7 +2397,7 @@
           2
         ]
       },
-      "current_sst_f": 85.1
+      "current_sst_f": 84.7
     },
     {
       "id": "nc_swansboro_hole",
@@ -2415,7 +2415,7 @@
       ],
       "notes": "Deep structure hole. Grouper + AJ year-round.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "grouper": [
           5,
@@ -2462,11 +2462,11 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 80.7
+      "current_sst_f": 82.1
     },
     {
       "id": "sc_georgetown_hole",
@@ -2559,7 +2559,7 @@
           8
         ]
       },
-      "current_sst_f": 82.0
+      "current_sst_f": 82.5
     },
     {
       "id": "sc_charleston_bump",
@@ -2652,7 +2652,7 @@
           8
         ]
       },
-      "current_sst_f": 85.4
+      "current_sst_f": 86.3
     },
     {
       "id": "sc_blackfish_banks",
@@ -2671,7 +2671,7 @@
       ],
       "notes": "Live bottom 25nm E Georgetown. Sea bass + grouper.",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "black_sea_bass": [
           9,
@@ -2730,10 +2730,10 @@
           7
         ]
       },
-      "current_sst_f": 82.1,
+      "current_sst_f": 82.2,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2820,7 +2820,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 82.9
+      "current_sst_f": 82.4
     },
     {
       "id": "sc_hilton_head_snapper_banks",
@@ -2898,7 +2898,7 @@
           3
         ]
       },
-      "current_sst_f": 82.8
+      "current_sst_f": 83.0
     },
     {
       "id": "sc_deli_belly",
@@ -2976,7 +2976,7 @@
           8
         ]
       },
-      "current_sst_f": 83.8
+      "current_sst_f": 83.5
     },
     {
       "id": "ga_grays_reef",
@@ -3132,7 +3132,7 @@
           3
         ]
       },
-      "current_sst_f": 83.5
+      "current_sst_f": 83.6
     },
     {
       "id": "ga_long_reef",
@@ -3195,7 +3195,7 @@
           7
         ]
       },
-      "current_sst_f": 82.5
+      "current_sst_f": 83.2
     },
     {
       "id": "ga_navy_tower",
@@ -3273,7 +3273,7 @@
           1
         ]
       },
-      "current_sst_f": 82.7
+      "current_sst_f": 83.1
     },
     {
       "id": "ga_snapper_banks",
@@ -3351,7 +3351,7 @@
           3
         ]
       },
-      "current_sst_f": 82.4
+      "current_sst_f": 83.6
     },
     {
       "id": "nefl_elton_bottom",
@@ -3429,7 +3429,7 @@
           3
         ]
       },
-      "current_sst_f": 82.8
+      "current_sst_f": 83.1
     },
     {
       "id": "nefl_ledge_20fathom",
@@ -3522,7 +3522,7 @@
           6
         ]
       },
-      "current_sst_f": 82.7
+      "current_sst_f": 83.0
     },
     {
       "id": "nefl_ninemile",
@@ -3663,7 +3663,7 @@
           3
         ]
       },
-      "current_sst_f": 82.4
+      "current_sst_f": 83.0
     },
     {
       "id": "nefl_lion_wreck",
@@ -3726,7 +3726,7 @@
           7
         ]
       },
-      "current_sst_f": 83.4
+      "current_sst_f": 83.1
     }
   ],
   "whale_sightings": [
@@ -4414,6 +4414,54 @@
       "source_url": "https://www.inaturalist.org/observations/402526133",
       "nearest_zone_id": "tybee_island",
       "distance_nm": 0.6,
+      "zones": [
+        "tybee_island"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        32.57466,
+        -80.15033
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403349196",
+      "nearest_zone_id": "edisto_flats",
+      "distance_nm": 8.8,
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        31.99598,
+        -80.86964
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403149932",
+      "nearest_zone_id": "tybee_island",
+      "distance_nm": 1.8,
+      "zones": [
+        "tybee_island"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "species": "Tamanend's Bottlenose Dolphin",
+      "coords": [
+        31.99517,
+        -80.87019
+      ],
+      "count": 1,
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403150070",
+      "nearest_zone_id": "tybee_island",
+      "distance_nm": 1.8,
       "zones": [
         "tybee_island"
       ]
@@ -5827,6 +5875,158 @@
       "lat": 34.7112,
       "lon": -76.7375,
       "dist_nm": 2.9
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "morehead_city"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "the_big_rock"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "charleston_harbor"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "edisto_flats"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "hilton_head_reefs"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "jacksonville_mayport"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "st_augustine"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "port_canaveral"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://fishermanspost.com/fishing-reports/",
+      "zones": [
+        "nc_swansboro_hole"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "sc_blackfish_banks"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "type": "mullet",
+      "species": "Striped mullet",
+      "zones": [
+        "winyah_bay_georgetown"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403102332",
+      "lat": 33.3504,
+      "lon": -79.1907,
+      "dist_nm": 9.0
+    },
+    {
+      "date": "2026-09-23",
+      "type": "anchovy",
+      "species": "Bay anchovy",
+      "zones": [
+        "winyah_bay_georgetown"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403022077",
+      "lat": 33.3501,
+      "lon": -79.1945,
+      "dist_nm": 9.0
     }
   ],
   "region_species_extras": {

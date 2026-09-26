@@ -3,7 +3,7 @@
   "region_id": "gulf",
   "region_label": "Gulf \u2014 Emerald Coast",
   "region_short": "Gulf",
-  "generated": "2026-09-24",
+  "generated": "2026-09-26",
   "season": 2026,
   "home_port": {
     "name": "Southwind Marina (Perdido Key)",
@@ -1437,6 +1437,82 @@
       "zones": [
         "midnight_lump"
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "captain_report",
+      "location": "Great Days Outdoors NW Florida Fishing Report",
+      "species_feeding": null,
+      "source": "Great Days Outdoors NW Florida Fishing Report",
+      "source_type": "charter_auto",
+      "quote": "In this week\u2019s Northwest Florida Fishing Report, host Joe Baya joins Alabama Saltwater Fishing Report host Butch Thierry, Capt. Branden Collier of Capt. Collier Charters , Capt. Tanner Deas of Dauphin Island Fishing Charters , and Dr. Dylan Kiene, aka Dr. Doormat , to recap a mem",
+      "link": "https://greatdaysoutdoors.com/northwest-florida-fishing-report-for-september-25-october-1-2026/",
+      "zones": [
+        "panama_city_pass",
+        "st_andrews_bay",
+        "pcb_reefs",
+        "dauphin_island_rigs",
+        "pensacola_pass",
+        "east_pass_destin"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "captain_report",
+      "location": "NW Florida Fishing Report podcast",
+      "species_feeding": null,
+      "source": "NW Florida Fishing Report podcast",
+      "source_type": "charter_auto",
+      "quote": "In this week's Northwest Florida Fishing Report, host Joe Baya joins Alabama Saltwater Fishing Report host Butch Thierry, Capt. Branden Collier of Capt. Collier's Charters , Capt. Tanner Deas of Dauphin Island Fishing Charters , and Dr. Dylan Kiene, aka Dr. Doormat , to recap a w",
+      "link": "https://northwestfloridafishingreport.libsyn.com/grouper-fishing-blue-water-building-the-perfect-offshore-game-plan",
+      "zones": [
+        "panama_city_pass",
+        "st_andrews_bay",
+        "pcb_reefs",
+        "dauphin_island_rigs",
+        "pensacola_pass",
+        "east_pass_destin"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "bait": "captain_report",
+      "location": "Louisiana Sportsman",
+      "species_feeding": null,
+      "source": "Louisiana Sportsman",
+      "source_type": "charter_auto",
+      "quote": "Dove Piccata Enhance this dish with tasso, tri-color quinoa and roasted squash The first dove of the season has a way of making you forget just how hot September can be in South Louisiana. You\u2019re sitting in a field before daylight, sweating before the sun is even up, wondering wh",
+      "link": "https://www.louisianasportsman.com/hunting/small-game/dove/dove-piccata/",
+      "zones": [
+        "midnight_lump"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "bait": "captain_report",
+      "location": "Louisiana Sportsman",
+      "species_feeding": null,
+      "source": "Louisiana Sportsman",
+      "source_type": "charter_auto",
+      "quote": "In the fall, huge bull redfish rampage through shallow bays, eating everything they can catch. (Photo courtesy Sonny Schindler/Shore Thing Fishing Charters) Giant redfish move inland in late summer, early fall Water seethed with activity as coppery torpedoes slashed through a wri",
+      "link": "https://www.louisianasportsman.com/fishing/inshore-fishing/redfish/running-of-the-bull-reds/",
+      "zones": [
+        "pensacola_pass",
+        "perdido_pass"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "type": "bumper",
+      "species": "Atlantic bumper",
+      "zones": [
+        "mobile_bay_ship_channel"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403407698",
+      "lat": 30.2666,
+      "lon": -88.0436,
+      "dist_nm": 2.8
     }
   ],
   "zones": [
@@ -1531,7 +1607,7 @@
           2
         ]
       },
-      "current_sst_f": 86.6,
+      "current_sst_f": 85.6,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-08-20",
@@ -1601,7 +1677,7 @@
           5
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 85.4
     },
     {
       "id": "big_lagoon",
@@ -1772,7 +1848,7 @@
           2
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.4
     },
     {
       "id": "alabama_reef_zone",
@@ -1865,7 +1941,7 @@
           4
         ]
       },
-      "current_sst_f": 87.1
+      "current_sst_f": 85.8
     },
     {
       "id": "trysler_grounds",
@@ -1943,7 +2019,7 @@
           7
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 86.3
     },
     {
       "id": "timberholes",
@@ -2021,7 +2097,7 @@
           7
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.0
     },
     {
       "id": "pensacola_pass",
@@ -2114,7 +2190,7 @@
           4
         ]
       },
-      "current_sst_f": 86.3,
+      "current_sst_f": 86.1,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-08-20",
@@ -2199,7 +2275,7 @@
           4
         ]
       },
-      "current_sst_f": 86.0
+      "current_sst_f": 86.2
     },
     {
       "id": "antares_wreck",
@@ -2277,7 +2353,7 @@
           2
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 86.1
     },
     {
       "id": "escambia_reefs",
@@ -2385,7 +2461,7 @@
           4
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.5
     },
     {
       "id": "the_nipple",
@@ -2478,7 +2554,7 @@
           2
         ]
       },
-      "current_sst_f": 85.5
+      "current_sst_f": 86.0
     },
     {
       "id": "the_elbow",
@@ -2556,7 +2632,7 @@
           7
         ]
       },
-      "current_sst_f": 85.8,
+      "current_sst_f": 85.9,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-05",
@@ -2656,7 +2732,7 @@
           7
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 85.8
     },
     {
       "id": "desoto_canyon_head",
@@ -2734,7 +2810,7 @@
           2
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 85.5
     },
     {
       "id": "perdido_cobia_alley",
@@ -2797,7 +2873,7 @@
           4
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 86.2
     },
     {
       "id": "pensacola_cobia_alley",
@@ -2923,7 +2999,7 @@
           4
         ]
       },
-      "current_sst_f": 86.0
+      "current_sst_f": 85.8
     },
     {
       "id": "east_pass_destin",
@@ -3031,7 +3107,7 @@
           5
         ]
       },
-      "current_sst_f": 86.1,
+      "current_sst_f": 85.7,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-09",
@@ -3116,7 +3192,7 @@
           4
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 85.4
     },
     {
       "id": "destin_edge",
@@ -3239,7 +3315,7 @@
           2
         ]
       },
-      "current_sst_f": 85.8,
+      "current_sst_f": 86.3,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-03",
@@ -3343,7 +3419,7 @@
           2
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.2
     },
     {
       "id": "empire_mica",
@@ -3436,7 +3512,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "panama_city_pass",
@@ -3544,7 +3620,7 @@
           5
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 85.5
     },
     {
       "id": "st_andrews_bay",
@@ -3715,7 +3791,7 @@
           4
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.5
     },
     {
       "id": "warsaw_reef",
@@ -3793,7 +3869,7 @@
           7
         ]
       },
-      "current_sst_f": 86.1
+      "current_sst_f": 85.9
     },
     {
       "id": "sherman_wreck",
@@ -3871,7 +3947,7 @@
           2
         ]
       },
-      "current_sst_f": 86.0,
+      "current_sst_f": 85.6,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -3955,7 +4031,7 @@
           4
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 85.5
     },
     {
       "id": "pcb_beach_cobia",
@@ -4204,7 +4280,7 @@
           1
         ]
       },
-      "current_sst_f": 84.9
+      "current_sst_f": 85.3
     },
     {
       "id": "st_george_island",
@@ -4297,7 +4373,7 @@
           7
         ]
       },
-      "current_sst_f": 84.9
+      "current_sst_f": 85.2
     },
     {
       "id": "uss_oriskany",
@@ -4405,7 +4481,7 @@
           4
         ]
       },
-      "current_sst_f": 86.0
+      "current_sst_f": 86.2
     },
     {
       "id": "ydt_14_15",
@@ -4498,7 +4574,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.5
     },
     {
       "id": "pete_tide",
@@ -4576,7 +4652,7 @@
           4
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.4
     },
     {
       "id": "chevron_reef",
@@ -4669,7 +4745,7 @@
           2
         ]
       },
-      "current_sst_f": 85.5
+      "current_sst_f": 86.1
     },
     {
       "id": "chickenbone_wreck",
@@ -4747,7 +4823,7 @@
           4
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 86.4
     },
     {
       "id": "ss_united_states",
@@ -4855,7 +4931,7 @@
           4
         ]
       },
-      "current_sst_f": 85.6
+      "current_sst_f": 86.4
     },
     {
       "id": "grey_ghost_wreck",
@@ -4933,7 +5009,7 @@
           4
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.2
     },
     {
       "id": "uss_accokeek",
@@ -5011,7 +5087,7 @@
           2
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.5
     },
     {
       "id": "vamar_wreck",
@@ -5089,7 +5165,7 @@
           4
         ]
       },
-      "current_sst_f": 86.1
+      "current_sst_f": 86.2
     },
     {
       "id": "ss_tarpon",
@@ -5167,7 +5243,7 @@
           2
         ]
       },
-      "current_sst_f": 85.8
+      "current_sst_f": 86.4
     },
     {
       "id": "uss_strength",
@@ -5260,7 +5336,7 @@
           8
         ]
       },
-      "current_sst_f": 85.5
+      "current_sst_f": 86.0
     },
     {
       "id": "hathaway_bridge_rubble",
@@ -5353,7 +5429,7 @@
           4
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 85.6
     },
     {
       "id": "pensacola_beach_pier",
@@ -5446,7 +5522,7 @@
           5
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.1
     },
     {
       "id": "pcb_pier",
@@ -5539,7 +5615,7 @@
           5
         ]
       },
-      "current_sst_f": 85.7
+      "current_sst_f": 86.0
     },
     {
       "id": "nick_reef",
@@ -5617,7 +5693,7 @@
           7
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 86.4
     },
     {
       "id": "bills_barge",
@@ -5695,7 +5771,7 @@
           7
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 85.8
     },
     {
       "id": "fort_morgan_rigs",
@@ -5803,7 +5879,7 @@
           2
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 86.7
     },
     {
       "id": "dauphin_island_rigs",
@@ -5896,7 +5972,7 @@
           7
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.5
     },
     {
       "id": "mobile_bay_ship_channel",
@@ -5989,7 +6065,7 @@
           7
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 86.2
     },
     {
       "id": "petronius_platform",
@@ -6190,7 +6266,7 @@
           2
         ]
       },
-      "current_sst_f": 86.9
+      "current_sst_f": 86.3
     },
     {
       "id": "marlin_tlp",
@@ -6283,7 +6359,7 @@
           2
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.5
     },
     {
       "id": "devils_tower_spar",
@@ -6391,7 +6467,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.8
     },
     {
       "id": "midnight_lump",
@@ -6484,7 +6560,7 @@
           2
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 87.2
     },
     {
       "id": "callon_jacket",
@@ -6592,7 +6668,7 @@
           2
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.1
     },
     {
       "id": "marathon_jacket",
@@ -6685,7 +6761,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.3
     },
     {
       "id": "unocal_rig",
@@ -6793,7 +6869,7 @@
           2
         ]
       },
-      "current_sst_f": 86.1
+      "current_sst_f": 86.2
     },
     {
       "id": "lulu_wreck",
@@ -6886,7 +6962,7 @@
           2
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "lipscomb_tug",
@@ -6964,7 +7040,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.3
     },
     {
       "id": "tug_105",
@@ -7042,7 +7118,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.2
     },
     {
       "id": "enhanced_wreck_1",
@@ -7120,7 +7196,7 @@
           7
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "nail_ship",
@@ -7198,7 +7274,7 @@
           2
         ]
       },
-      "current_sst_f": 87.2
+      "current_sst_f": 86.6
     },
     {
       "id": "three_mile_barge",
@@ -7291,7 +7367,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.0
     },
     {
       "id": "rookie_barge",
@@ -7369,7 +7445,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.5
     },
     {
       "id": "buffalo_barge",
@@ -7447,7 +7523,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.3
     },
     {
       "id": "perdido_weir",
@@ -7540,7 +7616,7 @@
           2
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.5
     },
     {
       "id": "poseidon_playground",
@@ -7618,7 +7694,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.1
     },
     {
       "id": "pat_jones_pyramids",
@@ -7681,7 +7757,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.2
     },
     {
       "id": "atlantic_drydock",
@@ -7774,7 +7850,7 @@
           2
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 86.4
     },
     {
       "id": "gulf_state_park_pier_reefs",
@@ -7867,7 +7943,7 @@
           7
         ]
       },
-      "current_sst_f": 86.6
+      "current_sst_f": 85.5
     },
     {
       "id": "bay_marchand_3",
@@ -8131,7 +8207,7 @@
           4
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.4
     },
     {
       "id": "whitney_bank",
@@ -8209,7 +8285,7 @@
           7
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.4
     },
     {
       "id": "perdido_pass_bridge_complex",
@@ -8302,7 +8378,7 @@
           2
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "csx_boxcars",
@@ -8395,7 +8471,7 @@
           2
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "randy_hopper_reef",
@@ -8473,7 +8549,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "harris_memorial_reef",
@@ -8551,7 +8627,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.0
     },
     {
       "id": "captain_shirley_brown",
@@ -8629,7 +8705,7 @@
           4
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.2
     },
     {
       "id": "uscg_anchors",
@@ -8722,7 +8798,7 @@
           2
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.2
     },
     {
       "id": "new_venture",
@@ -8815,7 +8891,7 @@
           2
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.0
     },
     {
       "id": "hunt_reef",
@@ -8893,7 +8969,7 @@
           7
         ]
       },
-      "current_sst_f": 86.8
+      "current_sst_f": 86.1
     },
     {
       "id": "southeast_banks",
@@ -8986,7 +9062,7 @@
           4
         ]
       },
-      "current_sst_f": 87.1,
+      "current_sst_f": 86.4,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-04",
@@ -9070,7 +9146,7 @@
           7
         ]
       },
-      "current_sst_f": 87.3
+      "current_sst_f": 86.6
     },
     {
       "id": "lundstrom_reefs",
@@ -9148,7 +9224,7 @@
           7
         ]
       },
-      "current_sst_f": 87.0
+      "current_sst_f": 85.7
     },
     {
       "id": "marathon_reef",
@@ -9241,7 +9317,7 @@
           2
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.4
     },
     {
       "id": "swingle_reef",
@@ -9319,7 +9395,7 @@
           7
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.7
     },
     {
       "id": "es_timber_holes",
@@ -9397,7 +9473,7 @@
           7
         ]
       },
-      "current_sst_f": 85.9
+      "current_sst_f": 86.1
     },
     {
       "id": "es_brass_wreck",
@@ -9460,7 +9536,7 @@
           7
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.5
     },
     {
       "id": "es_tenneco_platform",
@@ -9553,7 +9629,7 @@
           2
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.5
     },
     {
       "id": "es_nipple_east",
@@ -9646,7 +9722,7 @@
           2
         ]
       },
-      "current_sst_f": 85.6
+      "current_sst_f": 85.8
     },
     {
       "id": "fl_chevron_platform",
@@ -9739,7 +9815,7 @@
           2
         ]
       },
-      "current_sst_f": 86.2
+      "current_sst_f": 86.5
     },
     {
       "id": "joe_patti_memorial_reef",
@@ -9817,7 +9893,7 @@
           7
         ]
       },
-      "current_sst_f": 86.5
+      "current_sst_f": 86.3
     },
     {
       "id": "tug_ocean_wind",
@@ -9910,7 +9986,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.3
     },
     {
       "id": "i10_bridge_reef_cluster",
@@ -10003,7 +10079,7 @@
           2
         ]
       },
-      "current_sst_f": 86.7
+      "current_sst_f": 86.5
     },
     {
       "id": "csx_rubble_site_fl",
@@ -10081,7 +10157,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.6
     },
     {
       "id": "fl_concrete_pyramids",
@@ -10159,7 +10235,7 @@
           4
         ]
       },
-      "current_sst_f": 86.3
+      "current_sst_f": 86.5
     },
     {
       "id": "pcola_bay_fishing_bridge",
@@ -10330,7 +10406,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.6
     },
     {
       "id": "blackwater_bridge_i10",
@@ -10408,7 +10484,7 @@
           4
         ]
       },
-      "current_sst_f": 86.4
+      "current_sst_f": 86.6
     }
   ],
   "region_species_extras": {

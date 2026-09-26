@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-09-24T00:30:16.207049Z",
+  "generated_at": "2026-09-26T00:34:52.596475Z",
   "candidates": [],
   "scan_log": [
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "date": "2026-09-24",
+      "region": "long-island-and-nyc",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "date": "2026-09-24",
+      "region": "connecticut",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "date": "2026-09-24",
+      "region": "rhode-island",
+      "candidates": 0
+    },
+    {
+      "url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "date": "2026-09-24",
+      "region": "southern-new-jersey",
+      "candidates": 0
+    },
     {
       "url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-17-2026",
       "date": "2026-09-17",
@@ -23,30 +47,6 @@
     {
       "url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-17-2026",
       "date": "2026-09-17",
-      "region": "southern-new-jersey",
-      "candidates": 0
-    },
-    {
-      "url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-10-2026",
-      "date": "2026-09-10",
-      "region": "long-island-and-nyc",
-      "candidates": 0
-    },
-    {
-      "url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-10-2026",
-      "date": "2026-09-10",
-      "region": "connecticut",
-      "candidates": 0
-    },
-    {
-      "url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-10-2026",
-      "date": "2026-09-10",
-      "region": "rhode-island",
-      "candidates": 0
-    },
-    {
-      "url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-10-2026",
-      "date": "2026-09-10",
       "region": "southern-new-jersey",
       "candidates": 0
     }

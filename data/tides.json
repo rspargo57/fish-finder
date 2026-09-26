@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:30:36.232237Z",
+  "generated_at": "2026-09-26T00:35:12.687013Z",
   "stations": [
     {
       "id": "8461490",
@@ -11,44 +11,44 @@
       "role": "home port area (Old Saybrook is 15nm west; tides ~15-20 min later there)",
       "tides": [
         {
-          "time": "2026-09-24 02:25",
+          "time": "2026-09-26 03:40",
           "type": "L",
-          "height_ft": 0.473
+          "height_ft": 0.274
         },
         {
-          "time": "2026-09-24 08:31",
+          "time": "2026-09-26 09:45",
           "type": "H",
-          "height_ft": 2.883
+          "height_ft": 3.236
         },
         {
-          "time": "2026-09-24 14:46",
+          "time": "2026-09-26 16:12",
           "type": "L",
-          "height_ft": 0.517
+          "height_ft": 0.216
         },
         {
-          "time": "2026-09-24 20:44",
+          "time": "2026-09-26 21:58",
           "type": "H",
-          "height_ft": 2.953
+          "height_ft": 2.918
         },
         {
-          "time": "2026-09-25 03:03",
+          "time": "2026-09-27 04:16",
           "type": "L",
-          "height_ft": 0.359
+          "height_ft": 0.234
         },
         {
-          "time": "2026-09-25 09:08",
+          "time": "2026-09-27 10:21",
           "type": "H",
-          "height_ft": 3.066
+          "height_ft": 3.375
         },
         {
-          "time": "2026-09-25 15:29",
+          "time": "2026-09-27 16:56",
           "type": "L",
-          "height_ft": 0.356
+          "height_ft": 0.122
         },
         {
-          "time": "2026-09-25 21:21",
+          "time": "2026-09-27 22:37",
           "type": "H",
-          "height_ft": 2.952
+          "height_ft": 2.854
         }
       ]
     },
@@ -62,44 +62,44 @@
       "role": "The Race / Fishers Island \u2014 striper current windows",
       "tides": [
         {
-          "time": "2026-09-24 02:24",
+          "time": "2026-09-26 03:39",
           "type": "L",
-          "height_ft": 0.458
+          "height_ft": 0.268
         },
         {
-          "time": "2026-09-24 08:28",
+          "time": "2026-09-26 09:44",
           "type": "H",
-          "height_ft": 2.619
+          "height_ft": 2.959
         },
         {
-          "time": "2026-09-24 14:51",
+          "time": "2026-09-26 16:14",
           "type": "L",
-          "height_ft": 0.497
+          "height_ft": 0.193
         },
         {
-          "time": "2026-09-24 20:47",
+          "time": "2026-09-26 22:02",
           "type": "H",
-          "height_ft": 2.556
+          "height_ft": 2.56
         },
         {
-          "time": "2026-09-25 03:02",
+          "time": "2026-09-27 04:16",
           "type": "L",
-          "height_ft": 0.354
+          "height_ft": 0.225
         },
         {
-          "time": "2026-09-25 09:07",
+          "time": "2026-09-27 10:21",
           "type": "H",
-          "height_ft": 2.8
+          "height_ft": 3.076
         },
         {
-          "time": "2026-09-25 15:33",
+          "time": "2026-09-27 16:56",
           "type": "L",
-          "height_ft": 0.33
+          "height_ft": 0.107
         },
         {
-          "time": "2026-09-25 21:25",
+          "time": "2026-09-27 22:40",
           "type": "H",
-          "height_ft": 2.567
+          "height_ft": 2.524
         }
       ]
     },
@@ -113,44 +113,44 @@
       "role": "East End LI, Block Island Sound east side",
       "tides": [
         {
-          "time": "2026-09-24 02:05",
+          "time": "2026-09-26 03:19",
           "type": "L",
-          "height_ft": 0.402
+          "height_ft": 0.226
         },
         {
-          "time": "2026-09-24 08:05",
+          "time": "2026-09-26 09:18",
           "type": "H",
-          "height_ft": 2.297
+          "height_ft": 2.676
         },
         {
-          "time": "2026-09-24 14:21",
+          "time": "2026-09-26 15:51",
           "type": "L",
-          "height_ft": 0.471
+          "height_ft": 0.145
         },
         {
-          "time": "2026-09-24 20:18",
+          "time": "2026-09-26 21:32",
           "type": "H",
-          "height_ft": 2.397
+          "height_ft": 2.38
         },
         {
-          "time": "2026-09-25 02:42",
+          "time": "2026-09-27 03:55",
           "type": "L",
-          "height_ft": 0.299
+          "height_ft": 0.194
         },
         {
-          "time": "2026-09-25 08:42",
+          "time": "2026-09-27 09:55",
           "type": "H",
-          "height_ft": 2.492
+          "height_ft": 2.827
         },
         {
-          "time": "2026-09-25 15:06",
+          "time": "2026-09-27 16:36",
           "type": "L",
-          "height_ft": 0.296
+          "height_ft": 0.048
         },
         {
-          "time": "2026-09-25 20:54",
+          "time": "2026-09-27 22:11",
           "type": "H",
-          "height_ft": 2.407
+          "height_ft": 2.318
         }
       ]
     },
@@ -164,44 +164,44 @@
       "role": "RI south shore \u2014 Narragansett, Point Judith runs",
       "tides": [
         {
-          "time": "2026-09-24 00:16",
+          "time": "2026-09-26 01:19",
           "type": "L",
-          "height_ft": 0.347
+          "height_ft": -0.056
         },
         {
-          "time": "2026-09-24 06:40",
+          "time": "2026-09-26 07:58",
           "type": "H",
-          "height_ft": 3.528
+          "height_ft": 4.139
         },
         {
-          "time": "2026-09-24 12:27",
+          "time": "2026-09-26 13:50",
           "type": "L",
-          "height_ft": 0.285
+          "height_ft": -0.015
         },
         {
-          "time": "2026-09-24 18:58",
+          "time": "2026-09-26 20:17",
           "type": "H",
-          "height_ft": 3.667
+          "height_ft": 3.941
         },
         {
-          "time": "2026-09-25 00:47",
+          "time": "2026-09-27 01:53",
           "type": "L",
-          "height_ft": 0.127
+          "height_ft": -0.183
         },
         {
-          "time": "2026-09-25 07:19",
+          "time": "2026-09-27 08:38",
           "type": "H",
-          "height_ft": 3.854
+          "height_ft": 4.348
         },
         {
-          "time": "2026-09-25 13:08",
+          "time": "2026-09-27 14:32",
           "type": "L",
-          "height_ft": 0.111
+          "height_ft": -0.081
         },
         {
-          "time": "2026-09-25 19:37",
+          "time": "2026-09-27 20:59",
           "type": "H",
-          "height_ft": 3.84
+          "height_ft": 3.953
         }
       ]
     },
@@ -215,44 +215,44 @@
       "role": "NY Bight / NJ north coast \u2014 Hudson Canyon runs, Mud Hole area",
       "tides": [
         {
-          "time": "2026-09-24 00:40",
+          "time": "2026-09-26 01:59",
           "type": "L",
-          "height_ft": 0.505
+          "height_ft": 0.117
         },
         {
-          "time": "2026-09-24 06:47",
+          "time": "2026-09-26 08:01",
           "type": "H",
-          "height_ft": 4.841
+          "height_ft": 5.504
         },
         {
-          "time": "2026-09-24 12:54",
+          "time": "2026-09-26 14:24",
           "type": "L",
-          "height_ft": 0.708
+          "height_ft": 0.266
         },
         {
-          "time": "2026-09-24 19:01",
+          "time": "2026-09-26 20:18",
           "type": "H",
-          "height_ft": 5.311
+          "height_ft": 5.473
         },
         {
-          "time": "2026-09-25 01:20",
+          "time": "2026-09-27 02:39",
           "type": "L",
-          "height_ft": 0.283
+          "height_ft": 0.016
         },
         {
-          "time": "2026-09-25 07:25",
+          "time": "2026-09-27 08:37",
           "type": "H",
-          "height_ft": 5.193
+          "height_ft": 5.744
         },
         {
-          "time": "2026-09-25 13:39",
+          "time": "2026-09-27 15:10",
           "type": "L",
-          "height_ft": 0.464
+          "height_ft": 0.136
         },
         {
-          "time": "2026-09-25 19:40",
+          "time": "2026-09-27 20:58",
           "type": "H",
-          "height_ft": 5.442
+          "height_ft": 5.397
         }
       ]
     },
@@ -266,44 +266,44 @@
       "role": "Southern NJ \u2014 Barnegat / LBI area",
       "tides": [
         {
-          "time": "2026-09-24 00:19",
+          "time": "2026-09-26 01:31",
           "type": "L",
-          "height_ft": 0.671
+          "height_ft": 0.259
         },
         {
-          "time": "2026-09-24 06:23",
+          "time": "2026-09-26 07:41",
           "type": "H",
-          "height_ft": 4.106
+          "height_ft": 4.748
         },
         {
-          "time": "2026-09-24 12:24",
+          "time": "2026-09-26 13:51",
           "type": "L",
-          "height_ft": 0.701
+          "height_ft": 0.272
         },
         {
-          "time": "2026-09-24 18:39",
+          "time": "2026-09-26 20:00",
           "type": "H",
-          "height_ft": 4.718
+          "height_ft": 4.781
         },
         {
-          "time": "2026-09-25 00:56",
+          "time": "2026-09-27 02:07",
           "type": "L",
-          "height_ft": 0.447
+          "height_ft": 0.13
         },
         {
-          "time": "2026-09-25 07:02",
+          "time": "2026-09-27 08:19",
           "type": "H",
-          "height_ft": 4.437
+          "height_ft": 5.012
         },
         {
-          "time": "2026-09-25 13:08",
+          "time": "2026-09-27 14:34",
           "type": "L",
-          "height_ft": 0.463
+          "height_ft": 0.159
         },
         {
-          "time": "2026-09-25 19:19",
+          "time": "2026-09-27 20:40",
           "type": "H",
-          "height_ft": 4.785
+          "height_ft": 4.695
         }
       ]
     },
@@ -317,44 +317,44 @@
       "role": "NC coast \u2014 Frying Pan Shoals, offshore Wrightsville runs",
       "tides": [
         {
-          "time": "2026-09-24 00:01",
+          "time": "2026-09-26 01:22",
           "type": "L",
-          "height_ft": 0.778
+          "height_ft": 0.315
         },
         {
-          "time": "2026-09-24 06:06",
+          "time": "2026-09-26 07:25",
           "type": "H",
-          "height_ft": 4.31
+          "height_ft": 4.993
         },
         {
-          "time": "2026-09-24 12:17",
+          "time": "2026-09-26 13:51",
           "type": "L",
-          "height_ft": 0.638
+          "height_ft": 0.315
         },
         {
-          "time": "2026-09-24 18:29",
+          "time": "2026-09-26 19:47",
           "type": "H",
-          "height_ft": 4.813
+          "height_ft": 4.913
         },
         {
-          "time": "2026-09-25 00:41",
+          "time": "2026-09-27 02:04",
           "type": "L",
-          "height_ft": 0.533
+          "height_ft": 0.151
         },
         {
-          "time": "2026-09-25 06:45",
+          "time": "2026-09-27 08:07",
           "type": "H",
-          "height_ft": 4.678
+          "height_ft": 5.22
         },
         {
-          "time": "2026-09-25 13:04",
+          "time": "2026-09-27 14:37",
           "type": "L",
-          "height_ft": 0.449
+          "height_ft": 0.262
         },
         {
-          "time": "2026-09-25 19:08",
+          "time": "2026-09-27 20:28",
           "type": "H",
-          "height_ft": 4.908
+          "height_ft": 4.821
         }
       ]
     },
@@ -368,44 +368,44 @@
       "role": "NC middle coast \u2014 Cape Lookout, Big Rock runs",
       "tides": [
         {
-          "time": "2026-09-24 00:29",
+          "time": "2026-09-26 01:49",
           "type": "L",
-          "height_ft": 0.763
+          "height_ft": 0.424
         },
         {
-          "time": "2026-09-24 06:39",
+          "time": "2026-09-26 08:03",
           "type": "H",
-          "height_ft": 3.43
+          "height_ft": 3.873
         },
         {
-          "time": "2026-09-24 12:41",
+          "time": "2026-09-26 14:17",
           "type": "L",
-          "height_ft": 0.581
+          "height_ft": 0.422
         },
         {
-          "time": "2026-09-24 19:02",
+          "time": "2026-09-26 20:22",
           "type": "H",
-          "height_ft": 3.787
+          "height_ft": 3.781
         },
         {
-          "time": "2026-09-25 01:10",
+          "time": "2026-09-27 02:27",
           "type": "L",
-          "height_ft": 0.588
+          "height_ft": 0.291
         },
         {
-          "time": "2026-09-25 07:21",
+          "time": "2026-09-27 08:45",
           "type": "H",
-          "height_ft": 3.662
+          "height_ft": 4.047
         },
         {
-          "time": "2026-09-25 13:30",
+          "time": "2026-09-27 15:02",
           "type": "L",
-          "height_ft": 0.49
+          "height_ft": 0.396
         },
         {
-          "time": "2026-09-25 19:42",
+          "time": "2026-09-27 21:03",
           "type": "H",
-          "height_ft": 3.81
+          "height_ft": 3.702
         }
       ]
     },
@@ -419,44 +419,44 @@
       "role": "SC coast \u2014 Charleston Bump / Deli Belly runs",
       "tides": [
         {
-          "time": "2026-09-24 00:39",
+          "time": "2026-09-26 01:59",
           "type": "L",
-          "height_ft": 1.023
+          "height_ft": 0.503
         },
         {
-          "time": "2026-09-24 06:40",
+          "time": "2026-09-26 08:03",
           "type": "H",
-          "height_ft": 5.531
+          "height_ft": 6.121
         },
         {
-          "time": "2026-09-24 12:48",
+          "time": "2026-09-26 14:21",
           "type": "L",
-          "height_ft": 0.83
+          "height_ft": 0.535
         },
         {
-          "time": "2026-09-24 19:10",
+          "time": "2026-09-26 20:26",
           "type": "H",
-          "height_ft": 6.04
+          "height_ft": 6.056
         },
         {
-          "time": "2026-09-25 01:19",
+          "time": "2026-09-27 02:39",
           "type": "L",
-          "height_ft": 0.75
+          "height_ft": 0.307
         },
         {
-          "time": "2026-09-25 07:23",
+          "time": "2026-09-27 08:43",
           "type": "H",
-          "height_ft": 5.838
+          "height_ft": 6.355
         },
         {
-          "time": "2026-09-25 13:35",
+          "time": "2026-09-27 15:08",
           "type": "L",
-          "height_ft": 0.656
+          "height_ft": 0.486
         },
         {
-          "time": "2026-09-25 19:48",
+          "time": "2026-09-27 21:06",
           "type": "H",
-          "height_ft": 6.085
+          "height_ft": 5.96
         }
       ]
     },
@@ -470,44 +470,44 @@
       "role": "GA coast \u2014 Snapper Banks, Gray's Reef runs",
       "tides": [
         {
-          "time": "2026-09-24 00:54",
+          "time": "2026-09-26 02:18",
           "type": "L",
-          "height_ft": 1.154
+          "height_ft": 0.498
         },
         {
-          "time": "2026-09-24 06:49",
+          "time": "2026-09-26 08:13",
           "type": "H",
-          "height_ft": 7.259
+          "height_ft": 8.0
         },
         {
-          "time": "2026-09-24 13:05",
+          "time": "2026-09-26 14:39",
           "type": "L",
-          "height_ft": 0.985
+          "height_ft": 0.585
         },
         {
-          "time": "2026-09-24 19:18",
+          "time": "2026-09-26 20:37",
           "type": "H",
-          "height_ft": 7.742
+          "height_ft": 7.882
         },
         {
-          "time": "2026-09-25 01:36",
+          "time": "2026-09-27 03:00",
           "type": "L",
-          "height_ft": 0.804
+          "height_ft": 0.264
         },
         {
-          "time": "2026-09-25 07:32",
+          "time": "2026-09-27 08:53",
           "type": "H",
-          "height_ft": 7.645
+          "height_ft": 8.283
         },
         {
-          "time": "2026-09-25 13:52",
+          "time": "2026-09-27 15:26",
           "type": "L",
-          "height_ft": 0.754
+          "height_ft": 0.499
         },
         {
-          "time": "2026-09-25 19:58",
+          "time": "2026-09-27 21:17",
           "type": "H",
-          "height_ft": 7.857
+          "height_ft": 7.808
         }
       ]
     },
@@ -521,44 +521,44 @@
       "role": "NE FL coast \u2014 Amelia Island reef runs",
       "tides": [
         {
-          "time": "2026-09-24 01:21",
+          "time": "2026-09-26 02:42",
           "type": "L",
-          "height_ft": 1.153
+          "height_ft": 0.587
         },
         {
-          "time": "2026-09-24 07:34",
+          "time": "2026-09-26 09:02",
           "type": "H",
-          "height_ft": 6.401
+          "height_ft": 7.023
         },
         {
-          "time": "2026-09-24 13:32",
+          "time": "2026-09-26 15:04",
           "type": "L",
-          "height_ft": 0.98
+          "height_ft": 0.605
         },
         {
-          "time": "2026-09-24 20:02",
+          "time": "2026-09-26 21:25",
           "type": "H",
-          "height_ft": 6.815
+          "height_ft": 6.886
         },
         {
-          "time": "2026-09-25 02:02",
+          "time": "2026-09-27 03:22",
           "type": "L",
-          "height_ft": 0.859
+          "height_ft": 0.376
         },
         {
-          "time": "2026-09-25 08:19",
+          "time": "2026-09-27 09:46",
           "type": "H",
-          "height_ft": 6.732
+          "height_ft": 7.246
         },
         {
-          "time": "2026-09-25 14:19",
+          "time": "2026-09-27 15:48",
           "type": "L",
-          "height_ft": 0.767
+          "height_ft": 0.531
         },
         {
-          "time": "2026-09-25 20:44",
+          "time": "2026-09-27 22:08",
           "type": "H",
-          "height_ft": 6.89
+          "height_ft": 6.803
         }
       ]
     },
@@ -572,44 +572,44 @@
       "role": "NE FL coast \u2014 St. Augustine ledge runs",
       "tides": [
         {
-          "time": "2026-09-24 00:51",
+          "time": "2026-09-26 02:06",
           "type": "L",
-          "height_ft": 0.842
+          "height_ft": 0.379
         },
         {
-          "time": "2026-09-24 06:59",
+          "time": "2026-09-26 08:20",
           "type": "H",
-          "height_ft": 4.917
+          "height_ft": 5.589
         },
         {
-          "time": "2026-09-24 13:02",
+          "time": "2026-09-26 14:27",
           "type": "L",
-          "height_ft": 0.678
+          "height_ft": 0.376
         },
         {
-          "time": "2026-09-24 19:21",
+          "time": "2026-09-26 20:42",
           "type": "H",
-          "height_ft": 5.368
+          "height_ft": 5.442
         },
         {
-          "time": "2026-09-25 01:29",
+          "time": "2026-09-27 02:42",
           "type": "L",
-          "height_ft": 0.593
+          "height_ft": 0.226
         },
         {
-          "time": "2026-09-25 07:40",
+          "time": "2026-09-27 09:01",
           "type": "H",
-          "height_ft": 5.267
+          "height_ft": 5.85
         },
         {
-          "time": "2026-09-25 13:46",
+          "time": "2026-09-27 15:09",
           "type": "L",
-          "height_ft": 0.503
+          "height_ft": 0.327
         },
         {
-          "time": "2026-09-25 20:02",
+          "time": "2026-09-27 21:24",
           "type": "H",
-          "height_ft": 5.441
+          "height_ft": 5.369
         }
       ]
     },
@@ -623,29 +623,34 @@
       "role": "AL coast \u2014 Mobile Bay mouth, Fort Morgan Rigs",
       "tides": [
         {
-          "time": "2026-09-24 09:22",
-          "type": "H",
-          "height_ft": 1.344
-        },
-        {
-          "time": "2026-09-24 18:55",
+          "time": "2026-09-26 05:40",
           "type": "L",
-          "height_ft": 0.748
+          "height_ft": 0.796
         },
         {
-          "time": "2026-09-25 10:48",
+          "time": "2026-09-26 13:02",
           "type": "H",
-          "height_ft": 1.18
+          "height_ft": 1.031
         },
         {
-          "time": "2026-09-25 17:50",
+          "time": "2026-09-26 15:38",
           "type": "L",
-          "height_ft": 0.931
+          "height_ft": 1.009
         },
         {
-          "time": "2026-09-25 23:04",
+          "time": "2026-09-26 22:50",
           "type": "H",
-          "height_ft": 1.033
+          "height_ft": 1.246
+        },
+        {
+          "time": "2026-09-27 07:48",
+          "type": "L",
+          "height_ft": 0.64
+        },
+        {
+          "time": "2026-09-27 23:09",
+          "type": "H",
+          "height_ft": 1.462
         }
       ]
     },
@@ -659,34 +664,24 @@
       "role": "Perdido Pass / Pensacola inshore + nearshore reefs",
       "tides": [
         {
-          "time": "2026-09-24 10:20",
+          "time": "2026-09-26 00:02",
           "type": "H",
-          "height_ft": 1.424
+          "height_ft": 1.139
         },
         {
-          "time": "2026-09-24 19:22",
+          "time": "2026-09-26 06:56",
           "type": "L",
-          "height_ft": 0.801
+          "height_ft": 0.855
         },
         {
-          "time": "2026-09-25 02:31",
+          "time": "2026-09-26 23:52",
           "type": "H",
-          "height_ft": 1.011
+          "height_ft": 1.33
         },
         {
-          "time": "2026-09-25 04:40",
+          "time": "2026-09-27 08:38",
           "type": "L",
-          "height_ft": 1.002
-        },
-        {
-          "time": "2026-09-25 11:45",
-          "type": "H",
-          "height_ft": 1.263
-        },
-        {
-          "time": "2026-09-25 18:43",
-          "type": "L",
-          "height_ft": 0.995
+          "height_ft": 0.675
         }
       ]
     },
@@ -700,39 +695,34 @@
       "role": "FL Panhandle \u2014 St. Andrew Bay runs",
       "tides": [
         {
-          "time": "2026-09-24 09:36",
-          "type": "H",
-          "height_ft": 1.528
-        },
-        {
-          "time": "2026-09-24 17:22",
+          "time": "2026-09-26 05:08",
           "type": "L",
-          "height_ft": 0.803
+          "height_ft": 0.801
         },
         {
-          "time": "2026-09-24 23:20",
+          "time": "2026-09-26 12:21",
           "type": "H",
-          "height_ft": 1.075
+          "height_ft": 1.253
         },
         {
-          "time": "2026-09-25 03:41",
+          "time": "2026-09-26 16:29",
           "type": "L",
-          "height_ft": 0.943
+          "height_ft": 1.12
         },
         {
-          "time": "2026-09-25 10:53",
+          "time": "2026-09-26 22:35",
           "type": "H",
-          "height_ft": 1.389
+          "height_ft": 1.387
         },
         {
-          "time": "2026-09-25 17:14",
+          "time": "2026-09-27 06:24",
           "type": "L",
-          "height_ft": 0.976
+          "height_ft": 0.645
         },
         {
-          "time": "2026-09-25 23:07",
+          "time": "2026-09-27 22:23",
           "type": "H",
-          "height_ft": 1.207
+          "height_ft": 1.6
         }
       ]
     },
@@ -746,44 +736,44 @@
       "role": "FL Panhandle east \u2014 Apalachicola Bay + St George Island",
       "tides": [
         {
-          "time": "2026-09-24 04:01",
+          "time": "2026-09-26 04:08",
           "type": "H",
-          "height_ft": 1.744
+          "height_ft": 1.824
         },
         {
-          "time": "2026-09-24 09:15",
+          "time": "2026-09-26 10:25",
           "type": "L",
-          "height_ft": 1.173
+          "height_ft": 0.801
         },
         {
-          "time": "2026-09-24 14:55",
+          "time": "2026-09-26 16:40",
           "type": "H",
-          "height_ft": 1.929
+          "height_ft": 1.983
         },
         {
-          "time": "2026-09-24 21:57",
+          "time": "2026-09-26 22:52",
           "type": "L",
-          "height_ft": 0.578
+          "height_ft": 0.968
         },
         {
-          "time": "2026-09-25 04:05",
+          "time": "2026-09-27 04:17",
           "type": "H",
-          "height_ft": 1.766
+          "height_ft": 1.919
         },
         {
-          "time": "2026-09-25 09:48",
+          "time": "2026-09-27 11:07",
           "type": "L",
-          "height_ft": 0.997
+          "height_ft": 0.594
         },
         {
-          "time": "2026-09-25 15:46",
+          "time": "2026-09-27 17:37",
           "type": "H",
-          "height_ft": 1.974
+          "height_ft": 1.959
         },
         {
-          "time": "2026-09-25 22:25",
+          "time": "2026-09-27 23:22",
           "type": "L",
-          "height_ft": 0.76
+          "height_ft": 1.181
         }
       ]
     },
@@ -797,44 +787,44 @@
       "role": "Palm Beach \u2014 Sailfish Alley, Juno Ledge kite fishing",
       "tides": [
         {
-          "time": "2026-09-24 00:44",
+          "time": "2026-09-26 02:00",
           "type": "L",
-          "height_ft": 0.701
+          "height_ft": 0.337
         },
         {
-          "time": "2026-09-24 06:51",
+          "time": "2026-09-26 08:16",
           "type": "H",
-          "height_ft": 3.064
+          "height_ft": 3.455
         },
         {
-          "time": "2026-09-24 13:01",
+          "time": "2026-09-26 14:26",
           "type": "L",
-          "height_ft": 0.503
+          "height_ft": 0.371
         },
         {
-          "time": "2026-09-24 19:16",
+          "time": "2026-09-26 20:32",
           "type": "H",
-          "height_ft": 3.243
+          "height_ft": 3.336
         },
         {
-          "time": "2026-09-25 01:23",
+          "time": "2026-09-27 02:38",
           "type": "L",
-          "height_ft": 0.513
+          "height_ft": 0.194
         },
         {
-          "time": "2026-09-25 07:34",
+          "time": "2026-09-27 08:59",
           "type": "H",
-          "height_ft": 3.27
+          "height_ft": 3.597
         },
         {
-          "time": "2026-09-25 13:43",
+          "time": "2026-09-27 15:08",
           "type": "L",
-          "height_ft": 0.418
+          "height_ft": 0.374
         },
         {
-          "time": "2026-09-25 19:54",
+          "time": "2026-09-27 21:11",
           "type": "H",
-          "height_ft": 3.307
+          "height_ft": 3.325
         }
       ]
     },
@@ -848,44 +838,44 @@
       "role": "Miami \u2014 Fowey Rocks, Miami 150 Ledge, Gulf Stream edge",
       "tides": [
         {
-          "time": "2026-09-24 01:04",
+          "time": "2026-09-26 02:20",
           "type": "L",
-          "height_ft": 0.683
+          "height_ft": 0.314
         },
         {
-          "time": "2026-09-24 07:12",
+          "time": "2026-09-26 08:34",
           "type": "H",
-          "height_ft": 2.953
+          "height_ft": 3.308
         },
         {
-          "time": "2026-09-24 13:23",
+          "time": "2026-09-26 14:43",
           "type": "L",
-          "height_ft": 0.537
+          "height_ft": 0.399
         },
         {
-          "time": "2026-09-24 19:34",
+          "time": "2026-09-26 20:47",
           "type": "H",
-          "height_ft": 3.023
+          "height_ft": 3.219
         },
         {
-          "time": "2026-09-25 01:42",
+          "time": "2026-09-27 02:58",
           "type": "L",
-          "height_ft": 0.49
+          "height_ft": 0.173
         },
         {
-          "time": "2026-09-25 07:54",
+          "time": "2026-09-27 09:15",
           "type": "H",
-          "height_ft": 3.147
+          "height_ft": 3.416
         },
         {
-          "time": "2026-09-25 14:04",
+          "time": "2026-09-27 15:23",
           "type": "L",
-          "height_ft": 0.449
+          "height_ft": 0.396
         },
         {
-          "time": "2026-09-25 20:10",
+          "time": "2026-09-27 21:24",
           "type": "H",
-          "height_ft": 3.135
+          "height_ft": 3.264
         }
       ]
     },
@@ -899,44 +889,44 @@
       "role": "Miami inner + Biscayne \u2014 sailfish + tarpon",
       "tides": [
         {
-          "time": "2026-09-24 01:38",
+          "time": "2026-09-26 03:02",
           "type": "L",
-          "height_ft": 0.669
+          "height_ft": 0.421
         },
         {
-          "time": "2026-09-24 07:54",
+          "time": "2026-09-26 09:24",
           "type": "H",
-          "height_ft": 2.523
+          "height_ft": 2.75
         },
         {
-          "time": "2026-09-24 14:01",
+          "time": "2026-09-26 15:26",
           "type": "L",
-          "height_ft": 0.561
+          "height_ft": 0.506
         },
         {
-          "time": "2026-09-24 20:17",
+          "time": "2026-09-26 21:37",
           "type": "H",
-          "height_ft": 2.586
+          "height_ft": 2.714
         },
         {
-          "time": "2026-09-25 02:21",
+          "time": "2026-09-27 03:43",
           "type": "L",
-          "height_ft": 0.539
+          "height_ft": 0.327
         },
         {
-          "time": "2026-09-25 08:40",
+          "time": "2026-09-27 10:08",
           "type": "H",
-          "height_ft": 2.646
+          "height_ft": 2.822
         },
         {
-          "time": "2026-09-25 14:44",
+          "time": "2026-09-27 16:07",
           "type": "L",
-          "height_ft": 0.523
+          "height_ft": 0.515
         },
         {
-          "time": "2026-09-25 20:57",
+          "time": "2026-09-27 22:17",
           "type": "H",
-          "height_ft": 2.661
+          "height_ft": 2.74
         }
       ]
     },
@@ -950,44 +940,44 @@
       "role": "Lower Keys \u2014 American Shoal, Marquesas, Tortugas",
       "tides": [
         {
-          "time": "2026-09-24 02:23",
+          "time": "2026-09-26 03:47",
           "type": "L",
-          "height_ft": 0.866
+          "height_ft": 0.52
         },
         {
-          "time": "2026-09-24 09:01",
+          "time": "2026-09-26 10:30",
           "type": "H",
-          "height_ft": 2.205
+          "height_ft": 2.188
         },
         {
-          "time": "2026-09-24 15:12",
+          "time": "2026-09-26 16:06",
           "type": "L",
-          "height_ft": 0.653
+          "height_ft": 0.711
         },
         {
-          "time": "2026-09-24 21:34",
+          "time": "2026-09-26 22:30",
           "type": "H",
-          "height_ft": 1.871
+          "height_ft": 2.166
         },
         {
-          "time": "2026-09-25 03:06",
+          "time": "2026-09-27 04:28",
           "type": "L",
-          "height_ft": 0.698
+          "height_ft": 0.355
         },
         {
-          "time": "2026-09-25 09:45",
+          "time": "2026-09-27 11:14",
           "type": "H",
-          "height_ft": 2.223
+          "height_ft": 2.096
         },
         {
-          "time": "2026-09-25 15:39",
+          "time": "2026-09-27 16:33",
           "type": "L",
-          "height_ft": 0.678
+          "height_ft": 0.749
         },
         {
-          "time": "2026-09-25 22:01",
+          "time": "2026-09-27 23:01",
           "type": "H",
-          "height_ft": 2.027
+          "height_ft": 2.28
         }
       ]
     },
@@ -1001,44 +991,44 @@
       "role": "Middle Keys \u2014 Sombrero Reef, Marathon Humps",
       "tides": [
         {
-          "time": "2026-09-24 02:23",
+          "time": "2026-09-26 02:23",
           "type": "H",
-          "height_ft": 1.071
+          "height_ft": 1.139
         },
         {
-          "time": "2026-09-24 05:15",
+          "time": "2026-09-26 06:42",
           "type": "L",
-          "height_ft": 0.885
+          "height_ft": 0.695
         },
         {
-          "time": "2026-09-24 12:39",
+          "time": "2026-09-26 15:19",
           "type": "H",
-          "height_ft": 1.247
+          "height_ft": 1.299
         },
         {
-          "time": "2026-09-24 17:58",
+          "time": "2026-09-26 19:06",
           "type": "L",
-          "height_ft": 0.727
+          "height_ft": 0.899
         },
         {
-          "time": "2026-09-25 02:40",
+          "time": "2026-09-27 02:09",
           "type": "H",
-          "height_ft": 1.101
+          "height_ft": 1.217
         },
         {
-          "time": "2026-09-25 05:59",
+          "time": "2026-09-27 07:27",
           "type": "L",
-          "height_ft": 0.807
+          "height_ft": 0.558
         },
         {
-          "time": "2026-09-25 14:18",
+          "time": "2026-09-27 16:14",
           "type": "H",
-          "height_ft": 1.285
+          "height_ft": 1.275
         },
         {
-          "time": "2026-09-25 18:32",
+          "time": "2026-09-27 19:41",
           "type": "L",
-          "height_ft": 0.822
+          "height_ft": 0.951
         }
       ]
     },
@@ -1052,39 +1042,44 @@
       "role": "SW FL \u2014 Naples Hardbottom, offshore ledges",
       "tides": [
         {
-          "time": "2026-09-24 05:26",
-          "type": "L",
-          "height_ft": 1.313
-        },
-        {
-          "time": "2026-09-24 11:33",
+          "time": "2026-09-26 00:26",
           "type": "H",
-          "height_ft": 3.319
+          "height_ft": 3.101
         },
         {
-          "time": "2026-09-24 17:54",
+          "time": "2026-09-26 06:38",
           "type": "L",
-          "height_ft": 0.748
+          "height_ft": 0.689
         },
         {
-          "time": "2026-09-25 00:05",
+          "time": "2026-09-26 12:47",
           "type": "H",
-          "height_ft": 2.99
+          "height_ft": 3.378
         },
         {
-          "time": "2026-09-25 06:01",
+          "time": "2026-09-26 19:00",
           "type": "L",
-          "height_ft": 1.001
+          "height_ft": 0.981
         },
         {
-          "time": "2026-09-25 12:10",
+          "time": "2026-09-27 00:44",
           "type": "H",
-          "height_ft": 3.383
+          "height_ft": 3.194
         },
         {
-          "time": "2026-09-25 18:27",
+          "time": "2026-09-27 07:17",
           "type": "L",
-          "height_ft": 0.84
+          "height_ft": 0.406
+        },
+        {
+          "time": "2026-09-27 13:28",
+          "type": "H",
+          "height_ft": 3.295
+        },
+        {
+          "time": "2026-09-27 19:32",
+          "type": "L",
+          "height_ft": 1.167
         }
       ]
     },
@@ -1098,44 +1093,44 @@
       "role": "SW FL \u2014 Fort Myers reefs, Sanibel",
       "tides": [
         {
-          "time": "2026-09-24 03:24",
+          "time": "2026-09-26 04:02",
           "type": "H",
-          "height_ft": 1.317
+          "height_ft": 1.491
         },
         {
-          "time": "2026-09-24 08:58",
+          "time": "2026-09-26 10:27",
           "type": "L",
-          "height_ft": 0.615
+          "height_ft": 0.502
         },
         {
-          "time": "2026-09-24 15:12",
+          "time": "2026-09-26 16:37",
           "type": "H",
-          "height_ft": 1.631
+          "height_ft": 1.599
         },
         {
-          "time": "2026-09-24 22:11",
+          "time": "2026-09-26 22:48",
           "type": "L",
-          "height_ft": 0.585
+          "height_ft": 0.736
         },
         {
-          "time": "2026-09-25 03:44",
+          "time": "2026-09-27 04:22",
           "type": "H",
-          "height_ft": 1.392
+          "height_ft": 1.612
         },
         {
-          "time": "2026-09-25 09:42",
+          "time": "2026-09-27 11:14",
           "type": "L",
-          "height_ft": 0.554
+          "height_ft": 0.455
         },
         {
-          "time": "2026-09-25 15:54",
+          "time": "2026-09-27 17:21",
           "type": "H",
-          "height_ft": 1.645
+          "height_ft": 1.494
         },
         {
-          "time": "2026-09-25 22:30",
+          "time": "2026-09-27 23:06",
           "type": "L",
-          "height_ft": 0.667
+          "height_ft": 0.787
         }
       ]
     }

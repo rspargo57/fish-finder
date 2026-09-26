@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-26",
   "season": "2026",
   "primary_species": [
     "bluefin_recreational",
@@ -6381,6 +6381,279 @@
         "narragansett_bay",
         "block_island_sound"
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "western_li_sound"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "the_race"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "narragansett_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "providence_seekonk"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "block_island_sound"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "montauk_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "montauk_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "block_canyon"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "stratford_shoal"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-24-2026",
+      "zones": [
+        "stratford_shoal"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "zones": [
+        "niantic_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-24-2026",
+      "zones": [
+        "buzzards_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/connecticut-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "menhaden/bunker, mullet, peanut bunker, silversides, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/rhode-island-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "anchovies, mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/long-island-and-nyc-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, peanut bunker, squid",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/massachusetts-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/maryland-and-chesapeake-bay-fishing-report-september-24-2026",
+      "zones": [
+        "cape_cod_bay"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "regional_forecast",
+      "location": "The Fisherman",
+      "species_feeding": null,
+      "source": "The Fisherman regional forecast",
+      "source_type": "fisherman_auto",
+      "quote": "Fall fishing continues to build across Long Island, with a solid mix of fluke, sea bass, porgies, bluefish and weakfish&#8230;",
+      "link": "https://www.thefisherman.com/long-island-video-fishing-forecast-september-24th-2026/",
+      "zones": [
+        "south_shore_li",
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (NE)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (NE)",
+      "source_type": "charter_auto",
+      "quote": "Fall fishing continues to build across Long Island, with a solid mix of fluke, sea bass, porgies, bluefish and weakfish keeping anglers busy from the East End through the West End. There are still plenty of late-season opportunities inshore, while bottom fishing remains productiv",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3179416",
+      "zones": [
+        "south_shore_li",
+        "montauk_nearshore",
+        "s_block_nearshore"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (NE)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (NE)",
+      "source_type": "charter_auto",
+      "quote": "Sometimes a storm can be a bad thing during the height of the fall run, but other times a major shakeup is exactly what we need. The fall run has been running a bit\u2026 stagnant, across much of the region and stable weather is playing a major part in this slow start. We really haven",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3179424",
+      "zones": [
+        "s_block_nearshore",
+        "montauk_nearshore",
+        "montauk_rips_striper",
+        "block_island_striper",
+        "narragansett_bay",
+        "south_shore_li"
+      ]
     }
   ],
   "zones": [
@@ -6424,11 +6697,11 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 2,
+          "video_count": 1,
           "channel_count": 1
         },
         "otw": {
@@ -6442,11 +6715,11 @@
           "latest_date": "2026-09-03"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.7
+      "current_sst_f": 68.3
     },
     {
       "id": "central_li_sound",
@@ -6488,11 +6761,11 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 2,
+          "video_count": 1,
           "channel_count": 1
         },
         "otw": {
@@ -6506,11 +6779,11 @@
           "latest_date": "2026-09-03"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.2
+      "current_sst_f": 68.4
     },
     {
       "id": "the_triangle",
@@ -6556,7 +6829,7 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 2,
+          "video_count": 1,
           "channel_count": 1
         },
         "fisherman": {
@@ -6564,7 +6837,7 @@
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 69.3
+      "current_sst_f": 69.0
     },
     {
       "id": "the_race",
@@ -6621,7 +6894,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-03",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "otw": {
           "date": "2026-08-06",
@@ -6635,11 +6908,11 @@
           "channel_count": 1
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-03",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.1
+      "current_sst_f": 68.1
     },
     {
       "id": "plum_gut",
@@ -6722,7 +6995,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.3
+      "current_sst_f": 68.4
     },
     {
       "id": "watch_hill_reef",
@@ -6791,7 +7064,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.0
+      "current_sst_f": 67.2
     },
     {
       "id": "millstone_point",
@@ -6834,7 +7107,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 68.9
+      "current_sst_f": 68.2
     },
     {
       "id": "narragansett_bay",
@@ -6906,7 +7179,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "otw": {
           "date": "2026-08-06",
@@ -6915,7 +7188,7 @@
           "captain": "Dave (Ocean State Tackle) + Jay (Pamela May Charters)"
         },
         "youtube": {
-          "last_video_date": "2026-09-03",
+          "last_video_date": "2026-09-24",
           "video_count": 1,
           "channel_count": 1
         },
@@ -6924,11 +7197,11 @@
           "latest_date": "2026-08-20"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 67.5
+      "current_sst_f": 66.3
     },
     {
       "id": "providence_seekonk",
@@ -6970,10 +7243,10 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
@@ -7034,7 +7307,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-11",
@@ -7048,7 +7321,7 @@
           "captain": "Pamela May Charters + Tall Tailz Charters + RIKFA + Ocean State Tackle"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "fisherman": {
@@ -7056,7 +7329,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 69.5
+      "current_sst_f": 66.5
     },
     {
       "id": "montauk_rips_striper",
@@ -7117,15 +7390,15 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 4,
-          "channel_count": 3
+          "video_count": 2,
+          "channel_count": 2
         },
         "fisherman": {
           "source_count": 1,
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 69.8
+      "current_sst_f": 67.2
     },
     {
       "id": "block_island_sound",
@@ -7197,7 +7470,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-10",
@@ -7211,7 +7484,7 @@
           "captain": "Jay (Pamela May Charters) + Dave (Ocean State Tackle)"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "fisherman": {
@@ -7219,7 +7492,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 68.6
+      "current_sst_f": 65.9
     },
     {
       "id": "south_shore_li",
@@ -7291,19 +7564,19 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-17",
-          "video_count": 4,
+          "last_video_date": "2026-09-24",
+          "video_count": 3,
           "channel_count": 1
         },
         "fisherman": {
           "source_count": 2,
-          "latest_date": "2026-09-17"
+          "latest_date": "2026-09-24"
         }
       },
-      "current_sst_f": 70.5
+      "current_sst_f": 67.3
     },
     {
       "id": "montauk_nearshore",
@@ -7375,23 +7648,23 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-17",
-          "video_count": 6,
-          "channel_count": 3
+          "last_video_date": "2026-09-24",
+          "video_count": 4,
+          "channel_count": 2
         },
         "fisherman": {
           "source_count": 2,
-          "latest_date": "2026-09-17"
+          "latest_date": "2026-09-24"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.0
+      "current_sst_f": 67.4
     },
     {
       "id": "s_block_nearshore",
@@ -7463,23 +7736,23 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-17",
-          "video_count": 4,
+          "last_video_date": "2026-09-24",
+          "video_count": 3,
           "channel_count": 1
         },
         "fisherman": {
-          "source_count": 3,
-          "latest_date": "2026-09-17"
+          "source_count": 2,
+          "latest_date": "2026-09-24"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 70.0
+      "current_sst_f": 67.6
     },
     {
       "id": "acid_barge",
@@ -7537,7 +7810,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.0
+      "current_sst_f": 67.7
     },
     {
       "id": "coxes_ledge_se",
@@ -7602,7 +7875,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 69.1
+      "current_sst_f": 67.8
     },
     {
       "id": "the_gully",
@@ -7652,7 +7925,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 70.7
+      "current_sst_f": 68.2
     },
     {
       "id": "habs_ledge",
@@ -7732,7 +8005,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 67.1
     },
     {
       "id": "tuna_ridge",
@@ -7831,7 +8104,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 70.8
+      "current_sst_f": 69.4
     },
     {
       "id": "butterfish_hole",
@@ -7900,7 +8173,7 @@
           "source": "Randy Spargo direct (spillover from Coimbra Wreck ~13nm E)"
         }
       },
-      "current_sst_f": 71.7
+      "current_sst_f": 68.9
     },
     {
       "id": "mud_hole",
@@ -7994,7 +8267,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 71.5
+      "current_sst_f": 67.2
     },
     {
       "id": "hudson_canyon",
@@ -8160,7 +8433,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 73.0
+      "current_sst_f": 70.1
     },
     {
       "id": "block_canyon",
@@ -8292,7 +8565,7 @@
           0
         ]
       },
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-10",
@@ -8300,7 +8573,7 @@
           "channel_count": 1
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "fisherman": {
@@ -8308,7 +8581,7 @@
           "latest_date": "2026-09-10"
         }
       },
-      "current_sst_f": 74.3
+      "current_sst_f": 73.0
     },
     {
       "id": "atlantis_canyon",
@@ -8452,7 +8725,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 77.2
+      "current_sst_f": 76.6
     },
     {
       "id": "veatch_hydrographer",
@@ -8597,7 +8870,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 76.2
+      "current_sst_f": 72.8
     },
     {
       "id": "thirty_five_fathom_line",
@@ -8659,15 +8932,15 @@
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-17",
-          "video_count": 4,
-          "channel_count": 3
+          "video_count": 2,
+          "channel_count": 2
         },
         "fisherman": {
           "source_count": 1,
           "latest_date": "2026-09-03"
         }
       },
-      "current_sst_f": 70.9
+      "current_sst_f": 68.4
     },
     {
       "id": "long_sand_shoal",
@@ -8746,7 +9019,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.0
+      "current_sst_f": 68.6
     },
     {
       "id": "six_mile_reef",
@@ -8834,7 +9107,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 69.1
+      "current_sst_f": 68.9
     },
     {
       "id": "bartlett_reef",
@@ -8913,7 +9186,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 68.9
+      "current_sst_f": 68.5
     },
     {
       "id": "faulkners_island",
@@ -8986,7 +9259,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 69.1
+      "current_sst_f": 68.8
     },
     {
       "id": "stratford_shoal",
@@ -9073,14 +9346,14 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.4
+      "current_sst_f": 68.6
     },
     {
       "id": "point_judith_light",
@@ -9176,7 +9449,7 @@
           "captain": "Frances Fleet"
         }
       },
-      "current_sst_f": 68.5
+      "current_sst_f": 66.2
     },
     {
       "id": "nebraska_shoal",
@@ -9264,7 +9537,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 68.7
+      "current_sst_f": 66.7
     },
     {
       "id": "beavertail_point",
@@ -9345,7 +9618,7 @@
           "captain": "Dave (Ocean State Tackle)"
         }
       },
-      "current_sst_f": 67.8
+      "current_sst_f": 66.2
     },
     {
       "id": "sakonnet_point",
@@ -9418,7 +9691,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 67.2
+      "current_sst_f": 66.3
     },
     {
       "id": "sow_pigs_reef",
@@ -9476,7 +9749,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 66.4
+      "current_sst_f": 66.1
     },
     {
       "id": "wasque_rip",
@@ -9549,7 +9822,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 65.2
+      "current_sst_f": 64.7
     },
     {
       "id": "monomoy_rips",
@@ -9633,7 +9906,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 64.0
+      "current_sst_f": 62.3
     },
     {
       "id": "coimbra_wreck",
@@ -9749,7 +10022,7 @@
           "channel_count": 2
         }
       },
-      "current_sst_f": 71.5
+      "current_sst_f": 68.6
     },
     {
       "id": "the_dumping_ground",
@@ -9852,7 +10125,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 70.6
+      "current_sst_f": 70.2
     },
     {
       "id": "the_fishtails",
@@ -9970,7 +10243,7 @@
         ]
       },
       "heat_updated": "2026-07-09",
-      "current_sst_f": 74.6
+      "current_sst_f": 73.6
     },
     {
       "id": "cia_grounds",
@@ -10060,7 +10333,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 70.3
+      "current_sst_f": 67.7
     },
     {
       "id": "ranger_wreck",
@@ -10143,7 +10416,7 @@
         "yellowfin_tuna"
       ],
       "intel_sources": {},
-      "current_sst_f": 71.6
+      "current_sst_f": 68.6
     },
     {
       "id": "niantic_bay",
@@ -10205,18 +10478,18 @@
           0
         ]
       },
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "primary_species": [
         "striped_bass",
         "bluefish"
       ],
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 68.8
+      "current_sst_f": 68.3
     },
     {
       "id": "cornfield_point",
@@ -10356,7 +10629,7 @@
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 69.1
+      "current_sst_f": 67.6
     },
     {
       "id": "buzzards_bay",
@@ -10374,7 +10647,7 @@
       ],
       "notes": "Big Massachusetts back-bay complex between Cape Cod and Rhode Island. Striper + blues year-round; false albacore fall run. Surfaced 2026-08-30 via spot_discovery from 3 different captain sources (OTW Media, Fisherman Magazine, My Fishing Cape Cod).",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "striped_bass": [
           1,
@@ -10421,11 +10694,11 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 65.5
+      "current_sst_f": 65.4
     },
     {
       "id": "cape_cod_bay",
@@ -10444,7 +10717,7 @@
       ],
       "notes": "MA Cape Cod Bay \u2014 striper + bluefish + summer bluefin. Major migration corridor + late-summer bluefin destination. Surfaced 2026-08-30 via spot_discovery (My Fishing Cape Cod + Fisherman Magazine).",
       "heat": 5,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "striped_bass": [
           1,
@@ -10505,7 +10778,7 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -10514,7 +10787,7 @@
           "channel_count": 1
         }
       },
-      "current_sst_f": 64.2
+      "current_sst_f": 62.9
     }
   ],
   "sources_used": [

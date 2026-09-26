@@ -3,7 +3,7 @@
   "region_id": "midatl",
   "region_label": "Mid-Atlantic",
   "region_short": "Mid-Atl",
-  "generated": "2026-09-24",
+  "generated": "2026-09-26",
   "season": 2026,
   "home_port": {
     "name": "Utsch's Marina",
@@ -218,7 +218,7 @@
       "region": "NJ",
       "category": "canyon",
       "heat": 6,
-      "heat_updated": "2026-09-23",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -333,10 +333,10 @@
         39.65,
         -72.75
       ],
-      "current_sst_f": 72.5,
+      "current_sst_f": 69.0,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-23",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -352,7 +352,7 @@
       "region": "MD",
       "category": "canyon",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -482,10 +482,10 @@
         38.3,
         -73.833
       ],
-      "current_sst_f": 75.3,
+      "current_sst_f": 72.2,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -501,7 +501,7 @@
       "region": "DE",
       "category": "canyon",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -601,10 +601,10 @@
         38.75,
         -73.55
       ],
-      "current_sst_f": 74.4,
+      "current_sst_f": 69.7,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -615,7 +615,7 @@
       "region": "MD",
       "category": "canyon",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -700,10 +700,10 @@
         37.9,
         -74.15
       ],
-      "current_sst_f": 76.0,
+      "current_sst_f": 73.4,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -714,7 +714,7 @@
       "region": "VA",
       "category": "canyon",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "yellowfin_tuna",
         "bigeye_tuna",
@@ -799,10 +799,10 @@
         37.4,
         -74.6
       ],
-      "current_sst_f": 77.3,
+      "current_sst_f": 74.6,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -813,7 +813,7 @@
       "region": "MD",
       "category": "midshore",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "bluefin_recreational",
         "yellowfin_tuna",
@@ -883,10 +883,10 @@
         38.3,
         -74.7
       ],
-      "current_sst_f": 74.8,
+      "current_sst_f": 71.9,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -902,7 +902,7 @@
       "region": "MD",
       "category": "midshore",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "bluefin_recreational",
         "yellowfin_tuna",
@@ -957,10 +957,10 @@
         38.4,
         -74.55
       ],
-      "current_sst_f": 74.7,
+      "current_sst_f": 71.5,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -976,7 +976,7 @@
       "region": "MD",
       "category": "midshore",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "bluefin_recreational",
         "king_mackerel",
@@ -1046,10 +1046,10 @@
         38.45,
         -74.8
       ],
-      "current_sst_f": 74.2,
+      "current_sst_f": 71.6,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -1135,7 +1135,7 @@
         36.85,
         -74.7
       ],
-      "current_sst_f": 76.9,
+      "current_sst_f": 76.4,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-03",
@@ -1220,7 +1220,7 @@
         37.15,
         -74.9
       ],
-      "current_sst_f": 77.9
+      "current_sst_f": 75.2
     },
     {
       "id": "barnegat_ridge",
@@ -1228,7 +1228,7 @@
       "region": "NJ",
       "category": "nearshore",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "bluefin_recreational",
         "yellowfin_tuna",
@@ -1324,11 +1324,11 @@
           "latest_date": "2026-08-27"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 71.9
+      "current_sst_f": 68.7
     },
     {
       "id": "manasquan_ridge",
@@ -1336,7 +1336,7 @@
       "region": "NJ",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "bluefin_recreational",
         "yellowfin_tuna",
@@ -1417,11 +1417,11 @@
           "latest_date": "2026-08-13"
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 71.4
+      "current_sst_f": 69.7
     },
     {
       "id": "sea_girt_reef",
@@ -1484,7 +1484,7 @@
         40.1,
         -73.95
       ],
-      "current_sst_f": 71.3,
+      "current_sst_f": 69.8,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1503,7 +1503,7 @@
       "region": "NJ",
       "category": "nearshore",
       "heat": 7,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "striped_bass",
         "bluefish",
@@ -1576,7 +1576,7 @@
       "current_sst_f": 73.6,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -1662,7 +1662,7 @@
         38.4,
         -74.85
       ],
-      "current_sst_f": 74.2,
+      "current_sst_f": 71.8,
       "intel_sources": {
         "multi_source_refresh": {
           "last_report_date": "2026-09-17",
@@ -1676,7 +1676,7 @@
       "region": "DE",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "striped_bass",
         "bluefish",
@@ -1733,7 +1733,7 @@
       ],
       "intel_sources": {
         "youtube": {
-          "last_video_date": "2026-09-17",
+          "last_video_date": "2026-09-24",
           "video_count": 2,
           "channel_count": 1
         },
@@ -1742,7 +1742,7 @@
           "latest_date": "2026-08-13"
         }
       },
-      "current_sst_f": 73.8
+      "current_sst_f": 70.5
     },
     {
       "id": "cbbt_chesapeake_mouth",
@@ -1750,7 +1750,7 @@
       "region": "VA",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "species": [
         "cobia",
         "red_drum",
@@ -1820,10 +1820,10 @@
         36.95,
         -76.05
       ],
-      "current_sst_f": 78.0,
+      "current_sst_f": 74.8,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         },
         "youtube": {
@@ -1839,7 +1839,7 @@
       "region": "NC",
       "category": "inshore",
       "heat": 6,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "species": [
         "red_drum",
         "striped_bass",
@@ -1927,7 +1927,7 @@
       "current_sst_f": NaN,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -1938,7 +1938,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "species": [
         "yellowfin_tuna",
         "bluefin_giant",
@@ -2023,10 +2023,10 @@
         35.15,
         -75.3
       ],
-      "current_sst_f": 82.6,
+      "current_sst_f": 83.1,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2037,7 +2037,7 @@
       "region": "NC",
       "category": "nearshore",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "species": [
         "yellowfin_tuna",
         "bluefin_recreational",
@@ -2137,10 +2137,10 @@
         35.2,
         -75.35
       ],
-      "current_sst_f": 81.6,
+      "current_sst_f": 82.4,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2163,7 +2163,7 @@
       ],
       "notes": "70+ nm E of Barnegat Inlet. Yellowfin June-Oct, bigeye chunk bite mid-summer.",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "yellowfin_tuna": [
           3,
@@ -2236,10 +2236,10 @@
           2
         ]
       },
-      "current_sst_f": 75.0,
+      "current_sst_f": 70.9,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2262,7 +2262,7 @@
       ],
       "notes": "Deep-water canyon 85 nm E of Little Egg Inlet. Bigeye + white marlin summer.",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "yellowfin_tuna": [
           3,
@@ -2335,10 +2335,10 @@
           2
         ]
       },
-      "current_sst_f": 76.6,
+      "current_sst_f": 71.9,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2362,7 +2362,7 @@
       ],
       "notes": "White marlin corridor Aug-Sep. Deep-drop swordfish.",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "yellowfin_tuna": [
           3,
@@ -2449,7 +2449,7 @@
           2
         ]
       },
-      "current_sst_f": 77.0,
+      "current_sst_f": 72.7,
       "intel_sources": {
         "youtube": {
           "last_video_date": "2026-09-02",
@@ -2457,7 +2457,7 @@
           "channel_count": 1
         },
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2481,7 +2481,7 @@
       ],
       "notes": "Southern-most Mid-Atl canyon \u2014 60nm E of Rudee Inlet. Tuna + bill summer.",
       "heat": 5,
-      "heat_updated": "2026-09-17",
+      "heat_updated": "2026-09-24",
       "seasonal_presence": {
         "yellowfin_tuna": [
           3,
@@ -2568,10 +2568,10 @@
           2
         ]
       },
-      "current_sst_f": 77.9,
+      "current_sst_f": 75.7,
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-17",
+          "last_report_date": "2026-09-24",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       }
@@ -2637,7 +2637,7 @@
           4
         ]
       },
-      "current_sst_f": 70.9
+      "current_sst_f": 67.9
     },
     {
       "id": "bacardi_wreck",
@@ -2715,7 +2715,7 @@
           5
         ]
       },
-      "current_sst_f": 71.4
+      "current_sst_f": 67.7
     },
     {
       "id": "immigrant_wreck",
@@ -2793,7 +2793,7 @@
           5
         ]
       },
-      "current_sst_f": 72.2
+      "current_sst_f": 67.7
     },
     {
       "id": "mohawk_wreck",
@@ -2871,7 +2871,7 @@
           8
         ]
       },
-      "current_sst_f": 71.8
+      "current_sst_f": 68.6
     },
     {
       "id": "delaware_ii_wreck",
@@ -2934,7 +2934,7 @@
           8
         ]
       },
-      "current_sst_f": 70.7
+      "current_sst_f": 67.6
     },
     {
       "id": "triple_wreck_reef",
@@ -3012,7 +3012,7 @@
           2
         ]
       },
-      "current_sst_f": 71.9
+      "current_sst_f": 68.9
     },
     {
       "id": "indian_river_ledge",
@@ -3031,7 +3031,7 @@
       ],
       "notes": "Deep-water ledge 30nm E of Indian River Inlet.",
       "heat": 5,
-      "heat_updated": "2026-09-24",
+      "heat_updated": "2026-09-26",
       "seasonal_presence": {
         "amberjack": [
           7,
@@ -3092,11 +3092,11 @@
       },
       "intel_sources": {
         "multi_source_refresh": {
-          "last_report_date": "2026-09-24",
+          "last_report_date": "2026-09-26",
           "sources": "OTW + Fisherman Magazine + Fisherman's Post"
         }
       },
-      "current_sst_f": 74.1
+      "current_sst_f": 71.2
     },
     {
       "id": "del_bay_wrecks",
@@ -3174,7 +3174,7 @@
           8
         ]
       },
-      "current_sst_f": 73.8
+      "current_sst_f": 71.1
     },
     {
       "id": "del_49th_st_reef",
@@ -3252,7 +3252,7 @@
           2
         ]
       },
-      "current_sst_f": 74.2
+      "current_sst_f": 72.0
     },
     {
       "id": "del_20_fathom",
@@ -3315,7 +3315,7 @@
           8
         ]
       },
-      "current_sst_f": 74.3
+      "current_sst_f": 70.9
     },
     {
       "id": "great_gully_md",
@@ -3393,7 +3393,7 @@
           8
         ]
       },
-      "current_sst_f": 75.5
+      "current_sst_f": 71.9
     },
     {
       "id": "chicken_bone",
@@ -3471,7 +3471,7 @@
           6
         ]
       },
-      "current_sst_f": 75.6
+      "current_sst_f": 72.2
     },
     {
       "id": "hot_dog_extended",
@@ -3534,7 +3534,7 @@
           8
         ]
       },
-      "current_sst_f": 75.7
+      "current_sst_f": 72.4
     },
     {
       "id": "md_wilmington_lump",
@@ -3597,7 +3597,7 @@
           7
         ]
       },
-      "current_sst_f": 75.2
+      "current_sst_f": 71.8
     },
     {
       "id": "md_ridge",
@@ -3660,7 +3660,7 @@
           8
         ]
       },
-      "current_sst_f": 75.3
+      "current_sst_f": 71.8
     },
     {
       "id": "cbbt_all",
@@ -3753,7 +3753,7 @@
           5
         ]
       },
-      "current_sst_f": 78.1
+      "current_sst_f": 74.8
     },
     {
       "id": "chesapeake_light_tower",
@@ -3831,7 +3831,7 @@
           3
         ]
       },
-      "current_sst_f": 77.0
+      "current_sst_f": 74.5
     },
     {
       "id": "triangle_wrecks",
@@ -3909,7 +3909,7 @@
           8
         ]
       },
-      "current_sst_f": 77.5
+      "current_sst_f": 74.7
     },
     {
       "id": "md_tower_wreck",
@@ -3972,7 +3972,7 @@
           8
         ]
       },
-      "current_sst_f": 77.4
+      "current_sst_f": 74.8
     },
     {
       "id": "va_4_pack",
@@ -4035,7 +4035,7 @@
           8
         ]
       },
-      "current_sst_f": 78.0
+      "current_sst_f": 74.8
     },
     {
       "id": "norfolk_canyon_edge",
@@ -4098,7 +4098,7 @@
           4
         ]
       },
-      "current_sst_f": 77.8
+      "current_sst_f": 75.7
     },
     {
       "id": "oregon_inlet_break",
@@ -4176,7 +4176,7 @@
           8
         ]
       },
-      "current_sst_f": 78.9
+      "current_sst_f": 79.6
     },
     {
       "id": "point_avon",
@@ -4269,7 +4269,7 @@
           2
         ]
       },
-      "current_sst_f": 82.3
+      "current_sst_f": 82.6
     }
   ],
   "sst_layer": {
@@ -6024,6 +6024,112 @@
       "zones": [
         "indian_river_ledge"
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "barnegat_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "manasquan_ridge"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/southern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "cape_may_rips"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://onthewater.com/fishing-reports/2026/09/northern-new-jersey-fishing-report-september-24-2026",
+      "zones": [
+        "hatteras_the_point"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "type": "mackerel, menhaden/bunker, mullet",
+      "source": "OTW/Fisherman report auto-extract",
+      "source_url": "https://coastalanglermag.com/fishing-reports/",
+      "zones": [
+        "indian_river_ledge"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "bunker",
+      "location": "The Fisherman Magazine",
+      "species_feeding": null,
+      "source": "YouTube: The Fisherman Magazine",
+      "source_type": "youtube_auto",
+      "quote": "September 24th, 2026 New Jersey/Delaware Bay Fishing Report with Jim Hutchinson, Jr.",
+      "link": "https://www.youtube.com/watch?v=iV70FSpk-1s",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "bait": "captain_report",
+      "location": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "species_feeding": null,
+      "source": "The Fisherman Next Cast podcast (Mid-Atl)",
+      "source_type": "charter_auto",
+      "quote": "We're at Shoretown Ball Park at 2 Stadium Way in Lakewood, NJ this week for the Jersey Shore Boat Sale &amp; Expo from September 25-27. The big nor'easter is blowing up most saltwater fishing plans for the week, but the good news is it looks mostly dry in our local forecast for F",
+      "link": "https://rss.com/podcasts/the-fisherman-s-next-cast-weekly-podcast-no-13-june-16-2026/3179420",
+      "zones": [
+        "delaware_bay_mouth"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "type": "menhaden",
+      "species": "Atlantic menhaden (bunker)",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403336720",
+      "lat": 39.518,
+      "lon": -74.4952,
+      "dist_nm": 24.9
+    },
+    {
+      "date": "2026-09-25",
+      "type": "silversides",
+      "species": "Atlantic silverside",
+      "zones": [
+        "triple_wreck_reef"
+      ],
+      "source": "iNaturalist",
+      "source_url": "https://www.inaturalist.org/observations/403336695",
+      "lat": 39.518,
+      "lon": -74.4952,
+      "dist_nm": 24.9
     }
   ],
   "sources_used": [

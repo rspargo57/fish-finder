@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T00:35:15.920729Z",
-  "for_date": "2026-09-25",
+  "generated_at": "2026-09-26T00:40:11.228599Z",
+  "for_date": "2026-09-27",
   "hollow_eh_threshold": 6.5,
   "hollow_corrob_threshold": 1,
   "regions": {
@@ -15,8 +15,8 @@
           "bait_boost": 0.3,
           "whale_boost": 0.0,
           "peak_seasonal": 9,
-          "corroboration": 3,
-          "heat_updated_age": 21
+          "corroboration": 4,
+          "heat_updated_age": 2
         },
         {
           "zone_id": "block_island_striper",
@@ -28,7 +28,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 4,
-          "heat_updated_age": 7
+          "heat_updated_age": 2
         },
         {
           "zone_id": "hudson_canyon",
@@ -40,7 +40,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 10,
           "corroboration": 4,
-          "heat_updated_age": 1
+          "heat_updated_age": 3
         },
         {
           "zone_id": "s_block_nearshore",
@@ -52,7 +52,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 7,
           "corroboration": 4,
-          "heat_updated_age": 7
+          "heat_updated_age": 2
         },
         {
           "zone_id": "atlantis_canyon",
@@ -64,7 +64,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 10,
           "corroboration": 3,
-          "heat_updated_age": 1
+          "heat_updated_age": 3
         }
       ],
       "hollow_in_top5": 0,
@@ -82,19 +82,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 4,
-          "heat_updated_age": 7
-        },
-        {
-          "zone_id": "oregon_inlet",
-          "zone_name": "Oregon Inlet (NC)",
-          "effective_heat": 7.0,
-          "heat": 6,
-          "season_boost": 0.7,
-          "bait_boost": 0.3,
-          "whale_boost": 0.0,
-          "peak_seasonal": 9,
-          "corroboration": 3,
-          "heat_updated_age": 0
+          "heat_updated_age": 2
         },
         {
           "zone_id": "hudson_canyon_midatl",
@@ -106,7 +94,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 3,
-          "heat_updated_age": 1
+          "heat_updated_age": 2
         },
         {
           "zone_id": "baltimore_canyon",
@@ -118,7 +106,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 3,
-          "heat_updated_age": 7
+          "heat_updated_age": 2
         },
         {
           "zone_id": "wilmington_canyon",
@@ -130,7 +118,19 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 2,
-          "heat_updated_age": 7
+          "heat_updated_age": 2
+        },
+        {
+          "zone_id": "poor_mans_canyon",
+          "zone_name": "Poor Man's Canyon",
+          "effective_heat": 6.7,
+          "heat": 6,
+          "season_boost": 0.7,
+          "bait_boost": 0.0,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 2,
+          "heat_updated_age": 2
         }
       ],
       "hollow_in_top5": 0,
@@ -160,7 +160,19 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 2,
-          "heat_updated_age": 23
+          "heat_updated_age": 25
+        },
+        {
+          "zone_id": "winyah_bay_georgetown",
+          "zone_name": "Winyah Bay (Georgetown)",
+          "effective_heat": 6.0,
+          "heat": 5,
+          "season_boost": 0.7,
+          "bait_boost": 0.3,
+          "whale_boost": 0.0,
+          "peak_seasonal": 9,
+          "corroboration": 1,
+          "heat_updated_age": 26
         },
         {
           "zone_id": "charleston_harbor",
@@ -185,18 +197,6 @@
           "peak_seasonal": 9,
           "corroboration": 3,
           "heat_updated_age": 0
-        },
-        {
-          "zone_id": "port_royal_sound",
-          "zone_name": "Port Royal Sound (Beaufort SC)",
-          "effective_heat": 6.0,
-          "heat": 5,
-          "season_boost": 0.7,
-          "bait_boost": 0.3,
-          "whale_boost": 0.0,
-          "peak_seasonal": 9,
-          "corroboration": 1,
-          "heat_updated_age": 24
         }
       ],
       "hollow_in_top5": 0,
@@ -214,7 +214,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 2,
-          "heat_updated_age": 26
+          "heat_updated_age": 28
         },
         {
           "zone_id": "pensacola_pass",
@@ -226,7 +226,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 2,
-          "heat_updated_age": 26
+          "heat_updated_age": 28
         },
         {
           "zone_id": "east_pass_destin",
@@ -238,7 +238,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 2,
-          "heat_updated_age": 15
+          "heat_updated_age": 17
         },
         {
           "zone_id": "panama_city_pass",
@@ -250,7 +250,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 1,
-          "heat_updated_age": 26
+          "heat_updated_age": 28
         },
         {
           "zone_id": "st_andrews_bay",
@@ -262,7 +262,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 9,
           "corroboration": 1,
-          "heat_updated_age": 26
+          "heat_updated_age": 28
         }
       ],
       "hollow_in_top5": 0,
@@ -280,7 +280,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 8,
           "corroboration": 2,
-          "heat_updated_age": 20
+          "heat_updated_age": 22
         },
         {
           "zone_id": "boynton_boca_ledge",
@@ -292,7 +292,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 8,
           "corroboration": 1,
-          "heat_updated_age": 25
+          "heat_updated_age": 27
         },
         {
           "zone_id": "hillsboro_reef",
@@ -304,7 +304,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 8,
           "corroboration": 3,
-          "heat_updated_age": 8
+          "heat_updated_age": 10
         },
         {
           "zone_id": "ftl_reef_lines",
@@ -316,7 +316,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 8,
           "corroboration": 1,
-          "heat_updated_age": 25
+          "heat_updated_age": 27
         },
         {
           "zone_id": "government_cut",
@@ -328,7 +328,7 @@
           "whale_boost": 0.0,
           "peak_seasonal": 8,
           "corroboration": 2,
-          "heat_updated_age": 20
+          "heat_updated_age": 22
         }
       ],
       "hollow_in_top5": 0,

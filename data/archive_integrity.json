@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-24T00:35:15.845166Z",
-  "date": "2026-09-24",
+  "generated_at": "2026-09-26T00:40:11.152311Z",
+  "date": "2026-09-26",
   "status": "critical",
   "warnings": [],
   "errors": [
-    "10 missing days in last 14: 2026-09-10, 2026-09-11, 2026-09-12, 2026-09-13, 2026-09-14 \u2026"
+    "9 missing days in last 14: 2026-09-12, 2026-09-13, 2026-09-14, 2026-09-16, 2026-09-17 \u2026"
   ],
   "stats": {
-    "total_snapshots": 33,
-    "latest": "2026-09-24.json",
+    "total_snapshots": 34,
+    "latest": "2026-09-26.json",
     "days_since_latest": 0,
-    "gaps_last_14d": 10
+    "gaps_last_14d": 9
   }
 }
